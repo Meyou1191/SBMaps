@@ -1,0 +1,4070 @@
+[
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "PlayerStart_1",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "RelativeLocation": {
+        "X": -3460.5469,
+        "Y": 7532.84,
+        "Z": 92.00244
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Underground",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Underground:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.9"
+      },
+      "StreamingTextureGuids": [
+        "7ADA5F19-478B9CC2-7ED58384-1247E48C",
+        "22D5A10C-4E07B414-BDCF6290-70DB4915",
+        "8FF1DC99-4BE321A1-CD696795-5FEE7F06",
+        "E25B7F71-44D34531-1965AFBC-544EDE11",
+        "CD0328A0-4887377A-4A4FB19C-973ECFE0",
+        "550B46E8-46702DA6-2FCCB0A6-D4D98D39",
+        "9D1E42C0-44F37343-77442A9E-DDB1A8CB",
+        "0BAFEF50-4671940D-5235AFBB-74A2A4DE",
+        "8DCE325E-4B8B2EA2-2337BFA6-32FC5D5F",
+        "301E2E50-42D6C0BF-C3FBDDAA-145C15D1",
+        "2144F200-4F922C9D-8F38B3B1-2D8DDDAE",
+        "849D696D-432293FD-B5346893-C5BF3E46",
+        "A0E140E7-472188DB-4584C08C-FA1D39A1",
+        "1DA14DA7-4C946E15-8DD4F890-18E84385",
+        "907588F8-457972B1-8C53E3A5-031E5EEB",
+        "BA9D89E3-4A5316DA-E9833087-D112EC7F",
+        "1FE9F1B2-4F8D036B-441CABB2-A1ED3A6D",
+        "E63BCC89-4F8DCCC0-AE981AA9-22435CCB",
+        "C0B93F94-4E64B12A-E761D1A6-864DFC5B",
+        "B8E50678-46C2B5D2-F63A9090-52D7F918",
+        "3CE947E8-4422F7AF-2089119D-F07A6992"
+      ],
+      "LevelBuildDataId": "AE20F5B0-4F66948C-ECABE39D-AFFFC38B",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Underground:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.121"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Underground:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.121"
+      },
+      null,
+      {
+        "ObjectName": "PlayerStart'MAP_Underground:PersistentLevel.PlayerStart_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.TEMP_CollisionToBlockUnderground'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.66"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.SM_Cans_group_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.SM_Cans_group_5'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.SM_TrashbagA_8'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.SM_TrashBag2_11'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.64"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Underground:PersistentLevel.PointLight22'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane7_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane8'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane9'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane10_4'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane15'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane16'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane17'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane18'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.22"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane11_17'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane12_18'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane13_19'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane14_20'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.18"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane19'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane20'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane21'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane22'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.26"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane23'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane24'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane25'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane26'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.30"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane27'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane28'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane29'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane30'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.34"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane31'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane32'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane33'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane34'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.38"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane35'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane36'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane37'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane38'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.42"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane39'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane40'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane41'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane42'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.46"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane43'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane44'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane45'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane46'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.50"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane47'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.51"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane48'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane49'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane50'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane51'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.55"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane52'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane53'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Underground:PersistentLevel.Plane54'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.58"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Underground:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.9"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_0",
+    "Outer": "MAP_Underground",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Underground/MAP_Underground_Audio.MAP_Underground_Audio",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.35156202,
+        "A": 1.0,
+        "Hex": "FFFF00A0"
+      },
+      "EditorStreamingVolumes": [
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_1",
+    "Outer": "MAP_Underground",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Underground/MAP_Underground_Cavern.MAP_Underground_Cavern",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0234375,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF2A00"
+      },
+      "EditorStreamingVolumes": [
+        null
+      ]
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_2",
+    "Outer": "MAP_Underground",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/underground/MAP_Underground_Lair.MAP_Underground_Lair",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.2734375,
+        "A": 1.0,
+        "Hex": "FF00FF8F"
+      },
+      "EditorStreamingVolumes": [
+        null
+      ]
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_3",
+    "Outer": "MAP_Underground",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Underground/Map_Underground_SinkHole.Map_Underground_SinkHole",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.67187476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00D6FF"
+      },
+      "EditorStreamingVolumes": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_4",
+    "Outer": "MAP_Underground",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Underground/Map_Underground_Structure.Map_Underground_Structure",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.6093745,
+        "A": 1.0,
+        "Hex": "FFFF00CD"
+      },
+      "EditorStreamingVolumes": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_Underground",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_SurvivalWorldGameplay.MAP_SurvivalWorldGameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.64843726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00D3FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_Underground",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_WorldGameplay.MAP_WorldGameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.55468774,
+        "A": 1.0,
+        "Hex": "FF00FFC5"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "37F6DAF3-468B88C1-62FB6298-9355A5D4",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PlayerStart",
+    "Name": "PlayerStart_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PlayerStart'",
+    "Properties": {
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Underground:PersistentLevel.PlayerStart_1.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.0"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Underground:PersistentLevel.PlayerStart_1.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.0"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Underground:PersistentLevel.PointLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.13"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Underground:PersistentLevel.PointLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.13"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Underground:PersistentLevel.PointLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.13"
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight22",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 9.726933,
+      "SoftSourceRadius": 1400.0,
+      "SourceLength": 269.97244,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 692.1687,
+      "Temperature": 20000.0,
+      "LightGuid": "AAD1746F-4F25F4CD-7A3595B3-D6F1D47D",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 199,
+        "G": 255,
+        "R": 227,
+        "A": 255,
+        "Hex": "FFE3FFC7"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 1153.8926,
+        "Y": -1400.8164,
+        "Z": -1064.1001
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 26.565033,
+        "Roll": -61.567444
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane10_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane10_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.67"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane10_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.67"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane11_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane11_17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.68"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane11_17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.68"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane12_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane12_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.69"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane12_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.69"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane13_19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane13_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.70"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane13_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.70"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane14_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane14_20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.71"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane14_20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.71"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.72"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.72"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.73"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.73"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane25",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane26.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane26.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane29",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane29.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane29.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane30",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane30.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane30.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane31",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane31.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane31.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane32",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane32.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane32.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane33",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane34.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane34.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.92"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane36.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane36.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.93"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.94"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.95"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.96"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.96"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane40",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.97"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.97"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane41",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.98"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.98"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane42",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.99"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.99"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane43",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane43.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.100"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane43.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.100"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.101"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.101"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane45",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.102"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.102"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane46",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.103"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.103"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane47",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane47.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.104"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane47.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.104"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.105"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.105"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane49",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane49.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.106"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane49.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.106"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane50",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane50.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.107"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane50.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.107"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane51",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane51.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.108"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane51.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.108"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane52",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane52.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.109"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane52.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.109"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane53",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane53.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.110"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane53.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.110"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane54",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane54.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.111"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane54.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.111"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane7_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane7_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.112"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane7_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.112"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.113"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.113"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Plane9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.114"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.Plane9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.114"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Cans_group_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.SM_Cans_group_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.115"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.SM_Cans_group_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.115"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Cans_group_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.SM_Cans_group_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.116"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.SM_Cans_group_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.116"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TrashBag2_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.SM_TrashBag2_11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.117"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.SM_TrashBag2_11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.117"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TrashbagA_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.SM_TrashbagA_8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.118"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.SM_TrashbagA_8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.118"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "TEMP_CollisionToBlockUnderground",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.TEMP_CollisionToBlockUnderground.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.119"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground:PersistentLevel.TEMP_CollisionToBlockUnderground.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.119"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane10_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 8,
+      "RelativeLocation": {
+        "X": 1597.9336,
+        "Y": -2025.7422,
+        "Z": -2653.586
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99987,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192194,
+        "Y": 0.0610447,
+        "Z": 0.13762227
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4535C03C4DFAE76A328DFC91CDD647C5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane11_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 13,
+      "RelativeLocation": {
+        "X": 1587.8086,
+        "Y": -2028.2539,
+        "Z": -2654.4668
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7A92C7C540AAFFD563E5438639AC8660"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane12_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 14,
+      "RelativeLocation": {
+        "X": 1587.8086,
+        "Y": -2028.2539,
+        "Z": -2654.4668
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "28D5496D465EEE3B11EE2E925F5798A0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane13_19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 15,
+      "RelativeLocation": {
+        "X": 1587.8086,
+        "Y": -2028.2539,
+        "Z": -2654.4668
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "86E81B934A6E2EB07064E7BCD2C7847D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane14_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 16,
+      "RelativeLocation": {
+        "X": 1587.8086,
+        "Y": -2028.2539,
+        "Z": -2654.4668
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7018D56F49E37FF11660EBB4A460BF75"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 9,
+      "RelativeLocation": {
+        "X": 1829.373,
+        "Y": -1892.75,
+        "Z": -2654.7422
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FBB883DF4EF650AF3A2FEEB1FE229C2F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 10,
+      "RelativeLocation": {
+        "X": 1829.373,
+        "Y": -1892.75,
+        "Z": -2654.7422
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "28E9780F423D4BE1302C5FA353B47498"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 11,
+      "RelativeLocation": {
+        "X": 1829.373,
+        "Y": -1892.75,
+        "Z": -2654.7422
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1484230C4AC6B25B127BA8B180DBCCDF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 12,
+      "RelativeLocation": {
+        "X": 1829.373,
+        "Y": -1892.75,
+        "Z": -2654.7422
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "267982A64F13AD4E832A5BAD869C136F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 17,
+      "RelativeLocation": {
+        "X": 1595.7637,
+        "Y": -1256.5938,
+        "Z": -2653.8691
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1A240E2F479E3D14028001B6022B85EC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 18,
+      "RelativeLocation": {
+        "X": 1595.7637,
+        "Y": -1256.5938,
+        "Z": -2653.8691
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1E0F05D142F3CE78CAAD3EA78828FCFF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 19,
+      "RelativeLocation": {
+        "X": 1595.7637,
+        "Y": -1256.5938,
+        "Z": -2653.8691
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2FABB16F417F791DA4031EB79D2092AE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 20,
+      "RelativeLocation": {
+        "X": 1595.7637,
+        "Y": -1256.5938,
+        "Z": -2653.8691
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2320713746A83648650CFC817AE9042B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 21,
+      "RelativeLocation": {
+        "X": 1601.8848,
+        "Y": -1249.3516,
+        "Z": -2654.3564
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F3CD5FE545D7CD3B611D408C39084F4B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 22,
+      "RelativeLocation": {
+        "X": 1601.8848,
+        "Y": -1249.3516,
+        "Z": -2654.3564
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6425EE1646DFBF908EFE7E8668D12772"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane25",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 23,
+      "RelativeLocation": {
+        "X": 1601.8848,
+        "Y": -1249.3516,
+        "Z": -2654.3564
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A90ED440488603C569D09581251C6962"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane26",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 24,
+      "RelativeLocation": {
+        "X": 1601.8848,
+        "Y": -1249.3516,
+        "Z": -2654.3564
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4960D0E243EC0FA863F7C4A8AFAC39CF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 25,
+      "RelativeLocation": {
+        "X": 1589.6055,
+        "Y": -1250.2539,
+        "Z": -2654.0059
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "465C3C0B45C7F5794BD6C49F409665FA"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane28",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 26,
+      "RelativeLocation": {
+        "X": 1589.6055,
+        "Y": -1250.2539,
+        "Z": -2654.0059
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E2E4B7C0425AA5650EF8E2B298A69B65"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane29",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 27,
+      "RelativeLocation": {
+        "X": 1589.6055,
+        "Y": -1250.2539,
+        "Z": -2654.0059
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "16532717451C52A44E1D16A5C16275ED"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane30",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 28,
+      "RelativeLocation": {
+        "X": 1589.6055,
+        "Y": -1250.2539,
+        "Z": -2654.0059
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F73669424FEE21F3639CE294399006F5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane31",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 29,
+      "RelativeLocation": {
+        "X": 1697.8535,
+        "Y": -1365.7617,
+        "Z": -2653.793
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8A883197456E9C86241763ADE9F1AA3F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane32",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 30,
+      "RelativeLocation": {
+        "X": 1697.8535,
+        "Y": -1365.7617,
+        "Z": -2653.793
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A7246D9E4E0B4CC89AAD58820E4934B3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane33",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 31,
+      "RelativeLocation": {
+        "X": 1697.8535,
+        "Y": -1365.7617,
+        "Z": -2653.793
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "253CF12E45C5E323A4CC45B61CA7EC27"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane34",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 32,
+      "RelativeLocation": {
+        "X": 1697.8535,
+        "Y": -1365.7617,
+        "Z": -2653.793
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "37ACE7984245ADB93524A5AB13124429"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 33,
+      "RelativeLocation": {
+        "X": 1693.2715,
+        "Y": -1375.1328,
+        "Z": -2653.7139
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B00A3D62419B11E36D5F939551FFB2CD"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 34,
+      "RelativeLocation": {
+        "X": 1693.2715,
+        "Y": -1375.1328,
+        "Z": -2653.7139
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1FFCA8F44F5DF1F6C05CE48738161C9E"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 35,
+      "RelativeLocation": {
+        "X": 1693.2715,
+        "Y": -1375.1328,
+        "Z": -2653.7139
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "08FBD5B14FC262E73D815D9FA70010F6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 36,
+      "RelativeLocation": {
+        "X": 1693.2715,
+        "Y": -1375.1328,
+        "Z": -2653.7139
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "56CAAE354F5C05BC55F15BB265977FD5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 37,
+      "RelativeLocation": {
+        "X": 1929.2773,
+        "Y": -1381.9492,
+        "Z": -2653.9668
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "88A978BA48C2012E54D533897C98C512"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane40",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 38,
+      "RelativeLocation": {
+        "X": 1929.2773,
+        "Y": -1381.9492,
+        "Z": -2653.9668
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2AACCCB1437D356A415B9DBE4E85536B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane41",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 39,
+      "RelativeLocation": {
+        "X": 1929.2773,
+        "Y": -1381.9492,
+        "Z": -2653.9668
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "99BFD1874293777097AE8F81C2984DF0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane42",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 40,
+      "RelativeLocation": {
+        "X": 1929.2773,
+        "Y": -1381.9492,
+        "Z": -2653.9668
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "27A23A5D4C2259B85025FF8E02E7F164"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane43",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 41,
+      "RelativeLocation": {
+        "X": 1928.0938,
+        "Y": -1361.6758,
+        "Z": -2642.6006
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "50F209614F5D4512E7AEA28C4FF4688D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane44",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 42,
+      "RelativeLocation": {
+        "X": 1928.0938,
+        "Y": -1361.6758,
+        "Z": -2642.6006
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3BFB166A43CBD1B11847C690C7F87305"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane45",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 43,
+      "RelativeLocation": {
+        "X": 1928.0938,
+        "Y": -1361.6758,
+        "Z": -2642.6006
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F69386C74D08D7064A0362B3C68D1BC5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane46",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 44,
+      "RelativeLocation": {
+        "X": 1928.0938,
+        "Y": -1361.6758,
+        "Z": -2642.6006
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F8172AFE427551E4251D08A4E6BC9EB6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane47",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 45,
+      "RelativeLocation": {
+        "X": 1921.8105,
+        "Y": -1355.2812,
+        "Z": -2649.1426
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C0CAE43B4B938602AE05738802BF8E68"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane48",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 46,
+      "RelativeLocation": {
+        "X": 1921.8105,
+        "Y": -1355.2812,
+        "Z": -2649.1426
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B1AAB9324D924D9398968FAF5DB4D0C5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane49",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 47,
+      "RelativeLocation": {
+        "X": 1921.8105,
+        "Y": -1355.2812,
+        "Z": -2649.1426
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7DEE441842D39CE54C9D149A19F0700D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane50",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 48,
+      "RelativeLocation": {
+        "X": 1921.8105,
+        "Y": -1355.2812,
+        "Z": -2649.1426
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B02B7CA94E9461B605A21DA296B56251"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane51",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 49,
+      "RelativeLocation": {
+        "X": 1934.166,
+        "Y": -1367.9102,
+        "Z": -2650.337
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016799997,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061044,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0EF1F0A44C70B2E09F516CA22B0B0F59"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane52",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 50,
+      "RelativeLocation": {
+        "X": 1934.166,
+        "Y": -1367.9102,
+        "Z": -2650.337
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "34E752284332002600E70E9C958596E2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane53",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 51,
+      "RelativeLocation": {
+        "X": 1934.166,
+        "Y": -1367.9102,
+        "Z": -2650.337
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B72A448C4D09A448054CC7A8BA420887"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane54",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 52,
+      "RelativeLocation": {
+        "X": 1934.166,
+        "Y": -1367.9102,
+        "Z": -2650.337
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -89.99988,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192,
+        "Y": 0.061045,
+        "Z": 0.137622
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2D51F75042B49139CA170BB140FB908F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane7_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 5,
+      "RelativeLocation": {
+        "X": 1597.9336,
+        "Y": -2025.7422,
+        "Z": -2653.586
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 0.00016784665,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.029192105,
+        "Y": 0.061044402,
+        "Z": 0.13762203
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D56AB6BF4D280A4FFC7C709D29E7D1CC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4229890048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 6,
+      "RelativeLocation": {
+        "X": 1597.9336,
+        "Y": -2025.7422,
+        "Z": -2653.586
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -179.99976,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.029192194,
+        "Y": 0.0610447,
+        "Z": 0.13762227
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6C21CA01476B78A9DDD59E816AE69C9B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Plane9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292870144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1066.6666
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Candle_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Candle_Inst.0"
+        }
+      ],
+      "VisibilityId": 7,
+      "RelativeLocation": {
+        "X": 1597.9336,
+        "Y": -2025.7422,
+        "Z": -2653.586
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7320755E-05,
+        "Yaw": 90.00027,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.029192194,
+        "Y": 0.0610447,
+        "Z": 0.13762227
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1932B81A47076E877079BAB8DAEE15E0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Cans_group_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Cans_group_4'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Cans_group_4.2"
+      },
+      "bOverrideLightMapRes": true,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2394386760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 18.361319
+        },
+        {
+          "PackedRelativeBox": 2394386760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 18.361319
+        },
+        {
+          "PackedRelativeBox": 2394386760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 18.361319
+        },
+        {
+          "PackedRelativeBox": 2381607282,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 17.72015
+        },
+        {
+          "PackedRelativeBox": 2259710506,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 17.175055
+        },
+        {
+          "PackedRelativeBox": 2259710506,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 17.175055
+        },
+        {
+          "PackedRelativeBox": 2381607282,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 17.72015
+        },
+        {
+          "PackedRelativeBox": 2394386760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 18.361319
+        },
+        {
+          "PackedRelativeBox": 2180149645,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 16.32875
+        },
+        {
+          "PackedRelativeBox": 2180149645,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 16.32875
+        }
+      ],
+      "VisibilityId": 1,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 1080.2793,
+        "Y": -1589.418,
+        "Z": -1396.0781
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B2ADBFAF4BB21A1B5D70879B029C62C0"
+      },
+      {
+        "MapBuildDataId": "C29BA9A50A232FD5EA07AC15F0A735BF"
+      },
+      {
+        "MapBuildDataId": "9D42EEED1663C659FB400CEC9B0D31E9"
+      },
+      {
+        "MapBuildDataId": "88626A19EA9D363E165BAB7F65B894DD"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Cans_group_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Cans_group_3'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Cans_group_3.2"
+      },
+      "bOverrideLightMapRes": true,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2396418313,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 17.18361
+        },
+        {
+          "PackedRelativeBox": 2396418313,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 17.18361
+        },
+        {
+          "PackedRelativeBox": 2251714985,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 16.789547
+        },
+        {
+          "PackedRelativeBox": 2251714985,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 16.566309
+        },
+        {
+          "PackedRelativeBox": 2251714985,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 16.789547
+        },
+        {
+          "PackedRelativeBox": 2251714985,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 16.566309
+        },
+        {
+          "PackedRelativeBox": 2396287242,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 17.18361
+        },
+        {
+          "PackedRelativeBox": 2396287242,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 17.18361
+        }
+      ],
+      "VisibilityId": 2,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 1158.9766,
+        "Y": -1672.6445,
+        "Z": -1396.126
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E3E3141D4862B16F2B26CC9994AFF7F6"
+      },
+      {
+        "MapBuildDataId": "02D323840025F01B24B6E26279F36472"
+      },
+      {
+        "MapBuildDataId": "875CE89666CA071D62BF62ACE535011C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TrashBag2_11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrashBag2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_TrashBag2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2929020265,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 290.77298
+        },
+        {
+          "PackedRelativeBox": 2929020265,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 290.77298
+        },
+        {
+          "PackedRelativeBox": 2929020265,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 290.77298
+        },
+        {
+          "PackedRelativeBox": 2929020265,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 290.77298
+        },
+        {
+          "PackedRelativeBox": 2929020265,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 290.77298
+        }
+      ],
+      "VisibilityId": 4,
+      "RelativeLocation": {
+        "X": 1142.541,
+        "Y": -1596.2109,
+        "Z": -1396.0435
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8FFD892B4BFE6C291FAD27B56867CE82"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TrashbagA_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrashbagA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_TrashbagA.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2859750763,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 316.10162
+        },
+        {
+          "PackedRelativeBox": 2859750763,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 316.10162
+        },
+        {
+          "PackedRelativeBox": 2859750763,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 316.10162
+        }
+      ],
+      "VisibilityId": 3,
+      "RelativeLocation": {
+        "X": 1151.4414,
+        "Y": -1613.2031,
+        "Z": -1397.0522
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4A23038B4BFAF4650837DBAB7AA11962"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "TEMP_CollisionToBlockUnderground",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cylinder'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cylinder.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 0,
+      "RelativeLocation": {
+        "X": 3707.3145,
+        "Y": -1374.5977,
+        "Z": -2.003418
+      },
+      "RelativeRotation": {
+        "Pitch": -0.10958355,
+        "Yaw": 0.0013136851,
+        "Roll": -1.3735919
+      },
+      "RelativeScale3D": {
+        "X": 10.053856,
+        "Y": 10.053856,
+        "Z": 5.709994
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6B738F9C42D038CDC23824B24F7EB3BC"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Underground",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Underground:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.1"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Underground:LevelStreamingAlwaysLoaded_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.2"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Underground:LevelStreamingAlwaysLoaded_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.3"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Underground:LevelStreamingAlwaysLoaded_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.4"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Underground:LevelStreamingAlwaysLoaded_3'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.5"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Underground:LevelStreamingAlwaysLoaded_4'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.6"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Underground:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.8"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Underground:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.7"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Underground:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Underground/MAP_Underground.10"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

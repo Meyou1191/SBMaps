@@ -1,0 +1,534 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_WHITEBOX_Daycare_TheaterHall_Section2",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.1"
+      },
+      "LevelBuildDataId": "E0A85881-420C509C-806DFB91-38DCFD91",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.20"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.20"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube17_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube18'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube19'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube20'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube405'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube406'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube411'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube412'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.10"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "F613490D-49626DBC-40170698-C2B84714",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube17_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube17_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.11"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube17_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.11"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.12"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.13"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.14"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube405",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube405.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.15"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube405.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube406",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube406.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.16"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube406.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.16"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube411",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube411.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.17"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube411.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.17"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube412",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube412.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.18"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.Cube412.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.18"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube17_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'WorldGridMaterial'",
+          "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -18276.27,
+        "Y": 30742.832,
+        "Z": 1582.2733
+      },
+      "RelativeScale3D": {
+        "X": 2.4088724,
+        "Y": 4.8404984,
+        "Z": 2.5893302
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'WorldGridMaterial'",
+          "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -18276.27,
+        "Y": 29606.441,
+        "Z": 1582.2733
+      },
+      "RelativeScale3D": {
+        "X": 2.408872,
+        "Y": 4.8404984,
+        "Z": 2.5893307
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'WorldGridMaterial'",
+          "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -18000.416,
+        "Y": 30201.342,
+        "Z": 1582.2733
+      },
+      "RelativeScale3D": {
+        "X": 3.4127154,
+        "Y": 1.445368,
+        "Z": 2.5893307
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'WorldGridMaterial'",
+          "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -18122.63,
+        "Y": 26415.906,
+        "Z": 1582.2797
+      },
+      "RelativeScale3D": {
+        "X": 2.408872,
+        "Y": 4.840498,
+        "Z": 2.589331
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube405",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'WorldGridMaterial'",
+          "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -18276.27,
+        "Y": 30742.832,
+        "Z": -3417.792
+      },
+      "RelativeScale3D": {
+        "X": 2.408872,
+        "Y": 4.840498,
+        "Z": 2.58933
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube406",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'WorldGridMaterial'",
+          "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -18276.27,
+        "Y": 29606.441,
+        "Z": -3417.792
+      },
+      "RelativeScale3D": {
+        "X": 2.408872,
+        "Y": 4.840498,
+        "Z": 2.589331
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube411",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'WorldGridMaterial'",
+          "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -18000.416,
+        "Y": 30201.342,
+        "Z": -3417.792
+      },
+      "RelativeScale3D": {
+        "X": 3.412715,
+        "Y": 1.445368,
+        "Z": 2.589331
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube412",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'WorldGridMaterial'",
+          "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -18122.63,
+        "Y": 26415.906,
+        "Z": -3417.7856
+      },
+      "RelativeScale3D": {
+        "X": 2.408872,
+        "Y": 4.840498,
+        "Z": 2.589331
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_WHITEBOX_Daycare_TheaterHall_Section2",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_WHITEBOX_Daycare_TheaterHall_Section2:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Daycare_TheaterHall_Section2.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

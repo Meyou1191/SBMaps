@@ -1,0 +1,1947 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MAP_ForceReload",
+    "Outer": "MAP_ForceReload_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+          "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetCurrentGameType_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'EFNAFGameType'",
+          "ObjectPath": "/Script/fnaf9"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FNAFSaveGameSystem'",
+          "ObjectPath": "/Script/fnaf9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetLastLoadedChowdaSlotName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FNAFSaveGameSystem'",
+          "ObjectPath": "/Script/fnaf9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasChowdaSaveGame_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 10,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:PrintString'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": "LOADING THE LAST BASE GAME SAVE"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LinearColor'",
+              "ObjectPath": "/Script/CoreUObject"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.673781
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              }
+            ]
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 5.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 95,
+        "CodeOffset": 1443,
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.ExecuteUbergraph_MAP_ForceReload[1443]"
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 100,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstance_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'GameInstance'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetGameInstance'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 121,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameInstance_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'GameInstance'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Class": {
+            "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameInstance_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'GameInstance'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 157,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool2",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                  "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 186,
+        "CodeOffset": 926,
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.ExecuteUbergraph_MAP_ForceReload[926]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 200,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "EnumProperty",
+              "Name": "CallFunc_GetCurrentGameType_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "Enum": {
+                "ObjectName": "Enum'EFNAFGameType'",
+                "ObjectPath": "/Script/fnaf9"
+              },
+              "UnderlyingProp": {
+                "Type": "ByteProperty",
+                "Name": "UnderlyingType",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "Enum": null
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                  "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "EnumProperty",
+              "Name": "CallFunc_GetCurrentGameType_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "Enum": {
+                "ObjectName": "Enum'EFNAFGameType'",
+                "ObjectPath": "/Script/fnaf9"
+              },
+              "UnderlyingProp": {
+                "Type": "ByteProperty",
+                "Name": "UnderlyingType",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "Enum": null
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'FNAFGameInstanceBase:GetCurrentGameType'",
+              "ObjectPath": "/Script/fnaf9"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 250,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetMathLibrary:EqualEqual_ByteByte'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                  "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+                },
+                "Property": {
+                  "Type": "EnumProperty",
+                  "Name": "CallFunc_GetCurrentGameType_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "Enum": {
+                    "ObjectName": "Enum'EFNAFGameType'",
+                    "ObjectPath": "/Script/fnaf9"
+                  },
+                  "UnderlyingProp": {
+                    "Type": "ByteProperty",
+                    "Name": "UnderlyingType",
+                    "Flags": "RF_Public",
+                    "ElementSize": 1,
+                    "Enum": null
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 1
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 281,
+        "CodeOffset": 1014,
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.ExecuteUbergraph_MAP_ForceReload[1014]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 295,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:PrintString'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": "CHOWDA MODE!!!!!!!"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LinearColor'",
+              "ObjectPath": "/Script/CoreUObject"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.673781
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              }
+            ]
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 5.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 367,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'FNAFGameInstanceBase:BeginLoadingScreenDLC'",
+            "ObjectPath": "/Script/fnaf9"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 399,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SubsystemBlueprintLibrary:GetGameInstanceSubsystem'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 429,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasChowdaSaveGame_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'FNAFSaveGameSystem'",
+                  "ObjectPath": "/Script/fnaf9"
+                }
+              }
+            }
+          },
+          "Offset": 41,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasChowdaSaveGame_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'FNAFSaveGameSystem:HasChowdaSaveGame'",
+              "ObjectPath": "/Script/fnaf9"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_Context",
+                "ObjectExpression": {
+                  "Inst": "EX_LocalVariable",
+                  "Variable": {
+                    "Owner": {
+                      "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                      "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+                    },
+                    "Property": {
+                      "Type": "ObjectProperty",
+                      "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+                      "Flags": "RF_Public",
+                      "ElementSize": 8,
+                      "PropertyClass": {
+                        "ObjectName": "Class'FNAFSaveGameSystem'",
+                        "ObjectPath": "/Script/fnaf9"
+                      }
+                    }
+                  }
+                },
+                "Offset": 9,
+                "RValuePointer": {
+                  "Path": [
+                    "ChowdaProfileIndex"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'FNAFSaveGameSystem'",
+                    "ObjectPath": "/Script/fnaf9"
+                  }
+                },
+                "ContextExpression": {
+                  "Inst": "EX_InstanceVariable",
+                  "Variable": {
+                    "Path": [
+                      "ChowdaProfileIndex"
+                    ],
+                    "ResolvedOwner": {
+                      "ObjectName": "Class'FNAFSaveGameSystem'",
+                      "ObjectPath": "/Script/fnaf9"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 502,
+        "CodeOffset": 1186,
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.ExecuteUbergraph_MAP_ForceReload[1186]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasChowdaSaveGame_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 516,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:PrintString'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": "WE HAVE A CHOWDA SAVE"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LinearColor'",
+              "ObjectPath": "/Script/CoreUObject"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.673781
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              }
+            ]
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 5.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 591,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SubsystemBlueprintLibrary:GetGameInstanceSubsystem'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 621,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetLastLoadedChowdaSlotName_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'FNAFSaveGameSystem'",
+                  "ObjectPath": "/Script/fnaf9"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetLastLoadedChowdaSlotName_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'FNAFSaveGameSystem:GetLastLoadedChowdaSlotName'",
+              "ObjectPath": "/Script/fnaf9"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 671,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:PrintString'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": "WE HAVE LOADED THE LAST CHOWDA SAVE"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LinearColor'",
+              "ObjectPath": "/Script/CoreUObject"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.673781
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              }
+            ]
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 5.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 760,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SubsystemBlueprintLibrary:GetGameInstanceSubsystem'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 790,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+              }
+            }
+          }
+        },
+        "Offset": 46,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_LocalVirtualFunction",
+          "Function": "Start Chowda Mode",
+          "Parameters": [
+            {
+              "Inst": "EX_False"
+            },
+            {
+              "Inst": "EX_Context",
+              "ObjectExpression": {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                    "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+                  },
+                  "Property": {
+                    "Type": "ObjectProperty",
+                    "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'FNAFSaveGameSystem'",
+                      "ObjectPath": "/Script/fnaf9"
+                    }
+                  }
+                }
+              },
+              "Offset": 9,
+              "RValuePointer": {
+                "Path": [
+                  "ChowdaProfileIndex"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'FNAFSaveGameSystem'",
+                  "ObjectPath": "/Script/fnaf9"
+                }
+              },
+              "ContextExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "ChowdaProfileIndex"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'FNAFSaveGameSystem'",
+                    "ObjectPath": "/Script/fnaf9"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 858,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:PrintString'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": "BEGIN!!!!"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LinearColor'",
+              "ObjectPath": "/Script/CoreUObject"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.673781
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              }
+            ]
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 5.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 921,
+        "CodeOffset": 1443,
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.ExecuteUbergraph_MAP_ForceReload[1443]"
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 926,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:PrintString'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": "THE GAME INSTANCE CAST FAILED"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LinearColor'",
+              "ObjectPath": "/Script/CoreUObject"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.673781
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              }
+            ]
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 5.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1009,
+        "CodeOffset": 1443,
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.ExecuteUbergraph_MAP_ForceReload[1443]"
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 1014,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:PrintString'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": "BASE GAME!!!!!!"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LinearColor'",
+              "ObjectPath": "/Script/CoreUObject"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.673781
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              }
+            ]
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 5.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1083,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+              }
+            }
+          }
+        },
+        "Offset": 14,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_LocalVirtualFunction",
+          "Function": "Load From Save",
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1119,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SubsystemBlueprintLibrary:GetGameInstanceSubsystem'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1149,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'FNAFSaveGameSystem:AsyncLoadGameLastLoaded'",
+            "ObjectPath": "/Script/fnaf9"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1181,
+        "CodeOffset": 10,
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.ExecuteUbergraph_MAP_ForceReload[10]"
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 1186,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:PrintString'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": "WE DO NOT HAVE A CHOWDA SAVE"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LinearColor'",
+              "ObjectPath": "/Script/CoreUObject"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.673781
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              }
+            ]
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 5.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1268,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SubsystemBlueprintLibrary:GetGameInstanceSubsystem'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1298,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+              "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+              }
+            }
+          }
+        },
+        "Offset": 46,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_LocalVirtualFunction",
+          "Function": "Start Chowda Mode",
+          "Parameters": [
+            {
+              "Inst": "EX_True"
+            },
+            {
+              "Inst": "EX_Context",
+              "ObjectExpression": {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+                    "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+                  },
+                  "Property": {
+                    "Type": "ObjectProperty",
+                    "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue_1",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'FNAFSaveGameSystem'",
+                      "ObjectPath": "/Script/fnaf9"
+                    }
+                  }
+                }
+              },
+              "Offset": 9,
+              "RValuePointer": {
+                "Path": [
+                  "ChowdaProfileIndex"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'FNAFSaveGameSystem'",
+                  "ObjectPath": "/Script/fnaf9"
+                }
+              },
+              "ContextExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "ChowdaProfileIndex"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'FNAFSaveGameSystem'",
+                    "ObjectPath": "/Script/fnaf9"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 1366,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:PrintString'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": "START A NEW CHOWDA GAME"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LinearColor'",
+              "ObjectPath": "/Script/CoreUObject"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.673781
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              }
+            ]
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 5.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 1443,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 1445
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "MAP_ForceReload_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+          "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 100
+          }
+        ],
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.ExecuteUbergraph_MAP_ForceReload[100]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MAP_ForceReload_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MAP_ForceReload_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.1"
+      },
+      {
+        "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MAP_ForceReload": {
+        "ObjectName": "Function'MAP_ForceReload_C:ExecuteUbergraph_MAP_ForceReload'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'MAP_ForceReload_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.1"
+      }
+    },
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MAP_ForceReload_C'Default__MAP_ForceReload_C'",
+      "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.3"
+    }
+  },
+  {
+    "Type": "MAP_ForceReload_C",
+    "Name": "Default__MAP_ForceReload_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Maps/MAP_ForceReload.MAP_ForceReload_C'",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_ForceReload",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_ForceReload:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.6"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "MAP_ForceReload_C'MAP_ForceReload:PersistentLevel.MAP_ForceReload_C_0'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.5"
+      },
+      "LevelBuildDataId": "92357DFA-48FB6AAA-8903D395-F5058C61",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_ForceReload:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.9"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_ForceReload:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.9"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MAP_ForceReload_C'MAP_ForceReload:PersistentLevel.MAP_ForceReload_C_0'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_ForceReload:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.6"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "MAP_ForceReload_C'MAP_ForceReload:PersistentLevel.MAP_ForceReload_C_0'",
+      "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.5"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "MAP_ForceReload_C",
+    "Name": "MAP_ForceReload_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MAP_ForceReload_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Maps/MAP_ForceReload.MAP_ForceReload_C'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "868EAAD2-4EACB69F-014A9698-D7FAFE18",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_ForceReload",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_ForceReload:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.4"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_ForceReload:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/MAP_ForceReload.7"
+      },
+      "DefaultGameMode": {
+        "ObjectName": "Class'GameMode'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

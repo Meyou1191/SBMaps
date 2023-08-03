@@ -1,0 +1,1971 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "CameraSalon1",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "CameraSalon2",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "CameraSalon3",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "CameraSalon4",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Salon_Cam01",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "CameraSalon1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.63"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.20"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.19"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.18"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.11"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.73"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.50"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.68"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.48"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.35"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.49"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PlayArea"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.34"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.68"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.50"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.73"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.11"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.20"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.63"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "CameraSalon2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.64"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.23"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.22"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.21"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.12"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.74"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.53"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.69"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.51"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.38"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.52"
+      },
+      "CameraName": {
+        "CultureInvariantString": "StoreFront"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.37"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.69"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.53"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.74"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.12"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.22"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.23"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.64"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "CameraSalon3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.65"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.26"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.25"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.24"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.13"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.75"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.56"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.70"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.54"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.41"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.55"
+      },
+      "CameraName": {
+        "CultureInvariantString": "BackWall"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.40"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.70"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.56"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.75"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.13"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.25"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.26"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.65"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "CameraSalon4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.66"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.29"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.28"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.27"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.14"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.76"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.59"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.71"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.57"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.44"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.58"
+      },
+      "CameraName": {
+        "CultureInvariantString": "MainSalon"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.43"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.71"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.59"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.76"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.14"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.27"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.28"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.29"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.66"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Salon_Cam01",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.4"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.67"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.32"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.31"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.30"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.15"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.77"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.62"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.72"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.60"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.47"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.61"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "StageArea"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.46"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.72"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.62"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.77"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.30"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.31"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.32"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.67"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_GlamRock_Salon_Cameras",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_GlamRock_Salon_Cameras:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.16"
+      },
+      "LevelBuildDataId": "1E53ED84-4FE280E7-AF459B9F-6CD437D1",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_GlamRock_Salon_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.79"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_GlamRock_Salon_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.79"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.5"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.6"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.7"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.8"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.9"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_GlamRock_Salon_Cameras:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.16"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "CameraSalon1",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "CameraSalon2",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "CameraSalon3",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "CameraSalon4",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Salon_Cam01",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "16F47D8C-4DF51738-9E3D8296-879AD39C",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "CameraSalon1",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 9000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "CameraSalon1",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 9000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "CameraSalon1",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 9000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "CameraSalon2",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 14000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "CameraSalon2",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 14000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "CameraSalon2",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 14000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "CameraSalon3",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "CameraSalon3",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "CameraSalon3",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "CameraSalon4",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 7000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "CameraSalon4",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 7000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "CameraSalon4",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 7000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Salon_Cam01",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Salon_Cam01",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Salon_Cam01",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "CameraSalon1",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.34"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "CameraSalon1",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5333.7656,
+        "Y": 43367.16,
+        "Z": 2631.2485
+      },
+      "RelativeRotation": {
+        "Pitch": -23.639954,
+        "Yaw": 90.94386,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "CameraSalon1",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.34"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "CameraSalon2",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.37"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "CameraSalon2",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5865.86,
+        "Y": 42537.457,
+        "Z": 2830.5435
+      },
+      "RelativeRotation": {
+        "Pitch": -31.839718,
+        "Yaw": 30.343899,
+        "Roll": -1.0049986E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "CameraSalon2",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.37"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "CameraSalon3",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.40"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "CameraSalon3",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8595.953,
+        "Y": 42626.285,
+        "Z": 2478.6624
+      },
+      "RelativeRotation": {
+        "Pitch": -12.03939,
+        "Yaw": 62.143955,
+        "Roll": 4.364876E-07
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "CameraSalon3",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.40"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "CameraSalon4",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.43"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "CameraSalon4",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 7056.463,
+        "Y": 44158.22,
+        "Z": 2571.0208
+      },
+      "RelativeRotation": {
+        "Pitch": -30.439058,
+        "Yaw": 92.14406,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "CameraSalon4",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.43"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Salon_Cam01",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.46"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Salon_Cam01",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 6951.671,
+        "Y": 46450.598,
+        "Z": 2498.5862
+      },
+      "RelativeRotation": {
+        "Pitch": -17.599808,
+        "Yaw": 511.9979,
+        "Roll": 8E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Salon_Cam01",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.46"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "CameraSalon1",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.5"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.33"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "CameraSalon1",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.5"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.34"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "CameraSalon1",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.5"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "CameraSalon2",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.6"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.36"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "CameraSalon2",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.6"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.37"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "CameraSalon2",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.6"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "CameraSalon3",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.7"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.39"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "CameraSalon3",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.7"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.40"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "CameraSalon3",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.7"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "CameraSalon4",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.8"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.42"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "CameraSalon4",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.8"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.43"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "CameraSalon4",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.8"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Salon_Cam01",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.45"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Salon_Cam01",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.9"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.46"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Salon_Cam01",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01'",
+              "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.9"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "CameraSalon1",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "CameraSalon2",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "CameraSalon3",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "CameraSalon4",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Salon_Cam01",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "CameraSalon1",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "CameraSalon2",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.51"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "CameraSalon3",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.54"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "CameraSalon4",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.57"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Salon_Cam01",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "CameraSalon1",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "CameraSalon2",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "CameraSalon3",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "CameraSalon4",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.CameraSalon4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Salon_Cam01",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GlamRock_Salon_Cameras:PersistentLevel.Salon_Cam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_GlamRock_Salon_Cameras",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_GlamRock_Salon_Cameras:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.10"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_GlamRock_Salon_Cameras:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/West_Atrium/MAP_GlamRock_Salon_Cameras.17"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

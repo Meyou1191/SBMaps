@@ -1,0 +1,794 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_SLM_Night_05:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.19"
+      },
+      "LevelBuildDataId": "A9DF4FCF-4EC3A506-9D7FDABE-BBD924F1",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_SLM_Night_05:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.22"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_SLM_Night_05:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.22"
+      },
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_SLM_Night_05:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.19"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf.MAP_GatorGolf",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.96875,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFCFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/Airlocks/MAP_GatorGolf_Airlock_1.MAP_GatorGolf_Airlock_1",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.45312488,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFB4FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_10",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf_SecurityHall.MAP_GatorGolf_SecurityHall",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.34375024,
+        "A": 1.0,
+        "Hex": "FF00FF9F"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_11",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf_SecurityRoom.MAP_GatorGolf_SecurityRoom",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.33593738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF9DFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_12",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/Map_GatorGolf_Store.MAP_GatorGolf_Store",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.96093756,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFFB00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_13",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Daycare/DayTime/MAP_Daycare_LightsOn.MAP_Daycare_LightsOn",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.171875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF7300FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_14",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/Utility/MAP_Utility_NorthEast_Corner.MAP_Utility_NorthEast_Corner",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.57812476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00C8FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_15",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/Utility/MAP_Utility_Northeast_Corner_MoonMan.MAP_Utility_Northeast_Corner_MoonMan",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.2890625,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF9200FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_16",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/SegmentedLightingScenarios/MAP_Night_05.MAP_Night_05",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.81250024,
+        "A": 1.0,
+        "Hex": "FF00FFE9"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_17",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_Doors.MAP_Doors",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.96875,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFCFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf_Audio.MAP_GatorGolf_Audio",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.99999976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00FFFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf_Balls.MAP_GatorGolf_Balls",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.93750006,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFF800"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf_Cameras.MAP_GatorGolf_Cameras",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.6171874,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFCEFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_5",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf_Catwalks.MAP_GatorGolf_Catwalks",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.99999976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00FFFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf_Gameplay.MAP_GatorGolf_Gameplay",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.42187452,
+        "A": 1.0,
+        "Hex": "FFFF00AE"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf_Kitchen.MAP_GatorGolf_Kitchen",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.95312476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00FAFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_Gatorgolf_Moonman.MAP_Gatorgolf_Moonman",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.43749976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00B1FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_9",
+    "Outer": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/GatorGolf/MAP_GatorGolf_PumpRoom.MAP_GatorGolf_PumpRoom",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": -18000.0,
+          "Y": 42910.0,
+          "Z": 940.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.60156274,
+        "A": 1.0,
+        "Hex": "FF00FFCC"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "C1BB3803-4E6911E4-307DB996-1786E9DA",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_SLM_Night_05",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_SLM_Night_05:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.1"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.2"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.11"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.12"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_4'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.13"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_5'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.14"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.15"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.16"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.17"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_9'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.18"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_10'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.3"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_11'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.4"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_12'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.5"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_13'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.6"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_14'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.7"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_15'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.8"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_16'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.9"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_05:LevelStreamingDynamic_17'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.10"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_SLM_Night_05:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_05.20"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

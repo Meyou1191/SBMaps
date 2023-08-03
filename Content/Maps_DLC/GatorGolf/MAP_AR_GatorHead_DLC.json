@@ -1,0 +1,984 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_AR_GatorHead_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_AR_GatorHead_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.1"
+      },
+      "LevelBuildDataId": "A8B52510-46C081ED-AAD51DAF-1B3D7E28",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_AR_GatorHead_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.18"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_AR_GatorHead_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.18"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_GatorHead_DLC:PersistentLevel.AR_Duplicate_MOD_MontyHead_GatorGolf_Large5_905'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_266'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_388'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_389'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_390'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_GatorHead_DLC:PersistentLevel.MOD_MontyHeadTarp_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_GatorHead_DLC:PersistentLevel.AR_Duplicate_MOD_Tarp_Damaged_01_594'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.4"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_AR_GatorHead_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "598BA2D8-4421C9CA-6683528A-43D00E92",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "AR_Duplicate_MOD_MontyHead_GatorGolf_Large5_905",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.AR_Duplicate_MOD_MontyHead_GatorGolf_Large5_905.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.10"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.AR_Duplicate_MOD_MontyHead_GatorGolf_Large5_905.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.10"
+      },
+      "Tags": [
+        "DuplicationIndex"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "AR_Duplicate_MOD_Tarp_Damaged_01_594",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.AR_Duplicate_MOD_Tarp_Damaged_01_594.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.11"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.AR_Duplicate_MOD_Tarp_Damaged_01_594.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.11"
+      },
+      "Tags": [
+        "DuplicationIndex"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MontyHeadTarp_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.MOD_MontyHeadTarp_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.12"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.MOD_MontyHeadTarp_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_Floor_266",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_266.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.13"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_266.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_Floor_388",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_388.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.14"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_388.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_Floor_389",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_389.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.15"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_389.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_Floor_390",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_390.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.16"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_GatorHead_DLC:PersistentLevel.SM_MERGED_Floor_390.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.16"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "AR_Duplicate_MOD_MontyHead_GatorGolf_Large5_905",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MontyHead_GatorGolf_Large'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_MontyHead_GatorGolf_Large.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 512,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2249920755,
+          "TextureLevelIndex": 35,
+          "TexelFactor": 1345.9805
+        },
+        {
+          "PackedRelativeBox": 4082830466,
+          "TextureLevelIndex": 36,
+          "TexelFactor": 4163.96
+        },
+        {
+          "PackedRelativeBox": 4082830466,
+          "TextureLevelIndex": 37,
+          "TexelFactor": 4163.96
+        },
+        {
+          "PackedRelativeBox": 4082830466,
+          "TextureLevelIndex": 139,
+          "TexelFactor": 4163.96
+        },
+        {
+          "PackedRelativeBox": 4082830466,
+          "TextureLevelIndex": 38,
+          "TexelFactor": 4163.96
+        },
+        {
+          "PackedRelativeBox": 2870350020,
+          "TextureLevelIndex": 39,
+          "TexelFactor": 916.67084
+        },
+        {
+          "PackedRelativeBox": 2870350020,
+          "TextureLevelIndex": 40,
+          "TexelFactor": 916.67084
+        },
+        {
+          "PackedRelativeBox": 2870350020,
+          "TextureLevelIndex": 41,
+          "TexelFactor": 916.67084
+        },
+        {
+          "PackedRelativeBox": 2249920755,
+          "TextureLevelIndex": 42,
+          "TexelFactor": 1345.9805
+        },
+        {
+          "PackedRelativeBox": 2249920755,
+          "TextureLevelIndex": 43,
+          "TexelFactor": 1345.9805
+        },
+        {
+          "PackedRelativeBox": 2249920755,
+          "TextureLevelIndex": 44,
+          "TexelFactor": 1345.9805
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_MontyHead_GatorGolf_Large_Corridor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_MontyHead_GatorGolf_Large_Corridor.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_MontyHead_GatorGolf_Large_Teeth'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_MontyHead_GatorGolf_Large_Teeth.0"
+        }
+      ],
+      "VisibilityId": 7184,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -26643.936,
+        "Y": 53507.63,
+        "Z": -4056.1885
+      },
+      "RelativeRotation": {
+        "Pitch": 7E-06,
+        "Yaw": -116.77744,
+        "Roll": 1.276231
+      },
+      "RelativeScale3D": {
+        "X": 0.8425,
+        "Y": 0.8425,
+        "Z": 0.8425
+      },
+      "ComponentTags": [
+        "DuplicationCounter_121"
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "69DE1FFC462A11965DAC43BE369B5AF0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "AR_Duplicate_MOD_Tarp_Damaged_01_594",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_LargeTarp'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_LargeTarp.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 196,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 106,
+          "TexelFactor": 115.4389
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 107,
+          "TexelFactor": 115.4389
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 108,
+          "TexelFactor": 115.4389
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 109,
+          "TexelFactor": 115.4389
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_LargeTarp_NoEmissive'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_LargeTarp_NoEmissive.0"
+        },
+        null
+      ],
+      "VisibilityId": 7190,
+      "RelativeLocation": {
+        "X": -26008.754,
+        "Y": 55103.387,
+        "Z": -3802.8328
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.000206,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 9.456303,
+        "Y": 9.456303,
+        "Z": 9.456303
+      },
+      "ComponentTags": [
+        "DuplicationCounter_288"
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FA3270574C6CFDBEF4C593A66716C142"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MontyHeadTarp_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MontyHeadTarp'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/DLC_Props/MOD_MontyHeadTarp.2"
+      },
+      "bUseDefaultCollision": false,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292608000,
+          "TextureLevelIndex": 344,
+          "TexelFactor": 2390.989
+        },
+        {
+          "PackedRelativeBox": 4292608000,
+          "TextureLevelIndex": 345,
+          "TexelFactor": 2390.989
+        },
+        {
+          "PackedRelativeBox": 4292608000,
+          "TextureLevelIndex": 346,
+          "TexelFactor": 1195.4945
+        },
+        {
+          "PackedRelativeBox": 4292608000,
+          "TextureLevelIndex": 347,
+          "TexelFactor": 34.156986
+        },
+        {
+          "PackedRelativeBox": 4292608000,
+          "TextureLevelIndex": 348,
+          "TexelFactor": 34.156986
+        }
+      ],
+      "VisibilityId": 7189,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "NoPlayerCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -26643.936,
+        "Y": 53507.63,
+        "Z": -4056.1885
+      },
+      "RelativeRotation": {
+        "Pitch": 7E-06,
+        "Yaw": -116.77744,
+        "Roll": 1.276231
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "01F685594ACB3AF2B3FD3EBF62427ECF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_Floor_266",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_Floor_253'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/GatorGolf/walls_floor_ceiling/SM_MERGED_Floor_253.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 255,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 256,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 257,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 84,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 85,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 258,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 86,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 87,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 88,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 261,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 83,
+          "TexelFactor": 300.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_CarpetGatorGolfMain_Paintable'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/M_CarpetGatorGolfMain_Paintable.0"
+        }
+      ],
+      "VisibilityId": 7185,
+      "RelativeLocation": {
+        "X": -25900.0,
+        "Y": 53310.145,
+        "Z": -4060.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99995,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "DuplicationCounter_113",
+        "DuplicationIndex_HasDuplicate"
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AC9F7E844599AE4211EE75A0EE5EDDF1",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 16
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_Floor_388",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_Floor_276'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/GatorGolf/walls_floor_ceiling/SM_MERGED_Floor_276.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 255,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 256,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 257,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 84,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 85,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 258,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 86,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 87,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 88,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 261,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 83,
+          "TexelFactor": 300.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_CarpetGatorGolfMain_Paintable'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/M_CarpetGatorGolfMain_Paintable.0"
+        }
+      ],
+      "VisibilityId": 7186,
+      "RelativeLocation": {
+        "X": -26050.059,
+        "Y": 52560.145,
+        "Z": -4060.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99991,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "DuplicationCounter_134",
+        "DuplicationIndex_HasDuplicate"
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C6C7D3CE450B655DFECBFAA61B087C64",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 24
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_Floor_389",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_Floor_276'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/GatorGolf/walls_floor_ceiling/SM_MERGED_Floor_276.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 255,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 256,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 257,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 84,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 85,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 258,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 86,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 87,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 88,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 261,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 83,
+          "TexelFactor": 300.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_CarpetGatorGolfMain_Paintable'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/M_CarpetGatorGolfMain_Paintable.0"
+        }
+      ],
+      "VisibilityId": 7187,
+      "RelativeLocation": {
+        "X": -26050.059,
+        "Y": 51960.145,
+        "Z": -4060.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99991,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "DuplicationCounter_135",
+        "DuplicationIndex_HasDuplicate"
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "02117BA24648B1ED748D6A8479AB9FA9",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 24
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_Floor_390",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_Floor_276'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/GatorGolf/walls_floor_ceiling/SM_MERGED_Floor_276.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 255,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 256,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 257,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 84,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 85,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 258,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 86,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 87,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 88,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 261,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 83,
+          "TexelFactor": 300.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_CarpetGatorGolfMain_Paintable'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/M_CarpetGatorGolfMain_Paintable.0"
+        }
+      ],
+      "VisibilityId": 7188,
+      "RelativeLocation": {
+        "X": -26050.059,
+        "Y": 51360.184,
+        "Z": -4060.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99991,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "DuplicationCounter_143",
+        "DuplicationIndex_HasDuplicate"
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7B55A6C148A39D6CEC8E31BCC69564A8",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 24
+        }
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_AR_GatorHead_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_AR_GatorHead_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_AR_GatorHead_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_AR_GatorHead_DLC.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

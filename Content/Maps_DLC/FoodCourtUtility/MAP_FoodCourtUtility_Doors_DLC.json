@@ -1,0 +1,4167 @@
+[
+  {
+    "Type": "Actor",
+    "Name": "Actor_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Actor'"
+  },
+  {
+    "Type": "BlockingVolume",
+    "Name": "BlockingVolume276",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'BlockingVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BlockingVolume276.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.55"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BlockingVolume276.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.27"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BlockingVolume276.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.27"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "3047B81B493EAE3818F538B435ABF133",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x1697D"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Door_Collision",
+    "Outer": "BP_DoorMaster149",
+    "Template": "Door_Collision_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.24"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.24"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -81.21289,
+        "Z": 105.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_0",
+    "Outer": "BP_DoorMaster149",
+    "Template": "DoorDirection_Collision_0_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.24"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_0_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_1",
+    "Outer": "BP_DoorMaster149",
+    "Template": "DoorDirection_Collision_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.24"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_1_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Double",
+    "Outer": "BP_DoorMaster149",
+    "Template": "PlayerCollision_Double_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_LaserTag",
+    "Outer": "BP_DoorMaster149",
+    "Template": "PlayerCollision_LaserTag_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_SecurityDouble",
+    "Outer": "BP_DoorMaster149",
+    "Template": "PlayerCollision_SecurityDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Single",
+    "Outer": "BP_DoorMaster149",
+    "Template": "PlayerCollision_Single_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Door_Collision",
+    "Outer": "BP_DoorMaster156",
+    "Template": "Door_Collision_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.25"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.25"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -81.21094,
+        "Z": 105.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_0",
+    "Outer": "BP_DoorMaster156",
+    "Template": "DoorDirection_Collision_0_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.25"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_0_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_1",
+    "Outer": "BP_DoorMaster156",
+    "Template": "DoorDirection_Collision_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.25"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_1_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Double",
+    "Outer": "BP_DoorMaster156",
+    "Template": "PlayerCollision_Double_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_LaserTag",
+    "Outer": "BP_DoorMaster156",
+    "Template": "PlayerCollision_LaserTag_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_SecurityDouble",
+    "Outer": "BP_DoorMaster156",
+    "Template": "PlayerCollision_SecurityDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Single",
+    "Outer": "BP_DoorMaster156",
+    "Template": "PlayerCollision_Single_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Door_Collision",
+    "Outer": "BP_DoorMaster157",
+    "Template": "Door_Collision_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.26"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.26"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -81.211914,
+        "Z": 105.00012
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_0",
+    "Outer": "BP_DoorMaster157",
+    "Template": "DoorDirection_Collision_0_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.26"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_0_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_1",
+    "Outer": "BP_DoorMaster157",
+    "Template": "DoorDirection_Collision_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.26"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_1_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Double",
+    "Outer": "BP_DoorMaster157",
+    "Template": "PlayerCollision_Double_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_LaserTag",
+    "Outer": "BP_DoorMaster157",
+    "Template": "PlayerCollision_LaserTag_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_SecurityDouble",
+    "Outer": "BP_DoorMaster157",
+    "Template": "PlayerCollision_SecurityDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Single",
+    "Outer": "BP_DoorMaster157",
+    "Template": "PlayerCollision_Single_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BP_DoorMaster_DLC_C",
+    "Name": "BP_DoorMaster149",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_DoorMaster_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/DLCPRE/BP_DoorMaster_DLC.BP_DoorMaster_DLC_C'",
+    "Properties": {
+      "DLC_DoorPairedActor": {
+        "ObjectName": "DLC_DoorPairedActor_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DLC_DoorPairedActor'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.34"
+      },
+      "DoorDirection_Collision_1": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorDirection_Collision_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.5"
+      },
+      "DoorDirection_Collision_0": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorDirection_Collision_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.4"
+      },
+      "SecurityNumberDouble1": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityNumberDouble1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.89"
+      },
+      "SecurityNumberDouble": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityNumberDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.88"
+      },
+      "SecurityNumberSingle1": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityNumberSingle1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.91"
+      },
+      "SecurityNumberSingle": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityNumberSingle'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.90"
+      },
+      "Decal1": {
+        "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Decal1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.29"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Decal'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.28"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.37"
+      },
+      "PlayerCollision_SecurityDouble": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.PlayerCollision_SecurityDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.8"
+      },
+      "PlayerCollision_Double": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.PlayerCollision_Double'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.6"
+      },
+      "PlayerCollision_LaserTag": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.PlayerCollision_LaserTag'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.7"
+      },
+      "PlayerCollision_Single": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.PlayerCollision_Single'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.9"
+      },
+      "Rotator2": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.60"
+      },
+      "Rotator1": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.59"
+      },
+      "SecurityDoorRotator2": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.63"
+      },
+      "SecurityDoorRotator1": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.62"
+      },
+      "MOD_Star_Plaque": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.MOD_Star_Plaque'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.79"
+      },
+      "MESH": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.58"
+      },
+      "DoorMesh_2": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.78"
+      },
+      "DoorMesh_1": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.77"
+      },
+      "DoorMesh_0": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.76"
+      },
+      "Door_Collision": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Door_Collision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.3"
+      },
+      "Open Door/ Close Door": {
+        "ObjectName": "TimelineComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Open Door/ Close Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.100"
+      },
+      "DoorType": "MasterDoorType::NewEnumerator0",
+      "DoorBlockedDirection": "MasterDoorSide::NewEnumerator3",
+      "DoorMat": {
+        "ObjectName": "MaterialInstanceDynamic'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.MaterialInstanceDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.48"
+      },
+      "Scene": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Door_Collision'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.3"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.MESH'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.58"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.76"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityDoorRotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.62"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Rotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.59"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.78"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityDoorRotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.63"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Rotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.60"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.77"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.MOD_Star_Plaque'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.79"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityNumberSingle'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.90"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityNumberSingle1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.91"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityNumberDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.88"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityNumberDouble1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.89"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.PlayerCollision_Single'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.9"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.PlayerCollision_LaserTag'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.7"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.PlayerCollision_Double'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.6"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.PlayerCollision_SecurityDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.8"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.37"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Decal'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.28"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Decal1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.29"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorDirection_Collision_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.4"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorDirection_Collision_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.5"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Open Door/ Close Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.100"
+        },
+        {
+          "ObjectName": "DLC_DoorPairedActor_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DLC_DoorPairedActor'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_DoorMaster_DLC_C",
+    "Name": "BP_DoorMaster156",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_DoorMaster_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/DLCPRE/BP_DoorMaster_DLC.BP_DoorMaster_DLC_C'",
+    "Properties": {
+      "DLC_DoorPairedActor": {
+        "ObjectName": "DLC_DoorPairedActor_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DLC_DoorPairedActor'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.35"
+      },
+      "DoorDirection_Collision_1": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorDirection_Collision_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.12"
+      },
+      "DoorDirection_Collision_0": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorDirection_Collision_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.11"
+      },
+      "SecurityNumberDouble1": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityNumberDouble1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.93"
+      },
+      "SecurityNumberDouble": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityNumberDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.92"
+      },
+      "SecurityNumberSingle1": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityNumberSingle1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.95"
+      },
+      "SecurityNumberSingle": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityNumberSingle'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.94"
+      },
+      "Decal1": {
+        "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Decal1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.31"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Decal'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.30"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.38"
+      },
+      "PlayerCollision_SecurityDouble": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.PlayerCollision_SecurityDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.15"
+      },
+      "PlayerCollision_Double": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.PlayerCollision_Double'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.13"
+      },
+      "PlayerCollision_LaserTag": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.PlayerCollision_LaserTag'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.14"
+      },
+      "PlayerCollision_Single": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.PlayerCollision_Single'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.16"
+      },
+      "Rotator2": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.66"
+      },
+      "Rotator1": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.65"
+      },
+      "SecurityDoorRotator2": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.69"
+      },
+      "SecurityDoorRotator1": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.68"
+      },
+      "MOD_Star_Plaque": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.MOD_Star_Plaque'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.83"
+      },
+      "MESH": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.64"
+      },
+      "DoorMesh_2": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.82"
+      },
+      "DoorMesh_1": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.81"
+      },
+      "DoorMesh_0": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.80"
+      },
+      "Door_Collision": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Door_Collision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.10"
+      },
+      "Open Door/ Close Door": {
+        "ObjectName": "TimelineComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Open Door/ Close Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.101"
+      },
+      "DoorType": "MasterDoorType::NewEnumerator0",
+      "DoorColor": {
+        "R": 0.116422,
+        "G": 0.117647,
+        "B": 0.117647,
+        "A": 1.0,
+        "Hex": "FF606060"
+      },
+      "DoorMat": {
+        "ObjectName": "MaterialInstanceDynamic'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.MaterialInstanceDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.51"
+      },
+      "DoorOpen%": 80.0,
+      "InvertedDoorOpen%": 80.0,
+      "Scene": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "ActivatableStorageName": "KitchenConduitPuzzleDoor",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Door_Collision'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.10"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.MESH'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.64"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.80"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityDoorRotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.68"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Rotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.65"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.82"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityDoorRotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.69"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Rotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.66"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.81"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.MOD_Star_Plaque'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.83"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityNumberSingle'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.94"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityNumberSingle1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.95"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityNumberDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.92"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityNumberDouble1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.93"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.PlayerCollision_Single'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.16"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.PlayerCollision_LaserTag'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.14"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.PlayerCollision_Double'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.13"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.PlayerCollision_SecurityDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.15"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.38"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Decal'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.30"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Decal1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.31"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorDirection_Collision_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.11"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorDirection_Collision_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.12"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Open Door/ Close Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.101"
+        },
+        {
+          "ObjectName": "DLC_DoorPairedActor_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DLC_DoorPairedActor'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.35"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_DoorMaster_DLC_C",
+    "Name": "BP_DoorMaster157",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_DoorMaster_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/DLCPRE/BP_DoorMaster_DLC.BP_DoorMaster_DLC_C'",
+    "Properties": {
+      "DLC_DoorPairedActor": {
+        "ObjectName": "DLC_DoorPairedActor_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DLC_DoorPairedActor'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.36"
+      },
+      "DoorDirection_Collision_1": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorDirection_Collision_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.19"
+      },
+      "DoorDirection_Collision_0": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorDirection_Collision_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.18"
+      },
+      "SecurityNumberDouble1": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityNumberDouble1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.97"
+      },
+      "SecurityNumberDouble": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityNumberDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.96"
+      },
+      "SecurityNumberSingle1": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityNumberSingle1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.99"
+      },
+      "SecurityNumberSingle": {
+        "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityNumberSingle'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.98"
+      },
+      "Decal1": {
+        "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Decal1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.33"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Decal'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.32"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.39"
+      },
+      "PlayerCollision_SecurityDouble": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.PlayerCollision_SecurityDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.22"
+      },
+      "PlayerCollision_Double": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.PlayerCollision_Double'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.20"
+      },
+      "PlayerCollision_LaserTag": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.PlayerCollision_LaserTag'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.21"
+      },
+      "PlayerCollision_Single": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.PlayerCollision_Single'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.23"
+      },
+      "Rotator2": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.72"
+      },
+      "Rotator1": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.71"
+      },
+      "SecurityDoorRotator2": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.75"
+      },
+      "SecurityDoorRotator1": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.74"
+      },
+      "MOD_Star_Plaque": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.MOD_Star_Plaque'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.87"
+      },
+      "MESH": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.70"
+      },
+      "DoorMesh_2": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.86"
+      },
+      "DoorMesh_1": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.85"
+      },
+      "DoorMesh_0": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.84"
+      },
+      "Door_Collision": {
+        "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Door_Collision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.17"
+      },
+      "Open Door/ Close Door": {
+        "ObjectName": "TimelineComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Open Door/ Close Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.102"
+      },
+      "DoorType": "MasterDoorType::NewEnumerator0",
+      "DoorColor": {
+        "R": 0.130697,
+        "G": 0.16011,
+        "B": 0.171875,
+        "A": 1.0,
+        "Hex": "FF656F73"
+      },
+      "DoorMat": {
+        "ObjectName": "MaterialInstanceDynamic'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.MaterialInstanceDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.54"
+      },
+      "Scene": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Door_Collision'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.17"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.MESH'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.70"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.84"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityDoorRotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.74"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Rotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.71"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.86"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityDoorRotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.75"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Rotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.72"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.85"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.MOD_Star_Plaque'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.87"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityNumberSingle'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.98"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityNumberSingle1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.99"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityNumberDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.96"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityNumberDouble1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.97"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.PlayerCollision_Single'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.23"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.PlayerCollision_LaserTag'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.21"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.PlayerCollision_Double'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.20"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.PlayerCollision_SecurityDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.22"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.39"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Decal'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.32"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Decal1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.33"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorDirection_Collision_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.18"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorDirection_Collision_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.19"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Open Door/ Close Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.102"
+        },
+        {
+          "ObjectName": "DLC_DoorPairedActor_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DLC_DoorPairedActor'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.36"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "BlockingVolume276",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BlockingVolume276.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.55"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BlockingVolume276.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "NoVisibilityCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -2140.1138,
+        "Y": 29107.775,
+        "Z": 3099.8696
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -15.4096155,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.541776,
+        "Y": 0.09995,
+        "Z": 2.255897
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "BP_DoorMaster149",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1",
+    "Outer": "BP_DoorMaster149",
+    "Template": "Decal1_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "BP_DoorMaster156",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1",
+    "Outer": "BP_DoorMaster156",
+    "Template": "Decal1_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "BP_DoorMaster157",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1",
+    "Outer": "BP_DoorMaster157",
+    "Template": "Decal1_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DLC_DoorPairedActor_C",
+    "Name": "DLC_DoorPairedActor",
+    "Outer": "BP_DoorMaster149",
+    "Template": "DLC_DoorPairedActor_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/DLC_DoorPairedActor.DLC_DoorPairedActor_C'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DLC_DoorPairedActor_C",
+    "Name": "DLC_DoorPairedActor",
+    "Outer": "BP_DoorMaster156",
+    "Template": "DLC_DoorPairedActor_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/DLC_DoorPairedActor.DLC_DoorPairedActor_C'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DLC_DoorPairedActor_C",
+    "Name": "DLC_DoorPairedActor",
+    "Outer": "BP_DoorMaster157",
+    "Template": "DLC_DoorPairedActor_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/DLC_DoorPairedActor.DLC_DoorPairedActor_C'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "BP_DoorMaster149",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "NormalDoorEntryRequirements": {
+        "PawnIgnoresConditions": [
+          "EPlayerPawnType::None"
+        ],
+        "ConditionDirection": "EDoorSide::Back"
+      },
+      "OnInitialOpen": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.24"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_4_OnInitialOpen__DelegateSignature"
+          }
+        ]
+      },
+      "OnOpenDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.24"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_2_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "OnCloseDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.24"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_3_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "BP_DoorMaster156",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "NormalDoorEntryRequirements": {
+        "PawnIgnoresConditions": [
+          "EPlayerPawnType::None"
+        ],
+        "bInitiallyLockedPlayer": true,
+        "bIsAutomaticDoorForPlayer": false
+      },
+      "ChowdaDoorEntryRequirements": {
+        "bInitiallyLockedPlayer": true,
+        "bInitiallyLockedAI": true
+      },
+      "OnInitialOpen": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.25"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_4_OnInitialOpen__DelegateSignature"
+          }
+        ]
+      },
+      "OnOpenDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.25"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_2_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "OnCloseDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.25"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_3_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "BP_DoorMaster157",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "NormalDoorEntryRequirements": {
+        "PawnIgnoresConditions": [
+          "EPlayerPawnType::None"
+        ]
+      },
+      "OnInitialOpen": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.26"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_4_OnInitialOpen__DelegateSignature"
+          }
+        ]
+      },
+      "OnOpenDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.26"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_2_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "OnCloseDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.26"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_3_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_FoodCourtUtility_Doors_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.56"
+      },
+      "LevelBuildDataId": "AD3C45CD-4E177786-7310E994-9BEB90FA",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.104"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.104"
+      },
+      null,
+      {
+        "ObjectName": "Actor'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.Actor_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.0"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.24"
+      },
+      {
+        "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.25"
+      },
+      {
+        "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.26"
+      },
+      {
+        "ObjectName": "BlockingVolume'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BlockingVolume276'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.1"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.56"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_12",
+    "Outer": "MAP_FoodCourtUtility_Doors_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.MAP_Freddy_Back_Lights",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.50781226,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00BDFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_13",
+    "Outer": "MAP_FoodCourtUtility_Doors_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.MAP_RoxyGreenroom_Light",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.03125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF3100FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_15",
+    "Outer": "MAP_FoodCourtUtility_Doors_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Daycare/MAP_Daycare_PlayArea_Lights.MAP_Daycare_PlayArea_Lights",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.15625,
+        "A": 1.0,
+        "Hex": "FF00FF6E"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_FoodCourtUtility_Doors_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.MAP_ChicaRoom_Lighting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.5624995,
+        "A": 1.0,
+        "Hex": "FFFF00C6"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_FoodCourtUtility_Doors_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/Monty/MAP_MontyGreenRoom_Lighting.MAP_MontyGreenRoom_Lighting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.3984375,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFA900"
+      }
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_DLC'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MI_Door_DLC.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'DefaultTexture'",
+          "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+        },
+        {
+          "ObjectName": "Texture2D'DefaultNormal'",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultNormal.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_OuterColorMask'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_OuterColorMask.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_BaseColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_BaseColor.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "BP_DoorMaster149",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ColorAlbedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.116422,
+            "G": 0.117647,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF606060"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_DLC'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MI_Door_DLC.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.116422,
+            "G": 0.117647,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF606060"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'DefaultTexture'",
+          "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+        },
+        {
+          "ObjectName": "Texture2D'DefaultNormal'",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultNormal.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_OuterColorMask'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_OuterColorMask.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_BaseColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_BaseColor.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "BP_DoorMaster156",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ColorAlbedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.116422,
+            "G": 0.117647,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF606060"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.130697,
+            "G": 0.16011,
+            "B": 0.171875,
+            "A": 1.0,
+            "Hex": "FF656F73"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_DLC'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MI_Door_DLC.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.130697,
+            "G": 0.16011,
+            "B": 0.171875,
+            "A": 1.0,
+            "Hex": "FF656F73"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'DefaultTexture'",
+          "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+        },
+        {
+          "ObjectName": "Texture2D'DefaultNormal'",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultNormal.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_OuterColorMask'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_OuterColorMask.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_BaseColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_BaseColor.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "BP_DoorMaster157",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ColorAlbedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.130697,
+            "G": 0.16011,
+            "B": 0.171875,
+            "A": 1.0,
+            "Hex": "FF656F73"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "BlockingVolume276",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "14BA03F1-4E373818-FA3F80BD-4CCAC03B",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "8FF655C6-49A6CA40-21E18FBA-3ACFCBA0",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MESH",
+    "Outer": "BP_DoorMaster149",
+    "Template": "MESH_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator1",
+    "Outer": "BP_DoorMaster149",
+    "Template": "Rotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator2",
+    "Outer": "BP_DoorMaster149",
+    "Template": "Rotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "BP_DoorMaster149",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 82.423996,
+        "Y": 29832.428,
+        "Z": 2868.9075
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99995,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator1",
+    "Outer": "BP_DoorMaster149",
+    "Template": "SecurityDoorRotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator2",
+    "Outer": "BP_DoorMaster149",
+    "Template": "SecurityDoorRotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MESH",
+    "Outer": "BP_DoorMaster156",
+    "Template": "MESH_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator1",
+    "Outer": "BP_DoorMaster156",
+    "Template": "Rotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator2",
+    "Outer": "BP_DoorMaster156",
+    "Template": "Rotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.69"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "BP_DoorMaster156",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4960.1123,
+        "Y": 30002.55,
+        "Z": 2869.5713
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator1",
+    "Outer": "BP_DoorMaster156",
+    "Template": "SecurityDoorRotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator2",
+    "Outer": "BP_DoorMaster156",
+    "Template": "SecurityDoorRotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MESH",
+    "Outer": "BP_DoorMaster157",
+    "Template": "MESH_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator1",
+    "Outer": "BP_DoorMaster157",
+    "Template": "Rotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator2",
+    "Outer": "BP_DoorMaster157",
+    "Template": "Rotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.75"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "BP_DoorMaster157",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5368.4873,
+        "Y": 30899.295,
+        "Z": 1630.0156
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator1",
+    "Outer": "BP_DoorMaster157",
+    "Template": "SecurityDoorRotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator2",
+    "Outer": "BP_DoorMaster157",
+    "Template": "SecurityDoorRotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_0",
+    "Outer": "BP_DoorMaster149",
+    "Template": "DoorMesh_0_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHorizontalSlider_SM_SHS_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHorizontalSlider_SM_SHS_00.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 60,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DoorA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DoorA.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AC4A72BC4EBC269B36FE13AC4A260254"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_1",
+    "Outer": "BP_DoorMaster149",
+    "Template": "DoorMesh_1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHinge_SM_SH_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHinge_SM_SH_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 60,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_1.MaterialInstanceDynamic_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.46"
+        },
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_1.MaterialInstanceDynamic_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.47"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F1A17DB244A7E4E893316398E6E592C6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_2",
+    "Outer": "BP_DoorMaster149",
+    "Template": "DoorMesh_2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": null,
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 200,
+      "LightmapType": "ELightmapType::Default",
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.59"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Star_Plaque",
+    "Outer": "BP_DoorMaster149",
+    "Template": "MOD_Star_Plaque_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.77"
+      },
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bVisible",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bHiddenInGame",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A629B82B475C91E273DBEBB16E48E9E1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_0",
+    "Outer": "BP_DoorMaster156",
+    "Template": "DoorMesh_0_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHorizontalSlider_SM_SHS_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHorizontalSlider_SM_SHS_00.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 60,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DoorA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DoorA.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C546A52047655C784E4EB29EC54ED6A4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_1",
+    "Outer": "BP_DoorMaster156",
+    "Template": "DoorMesh_1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHinge_SM_SH_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHinge_SM_SH_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 60,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_1.MaterialInstanceDynamic_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.49"
+        },
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_1.MaterialInstanceDynamic_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.50"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E1D000B44F45B139AEE0FCB89CE9F844"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_2",
+    "Outer": "BP_DoorMaster156",
+    "Template": "DoorMesh_2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": null,
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "LightmapType": "ELightmapType::Default",
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Star_Plaque",
+    "Outer": "BP_DoorMaster156",
+    "Template": "MOD_Star_Plaque_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.81"
+      },
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bVisible",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bHiddenInGame",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2769466C46C4B973C5C15BA7729E0D08"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_0",
+    "Outer": "BP_DoorMaster157",
+    "Template": "DoorMesh_0_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHorizontalSlider_SM_SHS_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHorizontalSlider_SM_SHS_00.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 60,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DoorA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DoorA.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D7090C7F495598EEB479CD8F8E154B37"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_1",
+    "Outer": "BP_DoorMaster157",
+    "Template": "DoorMesh_1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHinge_SM_SH_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHinge_SM_SH_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 60,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_1.MaterialInstanceDynamic_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.52"
+        },
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_1.MaterialInstanceDynamic_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.53"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B6821366419BBC18BC45639775584BB6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_2",
+    "Outer": "BP_DoorMaster157",
+    "Template": "DoorMesh_2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": null,
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "LightmapType": "ELightmapType::Default",
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Star_Plaque",
+    "Outer": "BP_DoorMaster157",
+    "Template": "MOD_Star_Plaque_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.85"
+      },
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bVisible",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bHiddenInGame",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F5D7DA3F477E83115865818E448D2A7D"
+      }
+    ]
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble",
+    "Outer": "BP_DoorMaster149",
+    "Template": "SecurityNumberDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble1",
+    "Outer": "BP_DoorMaster149",
+    "Template": "SecurityNumberDouble1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle",
+    "Outer": "BP_DoorMaster149",
+    "Template": "SecurityNumberSingle_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle1",
+    "Outer": "BP_DoorMaster149",
+    "Template": "SecurityNumberSingle1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble",
+    "Outer": "BP_DoorMaster156",
+    "Template": "SecurityNumberDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble1",
+    "Outer": "BP_DoorMaster156",
+    "Template": "SecurityNumberDouble1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle",
+    "Outer": "BP_DoorMaster156",
+    "Template": "SecurityNumberSingle_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle1",
+    "Outer": "BP_DoorMaster156",
+    "Template": "SecurityNumberSingle1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble",
+    "Outer": "BP_DoorMaster157",
+    "Template": "SecurityNumberDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble1",
+    "Outer": "BP_DoorMaster157",
+    "Template": "SecurityNumberDouble1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle",
+    "Outer": "BP_DoorMaster157",
+    "Template": "SecurityNumberSingle_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle1",
+    "Outer": "BP_DoorMaster157",
+    "Template": "SecurityNumberSingle1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Open Door/ Close Door",
+    "Outer": "BP_DoorMaster149",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_DoorMaster_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Doors/BP_DoorMaster.66"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Move Door",
+            "FloatPropertyName": "Open_Door__Close_Door_Move_Door_EC8CD7C648A27AEAA7307CB9A6CE4381"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 25,
+          "Name": "Open Door/ Close Door__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 25,
+          "Name": "Open Door/ Close Door__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster149'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.24"
+        },
+        "DirectionPropertyName": "Open_Door__Close_Door__Direction_EC8CD7C648A27AEAA7307CB9A6CE4381"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Open Door/ Close Door",
+    "Outer": "BP_DoorMaster156",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_DoorMaster_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Doors/BP_DoorMaster.66"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Move Door",
+            "FloatPropertyName": "Open_Door__Close_Door_Move_Door_EC8CD7C648A27AEAA7307CB9A6CE4381"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 26,
+          "Name": "Open Door/ Close Door__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 26,
+          "Name": "Open Door/ Close Door__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster156'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.25"
+        },
+        "DirectionPropertyName": "Open_Door__Close_Door__Direction_EC8CD7C648A27AEAA7307CB9A6CE4381"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Open Door/ Close Door",
+    "Outer": "BP_DoorMaster157",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_DoorMaster_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Doors/BP_DoorMaster.66"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Move Door",
+            "FloatPropertyName": "Open_Door__Close_Door_Move_Door_EC8CD7C648A27AEAA7307CB9A6CE4381"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 27,
+          "Name": "Open Door/ Close Door__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 27,
+          "Name": "Open Door/ Close Door__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_DoorMaster_DLC_C'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.BP_DoorMaster157'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.26"
+        },
+        "DirectionPropertyName": "Open_Door__Close_Door__Direction_EC8CD7C648A27AEAA7307CB9A6CE4381"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_FoodCourtUtility_Doors_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.40"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_FoodCourtUtility_Doors_DLC:LevelStreamingDynamic_15'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.43"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_FoodCourtUtility_Doors_DLC:LevelStreamingDynamic_13'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.42"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_FoodCourtUtility_Doors_DLC:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.44"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_FoodCourtUtility_Doors_DLC:LevelStreamingDynamic_12'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.41"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_FoodCourtUtility_Doors_DLC:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.45"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_FoodCourtUtility_Doors_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.57"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

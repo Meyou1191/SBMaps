@@ -1,0 +1,2315 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Backstage_East_Cam",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Backstage_West_Cam",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Chica_Cam",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Freddy_Cam",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Roxy_Cam",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Backstage_East_Cam",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.75"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.23"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.22"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.21"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.13"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.87"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.59"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.81"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.57"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.41"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.58"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "RREast"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.40"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.81"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.59"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.87"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.13"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.22"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.23"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.75"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Backstage_West_Cam",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.76"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.26"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.25"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.24"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.14"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.88"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.62"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.82"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.60"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.44"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.61"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "RRWest"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.43"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.82"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.62"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.88"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.14"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.25"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.26"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.76"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Chica_Cam",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.77"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.29"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.28"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.27"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.15"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.89"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.65"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.83"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.63"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.47"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.64"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "Chica"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.46"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.83"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.65"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.89"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.27"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.28"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.29"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.77"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Freddy_Cam",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.78"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.32"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.31"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.30"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.16"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.90"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.68"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.84"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.66"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.50"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.67"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "Freddy"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.49"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.84"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.68"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.90"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.30"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.31"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.32"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.78"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Roxy_Cam",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.4"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.79"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.35"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.34"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.33"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.17"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.91"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.71"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.85"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.69"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.53"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.70"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "Roxy"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.52"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.85"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.71"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.91"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.17"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.33"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.34"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.35"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.79"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RR_ToBackstage_Cam",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.5"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.80"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.38"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.37"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.36"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.18"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.92"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.74"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.86"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.72"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.56"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.73"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "FazwatchAccessible": false,
+      "CameraName": {
+        "CultureInvariantString": "ToUnderStage"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.55"
+      },
+      "Tags": [
+        "BackstageScreenCam"
+      ],
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.86"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.74"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.92"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.36"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.37"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.38"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.80"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Backstage_Cameras_RockstarRow",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.19"
+      },
+      "LevelBuildDataId": "9FD0A37B-4405D4C6-5A727584-979FA7DB",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.94"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.94"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.6"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.7"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.8"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.9"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.10"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.11"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.19"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Backstage_East_Cam",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Backstage_West_Cam",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Chica_Cam",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Freddy_Cam",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Roxy_Cam",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "4497374B-4957090C-CE5C51B3-F7DD6BEE",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Backstage_East_Cam",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Backstage_East_Cam",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Backstage_East_Cam",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Backstage_West_Cam",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Backstage_West_Cam",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Backstage_West_Cam",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Chica_Cam",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Chica_Cam",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Chica_Cam",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Freddy_Cam",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Freddy_Cam",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Freddy_Cam",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Roxy_Cam",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 2000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Roxy_Cam",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 2000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Roxy_Cam",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 2000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 9000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 9000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 9000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Backstage_East_Cam",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.40"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Backstage_East_Cam",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -5497.0,
+        "Y": 50254.34,
+        "Z": 2293.341
+      },
+      "RelativeRotation": {
+        "Pitch": -21.800016,
+        "Yaw": -58.94506,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Backstage_East_Cam",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.40"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Backstage_West_Cam",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.43"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Backstage_West_Cam",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2389.8618,
+        "Y": 50182.168,
+        "Z": 2086.2654
+      },
+      "RelativeRotation": {
+        "Pitch": -11.199734,
+        "Yaw": -94.29381,
+        "Roll": 6.0054048E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Backstage_West_Cam",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.43"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Chica_Cam",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.46"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Chica_Cam",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -4511.6387,
+        "Y": 51022.164,
+        "Z": 1874.0493
+      },
+      "RelativeRotation": {
+        "Pitch": -26.400106,
+        "Yaw": 69.13524,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Chica_Cam",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.46"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Freddy_Cam",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.49"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Freddy_Cam",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1164.8793,
+        "Y": 51223.95,
+        "Z": 1816.9083
+      },
+      "RelativeRotation": {
+        "Pitch": -11.200007,
+        "Yaw": 19.161526,
+        "Roll": -2.1758733E-07
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Freddy_Cam",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.49"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Roxy_Cam",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.52"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Roxy_Cam",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -475.92166,
+        "Y": 51634.477,
+        "Z": 1883.4563
+      },
+      "RelativeRotation": {
+        "Pitch": -37.199974,
+        "Yaw": 43.64503,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Roxy_Cam",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.52"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.55"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1537.132,
+        "Y": 50392.227,
+        "Z": 1833.8615
+      },
+      "RelativeRotation": {
+        "Pitch": -18.599218,
+        "Yaw": -87.734505,
+        "Roll": 9.3E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.55"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Backstage_East_Cam",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.39"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Backstage_East_Cam",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.6"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.40"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Backstage_East_Cam",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.6"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Backstage_West_Cam",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.42"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Backstage_West_Cam",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.7"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.43"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Backstage_West_Cam",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.7"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Chica_Cam",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.45"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Chica_Cam",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.8"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.46"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Chica_Cam",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.8"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Freddy_Cam",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.48"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Freddy_Cam",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.9"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.49"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Freddy_Cam",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.9"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Roxy_Cam",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.51"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Roxy_Cam",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.10"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.52"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Roxy_Cam",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.10"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.54"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.11"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.55"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.11"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Backstage_East_Cam",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Backstage_West_Cam",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Chica_Cam",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Freddy_Cam",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Roxy_Cam",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Backstage_East_Cam",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.57"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Backstage_West_Cam",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Chica_Cam",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Freddy_Cam",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Roxy_Cam",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.69"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Backstage_East_Cam",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_East_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Backstage_West_Cam",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Backstage_West_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Chica_Cam",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Chica_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Freddy_Cam",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Freddy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Roxy_Cam",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.Roxy_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RR_ToBackstage_Cam",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.RR_ToBackstage_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Backstage_Cameras_RockstarRow",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Backstage_Cameras_RockstarRow:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.12"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Backstage_Cameras_RockstarRow:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RockstarRow.20"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

@@ -1,0 +1,4911 @@
+[
+  {
+    "Type": "AIHideCueTester_C",
+    "Name": "AIHideCue_GEN_VARIABLE_AIHideCueTester_C_CAT_37",
+    "Outer": "PersistentLevel",
+    "Template": "Default__AIHideCueTester_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Hide/AIHideCueTester.AIHideCueTester_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.AIHideCue_GEN_VARIABLE_AIHideCueTester_C_CAT_37.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.14"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.AIHideCue_GEN_VARIABLE_AIHideCueTester_C_CAT_37.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.14"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.AIHideCue'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.10"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.AIHideCue_GEN_VARIABLE_AIHideCueTester_C_CAT_37.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "Arrow",
+    "Outer": "MOD_CartBase3",
+    "Template": "Arrow_GEN_VARIABLE",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BillboardComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.SearchLocation'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.7"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "Arrow1",
+    "Outer": "MOD_CartBase3",
+    "Template": "Arrow1_GEN_VARIABLE",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.SkeletalMesh'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.16"
+      },
+      "AttachSocketName": "Camera_Anim_jnt",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BeverageCart_HidePoint_C",
+    "Name": "MOD_CartBase3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BeverageCart_HidePoint_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Hide/BeverageCart_HidePoint.BeverageCart_HidePoint_C'",
+    "Properties": {
+      "Box": {
+        "ObjectName": "BoxComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.Box'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.8"
+      },
+      "Arrow1": {
+        "ObjectName": "ArrowComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.Arrow1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.2"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.SkeletalMesh'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.16"
+      },
+      "AIHideCue": {
+        "ObjectName": "ChildActorComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.AIHideCue'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.10"
+      },
+      "AIReleasePosition": {
+        "ObjectName": "BillboardComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.AIReleasePosition'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.4"
+      },
+      "PlayerAttackDetector": {
+        "ObjectName": "BoxComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.PlayerAttackDetector'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.9"
+      },
+      "Arrow": {
+        "ObjectName": "ArrowComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.Arrow'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.1"
+      },
+      "SearchLocation": {
+        "ObjectName": "BillboardComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.SearchLocation'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.7"
+      },
+      "PeekLocation": {
+        "ObjectName": "BillboardComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.PeekLocation'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.6"
+      },
+      "HideLocation": {
+        "ObjectName": "BillboardComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.HideLocation'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.5"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+        },
+        {
+          "ObjectName": "BillboardComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.HideLocation'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.5"
+        },
+        {
+          "ObjectName": "BillboardComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.PeekLocation'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.6"
+        },
+        {
+          "ObjectName": "BillboardComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.SearchLocation'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.7"
+        },
+        {
+          "ObjectName": "ArrowComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.Arrow'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.1"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.PlayerAttackDetector'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.9"
+        },
+        {
+          "ObjectName": "BillboardComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.AIReleasePosition'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.4"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.AIHideCue'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.10"
+        },
+        {
+          "ObjectName": "SkeletalMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.SkeletalMesh'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.16"
+        },
+        {
+          "ObjectName": "ArrowComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.Arrow1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.2"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.Box'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "AIReleasePosition",
+    "Outer": "MOD_CartBase3",
+    "Template": "AIReleasePosition_GEN_VARIABLE",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "HideLocation",
+    "Outer": "MOD_CartBase3",
+    "Template": "HideLocation_GEN_VARIABLE",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "PeekLocation",
+    "Outer": "MOD_CartBase3",
+    "Template": "PeekLocation_GEN_VARIABLE",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "SearchLocation",
+    "Outer": "MOD_CartBase3",
+    "Template": "SearchLocation_GEN_VARIABLE",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Outer": "MOD_CartBase3",
+    "Template": "Box_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.SkeletalMesh'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.16"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerAttackDetector",
+    "Outer": "MOD_CartBase3",
+    "Template": "PlayerAttackDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BeverageCart_HidePoint_C'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.3"
+            },
+            "FunctionName": "BndEvt__PlayerAttackDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BeverageCart_HidePoint_C'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.3"
+            },
+            "FunctionName": "BndEvt__PlayerAttackDetector_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "AIHideCue",
+    "Outer": "MOD_CartBase3",
+    "Template": "AIHideCue_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "AIHideCueTester_C'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.AIHideCue_GEN_VARIABLE_AIHideCueTester_C_CAT_37'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_WHITEBOX_References_Cupcake_Section1-2_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.12"
+      },
+      "LevelBuildDataId": "04D3119C-44C074C5-244C8896-326A64DE",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.210"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.210"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM11'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM12'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_FreddyPart_Var_9'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Teapot_01c3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.108"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table37'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.104"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM13'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM14'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table40'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.106"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V70'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V71'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V72'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V73'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Atrium_CIrcle_Planters14'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine11'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.109"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Kiosk_GEO7'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_CashRegisterA_VarA3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.83"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake42'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake43'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake44'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake45'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_70'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.88"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_71'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.89"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_72'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.90"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake46'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.64"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table38'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.105"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake47'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake48'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.66"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_75'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.91"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_76'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.92"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_1_IceCreamCone12'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_3_IceCreamCone12'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_2_IceCreamCone10'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table33'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.79"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table34'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.80"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table35'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.81"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table36'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.82"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_77'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.93"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Personenleitsystem_Red23'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.97"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Personenleitsystem_Red24'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.98"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Personenleitsystem6'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.96"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_SM_BarChair3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.76"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Chips37'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup17'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup18'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup19'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup20'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup23'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_19'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.72"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_20'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.73"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_21'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.74"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_22'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.75"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_4_IceCreamCone6'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine12'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.110"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake51'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.67"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake52'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.68"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table41'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.107"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V74'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V75'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V76'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V77'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine13'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.111"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine14'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.112"
+      },
+      {
+        "ObjectName": "BeverageCart_HidePoint_C'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall250'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall252'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Clothes_Rack5'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Clothes_Rack6'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_DecorWall02_5'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.86"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_DecorWall02_6'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.87"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ClothesHanger9'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ClothesHanger11'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ClothesHanger12'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_SubM_Wall_C44'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.78"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SubM_Wall_02_Half33'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.102"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall267'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall291'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_SubM_Wall_C39'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.77"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SubM_Wall_02_Half28'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.101"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table30'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.103"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V55'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V56'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V57'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V58'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V59'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V60'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ATM15'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_coffee_table_16_aar21'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.84"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_coffee_table_16_aar27'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.85"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_MERGED_Cupcake_Shop_254'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.94"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_MERGED_Cupcake_Shop_263'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.95"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SodaCan_27'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.99"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SodaCan_28'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.100"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PizzaBoxes_MOD_PizzaBox_7'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.69"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_17'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.70"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_18'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.71"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Chips38'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Chips39'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.19"
+      },
+      {
+        "ObjectName": "AIHideCueTester_C'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.AIHideCue_GEN_VARIABLE_AIHideCueTester_C_CAT_37'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.0"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.12"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A160870D-4C07270F-F6023D98-921C4239",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "AIHideCue_GEN_VARIABLE_AIHideCueTester_C_CAT_37",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.AIHideCue'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MOD_CartBase3",
+    "Template": "ICH-DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -44456.633,
+        "Y": 56349.773,
+        "Z": -2677.7532
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -150.00009,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh",
+    "Outer": "MOD_CartBase3",
+    "Template": "SkeletalMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_CartBase_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_CartBase_01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_CartLid_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_CartLid_01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_CartLid_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_CartLid_01.0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CartBase3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.15"
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Chips37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Chips37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.113"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Chips37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.113"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Chips38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Chips38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.114"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Chips38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.114"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Chips39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Chips39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.115"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Chips39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.115"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Clothes_Rack5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Clothes_Rack5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.116"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Clothes_Rack5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.116"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Clothes_Rack6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Clothes_Rack6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.117"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Clothes_Rack6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.117"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Deserts_CandyStick7_SM11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.118"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.118"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Deserts_CandyStick7_SM12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.119"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.119"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Deserts_CandyStick7_SM13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.120"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.120"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Deserts_CandyStick7_SM14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.121"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.Deserts_CandyStick7_SM14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.121"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ENV_MOD_Office_Wall250",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall250.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.122"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall250.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.122"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ENV_MOD_Office_Wall252",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall252.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.123"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall252.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.123"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ENV_MOD_Office_Wall267",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall267.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.124"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall267.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.124"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ENV_MOD_Office_Wall291",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall291.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.125"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.ENV_MOD_Office_Wall291.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.125"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_ATM15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ATM15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.126"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ATM15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.126"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_CIrcle_Planters14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Atrium_CIrcle_Planters14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.127"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Atrium_CIrcle_Planters14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.127"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V55",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V55.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.128"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V55.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.128"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V56",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V56.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.129"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V56.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.129"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V57",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V57.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.130"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V57.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.130"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V58",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V58.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.131"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V58.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.131"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V59",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V59.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.132"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V59.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.132"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V60",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V60.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.133"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V60.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.133"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V70",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V70.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.134"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V70.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.134"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V71",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V71.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.135"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V71.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.135"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V72",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V72.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.136"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V72.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.136"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V73",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V73.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.137"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V73.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.137"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V74",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V74.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.138"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V74.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.138"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V75",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V75.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.139"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V75.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.139"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V76",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V76.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.140"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V76.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.140"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Chair_Star_V77",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V77.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.141"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Chair_Star_V77.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.141"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_ClothesHanger11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ClothesHanger11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.142"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ClothesHanger11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.142"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_ClothesHanger12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ClothesHanger12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.143"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ClothesHanger12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.143"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_ClothesHanger9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ClothesHanger9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.144"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_ClothesHanger9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.144"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_CoffeeCup17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.145"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.145"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_CoffeeCup18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.146"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.146"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_CoffeeCup19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.147"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.147"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_CoffeeCup20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.148"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.148"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_CoffeeCup23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.149"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_CoffeeCup23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.149"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_FreddyPart_Var_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_FreddyPart_Var_9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.150"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_FreddyPart_Var_9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.150"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_IceCreamCone_MOD_1_IceCreamCone12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_1_IceCreamCone12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.151"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_1_IceCreamCone12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.151"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_IceCreamCone_MOD_2_IceCreamCone10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_2_IceCreamCone10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.152"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_2_IceCreamCone10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.152"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_IceCreamCone_MOD_3_IceCreamCone12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_3_IceCreamCone12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.153"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_3_IceCreamCone12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.153"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_IceCreamCone_MOD_4_IceCreamCone6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_4_IceCreamCone6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.154"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_IceCreamCone_MOD_4_IceCreamCone6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.154"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Kiosk_GEO7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Kiosk_GEO7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.155"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Kiosk_GEO7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.155"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Pinata_Cupcake42",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.156"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.156"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Pinata_Cupcake43",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake43.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.157"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake43.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.157"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Pinata_Cupcake44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.158"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.158"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Pinata_Cupcake45",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.159"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.159"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Pinata_Cupcake46",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.160"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.160"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Pinata_Cupcake47",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake47.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.161"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake47.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.161"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Pinata_Cupcake48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.162"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.162"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Pinata_Cupcake51",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake51.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.163"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake51.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.163"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Pinata_Cupcake52",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake52.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.164"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Pinata_Cupcake52.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.164"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PizzaBoxes_MOD_PizzaBox_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PizzaBoxes_MOD_PizzaBox_7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.165"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PizzaBoxes_MOD_PizzaBox_7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.165"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PlateA_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.166"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.166"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PlateA_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.167"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.167"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PlateA_19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.168"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.168"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PlateA_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.169"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.169"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PlateA_21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.170"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.170"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PlateA_22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.171"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_PlateA_22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.171"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SM_BarChair3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_SM_BarChair3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.172"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_SM_BarChair3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.172"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SubM_Wall_C39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_SubM_Wall_C39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.173"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_SubM_Wall_C39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.173"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SubM_Wall_C44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_SubM_Wall_C44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.174"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_SubM_Wall_C44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.174"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Wall_Table33",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.175"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.175"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Wall_Table34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table34.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.176"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table34.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.176"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Wall_Table35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.177"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.177"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Wall_Table36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table36.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.178"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.MOD_Wall_Table36.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.178"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_CashRegisterA_VarA3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_CashRegisterA_VarA3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.179"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_CashRegisterA_VarA3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.179"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_coffee_table_16_aar21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_coffee_table_16_aar21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.180"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_coffee_table_16_aar21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.180"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_coffee_table_16_aar27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_coffee_table_16_aar27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.181"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_coffee_table_16_aar27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.181"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DecorWall02_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_DecorWall02_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.182"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_DecorWall02_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.182"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DecorWall02_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_DecorWall02_6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.183"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_DecorWall02_6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.183"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Fence_A_70",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_70.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.184"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_70.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.184"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Fence_A_71",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_71.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.185"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_71.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.185"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Fence_A_72",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_72.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.186"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_72.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.186"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Fence_A_75",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_75.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.187"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_75.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.187"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Fence_A_76",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_76.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.188"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_76.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.188"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Fence_A_77",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_77.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.189"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Fence_A_77.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.189"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_Cupcake_Shop_254",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_MERGED_Cupcake_Shop_254.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.190"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_MERGED_Cupcake_Shop_254.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.190"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_Cupcake_Shop_263",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_MERGED_Cupcake_Shop_263.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.191"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_MERGED_Cupcake_Shop_263.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.191"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Personenleitsystem6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Personenleitsystem6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.192"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Personenleitsystem6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.192"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Personenleitsystem_Red23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Personenleitsystem_Red23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.193"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Personenleitsystem_Red23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.193"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Personenleitsystem_Red24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Personenleitsystem_Red24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.194"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Personenleitsystem_Red24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.194"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_SodaCan_27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SodaCan_27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.195"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SodaCan_27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.195"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_SodaCan_28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SodaCan_28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.196"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SodaCan_28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.196"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_SubM_Wall_02_Half28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SubM_Wall_02_Half28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.197"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SubM_Wall_02_Half28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.197"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_SubM_Wall_02_Half33",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SubM_Wall_02_Half33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.198"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_SubM_Wall_02_Half33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.198"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Table30",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table30.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.199"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table30.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.199"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Table37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.200"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.200"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Table38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.201"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.201"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Table40",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.202"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.202"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Table41",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.203"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Table41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.203"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Teapot_01c3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Teapot_01c3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.204"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.SM_Teapot_01c3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.204"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "VendingMachine11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.205"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.205"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "VendingMachine12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.206"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.206"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "VendingMachine13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.207"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.207"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "VendingMachine14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.208"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.VendingMachine14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.208"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Chips37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Chips2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/Chips2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Chips38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Chips3'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/Chips3.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Chips39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Chips1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/Chips1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Clothes_Rack5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Clothes_Rack'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/Clothes_Rack.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Clothes_Rack6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Clothes_Rack'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/Clothes_Rack.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Deserts_CandyStick7_SM11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Deserts_CandyStick7_SM'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/DesertsAndCakes/MOD_Deserts_CandyStick7_SM.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Deserts_CandyStick7_SM12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Deserts_CandyStick7_SM'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/DesertsAndCakes/MOD_Deserts_CandyStick7_SM.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Deserts_CandyStick7_SM13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Deserts_CandyStick7_SM'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/DesertsAndCakes/MOD_Deserts_CandyStick7_SM.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Deserts_CandyStick7_SM14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Deserts_CandyStick7_SM'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/DesertsAndCakes/MOD_Deserts_CandyStick7_SM.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ENV_MOD_Office_Wall250",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ENV_MOD_Office_Wall'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/ENV_MOD_Office_Wall.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonWallPattern03_1Yellow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonWallPattern03_1Yellow.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonWallPattern03_1Yellow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonWallPattern03_1Yellow.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonTileCeramic03_2'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonTileCeramic03_2.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ENV_MOD_Office_Wall252",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ENV_MOD_Office_Wall'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/ENV_MOD_Office_Wall.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonWallPattern03_1Yellow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonWallPattern03_1Yellow.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonWallPattern03_1Yellow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonWallPattern03_1Yellow.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonTileCeramic03_2'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonTileCeramic03_2.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ENV_MOD_Office_Wall267",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ENV_MOD_Office_Wall'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/ENV_MOD_Office_Wall.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonWallPattern03_1Yellow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonWallPattern03_1Yellow.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonxetalPaintedBlack01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonxetalPaintedBlack01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonTileCeramic03_2'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonTileCeramic03_2.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ENV_MOD_Office_Wall291",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ENV_MOD_Office_Wall'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/ENV_MOD_Office_Wall.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonWallPattern03_1Yellow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonWallPattern03_1Yellow.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonxetalPaintedBlack01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonxetalPaintedBlack01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonTileCeramic03_2'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonTileCeramic03_2.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_ATM15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ATM'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_ATM.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ATMCase_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_ATMCase_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_CIrcle_Planters14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_CIrcle_Planters'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Atrium_CIrcle_Planters.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V55",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V56",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V57",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V58",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V59",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V60",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V70",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V71",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V72",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V73",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V74",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V75",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V76",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Chair_Star_V77",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Chair_Star_V2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Chair_Star_V2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_ClothesHanger11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ClothesHanger'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_ClothesHanger.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_ClothesHanger12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ClothesHanger'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_ClothesHanger.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_ClothesHanger9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ClothesHanger'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_ClothesHanger.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_CoffeeCup17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_CoffeeCup'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_CoffeeCup.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_CoffeeCup18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_CoffeeCup'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_CoffeeCup.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_CoffeeCup19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_CoffeeCup'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_CoffeeCup.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_CoffeeCup20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_CoffeeCup'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_CoffeeCup.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_CoffeeCup23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_CoffeeCup'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_CoffeeCup.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_FreddyPart_Var_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_FreddyPart_Var_07'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_FreddyPart_Var_07.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_paint_eggshell_black_aar'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_paint_eggshell_black_aar.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_IceCreamCone_MOD_1_IceCreamCone12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_IceCreamCone_MOD_1_IceCreamCone'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/DesertsAndCakes/MOD_IceCreamCone_MOD_1_IceCreamCone.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_IceCreamCone_MOD_2_IceCreamCone10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_IceCreamCone_MOD_2_IceCreamCone'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/DesertsAndCakes/MOD_IceCreamCone_MOD_2_IceCreamCone.2"
+      },
+      "bOverrideLightMapRes": true,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_IceCreamCone_MOD_3_IceCreamCone12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_IceCreamCone_MOD_3_IceCreamCone'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/DesertsAndCakes/MOD_IceCreamCone_MOD_3_IceCreamCone.2"
+      },
+      "bOverrideLightMapRes": true,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_IceCreamCone_MOD_4_IceCreamCone6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_IceCreamCone_MOD_4_IceCreamCone'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/DesertsAndCakes/MOD_IceCreamCone_MOD_4_IceCreamCone.2"
+      },
+      "bOverrideLightMapRes": true,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Kiosk_GEO7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Kiosk_GEO'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Kiosk_GEO.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Kiosk_05_OFF'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Kiosk_05_OFF.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Pinata_Cupcake42",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Pinata_Cupcake'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Pinata_Cupcake.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Pinata_Cupcake43",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Pinata_Cupcake'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Pinata_Cupcake.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Pinata_Cupcake44",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Pinata_Cupcake'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Pinata_Cupcake.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Pinata_Cupcake45",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Pinata_Cupcake'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Pinata_Cupcake.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Pinata_Cupcake46",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Pinata_Cupcake'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Pinata_Cupcake.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Pinata_Cupcake47",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Pinata_Cupcake'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Pinata_Cupcake.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Pinata_Cupcake48",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Pinata_Cupcake'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Pinata_Cupcake.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Pinata_Cupcake51",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Pinata_Cupcake'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Pinata_Cupcake.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Pinata_Cupcake52",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Pinata_Cupcake'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Pinata_Cupcake.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PizzaBoxes_MOD_PizzaBox_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PizzaBoxes_MOD_PizzaBox_02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_PizzaBoxes_MOD_PizzaBox_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PlateA_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PlateA_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/TablewareandFood/TableWare/MOD_PlateA_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PlateA_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PlateA_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/TablewareandFood/TableWare/MOD_PlateA_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PlateA_19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PlateA_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/TablewareandFood/TableWare/MOD_PlateA_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PlateA_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PlateA_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/TablewareandFood/TableWare/MOD_PlateA_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PlateA_21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PlateA_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/TablewareandFood/TableWare/MOD_PlateA_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PlateA_22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PlateA_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/TablewareandFood/TableWare/MOD_PlateA_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SM_BarChair3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SM_BarChair01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SM_BarChair01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SubM_Wall_C39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SubM_Wall_C'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/RoxyRacewayCustomPieces/MOD_SubM_Wall_C.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__PlainWall_Chica'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__PlainWall_Chica.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'M_TilesChica'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_TilesChica.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Baseboard_Tiles_Chica'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Baseboard_Tiles_Chica.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SubM_Wall_C44",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SubM_Wall_C'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/RoxyRacewayCustomPieces/MOD_SubM_Wall_C.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__PlainWall_Freddy'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__PlainWall_Freddy.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Tiles_Freddy'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Tiles_Freddy.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Baseboard_Tiles_Freddy'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Baseboard_Tiles_Freddy.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Wall_Table33",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Wall_Table'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Wall_Table.2"
+      },
+      "bOverrideLightMapRes": true,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Wall_Table34",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Wall_Table'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Wall_Table.2"
+      },
+      "bOverrideLightMapRes": true,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Wall_Table35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Wall_Table'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Wall_Table.2"
+      },
+      "bOverrideLightMapRes": true,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Wall_Table36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Wall_Table'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Wall_Table.2"
+      },
+      "bOverrideLightMapRes": true,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_CashRegisterA_VarA3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CashRegisterA_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_CashRegisterA_VarA.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_coffee_table_16_aar21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_coffee_table_16_aar'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_coffee_table_16_aar.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_paint_eggshell_black_aar'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_paint_eggshell_black_aar.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_paint_gloss_off_white_aar'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_paint_gloss_off_white_aar.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonGlass01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonGlass01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_coffee_table_16_aar27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_coffee_table_16_aar'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_coffee_table_16_aar.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_paint_eggshell_black_aar'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_paint_eggshell_black_aar.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_paint_gloss_off_white_aar'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_paint_gloss_off_white_aar.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonGlass01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonGlass01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DecorWall02_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DecorWall02_2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_DecorWall02_2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DecorWall02_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DecorWall02_1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_DecorWall02_1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Fence_A_70",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Fence_A_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Fence_A_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Fence_A_71",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Fence_A_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Fence_A_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Fence_A_72",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Fence_A_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Fence_A_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Fence_A_75",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Fence_A_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Fence_A_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Fence_A_76",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Fence_A_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Fence_A_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Fence_A_77",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Fence_A_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Fence_A_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_Cupcake_Shop_254",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_Cupcake_Shop_82'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Cupcake_Shop/SM_MERGED_Cupcake_Shop_82.2"
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_Cupcake_Shop_263",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_Cupcake_Shop_95'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Cupcake_Shop/SM_MERGED_Cupcake_Shop_95.3"
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Personenleitsystem6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Personenleitsystem'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Personenleitsystem.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Personenleitsystem_Red23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Personenleitsystem_Red'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Personenleitsystem_Red.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Personenleitsystem_Red24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Personenleitsystem_Red'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Personenleitsystem_Red.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SodaCan_27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SodaCan_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_SodaCan_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SodaCan_28",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SodaCan_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_SodaCan_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SubM_Wall_02_Half28",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SubM_Wall_02_Half'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/RoxyRacewayCustomPieces/SM_SubM_Wall_02_Half.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__PlainWall_Chica'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__PlainWall_Chica.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'M_TilesChica'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_TilesChica.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Baseboard_Tiles_Chica'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Baseboard_Tiles_Chica.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SubM_Wall_02_Half33",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SubM_Wall_02_Half'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/RoxyRacewayCustomPieces/SM_SubM_Wall_02_Half.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__PlainWall_Freddy'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__PlainWall_Freddy.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Tiles_Freddy'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Tiles_Freddy.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Baseboard_Tiles_Freddy'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Baseboard_Tiles_Freddy.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Table30",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Table03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Table03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Table37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Table03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Table03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Table38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Table03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Table03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Table40",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Table03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Table03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Table41",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Table03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Table03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Teapot_01c3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Teapot_01c'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_Teapot_01c.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "VendingMachine11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'VendingMachine3'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/VendingMachine3.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "VendingMachine12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'VendingMachine3'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/VendingMachine3.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "VendingMachine13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'VendingMachine3'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/VendingMachine3.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "VendingMachine14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'VendingMachine3'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/VendingMachine3.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_WHITEBOX_References_Cupcake_Section1-2_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.11"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_WHITEBOX_References_Cupcake_Section1-2_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_References_Cupcake_Section1-2_DLC.13"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

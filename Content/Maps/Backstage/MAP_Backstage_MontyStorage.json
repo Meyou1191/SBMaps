@@ -1,0 +1,176 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Backstage_MontyStorage",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Backstage_MontyStorage:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/MAP_Backstage_MontyStorage.2"
+      },
+      "LevelBuildDataId": "86ADEC0E-4ADEA05C-ADC1439C-E3118874",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Backstage_MontyStorage:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/MAP_Backstage_MontyStorage.5"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Backstage_MontyStorage:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/MAP_Backstage_MontyStorage.5"
+      },
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Backstage_MontyStorage:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/MAP_Backstage_MontyStorage.2"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_Backstage_MontyStorage",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/Monty/MAP_MontyGreenRoom_Lighting.MAP_MontyGreenRoom_Lighting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.2421875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF8700FF"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "78327B7E-4E550E52-6D2AF2AD-B4299642",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Backstage_MontyStorage",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Backstage_MontyStorage:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/MAP_Backstage_MontyStorage.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Backstage_MontyStorage:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/MAP_Backstage_MontyStorage.1"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Backstage_MontyStorage:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/MAP_Backstage_MontyStorage.3"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

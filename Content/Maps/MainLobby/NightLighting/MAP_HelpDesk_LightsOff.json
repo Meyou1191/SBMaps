@@ -1,0 +1,2397 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "PRE_Advertising_Standee4_0",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.SM_CartACU_Base2'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "MAT_Decal_NewFazPadLogo2_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MAT_Decal_NewFazPadLogo2_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.7"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MAT_Decal_NewFazPadLogo2_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.7"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "MAT_Decal_Sign_BonnieBowl3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MAT_Decal_Sign_BonnieBowl3.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.8"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MAT_Decal_Sign_BonnieBowl3.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.8"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "MI_Poster_Decals_FreddyLogo_CircleGray123_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray123_0.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.9"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray123_0.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.9"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "MI_Poster_Decals_FreddyLogo_CircleGray124_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray124_1.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.10"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray124_1.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.10"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "MI_Poster_Decals_FreddyLogo_CircleGray125_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray125_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.11"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray125_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.11"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "MI_Poster_Decals_FreddyLogo_CircleGray128_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray128_3.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.12"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray128_3.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.12"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MAT_Decal_NewFazPadLogo2_2",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MAT_Decal_NewFazPadLogo'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Decal_NewFazPadLogo.0"
+      },
+      "FadeScreenSize": 0.005,
+      "RelativeLocation": {
+        "X": 2217.4036,
+        "Y": 25556.69,
+        "Z": 1534.2681
+      },
+      "RelativeRotation": {
+        "Pitch": -0.00011933698,
+        "Yaw": 45.169117,
+        "Roll": 102.843994
+      },
+      "RelativeScale3D": {
+        "X": -0.0033689565,
+        "Y": 0.028605629,
+        "Z": 0.028605629
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MAT_Decal_Sign_BonnieBowl3",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MAT_Decal_Sign_Bonnie'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Decal_Sign_Bonnie.0"
+      },
+      "RelativeLocation": {
+        "X": 1468.8407,
+        "Y": 25592.875,
+        "Z": 1572.6138
+      },
+      "RelativeRotation": {
+        "Pitch": -1.3955898E-05,
+        "Yaw": 138.85767,
+        "Roll": 83.48776
+      },
+      "RelativeScale3D": {
+        "X": 0.003874,
+        "Y": 0.037243,
+        "Z": 0.037243
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MI_Poster_Decals_FreddyLogo_CircleGray123_0",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Poster_Decals_FreddyLogo_CircleGray'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Poster_Decals_FreddyLogo_CircleGray.0"
+      },
+      "RelativeLocation": {
+        "X": -26.358305,
+        "Y": 25134.121,
+        "Z": 1519.906
+      },
+      "RelativeRotation": {
+        "Pitch": 0.655261,
+        "Yaw": -242.44354,
+        "Roll": 449.833
+      },
+      "RelativeScale3D": {
+        "X": -0.00756072,
+        "Y": 0.1,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MI_Poster_Decals_FreddyLogo_CircleGray124_1",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Poster_Decals_FreddyLogo_CircleGray'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Poster_Decals_FreddyLogo_CircleGray.0"
+      },
+      "RelativeLocation": {
+        "X": -115.895195,
+        "Y": 25087.398,
+        "Z": 1520.1992
+      },
+      "RelativeRotation": {
+        "Pitch": 0.655261,
+        "Yaw": -242.44354,
+        "Roll": 449.833
+      },
+      "RelativeScale3D": {
+        "X": -0.00756072,
+        "Y": 0.1,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MI_Poster_Decals_FreddyLogo_CircleGray125_2",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Poster_Decals_FreddyLogo_CircleGray'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Poster_Decals_FreddyLogo_CircleGray.0"
+      },
+      "RelativeLocation": {
+        "X": -201.0015,
+        "Y": 25042.986,
+        "Z": 1520.475
+      },
+      "RelativeRotation": {
+        "Pitch": 0.655247,
+        "Yaw": 117.55737,
+        "Roll": 89.83268
+      },
+      "RelativeScale3D": {
+        "X": -0.00756072,
+        "Y": 0.1,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MI_Poster_Decals_FreddyLogo_CircleGray128_3",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Poster_Decals_FreddyLogo_CircleGray'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Poster_Decals_FreddyLogo_CircleGray.0"
+      },
+      "RelativeLocation": {
+        "X": -289.63983,
+        "Y": 24996.725,
+        "Z": 1520.7625
+      },
+      "RelativeRotation": {
+        "Pitch": 0.655247,
+        "Yaw": 117.55737,
+        "Roll": 89.83268
+      },
+      "RelativeScale3D": {
+        "X": -0.00756072,
+        "Y": 0.1,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_HelpDesk_LightsOff",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_HelpDesk_LightsOff:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.14"
+      },
+      "LevelBuildDataId": "63A6EB6B-42C4D879-2B58F890-84F1270C",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_HelpDesk_LightsOff:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.88"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_HelpDesk_LightsOff:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.88"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_reception_226'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_TV01_On_38'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_TV01_On2_39'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.35"
+      },
+      {
+        "ObjectName": "PRE_Advertising_Standee_C'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters8_40'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters9_41'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_RackFrame_03_42'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_RackFrame_227'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_EmergencyBoardFull_01_45'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_PosTerminal13_67'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_PosTerminal14_68'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerCounterSetA_VarA20_69'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerCounterSetA_VarA21_70'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.41"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray123_0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.3"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray124_1'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.4"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray125_2'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.5"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_HelpDesk_LightsOff:PersistentLevel.MI_Poster_Decals_FreddyLogo_CircleGray128_3'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_TV01_On3_80'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_RackFrame_228'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_Rackbeam_229'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters10_217'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters12_222'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters11_223'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_CS_Wall_1'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_CS_Wall_231'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerA_IntTrimA_VarA14_2'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerA_IntTrimA_VarA15'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_SplineFix_MainLobby_8'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.34"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_HelpDesk_LightsOff:PersistentLevel.MAT_Decal_Sign_BonnieBowl3'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.2"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_HelpDesk_LightsOff:PersistentLevel.MAT_Decal_NewFazPadLogo2_2'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.1"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_01'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_02'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_03'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_04'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_05'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_06'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_07'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_08'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_09'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_10'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.33"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_HelpDesk_LightsOff:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.14"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "DE0E382D-44A17B33-86E34782-7012E3B7",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PRE_Advertising_Standee_C",
+    "Name": "PRE_Advertising_Standee4_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__PRE_Advertising_Standee_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/SetsPRE/PRE_Advertising_Standee.PRE_Advertising_Standee_C'",
+    "Properties": {
+      "Ak": {
+        "ObjectName": "AkComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.Ak'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.0"
+      },
+      "MOD_Wheeled_Digital_Board_Ad": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.MOD_Wheeled_Digital_Board_Ad'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.71"
+      },
+      "Screen1_9-16": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.Screen1_9-16'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.72"
+      },
+      "Screen2_9-16": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.Screen2_9-16'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.73"
+      },
+      "SM_CartACU_Base2": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.SM_CartACU_Base2'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.SM_CartACU_Base2'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.74"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.SM_CartACU_Base2'",
+          "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.74"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.Screen2_9-16'",
+          "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.73"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.Screen1_9-16'",
+          "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.72"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.MOD_Wheeled_Digital_Board_Ad'",
+          "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.71"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.Ak'",
+          "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_CIrcle_Planters10_217",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters10_217.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.50"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters10_217.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.50"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_CIrcle_Planters11_223",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters11_223.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.51"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters11_223.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.51"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_CIrcle_Planters12_222",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters12_222.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.52"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters12_222.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.52"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_CIrcle_Planters8_40",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters8_40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.53"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters8_40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.53"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_CIrcle_Planters9_41",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters9_41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.54"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_Atrium_CIrcle_Planters9_41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.54"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_CS_Wall_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_CS_Wall_1.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.55"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_CS_Wall_1.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.55"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_CS_Wall_231",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_CS_Wall_231.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.56"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_CS_Wall_231.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.56"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_01.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.57"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_01.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.57"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_02",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_02.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.58"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_02.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.58"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_03",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_03.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.59"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_03.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.59"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_04",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_04.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.60"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_04.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.60"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_05",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_05.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.61"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_05.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.61"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_06",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_06.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.62"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_06.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.62"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_07",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_07.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.63"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_07.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.63"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_08",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_08.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.64"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_08.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.64"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_09",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_09.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.65"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_09.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.65"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_MERGED_HelpDesk_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.66"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_MERGED_HelpDesk_10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.66"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SplineFix_MainLobby_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_SplineFix_MainLobby_8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.67"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_SplineFix_MainLobby_8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.67"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_TV01_On2_39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_TV01_On2_39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.68"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_TV01_On2_39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.68"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_TV01_On3_80",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_TV01_On3_80.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.69"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_TV01_On3_80.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.69"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_TV01_On_38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_TV01_On_38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.70"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.MOD_TV01_On_38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.70"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerA_IntTrimA_VarA14_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerA_IntTrimA_VarA14_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerA_IntTrimA_VarA14_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerA_IntTrimA_VarA15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerA_IntTrimA_VarA15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerA_IntTrimA_VarA15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerCounterSetA_VarA20_69",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerCounterSetA_VarA20_69.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerCounterSetA_VarA20_69.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerCounterSetA_VarA21_70",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerCounterSetA_VarA21_70.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_DinerCounterSetA_VarA21_70.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_EmergencyBoardFull_01_45",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_EmergencyBoardFull_01_45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_EmergencyBoardFull_01_45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_PosTerminal13_67",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_PosTerminal13_67.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_PosTerminal13_67.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_PosTerminal14_68",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_PosTerminal14_68.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_PosTerminal14_68.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Rackbeam_229",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_Rackbeam_229.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_Rackbeam_229.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_RackFrame_03_42",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_RackFrame_03_42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_RackFrame_03_42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_RackFrame_227",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_RackFrame_227.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_RackFrame_227.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_RackFrame_228",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_RackFrame_228.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_RackFrame_228.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_reception_226",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_reception_226.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.SM_reception_226.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_CIrcle_Planters10_217",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_CIrcle_Planters'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Atrium_CIrcle_Planters.2"
+      },
+      "bOverrideLightMapRes": true,
+      "VisibilityId": 5521,
+      "RelativeLocation": {
+        "X": 1428.5183,
+        "Y": 25010.299,
+        "Z": 1450.3442
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FB0DA0BF41B2107E971776A50C4DC367"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_CIrcle_Planters11_223",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_CIrcle_Planters'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Atrium_CIrcle_Planters.2"
+      },
+      "bOverrideLightMapRes": true,
+      "VisibilityId": 5523,
+      "RelativeLocation": {
+        "X": 870.5183,
+        "Y": 24580.299,
+        "Z": 1450.3442
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7899A5DF481DA550F43067BDEFA90EED"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_CIrcle_Planters12_222",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_CIrcle_Planters'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Atrium_CIrcle_Planters.2"
+      },
+      "bOverrideLightMapRes": true,
+      "VisibilityId": 5522,
+      "RelativeLocation": {
+        "X": 1919.5183,
+        "Y": 25440.299,
+        "Z": 1450.3442
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "11FE89A54960E53D803862AFCD373B78"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_CIrcle_Planters8_40",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_CIrcle_Planters'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Atrium_CIrcle_Planters.2"
+      },
+      "bOverrideLightMapRes": true,
+      "VisibilityId": 5509,
+      "RelativeLocation": {
+        "X": 1160.3259,
+        "Y": 23838.588,
+        "Z": 1445.3442
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "337F67EC4FDC55E8BC3CC48833243FE6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_CIrcle_Planters9_41",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_CIrcle_Planters'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Atrium_CIrcle_Planters.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bReceivesDecals": false,
+      "VisibilityId": 5510,
+      "RelativeLocation": {
+        "X": 237.69824,
+        "Y": 23416.26,
+        "Z": 1445.3442
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6E54A77C4490EFB5F3804A98279D95CE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_CS_Wall_1",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_CS_Wall_1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MainLobbyArch/Customer_Service_Arch/MOD_CS_Wall_1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "VisibilityId": 5524
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B79F205E412CC6793D9001AE8D5071E8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_CS_Wall_231",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_CS_Wall_2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MainLobbyArch/Customer_Service_Arch/MOD_CS_Wall_2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "VisibilityId": 5525
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "14796D8A424D3A3F25EE9994A2726DA1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_01",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_01.3"
+      },
+      "VisibilityId": 5529,
+      "RelativeLocation": {
+        "X": 871.9617,
+        "Y": 23610.777,
+        "Z": 1525.3398
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E8A0912941035B225BCA45AFE3494B6F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_02",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_02.2"
+      },
+      "VisibilityId": 5530,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 835.08606,
+        "Y": 23620.814,
+        "Z": 1525.5779
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E358199C4AFAE27C23370CBB6234FC86"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_03",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_03.2"
+      },
+      "VisibilityId": 5531,
+      "RelativeLocation": {
+        "X": 841.9894,
+        "Y": 23628.188,
+        "Z": 1449.4043
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5C852BEC4C5306051171308D0BF95544"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_04",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_04'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_04.2"
+      },
+      "VisibilityId": 5532,
+      "RelativeLocation": {
+        "X": 436.72006,
+        "Y": 23982.725,
+        "Z": 1449.8804
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "140F02104A3433D3F3965785D92B5E3E"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_05",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_05'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_05.2"
+      },
+      "VisibilityId": 5533,
+      "RelativeLocation": {
+        "X": 169.28078,
+        "Y": 24850.54,
+        "Z": 1449.2797
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7C93A5EB482DC66C478EFBA12B1EC320"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_06",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_06'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_06.2"
+      },
+      "VisibilityId": 5534,
+      "RelativeLocation": {
+        "X": 1597.4609,
+        "Y": 25090.686,
+        "Z": 1451.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1C7CFC324DB61A185D17D0AF6F3D26CE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_07",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_07'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_07.3"
+      },
+      "VisibilityId": 5535,
+      "RelativeLocation": {
+        "X": 1381.3718,
+        "Y": 24593.621,
+        "Z": 1449.7794
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C8BDD6C846A38A5A554456A15C51A5A2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_08",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_08'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_08.3"
+      },
+      "VisibilityId": 5536,
+      "RelativeLocation": {
+        "X": 2583.5906,
+        "Y": 25255.416,
+        "Z": 1449.7794
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "60A8F20F49DF53D3F42EEC9CF38EC571"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_09",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_09'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_09.3"
+      },
+      "VisibilityId": 5537,
+      "RelativeLocation": {
+        "X": 2055.4187,
+        "Y": 25773.525,
+        "Z": 1449.7794
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8E1ADD714E4C9983B3E7D69C37162E84"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_MERGED_HelpDesk_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_MERGED_HelpDesk_10'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/MainLobby/HelpDesk/MOD_MERGED_HelpDesk_10.3"
+      },
+      "VisibilityId": 5538,
+      "RelativeLocation": {
+        "X": 1104.4436,
+        "Y": 25207.855,
+        "Z": 1449.7794
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "55858D6044F3606F6D60428704497FC8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SplineFix_MainLobby_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SplineFix_MainLobby_1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_SplineFix_MainLobby_1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Glow_ATR_Pink'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Glow_ATR_Pink.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Glow_ATR_Blue'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Glow_ATR_Blue.0"
+        }
+      ],
+      "VisibilityId": 5528,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3B845DFA41E5C54ECB359B836C025F98"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_TV01_On2_39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_TV01_On'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_TV01_On.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Sprite_Celebrate_16_9'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Sprite_Celebrate_16_9.0"
+        }
+      ],
+      "VisibilityId": 5505,
+      "RelativeLocation": {
+        "X": 215.33044,
+        "Y": 23533.768,
+        "Z": 1901.2965
+      },
+      "RelativeRotation": {
+        "Pitch": -1.7276928,
+        "Yaw": 141.07414,
+        "Roll": -9.851131
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DD23ACD9421DA764F0CBA8B976C911A8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_TV01_On3_80",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_TV01_On'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_TV01_On.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Sprite_Celebrate_16_9'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Sprite_Celebrate_16_9.0"
+        }
+      ],
+      "VisibilityId": 5518,
+      "RelativeLocation": {
+        "X": -219.4662,
+        "Y": 25198.318,
+        "Z": 1901.724
+      },
+      "RelativeRotation": {
+        "Pitch": 1.526889,
+        "Yaw": 25.360132,
+        "Roll": -21.32744
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "497A0E95454E66A2688CD583F4EAAF37"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_TV01_On_38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_TV01_On'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_TV01_On.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Sprite_Celebrate_16_9'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Sprite_Celebrate_16_9.0"
+        }
+      ],
+      "VisibilityId": 5504,
+      "RelativeLocation": {
+        "X": 1154.6699,
+        "Y": 23593.564,
+        "Z": 1900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 1.7279353,
+        "Yaw": 222.45064,
+        "Roll": -9.851285
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "703D214741C3DB22F2F81DBB974B8409"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Wheeled_Digital_Board_Ad",
+    "Outer": "PRE_Advertising_Standee4_0",
+    "Template": "MOD_Wheeled_Digital_Board_Ad_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.SM_CartACU_Base2'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Screen1_9-16",
+    "Outer": "PRE_Advertising_Standee4_0",
+    "Template": "Screen1_9-16_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Sprite_LetsEat_9_16'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Sprite_LetsEat_9_16.0"
+        }
+      ],
+      "VisibilityId": 5507,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.SM_CartACU_Base2'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C3488A8A49BE64DEE4E1718D7476468D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Screen2_9-16",
+    "Outer": "PRE_Advertising_Standee4_0",
+    "Template": "Screen2_9-16_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Sprite_LetsEat_9_16'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Sprite_LetsEat_9_16.0"
+        }
+      ],
+      "VisibilityId": 5506,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_HelpDesk_LightsOff:PersistentLevel.PRE_Advertising_Standee4_0.SM_CartACU_Base2'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DB6F29FA45DE33C056641199BF543B4B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_CartACU_Base2",
+    "Outer": "PRE_Advertising_Standee4_0",
+    "Template": "SM_CartACU_Base2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "VisibilityId": 5508,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 354.50378,
+        "Y": 24409.49,
+        "Z": 1458.6166
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -110.619995,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BAC1E1E7416A7E689120F78A9E8A0DC1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerA_IntTrimA_VarA14_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerA_IntTrimA_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerA_IntTrimA_VarA.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "VisibilityId": 5526,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 14.556486,
+        "Y": 25156.574,
+        "Z": 1466.68
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -152.6186,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "27AA10B34CA68D7318CDD699FAE9BB0F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerA_IntTrimA_VarA15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerA_IntTrimA_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerA_IntTrimA_VarA.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "VisibilityId": 5527,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -163.03647,
+        "Y": 25064.59,
+        "Z": 1466.68
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -152.6186,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2B447271434681DD19BC7B95E7EC79C4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerCounterSetA_VarA20_69",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerCounterSetA_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerCounterSetA_VarA.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_MarbledA_TintA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_MarbledA_TintA.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Vinyl_SpeckledA_TintA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Vinyl_SpeckledA_TintA.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonLight01Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonLight01Purple.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PlainA_TintB'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PlainA_TintB.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        }
+      ],
+      "VisibilityId": 5516,
+      "RelativeLocation": {
+        "X": -181.29121,
+        "Y": 25099.148,
+        "Z": 1452.5847
+      },
+      "RelativeRotation": {
+        "Pitch": 0.166189,
+        "Yaw": -152.43478,
+        "Roll": 0.654879
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1EF2D2554C96850909DAD1B53E412ED0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerCounterSetA_VarA21_70",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerCounterSetA_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerCounterSetA_VarA.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_MarbledA_TintA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_MarbledA_TintA.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Vinyl_SpeckledA_TintA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Vinyl_SpeckledA_TintA.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'x_CommonLight01Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/x_CommonLight01Purple.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PlainA_TintB'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PlainA_TintB.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        }
+      ],
+      "VisibilityId": 5517,
+      "RelativeLocation": {
+        "X": -3.980881,
+        "Y": 25191.666,
+        "Z": 1452.0065
+      },
+      "RelativeRotation": {
+        "Pitch": 0.166189,
+        "Yaw": -152.43452,
+        "Roll": 0.65476
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5332496A433EABC745AA95BC57B5CCA9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_EmergencyBoardFull_01_45",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_EmergencyBoardFull_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_EmergencyBoardFull_01.1"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "VisibilityId": 5513,
+      "RelativeLocation": {
+        "X": 1298.9999,
+        "Y": 23415.0,
+        "Z": 1638.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00021,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4DA5127944025EB6D4B76A878651567B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_PosTerminal13_67",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PosTerminal01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_PosTerminal01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "VisibilityId": 5514,
+      "RelativeLocation": {
+        "X": -75.65501,
+        "Y": 25117.75,
+        "Z": 1563.3673
+      },
+      "RelativeRotation": {
+        "Pitch": -0.161301,
+        "Yaw": 387.9451,
+        "Roll": -0.654585
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1C8EEEC64BB14DC45688158B9A442CE6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_PosTerminal14_68",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PosTerminal01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_PosTerminal01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "VisibilityId": 5515,
+      "RelativeLocation": {
+        "X": -217.89256,
+        "Y": 25042.316,
+        "Z": 1563.8214
+      },
+      "RelativeRotation": {
+        "Pitch": -0.161301,
+        "Yaw": 387.9451,
+        "Roll": -0.654585
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E1814B904544A45C429415B5FE6777C2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Rackbeam_229",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Rackbeam_03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Rackbeam_03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_RackSetA_05'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_RackSetA_05.0"
+        }
+      ],
+      "VisibilityId": 5520,
+      "RelativeLocation": {
+        "X": -221.2862,
+        "Y": 25206.486,
+        "Z": 1853.0894
+      },
+      "RelativeRotation": {
+        "Pitch": -3.189772,
+        "Yaw": -155.12312,
+        "Roll": 21.50482
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EAFAFC07491C43CC75535C9AC4556F8D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_RackFrame_03_42",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_RackFrame_03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_RackFrame_03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_RackSetB_02'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_RackSetB_02.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_RackSetB_02'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_RackSetB_02.0"
+        }
+      ],
+      "VisibilityId": 5511,
+      "RelativeLocation": {
+        "X": 215.59335,
+        "Y": 23531.9,
+        "Z": 1833.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 50.925674,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.7
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BA7C63C7428F14D4D07D8CB0D526F28F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_RackFrame_227",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_RackFrame_03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_RackFrame_03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_RackSetB_02'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_RackSetB_02.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_RackSetB_02'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_RackSetB_02.0"
+        }
+      ],
+      "VisibilityId": 5512,
+      "RelativeLocation": {
+        "X": 1154.197,
+        "Y": 23593.666,
+        "Z": 1840.8203
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 132.5984,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.7
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F70F79314C55C80C100C298509139618"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_RackFrame_228",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_RackFrame_03'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_RackFrame_03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_RackSetB_02'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_RackSetB_02.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_RackSetB_02'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_RackSetB_02.0"
+        }
+      ],
+      "VisibilityId": 5519,
+      "RelativeLocation": {
+        "X": -223.61093,
+        "Y": 25212.791,
+        "Z": 1835.082
+      },
+      "RelativeRotation": {
+        "Pitch": -11.484418,
+        "Yaw": -64.47409,
+        "Roll": -3.255895
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.7
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "91742B9746FF89964AE5BB91B983320B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_reception_226",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_reception_02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_reception_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "bReceivesDecals": false,
+      "VisibilityId": 5503,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom"
+      },
+      "RelativeLocation": {
+        "X": 708.5492,
+        "Y": 23617.324,
+        "Z": 1420.6083
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.375842,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.1,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "CFF01E7E40C3B644C9FCACAA9251B207"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_HelpDesk_LightsOff",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_HelpDesk_LightsOff:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.13"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_HelpDesk_LightsOff:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.15"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

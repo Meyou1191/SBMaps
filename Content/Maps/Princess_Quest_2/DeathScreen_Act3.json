@@ -1,0 +1,4186 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_DeathScreen_Act3",
+    "Outer": "DeathScreen_Act3_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_InputKeyEvent_Key_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Key'",
+          "ObjectPath": "/Script/InputCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_InputKeyEvent_Key",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Key'",
+          "ObjectPath": "/Script/InputCore"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Has_Been_Initd_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_IsClosed_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostAssociatedAkEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetGamepadAcceptKey_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Key'",
+          "ObjectPath": "/Script/InputCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetGamepadAcceptKey_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Key'",
+          "ObjectPath": "/Script/InputCore"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_KeyKey_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_KeyKey_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable_1",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_InputKeyEvent_Key_2",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Key'",
+          "ObjectPath": "/Script/InputCore"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostAssociatedAkEvent_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 0,
+        "PushingAddress": 1114,
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[1114]"
+      },
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 5,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 15,
+        "Function": {
+          "ObjectName": "Function'KismetMaterialLibrary:SetScalarParameterValue'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "MaterialParameterCollection'GlitchParameters'",
+              "ObjectPath": "fnaf9/Content/Materials/GlitchParameters.0"
+            }
+          },
+          {
+            "Inst": "EX_NameConst",
+            "Value": "Switch"
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 0.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 53,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "AkGameplayStatics'Default__AkGameplayStatics'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        },
+        "Offset": 35,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'AkGameplayStatics:SetRTPCValue'",
+            "ObjectPath": "/Script/AkAudio"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_NameConst",
+              "Value": "pq_glitch_effect"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 110
+      },
+      {
+        "Inst": "EX_LocalVirtualFunction",
+        "StatementIndex": 111,
+        "Function": "GlitchEffect",
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 125,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_RandomFloatInRange_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetMathLibrary:RandomFloatInRange'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 3.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 8.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 163,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:Delay'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+                "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "CallFunc_RandomFloatInRange_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LatentActionInfo'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_SkipOffsetConst",
+                "Value": 111
+              },
+              {
+                "Inst": "EX_IntConst",
+                "Value": -888054489
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "ExecuteUbergraph_DeathScreen_Act3"
+              },
+              {
+                "Inst": "EX_Self"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 221
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 222,
+        "Function": {
+          "ObjectName": "Function'GameplayStatics:OpenLevel'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_NameConst",
+            "Value": "Act3"
+          },
+          {
+            "Inst": "EX_True"
+          },
+          {
+            "Inst": "EX_StringConst",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 249
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 250,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetGamepadAcceptKey_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Key'",
+                "ObjectPath": "/Script/InputCore"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SWGPlatformUtilFunctions:GetGamepadAcceptKey'",
+            "ObjectPath": "/Script/SWGPlatformUtil"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 278,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_EqualEqual_KeyKey_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetInputLibrary:EqualEqual_KeyKey'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+                  "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetGamepadAcceptKey_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 32,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'Key'",
+                    "ObjectPath": "/Script/InputCore"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'Key'",
+                "ObjectPath": "/Script/InputCore"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "Gamepad_FaceButton_Right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 334,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_EqualEqual_KeyKey_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 344,
+        "PushingAddress": 404,
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[404]"
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 349,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:Delay'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 0.6
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LatentActionInfo'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_SkipOffsetConst",
+                "Value": 222
+              },
+              {
+                "Inst": "EX_IntConst",
+                "Value": 716347268
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "ExecuteUbergraph_DeathScreen_Act3"
+              },
+              {
+                "Inst": "EX_Self"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 403
+      },
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 404,
+        "PushingAddress": 424,
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[424]"
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 409,
+        "CodeOffset": 608,
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[608]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "Temp_bool_Has_Been_Initd_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 423
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 424,
+        "CodeOffset": 439,
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[439]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "Temp_bool_IsClosed_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 438
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 439,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "Temp_bool_IsClosed_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 450,
+        "ObjectExpression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'DeathScreen_Act3_C'",
+                "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.6"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "AkContinueMusic_ExecuteUbergraph_DeathScreen_Act3_RefProperty",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AkAmbientSound'",
+                  "ObjectPath": "/Script/AkAudio"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "AkComponent"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AkAmbientSound'",
+              "ObjectPath": "/Script/AkAudio"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "AkComponent"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AkAmbientSound'",
+                "ObjectPath": "/Script/AkAudio"
+              }
+            }
+          }
+        },
+        "Offset": 14,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "Stop",
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 508,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_PostAssociatedAkEvent_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'DeathScreen_Act3_C'",
+                  "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.6"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "AkGetSmallItem_ExecuteUbergraph_DeathScreen_Act3_RefProperty",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AkAmbientSound'",
+                    "ObjectPath": "/Script/AkAudio"
+                  }
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Path": [
+                "AkComponent"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AkAmbientSound'",
+                "ObjectPath": "/Script/AkAudio"
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "AkComponent"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AkAmbientSound'",
+                  "ObjectPath": "/Script/AkAudio"
+                }
+              }
+            }
+          },
+          "Offset": 37,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_PostAssociatedAkEvent_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "PostAssociatedAkEvent",
+            "Parameters": [
+              {
+                "Inst": "EX_IntConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+                    "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+                  },
+                  "Property": {
+                    "Type": "DelegateProperty",
+                    "Name": "Temp_delegate_Variable_1",
+                    "Flags": "RF_Public",
+                    "ElementSize": 20,
+                    "PropertyFlags": "ConstParm",
+                    "SignatureFunction": {
+                      "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+                      "ObjectPath": "/Script/AkAudio"
+                    }
+                  }
+                }
+              },
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+                    "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+                  },
+                  "Property": {
+                    "Type": "ArrayProperty",
+                    "Name": "Temp_struct_Variable_1",
+                    "Flags": "RF_Public",
+                    "ElementSize": 16,
+                    "PropertyFlags": "ConstParm | ReferenceParm",
+                    "Inner": {
+                      "Type": "StructProperty",
+                      "Name": "Temp_struct_Variable_1",
+                      "Flags": "RF_Public",
+                      "ElementSize": 56,
+                      "Struct": {
+                        "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+                        "ObjectPath": "/Script/AkAudio"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 607
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 608,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "Temp_bool_Has_Been_Initd_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 619,
+        "BooleanExpression": {
+          "Inst": "EX_False"
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 621,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "Temp_bool_IsClosed_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 632
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 633,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetGamepadAcceptKey_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Key'",
+                "ObjectPath": "/Script/InputCore"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SWGPlatformUtilFunctions:GetGamepadAcceptKey'",
+            "ObjectPath": "/Script/SWGPlatformUtil"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 661,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_EqualEqual_KeyKey_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetInputLibrary:EqualEqual_KeyKey'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+                  "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetGamepadAcceptKey_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 32,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'Key'",
+                    "ObjectPath": "/Script/InputCore"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'Key'",
+                "ObjectPath": "/Script/InputCore"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "Gamepad_FaceButton_Bottom"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 717,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_EqualEqual_KeyKey_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 727,
+        "CodeOffset": 344,
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[344]"
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 732,
+        "Function": {
+          "ObjectName": "Function'KismetMaterialLibrary:SetScalarParameterValue'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "MaterialParameterCollection'GlitchParameters'",
+              "ObjectPath": "fnaf9/Content/Materials/GlitchParameters.0"
+            }
+          },
+          {
+            "Inst": "EX_NameConst",
+            "Value": "Switch"
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 1.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 770,
+        "Function": {
+          "ObjectName": "Function'KismetMaterialLibrary:SetScalarParameterValue'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "MaterialParameterCollection'GlitchParameters'",
+              "ObjectPath": "fnaf9/Content/Materials/GlitchParameters.0"
+            }
+          },
+          {
+            "Inst": "EX_NameConst",
+            "Value": "MinPixelate"
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 50.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 808,
+        "Function": {
+          "ObjectName": "Function'KismetMaterialLibrary:SetScalarParameterValue'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "MaterialParameterCollection'GlitchParameters'",
+              "ObjectPath": "fnaf9/Content/Materials/GlitchParameters.0"
+            }
+          },
+          {
+            "Inst": "EX_NameConst",
+            "Value": "MaxPixelate"
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 200.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 846,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "AkGameplayStatics'Default__AkGameplayStatics'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        },
+        "Offset": 35,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'AkGameplayStatics:SetRTPCValue'",
+            "ObjectPath": "/Script/AkAudio"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_NameConst",
+              "Value": "pq_glitch_effect"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 903,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetMathLibrary:RandomFloatInRange'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.5
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 941,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:Delay'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+                "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LatentActionInfo'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_SkipOffsetConst",
+                "Value": 15
+              },
+              {
+                "Inst": "EX_IntConst",
+                "Value": -1698894184
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "ExecuteUbergraph_DeathScreen_Act3"
+              },
+              {
+                "Inst": "EX_Self"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 999
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1000,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_PostAssociatedAkEvent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'DeathScreen_Act3_C'",
+                  "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.6"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "AkContinueMusic_ExecuteUbergraph_DeathScreen_Act3_RefProperty",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AkAmbientSound'",
+                    "ObjectPath": "/Script/AkAudio"
+                  }
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Path": [
+                "AkComponent"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AkAmbientSound'",
+                "ObjectPath": "/Script/AkAudio"
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "AkComponent"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AkAmbientSound'",
+                  "ObjectPath": "/Script/AkAudio"
+                }
+              }
+            }
+          },
+          "Offset": 37,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_PostAssociatedAkEvent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "PostAssociatedAkEvent",
+            "Parameters": [
+              {
+                "Inst": "EX_IntConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+                    "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+                  },
+                  "Property": {
+                    "Type": "DelegateProperty",
+                    "Name": "Temp_delegate_Variable",
+                    "Flags": "RF_Public",
+                    "ElementSize": 20,
+                    "PropertyFlags": "ConstParm",
+                    "SignatureFunction": {
+                      "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+                      "ObjectPath": "/Script/AkAudio"
+                    }
+                  }
+                }
+              },
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+                    "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+                  },
+                  "Property": {
+                    "Type": "ArrayProperty",
+                    "Name": "Temp_struct_Variable",
+                    "Flags": "RF_Public",
+                    "ElementSize": 16,
+                    "PropertyFlags": "ConstParm | ReferenceParm",
+                    "Inner": {
+                      "Type": "StructProperty",
+                      "Name": "Temp_struct_Variable",
+                      "Flags": "RF_Public",
+                      "ElementSize": 56,
+                      "Struct": {
+                        "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+                        "ObjectPath": "/Script/AkAudio"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1099,
+        "CodeOffset": 125,
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[125]"
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1104,
+        "CodeOffset": 732,
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[732]"
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1109,
+        "CodeOffset": 344,
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[344]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 1114,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 1116
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "GlitchEffect",
+    "Outer": "DeathScreen_Act3_C",
+    "Class": "UScriptClass'Function'",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+          "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 1104
+          }
+        ],
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[1104]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "DeathScreen_Act3_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+          "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 1000
+          }
+        ],
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[1000]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "InpActEvt_Gamepad_FaceButton_Bottom_K2Node_InputKeyEvent_0",
+    "Outer": "DeathScreen_Act3_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Key",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Key'",
+          "ObjectPath": "/Script/InputCore"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+            "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_InputKeyEvent_Key",
+            "Flags": "RF_Public",
+            "ElementSize": 32,
+            "Struct": {
+              "ObjectName": "ScriptStruct'Key'",
+              "ObjectPath": "/Script/InputCore"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:InpActEvt_Gamepad_FaceButton_Bottom_K2Node_InputKeyEvent_0'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.3"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "Key",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'Key'",
+                "ObjectPath": "/Script/InputCore"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+          "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 633
+          }
+        ],
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[633]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "InpActEvt_Gamepad_FaceButton_Right_K2Node_InputKeyEvent_1",
+    "Outer": "DeathScreen_Act3_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Key",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Key'",
+          "ObjectPath": "/Script/InputCore"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+            "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_InputKeyEvent_Key_1",
+            "Flags": "RF_Public",
+            "ElementSize": 32,
+            "Struct": {
+              "ObjectName": "ScriptStruct'Key'",
+              "ObjectPath": "/Script/InputCore"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:InpActEvt_Gamepad_FaceButton_Right_K2Node_InputKeyEvent_1'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "Key",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'Key'",
+                "ObjectPath": "/Script/InputCore"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+          "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 250
+          }
+        ],
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[250]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "Function",
+    "Name": "InpActEvt_Enter_K2Node_InputKeyEvent_2",
+    "Outer": "DeathScreen_Act3_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Key",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Key'",
+          "ObjectPath": "/Script/InputCore"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+            "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_InputKeyEvent_Key_2",
+            "Flags": "RF_Public",
+            "ElementSize": 32,
+            "Struct": {
+              "ObjectName": "ScriptStruct'Key'",
+              "ObjectPath": "/Script/InputCore"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'DeathScreen_Act3_C:InpActEvt_Enter_K2Node_InputKeyEvent_2'",
+              "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.5"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "Key",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'Key'",
+                "ObjectPath": "/Script/InputCore"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+          "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 1109
+          }
+        ],
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.ExecuteUbergraph_DeathScreen_Act3[1109]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": 134217728
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DeathScreen_Act3_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "InputKeyDelegateBinding'DeathScreen_Act3_C:InputKeyDelegateBinding_0'",
+          "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.20"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'DeathScreen_Act3_C:InpActEvt_Enter_K2Node_InputKeyEvent_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.5"
+      },
+      {
+        "ObjectName": "Function'DeathScreen_Act3_C:InpActEvt_Gamepad_FaceButton_Right_K2Node_InputKeyEvent_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.4"
+      },
+      {
+        "ObjectName": "Function'DeathScreen_Act3_C:InpActEvt_Gamepad_FaceButton_Bottom_K2Node_InputKeyEvent_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.3"
+      },
+      {
+        "ObjectName": "Function'DeathScreen_Act3_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.2"
+      },
+      {
+        "ObjectName": "Function'DeathScreen_Act3_C:GlitchEffect'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.1"
+      },
+      {
+        "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Time",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AkContinueMusic_ExecuteUbergraph_DeathScreen_Act3_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AkAmbientSound'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AkGetSmallItem_ExecuteUbergraph_DeathScreen_Act3_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AkAmbientSound'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_DeathScreen_Act3": {
+        "ObjectName": "Function'DeathScreen_Act3_C:ExecuteUbergraph_DeathScreen_Act3'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.0"
+      },
+      "GlitchEffect": {
+        "ObjectName": "Function'DeathScreen_Act3_C:GlitchEffect'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.1"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'DeathScreen_Act3_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.2"
+      },
+      "InpActEvt_Gamepad_FaceButton_Bottom_K2Node_InputKeyEvent_0": {
+        "ObjectName": "Function'DeathScreen_Act3_C:InpActEvt_Gamepad_FaceButton_Bottom_K2Node_InputKeyEvent_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.3"
+      },
+      "InpActEvt_Gamepad_FaceButton_Right_K2Node_InputKeyEvent_1": {
+        "ObjectName": "Function'DeathScreen_Act3_C:InpActEvt_Gamepad_FaceButton_Right_K2Node_InputKeyEvent_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.4"
+      },
+      "InpActEvt_Enter_K2Node_InputKeyEvent_2": {
+        "ObjectName": "Function'DeathScreen_Act3_C:InpActEvt_Enter_K2Node_InputKeyEvent_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.5"
+      }
+    },
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DeathScreen_Act3_C'Default__DeathScreen_Act3_C'",
+      "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.7"
+    }
+  },
+  {
+    "Type": "DeathScreen_Act3_C",
+    "Name": "Default__DeathScreen_Act3_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.DeathScreen_Act3_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AkContinueMusic_ExecuteUbergraph_DeathScreen_Act3_RefProperty": {
+        "ObjectName": "AkAmbientSound'DeathScreen_Act3:PersistentLevel.AkContinueMusic'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.11"
+      },
+      "AkGetSmallItem_ExecuteUbergraph_DeathScreen_Act3_RefProperty": {
+        "ObjectName": "AkAmbientSound'DeathScreen_Act3:PersistentLevel.AkGetSmallItem'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.12"
+      }
+    }
+  },
+  {
+    "Type": "3D_Text_WI_C",
+    "Name": "3D_WI_Continue_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__3D_Text_WI_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/UI/PrincessQuest/3D_Text_WI.3D_Text_WI_C'",
+    "Properties": {
+      "Widget": {
+        "ObjectName": "WidgetComponent'DeathScreen_Act3:PersistentLevel.3D_WI_Continue_0.Widget'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.67"
+      },
+      "RootComponent": {
+        "ObjectName": "WidgetComponent'DeathScreen_Act3:PersistentLevel.3D_WI_Continue_0.Widget'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.67"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "WidgetComponent'DeathScreen_Act3:PersistentLevel.3D_WI_Continue_0.Widget'",
+          "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.67"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "3D_Text_WI_C",
+    "Name": "3D_WI_GameOver_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__3D_Text_WI_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/UI/PrincessQuest/3D_Text_WI.3D_Text_WI_C'",
+    "Properties": {
+      "Widget": {
+        "ObjectName": "WidgetComponent'DeathScreen_Act3:PersistentLevel.3D_WI_GameOver_1.Widget'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.68"
+      },
+      "RootComponent": {
+        "ObjectName": "WidgetComponent'DeathScreen_Act3:PersistentLevel.3D_WI_GameOver_1.Widget'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.68"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "WidgetComponent'DeathScreen_Act3:PersistentLevel.3D_WI_GameOver_1.Widget'",
+          "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.68"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "3D_Text_WI_C",
+    "Name": "3D_WI_PressStart",
+    "Outer": "PersistentLevel",
+    "Template": "Default__3D_Text_WI_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/UI/PrincessQuest/3D_Text_WI.3D_Text_WI_C'",
+    "Properties": {
+      "Widget": {
+        "ObjectName": "WidgetComponent'DeathScreen_Act3:PersistentLevel.3D_WI_PressStart.Widget'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.69"
+      },
+      "RootComponent": {
+        "ObjectName": "WidgetComponent'DeathScreen_Act3:PersistentLevel.3D_WI_PressStart.Widget'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.69"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "WidgetComponent'DeathScreen_Act3:PersistentLevel.3D_WI_PressStart.Widget'",
+          "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.69"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AkAmbientSound",
+    "Name": "AkContinueMusic",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'AkAmbientSound'",
+    "Properties": {
+      "AkComponent": {
+        "ObjectName": "AkComponent'DeathScreen_Act3:PersistentLevel.AkContinueMusic.AkAudioComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.13"
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'DeathScreen_Act3:PersistentLevel.AkContinueMusic.AkAudioComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.13"
+      }
+    }
+  },
+  {
+    "Type": "AkAmbientSound",
+    "Name": "AkGetSmallItem",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'AkAmbientSound'",
+    "Properties": {
+      "AkComponent": {
+        "ObjectName": "AkComponent'DeathScreen_Act3:PersistentLevel.AkGetSmallItem.AkAudioComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.14"
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'DeathScreen_Act3:PersistentLevel.AkGetSmallItem.AkAudioComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.14"
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkAudioComponent0",
+    "Outer": "AkContinueMusic",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "OcclusionRefreshInterval": 0.0,
+      "AkAudioEvent": {
+        "ObjectName": "AkAudioEvent'Play_CAS_ContinueMusic'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/Minigames/PrincessQuest/Play_CAS_ContinueMusic.1"
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkAudioComponent0",
+    "Outer": "AkGetSmallItem",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "OcclusionRefreshInterval": 0.0,
+      "AkAudioEvent": {
+        "ObjectName": "AkAudioEvent'Play_CAS_Get_SmallItem'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/Minigames/PrincessQuest/Play_CAS_Get_SmallItem.1"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "BC53B59B463EC7A924390D977D449B08",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x1122E"
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "PostProcessVolume_1",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'DeathScreen_Act3:PersistentLevel.PostProcessVolume_1.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.23"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'DeathScreen_Act3:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.15"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -3.0,
+        "Y": 28.000008,
+        "Z": 187.00002
+      },
+      "RelativeScale3D": {
+        "X": 1.5265745,
+        "Y": 1.5265745,
+        "Z": 1.5265745
+      }
+    }
+  },
+  {
+    "Type": "CameraActor",
+    "Name": "CameraActor_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraActor'",
+    "Properties": {
+      "AutoActivateForPlayer": "EAutoReceiveInput::Player0",
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'DeathScreen_Act3:PersistentLevel.CameraActor_3.CameraComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.18"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'DeathScreen_Act3:PersistentLevel.CameraActor_3.SceneComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.62"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'DeathScreen_Act3:PersistentLevel.CameraActor_3.SceneComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.62"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "CameraActor_3",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "bConstrainAspectRatio": false,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'DeathScreen_Act3:PersistentLevel.CameraActor_3.SceneComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.62"
+      }
+    }
+  },
+  {
+    "Type": "DeathScreen_Act3_C",
+    "Name": "DeathScreen_Act3_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__DeathScreen_Act3_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.DeathScreen_Act3_C'"
+  },
+  {
+    "Type": "InputKeyDelegateBinding",
+    "Name": "InputKeyDelegateBinding_0",
+    "Outer": "DeathScreen_Act3_C",
+    "Class": "UScriptClass'InputKeyDelegateBinding'",
+    "Properties": {
+      "InputKeyDelegateBindings": [
+        {
+          "InputChord": {
+            "Key": {
+              "KeyName": "Enter"
+            },
+            "bShift": false,
+            "bCtrl": false,
+            "bAlt": false,
+            "bCmd": false
+          },
+          "InputKeyEvent": "IE_Pressed",
+          "FunctionNameToBind": "InpActEvt_Enter_K2Node_InputKeyEvent_2",
+          "bConsumeInput": true,
+          "bExecuteWhenPaused": false,
+          "bOverrideParentBinding": true
+        },
+        {
+          "InputChord": {
+            "Key": {
+              "KeyName": "Gamepad_FaceButton_Bottom"
+            },
+            "bShift": false,
+            "bCtrl": false,
+            "bAlt": false,
+            "bCmd": false
+          },
+          "InputKeyEvent": "IE_Pressed",
+          "FunctionNameToBind": "InpActEvt_Gamepad_FaceButton_Bottom_K2Node_InputKeyEvent_0",
+          "bConsumeInput": true,
+          "bExecuteWhenPaused": false,
+          "bOverrideParentBinding": true
+        },
+        {
+          "InputChord": {
+            "Key": {
+              "KeyName": "Gamepad_FaceButton_Right"
+            },
+            "bShift": false,
+            "bCtrl": false,
+            "bAlt": false,
+            "bCmd": false
+          },
+          "InputKeyEvent": "IE_Pressed",
+          "FunctionNameToBind": "InpActEvt_Gamepad_FaceButton_Right_K2Node_InputKeyEvent_1",
+          "bConsumeInput": true,
+          "bExecuteWhenPaused": false,
+          "bOverrideParentBinding": true
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "DeathScreen_Act3",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'DeathScreen_Act3:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.22"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "DeathScreen_Act3_C'DeathScreen_Act3:PersistentLevel.DeathScreen_Act3_C_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.19"
+      },
+      "LevelBuildDataId": "5F03ED7A-4A9BB584-B3BC7D93-6B7B8DE3",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'DeathScreen_Act3:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.71"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'DeathScreen_Act3:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.71"
+      },
+      null,
+      {
+        "ObjectName": "CameraActor'DeathScreen_Act3:PersistentLevel.CameraActor_3'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.17"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Lantern_9x15_Sprite1_5'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.37"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_14'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.38"
+      },
+      {
+        "ObjectName": "SpotLight'DeathScreen_Act3:PersistentLevel.SpotLight2'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.63"
+      },
+      {
+        "ObjectName": "SpotLight'DeathScreen_Act3:PersistentLevel.SpotLight3'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.64"
+      },
+      {
+        "ObjectName": "PostProcessVolume'DeathScreen_Act3:PersistentLevel.PostProcessVolume_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.61"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.BrokenLant_Sprite_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.27"
+      },
+      {
+        "ObjectName": "PaperFlipbookActor'DeathScreen_Act3:PersistentLevel.BrokenLant_SS1_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.25"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_14'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.28"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_17'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.29"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_20'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.30"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_23'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.31"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_26'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.32"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_29'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.33"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_32'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.34"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_35'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.35"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_38'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.36"
+      },
+      null,
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_3'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.39"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_4'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.40"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_5'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.41"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_50'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.42"
+      },
+      {
+        "ObjectName": "PaperSpriteActor'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_51'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.43"
+      },
+      null,
+      {
+        "ObjectName": "AkAmbientSound'DeathScreen_Act3:PersistentLevel.AkContinueMusic'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.11"
+      },
+      {
+        "ObjectName": "AkAmbientSound'DeathScreen_Act3:PersistentLevel.AkGetSmallItem'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.12"
+      },
+      {
+        "ObjectName": "3D_Text_WI_C'DeathScreen_Act3:PersistentLevel.3D_WI_PressStart'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.10"
+      },
+      {
+        "ObjectName": "3D_Text_WI_C'DeathScreen_Act3:PersistentLevel.3D_WI_Continue_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.8"
+      },
+      {
+        "ObjectName": "3D_Text_WI_C'DeathScreen_Act3:PersistentLevel.3D_WI_GameOver_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.9"
+      },
+      {
+        "ObjectName": "DeathScreen_Act3_C'DeathScreen_Act3:PersistentLevel.DeathScreen_Act3_C_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.19"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/TwinStickBP/Maps/TwinStickExampleMap",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'DeathScreen_Act3:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.22"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "DeathScreen_Act3_C'DeathScreen_Act3:PersistentLevel.DeathScreen_Act3_C_1'",
+      "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.19"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A27B0080-41F0441F-4EC387B0-33F1B048",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PostProcessVolume_1",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "71AF398E-458BFD17-2ABB14AF-754BF54A",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PaperFlipbookActor",
+    "Name": "BrokenLant_SS1_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperFlipbookActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperFlipbookComponent'DeathScreen_Act3:PersistentLevel.BrokenLant_SS1_2.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.26"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperFlipbookComponent'DeathScreen_Act3:PersistentLevel.BrokenLant_SS1_2.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.26"
+      }
+    }
+  },
+  {
+    "Type": "PaperFlipbookComponent",
+    "Name": "RenderComponent",
+    "Outer": "BrokenLant_SS1_2",
+    "Class": "UScriptClass'PaperFlipbookComponent'",
+    "Properties": {
+      "SourceFlipbook": {
+        "ObjectName": "PaperFlipbook'BrokenLant_SS1'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/DeathScreen/BrokenLant_SS1.0"
+      },
+      "AccumulatedTime": 3.84589,
+      "CachedFrameIndex": 15,
+      "SpriteColor": {
+        "R": 0.145833,
+        "G": 0.145833,
+        "B": 0.145833,
+        "A": 0.3,
+        "Hex": "4C6B6B6B"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'TranslucentUnlitSpriteMaterial'",
+          "ObjectPath": "Engine/Plugins/2D/Paper2D/Content/TranslucentUnlitSpriteMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 0.12038231,
+        "Y": -3.636795,
+        "Z": 140.35677
+      },
+      "RelativeScale3D": {
+        "X": 0.15,
+        "Y": 0.15,
+        "Z": 0.15
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "BrokenLant_Sprite_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.BrokenLant_Sprite_2.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.44"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.BrokenLant_Sprite_2.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.44"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Castle_TileSets_Sprite_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_14.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.45"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_14.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.45"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Castle_TileSets_Sprite_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_17.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.46"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_17.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.46"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Castle_TileSets_Sprite_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_20.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.47"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_20.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.47"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Castle_TileSets_Sprite_23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_23.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.48"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_23.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.48"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Castle_TileSets_Sprite_26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_26.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.49"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_26.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.49"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Castle_TileSets_Sprite_29",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_29.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.50"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_29.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.50"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Castle_TileSets_Sprite_32",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_32.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.51"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_32.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.51"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Castle_TileSets_Sprite_35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_35.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.52"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_35.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.52"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Castle_TileSets_Sprite_38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_38.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.53"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Castle_TileSets_Sprite_38.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.53"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Lantern_9x15_Sprite1_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Lantern_9x15_Sprite1_5.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.54"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Lantern_9x15_Sprite1_5.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.54"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Room_Tileset_Sprite_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_14.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.55"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_14.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.55"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Room_Tileset_Sprite_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_3.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.56"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_3.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.56"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Room_Tileset_Sprite_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_4.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.57"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_4.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.57"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Room_Tileset_Sprite_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_5.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.58"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_5.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.58"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Room_Tileset_Sprite_50",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_50.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.59"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_50.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.59"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteActor",
+    "Name": "Room_Tileset_Sprite_51",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PaperSpriteActor'",
+    "Properties": {
+      "RenderComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_51.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.60"
+      },
+      "RootComponent": {
+        "ObjectName": "PaperSpriteComponent'DeathScreen_Act3:PersistentLevel.Room_Tileset_Sprite_51.RenderComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.60"
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "BrokenLant_Sprite_2",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'BrokenLant_Sprite'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/DeathScreen/BrokenLant_Sprite.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -3.0,
+        "Z": 140.39485
+      },
+      "RelativeScale3D": {
+        "X": 0.15,
+        "Y": 0.308264,
+        "Z": 0.14999963
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Castle_TileSets_Sprite_14",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Castle_TileSets_Sprite_32'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/Castle/Castle_TileSets_Sprite_32.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": -25.33841,
+        "Y": 18.338251,
+        "Z": 127.99946
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.41153765,
+        "Y": 1.0,
+        "Z": 0.41153765
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Castle_TileSets_Sprite_17",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Castle_TileSets_Sprite_34'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/Castle/Castle_TileSets_Sprite_34.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": 27.338404,
+        "Y": 18.338251,
+        "Z": 127.99946
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.41153765,
+        "Y": 1.0,
+        "Z": 0.41153765
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Castle_TileSets_Sprite_20",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Castle_TileSets_Sprite_33'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/Castle/Castle_TileSets_Sprite_33.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": 1.0,
+        "Y": 18.338251,
+        "Z": 127.99946
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.41153765,
+        "Y": 1.0,
+        "Z": 0.41153765
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Castle_TileSets_Sprite_23",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Castle_TileSets_Sprite_48'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/Castle/Castle_TileSets_Sprite_48.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -25.33841,
+        "Y": -8.0,
+        "Z": 128.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.41153765,
+        "Y": 1.0,
+        "Z": 0.41153765
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Castle_TileSets_Sprite_26",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Castle_TileSets_Sprite_50'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/Castle/Castle_TileSets_Sprite_50.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 27.338404,
+        "Y": -8.0,
+        "Z": 128.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.41153765,
+        "Y": 1.0,
+        "Z": 0.41153765
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Castle_TileSets_Sprite_29",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Castle_TileSets_Sprite_49'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/Castle/Castle_TileSets_Sprite_49.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'AA_MainMat'",
+          "ObjectPath": "fnaf9/Content/Materials/AA_MainMat.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": 1.0,
+        "Y": -8.0,
+        "Z": 128.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.41153765,
+        "Y": 1.0,
+        "Z": 0.41153765
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Castle_TileSets_Sprite_32",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Castle_TileSets_Sprite_64'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/Castle/Castle_TileSets_Sprite_64.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -25.33841,
+        "Y": -34.33824,
+        "Z": 128.00056
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.41153765,
+        "Y": 1.0,
+        "Z": 0.41153765
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Castle_TileSets_Sprite_35",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Castle_TileSets_Sprite_65'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/Castle/Castle_TileSets_Sprite_65.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": 1.0,
+        "Y": -34.33824,
+        "Z": 128.00056
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.41153765,
+        "Y": 1.0,
+        "Z": 0.41153765
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Castle_TileSets_Sprite_38",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Castle_TileSets_Sprite_66'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/Castle/Castle_TileSets_Sprite_66.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 27.338404,
+        "Y": -34.33824,
+        "Z": 128.00056
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.41153765,
+        "Y": 1.0,
+        "Z": 0.41153765
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Lantern_9x15_Sprite1_5",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": 5.0,
+        "Y": 4.0,
+        "Z": 137.0
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Room_Tileset_Sprite_14",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Room_Tileset_Sprite_2'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/RoomFloor/Room_Tileset_Sprite_2.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": -102.41626,
+        "Y": -82.70777,
+        "Z": 127.909676
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.39615718,
+        "Y": 1.0,
+        "Z": 0.39615718
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Room_Tileset_Sprite_3",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Room_Tileset_Sprite_2'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/RoomFloor/Room_Tileset_Sprite_2.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": 100.416245,
+        "Y": 18.70776,
+        "Z": 127.907524
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.39615718,
+        "Y": 1.0,
+        "Z": 0.39615718
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Room_Tileset_Sprite_4",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Room_Tileset_Sprite_2'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/RoomFloor/Room_Tileset_Sprite_2.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": -1.0,
+        "Y": -82.70777,
+        "Z": 127.909676
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.39615718,
+        "Y": 1.0,
+        "Z": 0.39615718
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Room_Tileset_Sprite_5",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Room_Tileset_Sprite_2'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/RoomFloor/Room_Tileset_Sprite_2.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": 100.416245,
+        "Y": -82.70777,
+        "Z": 127.909676
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.39615718,
+        "Y": 1.0,
+        "Z": 0.39615718
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Room_Tileset_Sprite_50",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Room_Tileset_Sprite_2'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/RoomFloor/Room_Tileset_Sprite_2.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": -102.41626,
+        "Y": 18.70776,
+        "Z": 127.907524
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.39615718,
+        "Y": 1.0,
+        "Z": 0.39615718
+      }
+    }
+  },
+  {
+    "Type": "PaperSpriteComponent",
+    "Name": "RenderComponent",
+    "Outer": "Room_Tileset_Sprite_51",
+    "Class": "UScriptClass'PaperSpriteComponent'",
+    "Properties": {
+      "SourceSprite": {
+        "ObjectName": "PaperSprite'Room_Tileset_Sprite_2'",
+        "ObjectPath": "fnaf9/Content/EnvironmentSprites/RoomFloor/Room_Tileset_Sprite_2.1"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeLocation": {
+        "X": -1.0,
+        "Y": 18.70776,
+        "Z": 127.907524
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.39615718,
+        "Y": 1.0,
+        "Z": 0.39615718
+      }
+    }
+  },
+  {
+    "Type": "PostProcessVolume",
+    "Name": "PostProcessVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PostProcessVolume'",
+    "Properties": {
+      "Settings": {
+        "AutoExposureBiasBackup": 1.0,
+        "WeightedBlendables": {
+          "Array": [
+            {
+              "Weight": 1.0,
+              "Object": {
+                "ObjectName": "MaterialInstanceConstant'GlitchMat_PostProcess_Inst'",
+                "ObjectPath": "fnaf9/Content/Materials/GlitchMat_PostProcess_Inst.0"
+              }
+            }
+          ]
+        }
+      },
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'DeathScreen_Act3:PersistentLevel.PostProcessVolume_1.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.23"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'DeathScreen_Act3:PersistentLevel.PostProcessVolume_1.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.16"
+      },
+      "bHidden": false,
+      "RootComponent": {
+        "ObjectName": "BrushComponent'DeathScreen_Act3:PersistentLevel.PostProcessVolume_1.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.16"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "CameraActor_3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 50.0,
+        "Z": 149.0
+      },
+      "RelativeRotation": {
+        "Pitch": -3.0627058,
+        "Yaw": -89.99937,
+        "Roll": 0.00015069284
+      }
+    }
+  },
+  {
+    "Type": "SpotLight",
+    "Name": "SpotLight2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SpotLight'",
+    "Properties": {
+      "SpotLightComponent": {
+        "ObjectName": "SpotLightComponent'DeathScreen_Act3:PersistentLevel.SpotLight2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.65"
+      },
+      "LightComponent": {
+        "ObjectName": "SpotLightComponent'DeathScreen_Act3:PersistentLevel.SpotLight2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.65"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SpotLightComponent'DeathScreen_Act3:PersistentLevel.SpotLight2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.65"
+      }
+    }
+  },
+  {
+    "Type": "SpotLight",
+    "Name": "SpotLight3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SpotLight'",
+    "Properties": {
+      "SpotLightComponent": {
+        "ObjectName": "SpotLightComponent'DeathScreen_Act3:PersistentLevel.SpotLight3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.66"
+      },
+      "LightComponent": {
+        "ObjectName": "SpotLightComponent'DeathScreen_Act3:PersistentLevel.SpotLight3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.66"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SpotLightComponent'DeathScreen_Act3:PersistentLevel.SpotLight3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.66"
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "SpotLight2",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "OuterConeAngle": 21.464767,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 781.991,
+      "LightGuid": "2F2CFAA1-4293021D-F98FC69D-A8CA20FE",
+      "Intensity": 14.557476,
+      "LightColor": {
+        "B": 255,
+        "G": 231,
+        "R": 197,
+        "A": 255,
+        "Hex": "FFC5E7FF"
+      },
+      "RelativeLocation": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 343.0
+      },
+      "RelativeRotation": {
+        "Pitch": -87.05031,
+        "Yaw": -89.99109,
+        "Roll": 89.9913
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "SpotLight3",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "InnerConeAngle": 1.601905,
+      "OuterConeAngle": 11.834287,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 781.991,
+      "LightGuid": "E8765843-4D4706F6-98C8069B-FE81B662",
+      "Intensity": 14.557476,
+      "LightColor": {
+        "B": 196,
+        "G": 209,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFD1C4"
+      },
+      "RelativeLocation": {
+        "X": 1.165158,
+        "Y": 1.2962871,
+        "Z": 294.8988
+      },
+      "RelativeRotation": {
+        "Pitch": -84.10161,
+        "Yaw": -89.999596,
+        "Roll": 89.99987
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "Widget",
+    "Outer": "3D_WI_Continue_0",
+    "Template": "Widget_GEN_VARIABLE",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "CurrentDrawSize": {
+        "X": 500,
+        "Y": 500
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -15.0,
+        "Z": 158.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999954,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "Widget",
+    "Outer": "3D_WI_GameOver_1",
+    "Template": "Widget_GEN_VARIABLE",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "WidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'GameOverText_C'",
+        "ObjectPath": "fnaf9/Content/Blueprints/UI/PrincessQuest/GameOverText.2"
+      },
+      "CurrentDrawSize": {
+        "X": 500,
+        "Y": 500
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 14.0,
+        "Z": 159.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999954,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "Widget",
+    "Outer": "3D_WI_PressStart",
+    "Template": "Widget_GEN_VARIABLE",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "WidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'PressStartText_C'",
+        "ObjectPath": "fnaf9/Content/Blueprints/UI/PrincessQuest/PressStartText.3"
+      },
+      "CurrentDrawSize": {
+        "X": 500,
+        "Y": 500
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 15.0,
+        "Z": 133.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99996,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "DeathScreen_Act3",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'DeathScreen_Act3:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.21"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'DeathScreen_Act3:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Princess_Quest_2/DeathScreen_Act3.24"
+      },
+      "DefaultGameMode": {
+        "ObjectName": "BlueprintGeneratedClass'PrincessQuestGM_C'",
+        "ObjectPath": "fnaf9/Content/Blueprints/System/GameModes/PrincessQuestGM.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

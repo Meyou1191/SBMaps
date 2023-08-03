@@ -1,0 +1,3766 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkSourceSound",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy",
+    "Template": "AkSourceSound_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.End'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.16"
+      },
+      "RelativeLocation": {
+        "X": -1772.4727,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkSourceSound",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy2",
+    "Template": "AkSourceSound_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.End'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.18"
+      },
+      "RelativeLocation": {
+        "X": -1772.4727,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkLateReverbComponent",
+    "Name": "LateReverb",
+    "Outer": "AK_RV_FazerblastInterior",
+    "Class": "UScriptClass'AkLateReverbComponent'",
+    "Properties": {
+      "Priority": 2.0,
+      "AutoAssignAuxBus": false,
+      "AuxBus": {
+        "ObjectName": "AkAuxBus'REV_Room_Carpeted_Medium'",
+        "ObjectPath": "fnaf9/Content/Audio/Reverbs/REV_Room_Carpeted_Medium.0"
+      },
+      "AuxBusManual": {
+        "ObjectName": "AkAuxBus'REV_Room_Carpeted_Medium'",
+        "ObjectPath": "fnaf9/Content/Audio/Reverbs/REV_Room_Carpeted_Medium.0"
+      },
+      "AttachParent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastInterior.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.24"
+      },
+      "PrimaryComponentTick": {
+        "bCanEverTick": true
+      }
+    }
+  },
+  {
+    "Type": "AkLateReverbComponent",
+    "Name": "LateReverb",
+    "Outer": "AK_RV_FazerblastMain",
+    "Class": "UScriptClass'AkLateReverbComponent'",
+    "Properties": {
+      "AutoAssignAuxBus": false,
+      "AuxBus": {
+        "ObjectName": "AkAuxBus'REV_Room_Carpeted_Large'",
+        "ObjectPath": "fnaf9/Content/Audio/Reverbs/REV_Room_Carpeted_Large.0"
+      },
+      "AuxBusManual": {
+        "ObjectName": "AkAuxBus'REV_Room_Carpeted_Large'",
+        "ObjectPath": "fnaf9/Content/Audio/Reverbs/REV_Room_Carpeted_Large.0"
+      },
+      "AttachParent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastMain.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.25"
+      },
+      "PrimaryComponentTick": {
+        "bCanEverTick": true
+      }
+    }
+  },
+  {
+    "Type": "AkLateReverbComponent",
+    "Name": "LateReverb",
+    "Outer": "AK_RV_FazerblastVent",
+    "Class": "UScriptClass'AkLateReverbComponent'",
+    "Properties": {
+      "Priority": 2.0,
+      "AutoAssignAuxBus": false,
+      "AuxBus": {
+        "ObjectName": "AkAuxBus'REV_VentilationSystem_Inside'",
+        "ObjectPath": "fnaf9/Content/Audio/Reverbs/REV_VentilationSystem_Inside.0"
+      },
+      "AuxBusManual": {
+        "ObjectName": "AkAuxBus'REV_VentilationSystem_Inside'",
+        "ObjectPath": "fnaf9/Content/Audio/Reverbs/REV_VentilationSystem_Inside.0"
+      },
+      "AttachParent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.26"
+      },
+      "PrimaryComponentTick": {
+        "bCanEverTick": true
+      }
+    }
+  },
+  {
+    "Type": "AkLateReverbComponent",
+    "Name": "LateReverb",
+    "Outer": "AK_RV_FazerblastVent2",
+    "Class": "UScriptClass'AkLateReverbComponent'",
+    "Properties": {
+      "Priority": 2.0,
+      "AutoAssignAuxBus": false,
+      "AuxBus": {
+        "ObjectName": "AkAuxBus'REV_VentilationSystem_Inside'",
+        "ObjectPath": "fnaf9/Content/Audio/Reverbs/REV_VentilationSystem_Inside.0"
+      },
+      "AuxBusManual": {
+        "ObjectName": "AkAuxBus'REV_VentilationSystem_Inside'",
+        "ObjectPath": "fnaf9/Content/Audio/Reverbs/REV_VentilationSystem_Inside.0"
+      },
+      "AttachParent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent2.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.27"
+      },
+      "PrimaryComponentTick": {
+        "bCanEverTick": true
+      }
+    }
+  },
+  {
+    "Type": "AkReverbVolume",
+    "Name": "AK_RV_FazerblastInterior",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'AkReverbVolume'",
+    "Properties": {
+      "LateReverbComponent": {
+        "ObjectName": "AkLateReverbComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastInterior.LateReverb'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.4"
+      },
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastInterior.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.29"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastInterior.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.24"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastInterior.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.24"
+      }
+    }
+  },
+  {
+    "Type": "AkReverbVolume",
+    "Name": "AK_RV_FazerblastMain",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'AkReverbVolume'",
+    "Properties": {
+      "LateReverbComponent": {
+        "ObjectName": "AkLateReverbComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastMain.LateReverb'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.5"
+      },
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastMain.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.30"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastMain.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.25"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastMain.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.25"
+      }
+    }
+  },
+  {
+    "Type": "AkReverbVolume",
+    "Name": "AK_RV_FazerblastVent",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'AkReverbVolume'",
+    "Properties": {
+      "LateReverbComponent": {
+        "ObjectName": "AkLateReverbComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent.LateReverb'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.6"
+      },
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.31"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.26"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.26"
+      }
+    }
+  },
+  {
+    "Type": "AkReverbVolume",
+    "Name": "AK_RV_FazerblastVent2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'AkReverbVolume'",
+    "Properties": {
+      "LateReverbComponent": {
+        "ObjectName": "AkLateReverbComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent2.LateReverb'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.7"
+      },
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent2.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.32"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent2.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.27"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent2.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.27"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "09C58573467F5F78EC1EE7938C749A17",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0xDFB4"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "95BD8636455AE92E06DC349BB36736A1",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0xE5D2"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "D5CAF3FF43717A889862B0B6E0C0AA32",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0xEBF0"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "2972AD874D5329E31C5873B5BBD7DA3C",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0xF20E"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "End",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy",
+    "Template": "End_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_Chowda_TensionBuilder_C'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.20"
+            },
+            "FunctionName": "BndEvt__BP_Chowda_TensionBuilder_End_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.35"
+      },
+      "RelativeLocation": {
+        "X": -1376.332,
+        "Y": 1084.8125,
+        "Z": 99.64929
+      },
+      "RelativeScale3D": {
+        "X": 3.770306,
+        "Y": 1.0,
+        "Z": 3.464301
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Starter",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy",
+    "Template": "Starter_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_Chowda_TensionBuilder_C'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.20"
+            },
+            "FunctionName": "BndEvt__BP_Chowda_TensionBuilder_Starter_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.35"
+      },
+      "RelativeLocation": {
+        "X": 143.74805,
+        "Y": -282.58594,
+        "Z": 98.0199
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 120.81205,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 4.740937,
+        "Y": 1.0,
+        "Z": 2.888362
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "End",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy2",
+    "Template": "End_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_Chowda_TensionBuilder_C'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.21"
+            },
+            "FunctionName": "BndEvt__BP_Chowda_TensionBuilder_End_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.36"
+      },
+      "RelativeLocation": {
+        "X": -3099.92,
+        "Y": 2978.1406,
+        "Z": 86.04669
+      },
+      "RelativeScale3D": {
+        "X": 2.4233458,
+        "Y": 1.2141052,
+        "Z": 2.2365289
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Starter",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy2",
+    "Template": "Starter_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_Chowda_TensionBuilder_C'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.21"
+            },
+            "FunctionName": "BndEvt__BP_Chowda_TensionBuilder_Starter_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.36"
+      },
+      "RelativeLocation": {
+        "X": -529.7324,
+        "Y": 2414.125,
+        "Z": 98.0199
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 93.331985,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 5.650162,
+        "Y": 1.0,
+        "Z": 2.888362
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BP_Chowda_TensionBuilder_C",
+    "Name": "BP_Chowda_TensionBuilder_Freddy",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_Chowda_TensionBuilder_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Audio/BP_Chowda_TensionBuilder.BP_Chowda_TensionBuilder_C'",
+    "Properties": {
+      "AkSourceSound": {
+        "ObjectName": "AkComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.AkSourceSound'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.0"
+      },
+      "End": {
+        "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.End'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.16"
+      },
+      "WorldState": {
+        "ObjectName": "WorldStateComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.WorldState'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.55"
+      },
+      "Starter": {
+        "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.Starter'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.17"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.35"
+      },
+      "StartEvent": {
+        "ObjectName": "AkAudioEvent'Play_FreddyTension_start'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/Chowda/TensionBuilders/Play_FreddyTension_start.1"
+      },
+      "EndEvent": {
+        "ObjectName": "AkAudioEvent'Stop_FreddyTension'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/Chowda/TensionBuilders/Stop_FreddyTension.1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.35"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.35"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.Starter'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.17"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.End'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.16"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.AkSourceSound'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.0"
+        },
+        {
+          "ObjectName": "WorldStateComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy.WorldState'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.55"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_Chowda_TensionBuilder_C",
+    "Name": "BP_Chowda_TensionBuilder_Freddy2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_Chowda_TensionBuilder_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Audio/BP_Chowda_TensionBuilder.BP_Chowda_TensionBuilder_C'",
+    "Properties": {
+      "AkSourceSound": {
+        "ObjectName": "AkComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.AkSourceSound'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.1"
+      },
+      "End": {
+        "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.End'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.18"
+      },
+      "WorldState": {
+        "ObjectName": "WorldStateComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.WorldState'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.56"
+      },
+      "Starter": {
+        "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.Starter'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.19"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.36"
+      },
+      "StartEvent": {
+        "ObjectName": "AkAudioEvent'Play_FreddyTension_high_start'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/Chowda/TensionBuilders/Play_FreddyTension_high_start.1"
+      },
+      "EndEvent": {
+        "ObjectName": "AkAudioEvent'Stop_FreddyTension'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/Chowda/TensionBuilders/Stop_FreddyTension.1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.36"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.36"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.Starter'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.19"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.End'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.18"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.AkSourceSound'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.1"
+        },
+        {
+          "ObjectName": "WorldStateComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2.WorldState'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.56"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_MultiChannelEmitter_Fazerblast_Lobby_C",
+    "Name": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_MultiChannelEmitter_Fazerblast_Lobby_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Audio/BP_MultiChannelEmitter_Fazerblast_Lobby.BP_MultiChannelEmitter_Fazerblast_Lobby_C'",
+    "Properties": {
+      "Ak": {
+        "ObjectName": "AkComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Ak'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.2"
+      },
+      "Channel7": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel7'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.45"
+      },
+      "Channel6": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.44"
+      },
+      "Channel5": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel5'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.43"
+      },
+      "Channel4": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.42"
+      },
+      "Channel3": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel3'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.41"
+      },
+      "Channel2": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.40"
+      },
+      "Channel1": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.39"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.39"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.40"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel3'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.41"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel4'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.42"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel5'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.43"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel6'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.44"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Channel7'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.45"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.Ak'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_MultiChannelEmitter_Fazerblast_Lobby_C",
+    "Name": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_MultiChannelEmitter_Fazerblast_Lobby_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Audio/BP_MultiChannelEmitter_Fazerblast_Lobby.BP_MultiChannelEmitter_Fazerblast_Lobby_C'",
+    "Properties": {
+      "Ak": {
+        "ObjectName": "AkComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Ak'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.3"
+      },
+      "Channel7": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel7'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.52"
+      },
+      "Channel6": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.51"
+      },
+      "Channel5": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel5'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.50"
+      },
+      "Channel4": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.49"
+      },
+      "Channel3": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel3'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.48"
+      },
+      "Channel2": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.47"
+      },
+      "Channel1": {
+        "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.46"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.46"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.47"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel3'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.48"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel4'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.49"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel5'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.50"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel6'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.51"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Channel7'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.52"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.Ak'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "AK_RV_FazerblastInterior",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastInterior.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.29"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastInterior.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.12"
+      },
+      "RelativeLocation": {
+        "X": -29176.023,
+        "Y": 85745.336,
+        "Z": 691.114
+      },
+      "RelativeScale3D": {
+        "X": 9.61294,
+        "Y": 10.243345,
+        "Z": 3.223678
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "AK_RV_FazerblastMain",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastMain.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.30"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastMain.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.13"
+      },
+      "RelativeLocation": {
+        "X": -26666.023,
+        "Y": 83715.336,
+        "Z": 1661.114
+      },
+      "RelativeScale3D": {
+        "X": 34.5,
+        "Y": 25.393064,
+        "Z": 12.188369
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "AK_RV_FazerblastVent",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.31"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.14"
+      },
+      "RelativeLocation": {
+        "X": -25096.023,
+        "Y": 84955.336,
+        "Z": 1981.114
+      },
+      "RelativeScale3D": {
+        "X": 7.0250425,
+        "Y": 8.27674,
+        "Z": 3.223678
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "AK_RV_FazerblastVent2",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent2.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.32"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent2.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.15"
+      },
+      "RelativeLocation": {
+        "X": -24926.023,
+        "Y": 83875.336,
+        "Z": 1691.114
+      },
+      "RelativeScale3D": {
+        "X": 3.2218435,
+        "Y": 3.7927098,
+        "Z": 3.223678
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Audio_Fazerblast_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.33"
+      },
+      "LevelBuildDataId": "54620872-4F7DDA68-2B9EF5A6-621EE1E0",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Audio_Fazerblast_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.54"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Audio_Fazerblast_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.54"
+      },
+      null,
+      {
+        "ObjectName": "BP_Chowda_TensionBuilder_C'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.20"
+      },
+      {
+        "ObjectName": "AkReverbVolume'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastMain'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.9"
+      },
+      {
+        "ObjectName": "BP_Chowda_TensionBuilder_C'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_Chowda_TensionBuilder_Freddy2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.21"
+      },
+      {
+        "ObjectName": "AkReverbVolume'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.10"
+      },
+      {
+        "ObjectName": "AkReverbVolume'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastVent2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.11"
+      },
+      {
+        "ObjectName": "AkReverbVolume'MAP_Audio_Fazerblast_DLC:PersistentLevel.AK_RV_FazerblastInterior'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.8"
+      },
+      {
+        "ObjectName": "BP_MultiChannelEmitter_Fazerblast_Lobby_C'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.22"
+      },
+      {
+        "ObjectName": "BP_MultiChannelEmitter_Fazerblast_Lobby_C'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.23"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Audio_Fazerblast_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.33"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "AK_RV_FazerblastInterior",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "B318C8C3-4283FBEE-82CEA0A3-9D4D103C",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "AK_RV_FazerblastMain",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "C84C183A-4118E75F-C7409C80-08A8B533",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "AK_RV_FazerblastVent",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "33178FAD-48D7BEC7-BB5BC8AC-295CE1E9",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "AK_RV_FazerblastVent2",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "5A12FDBC-425F0DB5-933A9490-31E1C3FF",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "D63E41B2-41EF61A8-7D308EBF-EC753019",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -27916.389,
+        "Y": 83576.305,
+        "Z": 566.4077
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -27916.389,
+        "Y": 83576.305,
+        "Z": 566.4077
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -25990.0,
+        "Y": 85320.0,
+        "Z": 2120.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -25990.0,
+        "Y": 85320.0,
+        "Z": -2870.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel1",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Template": "Channel1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "RelativeLocation": {
+        "X": -170.0,
+        "Y": -70.0,
+        "Z": -10.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel2",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Template": "Channel2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "RelativeLocation": {
+        "X": -40.0,
+        "Y": -1280.0,
+        "Z": -630.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel3",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Template": "Channel3_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "RelativeLocation": {
+        "X": 140.0,
+        "Y": -2880.0,
+        "Z": -540.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel4",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Template": "Channel4_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "RelativeLocation": {
+        "X": -590.0,
+        "Y": -2910.0,
+        "Z": -650.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel5",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Template": "Channel5_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "RelativeLocation": {
+        "X": -1720.0,
+        "Y": -3060.0,
+        "Z": -770.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel6",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Template": "Channel6_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "RelativeLocation": {
+        "X": -2160.0,
+        "Y": -1120.0,
+        "Z": -1040.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel7",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_Lobby_2",
+    "Template": "Channel7_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_Lobby_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.37"
+      },
+      "RelativeLocation": {
+        "X": -110.0,
+        "Y": -90.0,
+        "Z": -1100.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel1",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Template": "Channel1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "RelativeLocation": {
+        "X": -170.0,
+        "Y": -70.0,
+        "Z": -10.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel2",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Template": "Channel2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "RelativeLocation": {
+        "X": -40.0,
+        "Y": -1280.0,
+        "Z": -630.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel3",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Template": "Channel3_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "RelativeLocation": {
+        "X": 140.0,
+        "Y": -2880.0,
+        "Z": -540.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel4",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Template": "Channel4_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "RelativeLocation": {
+        "X": -590.0,
+        "Y": -2910.0,
+        "Z": -650.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel5",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Template": "Channel5_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "RelativeLocation": {
+        "X": -1720.0,
+        "Y": -3060.0,
+        "Z": -770.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel6",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Template": "Channel6_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "RelativeLocation": {
+        "X": -2160.0,
+        "Y": -1120.0,
+        "Z": -1040.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Channel7",
+    "Outer": "BP_MultiChannelEmitter_Fazerblast_LobbyAR",
+    "Template": "Channel7_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Audio_Fazerblast_DLC:PersistentLevel.BP_MultiChannelEmitter_Fazerblast_LobbyAR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.38"
+      },
+      "RelativeLocation": {
+        "X": -110.0,
+        "Y": -90.0,
+        "Z": -1100.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Audio_Fazerblast_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Audio_Fazerblast_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.28"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Audio_Fazerblast_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Audio/AudioByMapArea/MAP_Audio_FazerBlast_DLC.34"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "WorldStateComponent",
+    "Name": "WorldState",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy",
+    "Template": "WorldState_GEN_VARIABLE",
+    "Class": "UScriptClass'WorldStateComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "WorldStateComponent",
+    "Name": "WorldState",
+    "Outer": "BP_Chowda_TensionBuilder_Freddy2",
+    "Template": "WorldState_GEN_VARIABLE",
+    "Class": "UScriptClass'WorldStateComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  }
+]

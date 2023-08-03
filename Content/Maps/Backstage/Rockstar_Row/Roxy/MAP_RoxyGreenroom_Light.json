@@ -1,0 +1,1886 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "D127CD85455E5BA85F961882979B1CE9",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x9937"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DrawBox0",
+    "Outer": "BoxReflectionCapture_1",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "BoxReflectionCaptureComponent'MAP_RoxyGreenroom_Light:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.4"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DrawBox1",
+    "Outer": "BoxReflectionCapture_1",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 0.98165715,
+        "Y": 0.97859216,
+        "Z": 0.9675695
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "BoxReflectionCaptureComponent'MAP_RoxyGreenroom_Light:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.4"
+      }
+    }
+  },
+  {
+    "Type": "BoxReflectionCapture",
+    "Name": "BoxReflectionCapture_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'BoxReflectionCapture'",
+    "Properties": {
+      "CaptureComponent": {
+        "ObjectName": "BoxReflectionCaptureComponent'MAP_RoxyGreenroom_Light:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.4"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxReflectionCaptureComponent'MAP_RoxyGreenroom_Light:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.4"
+      }
+    }
+  },
+  {
+    "Type": "BoxReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "BoxReflectionCapture_1",
+    "Class": "UScriptClass'BoxReflectionCaptureComponent'",
+    "Properties": {
+      "BoxTransitionDistance": 10.0,
+      "PreviewInfluenceBox": {
+        "ObjectName": "BoxComponent'MAP_RoxyGreenroom_Light:PersistentLevel.BoxReflectionCapture_1.DrawBox0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.1"
+      },
+      "PreviewCaptureBox": {
+        "ObjectName": "BoxComponent'MAP_RoxyGreenroom_Light:PersistentLevel.BoxReflectionCapture_1.DrawBox1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.2"
+      },
+      "CaptureOffsetComponent": null,
+      "MapBuildDataId": "796F41BC-415E892A-A3D7CA96-C34FDC96",
+      "RelativeLocation": {
+        "X": -366.4064,
+        "Y": 51715.94,
+        "Z": 1750.7538
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -7.237047,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 545.1719,
+        "Y": 467.1181,
+        "Z": 308.3515
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "LightmassImportanceVolume_1",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_RoxyGreenroom_Light:PersistentLevel.LightmassImportanceVolume_1.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.8"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_RoxyGreenroom_Light:PersistentLevel.LightmassImportanceVolume_1.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.0"
+      },
+      "RelativeLocation": {
+        "X": -338.91043,
+        "Y": 51712.484,
+        "Z": 1731.6686
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -7.237047,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 5.839634,
+        "Y": 4.7098403,
+        "Z": 2.840351
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_RoxyGreenroom_Light",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_RoxyGreenroom_Light:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.9"
+      },
+      "LevelBuildDataId": "B7FC72C0-4203F481-82B575BE-F6791910",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_RoxyGreenroom_Light:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.48"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_RoxyGreenroom_Light:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.48"
+      },
+      null,
+      {
+        "ObjectName": "PointLight'MAP_RoxyGreenroom_Light:PersistentLevel.PointLight91'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.11"
+      },
+      {
+        "ObjectName": "PointLight'MAP_RoxyGreenroom_Light:PersistentLevel.PointLight92'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.12"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight34'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.15"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight35'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.16"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight36'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.17"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight37'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.18"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight38'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.19"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight39'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.20"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight40'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.21"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight41'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.22"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight42'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.23"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight43'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.24"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight44'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.25"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight45'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.26"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight46'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.27"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight47'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.28"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight48'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.29"
+      },
+      {
+        "ObjectName": "RectLight'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight49'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.30"
+      },
+      {
+        "ObjectName": "LightmassImportanceVolume'MAP_RoxyGreenroom_Light:PersistentLevel.LightmassImportanceVolume_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.7"
+      },
+      {
+        "ObjectName": "BoxReflectionCapture'MAP_RoxyGreenroom_Light:PersistentLevel.BoxReflectionCapture_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_RoxyGreenroom_Light:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.9"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LightmassImportanceVolume",
+    "Name": "LightmassImportanceVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LightmassImportanceVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_RoxyGreenroom_Light:PersistentLevel.LightmassImportanceVolume_1.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.8"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_RoxyGreenroom_Light:PersistentLevel.LightmassImportanceVolume_1.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.5"
+      },
+      "bHidden": false,
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_RoxyGreenroom_Light:PersistentLevel.LightmassImportanceVolume_1.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.5"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "LightmassImportanceVolume_1",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "1339FB49-4F49A928-CF1130A5-19E9841A",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "2F7D6374-4F9B183E-90C359A4-130A9054",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight91",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.PointLight91.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.13"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.PointLight91.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.13"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.PointLight91.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.13"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight92",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.PointLight92.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.14"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.PointLight92.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.14"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.PointLight92.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.14"
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight91",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "1E4F20DA-428DED69-7477D9B3-5057ECE2",
+      "Intensity": 15.398073,
+      "LightColor": {
+        "B": 255,
+        "G": 215,
+        "R": 241,
+        "A": 255,
+        "Hex": "FFF1D7FF"
+      },
+      "RelativeLocation": {
+        "X": -322.27924,
+        "Y": 52521.26,
+        "Z": 1598.316
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight92",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "63024246-4A1DBCA2-BFF02AAD-8275FD8C",
+      "Intensity": 15.398073,
+      "LightColor": {
+        "B": 255,
+        "G": 215,
+        "R": 241,
+        "A": 255,
+        "Hex": "FFF1D7FF"
+      },
+      "RelativeLocation": {
+        "X": -236.04724,
+        "Y": 53027.492,
+        "Z": 1807.1152
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight34.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.31"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight34.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.31"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight34.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.31"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight35.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.32"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight35.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.32"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight35.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.32"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight36.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.33"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight36.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.33"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight36.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.33"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight37.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.34"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight37.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.34"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight37.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.34"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight38.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.35"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight38.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.35"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight38.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.35"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight39.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.36"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight39.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.36"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight39.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.36"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight40",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight40.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.37"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight40.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.37"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight40.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.37"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight41",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight41.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.38"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight41.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.38"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight41.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.38"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight42",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight42.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.39"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight42.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.39"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight42.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.39"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight43",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight43.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.40"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight43.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.40"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight43.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.40"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight44.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.41"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight44.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.41"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight44.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.41"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight45",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight45.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.42"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight45.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.42"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight45.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.42"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight46",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight46.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.43"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight46.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.43"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight46.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.43"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight47",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight47.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.44"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight47.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.44"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight47.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.44"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight48.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.45"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight48.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.45"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight48.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.45"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight49",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight49.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.46"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight49.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.46"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_RoxyGreenroom_Light:PersistentLevel.RectLight49.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.46"
+      }
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight34",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "C2470CD9-484A477C-33D49CBB-5A47751A",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -451.21652,
+        "Y": 51941.086,
+        "Z": 1984.8525
+      },
+      "RelativeRotation": {
+        "Pitch": 1.2420015,
+        "Yaw": 45.740955,
+        "Roll": 0.66140807
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight35",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "B86EE0E2-4BE142DA-1940459F-7BAECFCE",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -251.99161,
+        "Y": 51915.227,
+        "Z": 1990.9917
+      },
+      "RelativeRotation": {
+        "Pitch": -0.32385477,
+        "Yaw": 120.98097,
+        "Roll": 1.3714254
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight36",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "5F64B011-46C69882-DC79849C-E999E80D",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -186.65329,
+        "Y": 51858.09,
+        "Z": 1990.2804
+      },
+      "RelativeRotation": {
+        "Pitch": 1.0617597,
+        "Yaw": -23.316597,
+        "Roll": -0.92479616
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight37",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "37594143-472B92D3-96CF11A4-4BE6A1D4",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -163.89128,
+        "Y": 51677.234,
+        "Z": 1990.3031
+      },
+      "RelativeRotation": {
+        "Pitch": 1.1133456,
+        "Yaw": 42.291786,
+        "Roll": 0.7668521
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight38",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "420B1CAD-4B583C6E-4E0E50B9-6D063019",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -206.44292,
+        "Y": 51584.234,
+        "Z": 1987.7009
+      },
+      "RelativeRotation": {
+        "Pitch": -0.3099693,
+        "Yaw": -95.51513,
+        "Roll": -1.3170166
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight39",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "858CCDE2-4E68A9CD-5FEE88A7-A6BDDE18",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -348.8225,
+        "Y": 51515.6,
+        "Z": 1984.3169
+      },
+      "RelativeRotation": {
+        "Pitch": 0.9681861,
+        "Yaw": -28.648735,
+        "Roll": -1.0178027
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight40",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "929BD4CD-4DD61B35-10A16BBC-7EBA0362",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -455.85587,
+        "Y": 51529.77,
+        "Z": 1982.273
+      },
+      "RelativeRotation": {
+        "Pitch": -1.4045246,
+        "Yaw": -164.50908,
+        "Roll": 0.055210195
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight41",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "B250E726-4B273C1F-B1D69FA0-CE76EA1B",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -574.6819,
+        "Y": 51630.72,
+        "Z": 1981.8516
+      },
+      "RelativeRotation": {
+        "Pitch": -0.6078937,
+        "Yaw": -97.80914,
+        "Roll": -1.2694559
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight42",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "16E13619-42709C25-806ED48A-2E6FA6F3",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -598.4046,
+        "Y": 51728.29,
+        "Z": 1981.258
+      },
+      "RelativeRotation": {
+        "Pitch": -0.40370223,
+        "Yaw": -235.54517,
+        "Roll": 1.3479005
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight43",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "85BC19E7-4A76A4B2-A5F2DD99-09C7C350",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -530.30035,
+        "Y": 51900.3,
+        "Z": 1984.7035
+      },
+      "RelativeRotation": {
+        "Pitch": -1.3951409,
+        "Yaw": -169.98412,
+        "Roll": 0.18953997
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight44",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "154F002D-472A03E2-F6524ABB-07B7F5AD",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": -792.0812,
+        "Y": 52040.082,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -7.873749
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight45",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "D11A2756-4F9EF1F0-7F1E3997-3C591219",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": -828.0703,
+        "Y": 51774.953,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 360.0,
+        "Roll": 352.12857
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight46",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "451D9B7E-46531D3F-5D3496B7-8BE5D2AE",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": -857.635,
+        "Y": 51498.273,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -7.872528
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight47",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "BFC0AD77-45951A08-BBA8738E-BB5D1822",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 110.55734,
+        "Y": 51944.32,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 1080.0,
+        "Roll": 1072.1272
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight48",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "24DE433E-47A92647-02CB9A8F-C80A4A53",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 81.43359,
+        "Y": 51677.695,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -7.8721313
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight49",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "23A87EE5-44547A42-1ADAB1AB-74BBE587",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 46.947594,
+        "Y": 51401.742,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -26.565033,
+        "Roll": 18.69252
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_RoxyGreenroom_Light",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_RoxyGreenroom_Light:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.6"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_RoxyGreenroom_Light:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.10"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

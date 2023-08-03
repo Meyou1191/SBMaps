@@ -1,0 +1,614 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Kitchen_Security_NEW_LightsOn:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.21"
+      },
+      "LevelBuildDataId": "D88C4EC1-4994182A-DCA14B88-0F714978",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Kitchen_Security_NEW_LightsOn:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.24"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Kitchen_Security_NEW_LightsOn:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.24"
+      },
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Kitchen_Security_NEW_LightsOn:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.21"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/Kitchen/Kitchen_Day_Lighting.Kitchen_Day_Lighting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.21093702,
+        "A": 1.0,
+        "Hex": "FFFF007F"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_Doors.MAP_Doors",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.11718702,
+        "A": 1.0,
+        "Hex": "FFFF0060"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_10",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_StorageA_NEW_LightsOn.MAP_Kitchen_StorageA_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.8906245,
+        "A": 1.0,
+        "Hex": "FFFF00F3"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_11",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_StorageB_NEW_LightsOn.MAP_Kitchen_StorageB_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.28906238,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF92FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_12",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.MAP_Kitchen_Trash_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.38281238,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFA6FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_13",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Laundry_Room_NEW_LightsOn.MAP_Laundry_Room_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.96875,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFCFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_14",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Laundry_Storage_NEW_LightsOn.MAP_Laundry_Storage_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.91406256,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFF600"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_15",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Loading_Dock_Hallway_NEW_LightsOn.MAP_Loading_Dock_Hallway_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.07812488,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF4FFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_16",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Vat_Breakroom_NEW_LightsOn.MAP_Vat_Breakroom_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.95312476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00FAFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_17",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Vat_Office_NEW_LightsOn.MAP_Vat_Office_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.05468738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF42FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_18",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Vat_Room_NEW_LightsOn.MAP_Vat_Room_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.7968745,
+        "A": 1.0,
+        "Hex": "FFFF00E7"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_19",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Utility/MAP_Utility_Southeast_Corner.MAP_Utility_Southeast_Corner",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.078125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF4F00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_Bathroom_NEW_LightsOn.MAP_Kitchen_Bathroom_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.74218726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00E0FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_Freezer_NEW_LightsOn.MAP_Kitchen_Freezer_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.46874952,
+        "A": 1.0,
+        "Hex": "FFFF00B6"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_LargeVat_Room_NEW_LightsOn.MAP_Kitchen_LargeVat_Room_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.72656256,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFDE00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_5",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Utility/MAP_Utility_WestToFazer.MAP_Utility_WestToFazer",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.07812488,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF4FFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_Loading_Dock_NEW_LightsOn.MAP_Kitchen_Loading_Dock_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.46875,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFB600"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_Main_NEW_LightsOn.MAP_Kitchen_Main_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.6406249,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFD2FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_NEW_LightsOn.MAP_Kitchen_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.7343755,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFDF00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_9",
+    "Outer": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Kitchen_Showers.MAP_Kitchen_Showers",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.42968738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFAFFF00"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "04394042-4071BCAA-C9370A9B-0BA50800",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Kitchen_Security_NEW_LightsOn",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Kitchen_Security_NEW_LightsOn:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.1"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.2"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.13"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.14"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_4'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.15"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.17"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.18"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.19"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_9'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.20"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_10'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.3"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_11'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.4"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_12'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.5"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_13'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.6"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_14'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.7"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_15'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.8"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_16'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.9"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_17'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.10"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_18'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.11"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_19'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.12"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Kitchen_Security_NEW_LightsOn:LevelStreamingDynamic_5'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.16"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Kitchen_Security_NEW_LightsOn:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Security_NEW_LightsOn.22"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

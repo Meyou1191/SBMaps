@@ -1,0 +1,687 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_LM_DLC_10:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.21"
+      },
+      "LevelBuildDataId": "12037608-46FB452D-ED345CA6-FBE29FDE",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_LM_DLC_10:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.24"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_LM_DLC_10:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.24"
+      },
+      null,
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_LM_DLC_10:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.21"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Gameplay_Part2_DLC.MAP_RoxyRacer_Gameplay_Part2_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.4296875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFAF00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_AR_Gameplay_RoxyRaceway.MAP_AR_Gameplay_RoxyRaceway",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.03124988,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF31FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_10",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Cameras_DLC.MAP_RoxyRacer_Cameras_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.62499976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00CFFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_15",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Gameplay_DLC.MAP_RoxyRacer_Gameplay_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.5468749,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFC3FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_16",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_DLC.MAP_RoxyRacer_Doors_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.46875,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFB600"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_17",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FazerBlast/MAP_Fazerblast_TransitionRoom_DLC.MAP_Fazerblast_TransitionRoom_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.39062476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00A8FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_18",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Garages_DLC.MAP_RoxyRacer_Garages_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.07031202,
+        "A": 1.0,
+        "Hex": "FFFF004B"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_19",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_AR_RoxyRacer_Garages_DLC.MAP_AR_RoxyRacer_Garages_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.375,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFA500"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_AR_RoxyRacerMain_DLC.MAP_AR_RoxyRacerMain_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.67968756,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFD700"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_20",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FazerBlast/MAP_AR_Fazerblast_TransitionRoom_DLC.MAP_AR_Fazerblast_TransitionRoom_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.46093774,
+        "A": 1.0,
+        "Hex": "FF00FFB5"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_21",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_Underground_ElevatorSinkhole_DLC.MAP_Underground_ElevatorSinkhole_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.546875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFC300FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_23",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_AR_RoxyRaceway_Background_Part_2.MAP_AR_RoxyRaceway_Background_Part_2",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.8437495,
+        "A": 1.0,
+        "Hex": "FFFF00ED"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_25",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_Roxy_Raceway_Background_Part_2.MAP_Roxy_Raceway_Background_Part_2",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.86718756,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFF000"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_26",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/LightingMaps/NonAR/MAP_N_DLC_10.MAP_N_DLC_10",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.773437,
+        "A": 1.0,
+        "Hex": "FFFF00E4"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_AR_RoxyRacerMainArch_DLC.MAP_AR_RoxyRacerMainArch_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.710938,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFDC00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.MAP_RoxyRacer_Doors_Part2_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.85937476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00EFFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_5",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_AR_RoxyRacerPart2_DLC.MAP_AR_RoxyRacerPart2_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.5624995,
+        "A": 1.0,
+        "Hex": "FFFF00C6"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacerMain_DLC.MAP_RoxyRacerMain_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.84375006,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFED00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacerMainArch_DLC.MAP_RoxyRacerMainArch_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.39843702,
+        "A": 1.0,
+        "Hex": "FFFF00A9"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_9",
+    "Outer": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacerPart2_DLC.MAP_RoxyRacerPart2_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.22656226,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF0083FF"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "B7F54AEC-4256C7CE-D1DDC1B1-61BC55AB",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_LM_DLC_10",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_LM_DLC_10:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.2"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.9"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.15"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_5'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.17"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.18"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.19"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_9'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.20"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_17'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.6"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_15'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.4"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_16'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.5"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_18'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.7"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_19'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.8"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_10'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.3"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_20'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.10"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_21'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.11"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_23'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.12"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_25'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.13"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_26'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.14"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.1"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_10:LevelStreamingDynamic_4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.16"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_LM_DLC_10:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_10.22"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

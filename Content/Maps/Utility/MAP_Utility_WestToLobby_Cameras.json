@@ -1,0 +1,1222 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Office2_Camera02",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Office2_Camera03",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Office2_Camera3",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Office2_Camera02",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.39"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.14"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.13"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.12"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.7"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.45"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.32"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.42"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.30"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.23"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.31"
+      },
+      "CameraInventoryName": "CamerasOffice_Intro",
+      "CameraName": {
+        "CultureInvariantString": "Hall2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.22"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.42"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.32"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.45"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.7"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.12"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.13"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.14"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.39"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Office2_Camera03",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.40"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.17"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.16"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.15"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.8"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.46"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.35"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.43"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.33"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.26"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.34"
+      },
+      "CameraInventoryName": "CamerasOffice_Intro",
+      "CameraName": {
+        "CultureInvariantString": "Office"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.25"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.43"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.35"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.46"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.8"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.17"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.40"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Office2_Camera3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.41"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.20"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.19"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.18"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.9"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.47"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.38"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.44"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.36"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.29"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.37"
+      },
+      "CameraInventoryName": "CamerasOffice_Intro",
+      "CameraName": {
+        "CultureInvariantString": "Hall1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.28"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.44"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.38"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.47"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.9"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.20"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.41"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Utility_WestToLobby_Cameras",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.10"
+      },
+      "LevelBuildDataId": "2AD83EAF-4C0183CC-A90178A7-2769BCFF",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Utility_WestToLobby_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.49"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Utility_WestToLobby_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.49"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.3"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.4"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.10"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Office2_Camera02",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Office2_Camera03",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Office2_Camera3",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "931BD37B-432DE972-350D21A1-8623A4EE",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Office2_Camera02",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.23"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Office2_Camera02",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.23"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Office2_Camera02",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.23"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Office2_Camera03",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.26"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Office2_Camera03",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.26"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Office2_Camera03",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.26"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Office2_Camera3",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Office2_Camera3",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Office2_Camera3",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Office2_Camera02",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.22"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Office2_Camera02",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4036.6548,
+        "Y": 21300.943,
+        "Z": 1831.8282
+      },
+      "RelativeRotation": {
+        "Pitch": -27.000187,
+        "Yaw": 39.59999,
+        "Roll": -1E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Office2_Camera02",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.22"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Office2_Camera03",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Office2_Camera03",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4802.603,
+        "Y": 23132.74,
+        "Z": 1748.8867
+      },
+      "RelativeRotation": {
+        "Pitch": -23.399803,
+        "Yaw": 51.19932,
+        "Roll": 4.3E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Office2_Camera03",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Office2_Camera3",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.28"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Office2_Camera3",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5554.655,
+        "Y": 22818.943,
+        "Z": 1831.8282
+      },
+      "RelativeRotation": {
+        "Pitch": -23.80001,
+        "Yaw": -130.60011,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Office2_Camera3",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.28"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Office2_Camera02",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.21"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Office2_Camera02",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02'",
+              "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.3"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.22"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Office2_Camera02",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02'",
+              "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.3"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Office2_Camera03",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.24"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Office2_Camera03",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03'",
+              "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.4"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.25"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Office2_Camera03",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03'",
+              "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.4"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Office2_Camera3",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.27"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Office2_Camera3",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3'",
+              "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.5"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.28"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Office2_Camera3",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3'",
+              "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.5"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Office2_Camera02",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Office2_Camera03",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Office2_Camera3",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Office2_Camera02",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Office2_Camera03",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Office2_Camera3",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Office2_Camera02",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Office2_Camera03",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Office2_Camera3",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestToLobby_Cameras:PersistentLevel.Office2_Camera3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Utility_WestToLobby_Cameras",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Utility_WestToLobby_Cameras:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.6"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Utility_WestToLobby_Cameras:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestToLobby_Cameras.11"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

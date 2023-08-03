@@ -1,0 +1,331 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_AR_Daycare_Office_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_AR_Daycare_Office_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.1"
+      },
+      "StreamingTextureGuids": [
+        "1E2C9B74-469114AB-4CDA32B2-78B2E90C",
+        "93E91C96-46CD0B7A-E58023A5-E7B8D5CE",
+        "ECF0DE7C-45407BE0-33764D88-BD37970F"
+      ],
+      "LevelBuildDataId": "71747C64-4CF8B6E5-7F69B5A6-A9262769",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_AR_Daycare_Office_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.8"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_AR_Daycare_Office_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.8"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_Daycare_Office_DLC:PersistentLevel.SM_Pencil_Brown22'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_Daycare_Office_DLC:PersistentLevel.SM_Pencil_Gray23'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.4"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_AR_Daycare_Office_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "E3C0618D-4794E000-9E39DCBE-D7152108",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Pencil_Brown22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_Daycare_Office_DLC:PersistentLevel.SM_Pencil_Brown22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.5"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_Daycare_Office_DLC:PersistentLevel.SM_Pencil_Brown22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Pencil_Gray23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_Daycare_Office_DLC:PersistentLevel.SM_Pencil_Gray23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.6"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_Daycare_Office_DLC:PersistentLevel.SM_Pencil_Gray23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Pencil_Brown22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Pencil_Brown'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Pencil_Brown.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 4,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2450615758,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 176.46136
+        },
+        {
+          "PackedRelativeBox": 2450615758,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 176.46136
+        },
+        {
+          "PackedRelativeBox": 2450615758,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 176.46136
+        }
+      ],
+      "LightingChannels": {
+        "bChannel2": true
+      },
+      "VisibilityId": 2546,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -22784.21,
+        "Y": 38255.39,
+        "Z": -2802.4167
+      },
+      "RelativeRotation": {
+        "Pitch": -72.99838,
+        "Yaw": 180.01834,
+        "Roll": 0.000634
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C601814A4E2D9BDA1062598D43582AE7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Pencil_Gray23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Pencil_Gray'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Pencil_Gray.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 4,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2385539535,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 176.12776
+        },
+        {
+          "PackedRelativeBox": 2385539535,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 176.12776
+        },
+        {
+          "PackedRelativeBox": 2385539535,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 176.12776
+        }
+      ],
+      "LightingChannels": {
+        "bChannel2": true
+      },
+      "VisibilityId": 2547,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -22786.254,
+        "Y": 38258.195,
+        "Z": -2802.1296
+      },
+      "RelativeRotation": {
+        "Pitch": -68.782135,
+        "Yaw": -119.161575,
+        "Roll": 0.000387
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7E40F9064C0290EFA4BD5A85D0154878"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_AR_Daycare_Office_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_AR_Daycare_Office_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_AR_Daycare_Office_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

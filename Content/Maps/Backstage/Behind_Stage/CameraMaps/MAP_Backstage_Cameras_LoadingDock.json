@@ -1,0 +1,2669 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "BackLoadingDockCam01",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.87"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.26"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.25"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.24"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.15"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.101"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.68"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.94"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.66"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.47"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.67"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "Dock1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.46"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.94"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.68"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.101"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.25"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.26"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.87"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "BackLoadingDockCam02",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.88"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.29"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.28"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.27"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.16"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.102"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.71"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.95"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.69"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.50"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.70"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "Dock2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.49"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.95"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.71"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.102"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.27"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.28"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.29"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.88"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "BackLoadingDockCam03",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.89"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.32"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.31"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.30"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.17"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.103"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.74"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.96"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.72"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.53"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.73"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "Dock3"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.52"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.96"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.74"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.103"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.17"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.30"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.31"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.32"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.89"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "BackLoadingDockCam04",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.90"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.35"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.34"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.33"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.18"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.104"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.77"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.97"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.75"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.56"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.76"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "Dock4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.55"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.97"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.77"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.104"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.33"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.34"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.35"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.90"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "BackLoadingDockCam05",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.4"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.91"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.38"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.37"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.36"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.19"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.105"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.80"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.98"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.78"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.59"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.79"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "Dock5"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.58"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.98"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.80"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.105"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.36"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.37"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.38"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.91"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Backstage_LoadingDockDoor_Cam",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.5"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.92"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.41"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.40"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.39"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.20"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.106"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.83"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.99"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.81"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.62"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.82"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "FazwatchAccessible": false,
+      "CameraName": {
+        "CultureInvariantString": "DocksDoor"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.61"
+      },
+      "Tags": [
+        "BackstageScreenCam"
+      ],
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.99"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.83"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.106"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.20"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.39"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.40"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.41"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.92"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RRBackHallWest_Cam",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.6"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.93"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.44"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.43"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.42"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.21"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.107"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.86"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.100"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.84"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.65"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.85"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "FazwatchAccessible": false,
+      "CameraName": {
+        "CultureInvariantString": "RRDoorWest"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.64"
+      },
+      "Tags": [
+        "BackstageScreenCam"
+      ],
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.100"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.86"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.107"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.42"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.43"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.44"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.93"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Backstage_Cameras_LoadingDock",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.22"
+      },
+      "LevelBuildDataId": "9FD0A37B-4405D4C6-5A727584-979FA7DB",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.109"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.109"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.7"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.8"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.9"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.10"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.11"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.12"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.13"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.22"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "FE399507-43CB2BCC-2F64F7BE-E2C16D8E",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 9000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 9000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 9000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.59"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.59"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.59"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 1500.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 1500.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 1500.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.46"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 7290.8945,
+        "Y": 44641.83,
+        "Z": 1961.74
+      },
+      "RelativeRotation": {
+        "Pitch": -22.999842,
+        "Yaw": 44.200542,
+        "Roll": 9E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.46"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.49"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5774.1265,
+        "Y": 45888.094,
+        "Z": 1931.3492
+      },
+      "RelativeRotation": {
+        "Pitch": -23.199768,
+        "Yaw": 35.600437,
+        "Roll": 1.1E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.49"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.52"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5259.6855,
+        "Y": 47683.027,
+        "Z": 1999.9733
+      },
+      "RelativeRotation": {
+        "Pitch": -23.999664,
+        "Yaw": 49.00038,
+        "Roll": 9E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.52"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.55"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8358.008,
+        "Y": 49019.473,
+        "Z": 1895.3861
+      },
+      "RelativeRotation": {
+        "Pitch": -23.399618,
+        "Yaw": -153.99948,
+        "Roll": 8E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.55"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.58"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8208.797,
+        "Y": 50662.18,
+        "Z": 1899.5139
+      },
+      "RelativeRotation": {
+        "Pitch": -20.3998,
+        "Yaw": 88.40031,
+        "Roll": 9E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.58"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.61"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 7413.8677,
+        "Y": 44047.38,
+        "Z": 1812.9353
+      },
+      "RelativeRotation": {
+        "Pitch": -27.800043,
+        "Yaw": 57.756786,
+        "Roll": 2.8955199E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.61"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.64"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5540.016,
+        "Y": 49234.793,
+        "Z": 1906.5597
+      },
+      "RelativeRotation": {
+        "Pitch": -35.482635,
+        "Yaw": -159.5475,
+        "Roll": -3.6164587
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.64"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.45"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.7"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.46"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.7"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.48"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.8"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.49"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.8"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.51"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.9"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.52"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.9"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.54"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.10"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.55"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.10"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.57"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.11"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.58"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.11"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.60"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.12"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.61"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.12"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.63"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.64"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.13"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.69"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.75"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.78"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.84"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "BackLoadingDockCam01",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "BackLoadingDockCam02",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "BackLoadingDockCam03",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "BackLoadingDockCam04",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "BackLoadingDockCam05",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.BackLoadingDockCam05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Backstage_LoadingDockDoor_Cam",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.Backstage_LoadingDockDoor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RRBackHallWest_Cam",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.RRBackHallWest_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Backstage_Cameras_LoadingDock",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Backstage_Cameras_LoadingDock:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.14"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Backstage_Cameras_LoadingDock:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_LoadingDock.23"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

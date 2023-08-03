@@ -1,0 +1,431 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_SLM_Night_07:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.12"
+      },
+      "LevelBuildDataId": "429E6730-418654BA-D421DD9A-D748539D",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'MAP_SLM_Night_07_BuiltData'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_SLM_Night_07:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.15"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_SLM_Night_07:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.15"
+      },
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_SLM_Night_07:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.12"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Arcade/MAP_ArcadeE_SecurityRoom.MAP_ArcadeE_SecurityRoom",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.25,
+        "A": 1.0,
+        "Hex": "FF00FF89"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Arcade/MAP_East_Arcade_Audio.MAP_East_Arcade_Audio",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.5156245,
+        "A": 1.0,
+        "Hex": "FFFF00BE"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_10",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_Doors.MAP_Doors",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.960937,
+        "A": 1.0,
+        "Hex": "FFFF00FB"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Arcade/MAP_EastArcade.MAP_EastArcade",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.3828125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFA600FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Arcade/MAP_EastArcade_Cameras.MAP_EastArcade_Cameras",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.21093702,
+        "A": 1.0,
+        "Hex": "FFFF007F"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Arcade/MAP_EastArcade_Gameplay2.MAP_EastArcade_Gameplay2",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.007812381,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF15FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_5",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Arcade/MAP_EastArcade_Moonman.MAP_EastArcade_Moonman",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.28124952,
+        "A": 1.0,
+        "Hex": "FFFF0091"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Arcade/MAP_EastPrizesAirlock.MAP_EastPrizesAirlock",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.37499952,
+        "A": 1.0,
+        "Hex": "FFFF00A5"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_PrizeCounter.MAP_PrizeCounter",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.9374995,
+        "A": 1.0,
+        "Hex": "FFFF00F8"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_Atrium_3rd_Floor.MAP_Atrium_3rd_Floor",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.49999988,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFBCFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_9",
+    "Outer": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/SegmentedLightingScenarios/MAP_Night_07.MAP_Night_07",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.34375024,
+        "A": 1.0,
+        "Hex": "FF00FF9F"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "6DB3A7B9-497F56AB-45C5CE8A-067C105C",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_SLM_Night_07",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_SLM_Night_07:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.1"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.2"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.4"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.5"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_4'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.6"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_5'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.7"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.8"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.9"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.10"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_9'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.11"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Night_07:LevelStreamingDynamic_10'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.3"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_SLM_Night_07:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Night_07.13"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

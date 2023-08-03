@@ -1,0 +1,1567 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera4_2",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera5_5",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera6_8",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera7_11",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera4_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.51"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.17"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.16"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.15"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.9"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.59"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.41"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.55"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.39"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.29"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.40"
+      },
+      "CameraName": {
+        "CultureInvariantString": "Garage1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.28"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.55"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.41"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.59"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.9"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.17"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.51"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera5_5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.52"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.20"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.19"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.18"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.10"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.60"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.44"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.56"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.42"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.32"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.43"
+      },
+      "CameraName": {
+        "CultureInvariantString": "Garage2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.31"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.56"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.44"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.60"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.10"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.20"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.52"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera6_8",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.53"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.23"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.22"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.21"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.11"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.61"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.47"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.57"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.45"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.35"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.46"
+      },
+      "CameraName": {
+        "CultureInvariantString": "Garage3"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.34"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.57"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.47"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.61"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.11"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.22"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.23"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.53"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera7_11",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.54"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.26"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.25"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.24"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.12"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.62"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.50"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.58"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.48"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.38"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.49"
+      },
+      "CameraName": {
+        "CultureInvariantString": "Garage4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.37"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.58"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.50"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.62"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.12"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.25"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.26"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.54"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_SewerChica_ParkingLot_Cameras",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.13"
+      },
+      "LevelBuildDataId": "5CE3FC4E-47B75390-2FDE519E-48EF7E96",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.64"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.64"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.4"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.5"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.6"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.7"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.13"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera4_2",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera5_5",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera6_8",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera7_11",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "0722F2A3-4471C06D-5C59A585-C4570BF5",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera4_2",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera4_2",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera4_2",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera5_5",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera5_5",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera5_5",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera6_8",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera6_8",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera6_8",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera7_11",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera7_11",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera7_11",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera4_2",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.28"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera4_2",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -7720.559,
+        "Y": 19449.398,
+        "Z": -2864.3867
+      },
+      "RelativeRotation": {
+        "Pitch": -19.4725,
+        "Yaw": -123.874596,
+        "Roll": 1E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera4_2",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.28"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera5_5",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.31"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera5_5",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -8080.158,
+        "Y": 16258.8545,
+        "Z": -2873.9478
+      },
+      "RelativeRotation": {
+        "Pitch": -16.272303,
+        "Yaw": 70.325615,
+        "Roll": 1E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera5_5",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.31"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera6_8",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.34"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera6_8",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -5079.232,
+        "Y": 18158.543,
+        "Z": -2575.2336
+      },
+      "RelativeRotation": {
+        "Pitch": -14.872586,
+        "Yaw": -38.4749,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera6_8",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.34"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera7_11",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.37"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera7_11",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -3140.7302,
+        "Y": 16017.183,
+        "Z": -2574.3564
+      },
+      "RelativeRotation": {
+        "Pitch": -15.672722,
+        "Yaw": 148.12479,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera7_11",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.37"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera4_2",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.27"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera4_2",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2'",
+              "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.4"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.28"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera4_2",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2'",
+              "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.4"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera5_5",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.30"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera5_5",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5'",
+              "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.5"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.31"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera5_5",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5'",
+              "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.5"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera6_8",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.33"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera6_8",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8'",
+              "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.6"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.34"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera6_8",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8'",
+              "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.6"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera7_11",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.36"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera7_11",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11'",
+              "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.7"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.37"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera7_11",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11'",
+              "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.7"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera4_2",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera5_5",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera6_8",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera7_11",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera4_2",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.39"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera5_5",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera6_8",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.45"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera7_11",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera4_2",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera5_5",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera6_8",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera7_11",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_SewerChica_ParkingLot_Cameras",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.8"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_SewerChica_ParkingLot_Cameras:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Sewer_Chica/Cameras/MAP_SewerChica_ParkingLot_Cameras.14"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

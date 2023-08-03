@@ -1,0 +1,4492 @@
+[
+  {
+    "Type": "CameraActor",
+    "Name": "CameraActor1_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor1_1.CameraComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.2"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor1_1.SceneComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.7"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor1_1.SceneComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.7"
+      }
+    }
+  },
+  {
+    "Type": "CameraActor",
+    "Name": "CameraActor2_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor2_2.CameraComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.3"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor2_2.SceneComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.8"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor2_2.SceneComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.8"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "CameraActor1_1",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor1_1.SceneComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.7"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "CameraActor2_2",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor2_2.SceneComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.8"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_WHITEBOX_GatorGolf_Store_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.5"
+      },
+      "StreamingTextureGuids": [
+        "CBA5EB17-4829BC8B-C6BE16A6-181E7E5F",
+        "845FC820-46579B4D-3EF6428C-412F346E"
+      ],
+      "LevelBuildDataId": "7862944F-4C432955-EEE3D99D-F32F3A91",
+      "bTextureStreamingRotationChanged": true,
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.140"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.140"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube252'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube253'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube254'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere34_4'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube255'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube256'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube257'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube258'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube259'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube361'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube952'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere35_12'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere36_13'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere37_14'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere38_15'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere39_16'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere40_17'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere41_18'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere42_19'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere43_20'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube953'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube954'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube955'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube956'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder77_25'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere44_26'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.64"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere45_27'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube957'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube958'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube959'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube960'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube961'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube962'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube963'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder78_35'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube964'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube965'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube966'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere46_39'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.66"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere47_40'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.67"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube967'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube968'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube969'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder79_44'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder80_45'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder81_46'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder82_47'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere48_48'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.68"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere49_49'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.69"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere50_50'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.70"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere51_51'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.71"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere52_52'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.72"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere53_53'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.73"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere104_54'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere105_55'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder276'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube970'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube971'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube972'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube973'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube974'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube975'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube976'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube977'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere214_65'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.53"
+      },
+      {
+        "ObjectName": "CameraActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor1_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.0"
+      },
+      {
+        "ObjectName": "CameraActor'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.CameraActor2_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.1"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.5"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A9CAB408-4C17FA1D-99EC1EA4-7A023F51",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "CameraActor1_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -15901.092,
+        "Y": 44054.62,
+        "Z": 1793.4104
+      },
+      "RelativeRotation": {
+        "Pitch": -3.400177,
+        "Yaw": -2.518596,
+        "Roll": 5E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "CameraActor2_2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -15893.1,
+        "Y": 44054.234,
+        "Z": -4206.59
+      },
+      "RelativeRotation": {
+        "Pitch": -5.600229,
+        "Yaw": -1.918745,
+        "Roll": 5E-06
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube252",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube252.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube252.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube253",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube253.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube253.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube254",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube254.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube254.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube255",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube255.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube255.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube256",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube256.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube256.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube257",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube257.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube257.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube258",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube258.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube258.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube259",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube259.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube259.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube361",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube361.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube361.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube952",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube952.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube952.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube953",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube953.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube953.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube954",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube954.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube954.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube955",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube955.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube955.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube956",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube956.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube956.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube957",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube957.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube957.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube958",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube958.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube958.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube959",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube959.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube959.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube960",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube960.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube960.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube961",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube961.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube961.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.92"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube962",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube962.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube962.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.93"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube963",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube963.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube963.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.94"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube964",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube964.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube964.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.95"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube965",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube965.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.96"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube965.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.96"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube966",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube966.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.97"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube966.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.97"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube967",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube967.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.98"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube967.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.98"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube968",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube968.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.99"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube968.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.99"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube969",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube969.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.100"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube969.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.100"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube970",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube970.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.101"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube970.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.101"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube971",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube971.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.102"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube971.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.102"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube972",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube972.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.103"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube972.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.103"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube973",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube973.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.104"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube973.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.104"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube974",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube974.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.105"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube974.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.105"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube975",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube975.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.106"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube975.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.106"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube976",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube976.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.107"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube976.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.107"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube977",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube977.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.108"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cube977.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.108"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cylinder276",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder276.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.109"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder276.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.109"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cylinder77_25",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder77_25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.110"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder77_25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.110"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cylinder78_35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder78_35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.111"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder78_35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.111"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cylinder79_44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder79_44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.112"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder79_44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.112"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cylinder80_45",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder80_45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.113"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder80_45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.113"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cylinder81_46",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder81_46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.114"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder81_46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.114"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cylinder82_47",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder82_47.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.115"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Cylinder82_47.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.115"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere104_54",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere104_54.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.116"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere104_54.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.116"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere105_55",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere105_55.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.117"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere105_55.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.117"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere214_65",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere214_65.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.118"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere214_65.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.118"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere34_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere34_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.119"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere34_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.119"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere35_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere35_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.120"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere35_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.120"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere36_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere36_13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.121"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere36_13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.121"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere37_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere37_14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.122"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere37_14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.122"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere38_15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere38_15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.123"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere38_15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.123"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere39_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere39_16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.124"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere39_16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.124"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere40_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere40_17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.125"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere40_17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.125"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere41_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere41_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.126"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere41_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.126"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere42_19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere42_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.127"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere42_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.127"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere43_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere43_20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.128"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere43_20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.128"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere44_26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere44_26.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.129"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere44_26.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.129"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere45_27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere45_27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.130"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere45_27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.130"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere46_39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere46_39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.131"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere46_39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.131"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere47_40",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere47_40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.132"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere47_40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.132"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere48_48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere48_48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.133"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere48_48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.133"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere49_49",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere49_49.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.134"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere49_49.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.134"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere50_50",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere50_50.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.135"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere50_50.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.135"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere51_51",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere51_51.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.136"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere51_51.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.136"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere52_52",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere52_52.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.137"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere52_52.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.137"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere53_53",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere53_53.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.138"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.Sphere53_53.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.138"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube252",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Red'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Red.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -15032.404,
+        "Y": 44013.176,
+        "Z": 1638.8677
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 5.0,
+        "Z": 3.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube253",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14744.791,
+        "Y": 43808.523,
+        "Z": -3436.1895
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 169.99988,
+        "Roll": 50.000122
+      },
+      "RelativeScale3D": {
+        "X": 1.75,
+        "Y": 0.75,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube254",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14557.268,
+        "Y": 44013.176,
+        "Z": -3473.789
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -119.99994,
+        "Roll": 90.00007
+      },
+      "RelativeScale3D": {
+        "X": 1.75,
+        "Y": 0.75,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube255",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14854.521,
+        "Y": 43716.59,
+        "Z": -3395.8887
+      },
+      "RelativeRotation": {
+        "Pitch": 13.599951,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.6,
+        "Y": 0.25,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube256",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14653.35,
+        "Y": 43716.59,
+        "Z": -3430.1094
+      },
+      "RelativeRotation": {
+        "Pitch": -19.683464,
+        "Yaw": -176.3835,
+        "Roll": -10.627736
+      },
+      "RelativeScale3D": {
+        "X": 1.6,
+        "Y": 0.25,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube257",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14813.764,
+        "Y": 43716.582,
+        "Z": -3417.0996
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.25,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube258",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14593.775,
+        "Y": 43716.582,
+        "Z": -3446.1914
+      },
+      "RelativeRotation": {
+        "Pitch": -79.99981,
+        "Yaw": -179.99995,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.25,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube259",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14681.826,
+        "Y": 43716.582,
+        "Z": -3457.5918
+      },
+      "RelativeRotation": {
+        "Pitch": -10.000031,
+        "Yaw": -179.99995,
+        "Roll": -19.999998
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.25,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube361",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14653.35,
+        "Y": 43716.59,
+        "Z": -3498.5527
+      },
+      "RelativeRotation": {
+        "Pitch": -6.999994,
+        "Yaw": -179.99998,
+        "Roll": -5.000015
+      },
+      "RelativeScale3D": {
+        "X": 1.6,
+        "Y": 0.25,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube952",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14757.436,
+        "Y": 43705.754,
+        "Z": -3443.9707
+      },
+      "RelativeRotation": {
+        "Pitch": -59.999683,
+        "Yaw": 5.5E-05,
+        "Roll": -179.99995
+      },
+      "RelativeScale3D": {
+        "X": 1.56,
+        "Y": 0.025,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube953",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14786.611,
+        "Y": 43705.754,
+        "Z": -3448.4238
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -0.00010928302,
+        "Roll": -179.99979
+      },
+      "RelativeScale3D": {
+        "X": 1.25,
+        "Y": 0.025,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube954",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14778.053,
+        "Y": 43705.754,
+        "Z": -3380.0312
+      },
+      "RelativeRotation": {
+        "Pitch": -69.9998,
+        "Yaw": -179.99995,
+        "Roll": 3.2E-05
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.025,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube955",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14458.881,
+        "Y": 44089.97,
+        "Z": -3453.9922
+      },
+      "RelativeRotation": {
+        "Pitch": -18.747147,
+        "Yaw": -92.90393,
+        "Roll": -21.17286
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.25,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube956",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14459.643,
+        "Y": 44119.4,
+        "Z": -3492.2285
+      },
+      "RelativeRotation": {
+        "Pitch": 19.841679,
+        "Yaw": -91.83692,
+        "Roll": -10.474916
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.25,
+        "Z": 0.025
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube957",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14663.822,
+        "Y": 44395.67,
+        "Z": -3469.9805
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 169.99983,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.635,
+        "Y": 0.595,
+        "Z": 0.91
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube958",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14831.311,
+        "Y": 44484.39,
+        "Z": -3469.9805
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99995,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.635,
+        "Y": 0.595,
+        "Z": 0.91
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube959",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14857.936,
+        "Y": 44486.62,
+        "Z": -3404.4648
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 169.99988,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.43,
+        "Z": 0.4
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube960",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14857.936,
+        "Y": 44486.62,
+        "Z": -3364.5137
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -174.99994,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.43,
+        "Z": 0.4
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube961",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14965.018,
+        "Y": 43773.33,
+        "Z": -3481.1133
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 169.99983,
+        "Roll": -90.000015
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.85
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube962",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14627.896,
+        "Y": 44479.1,
+        "Z": -3506.7285
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99995,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.635,
+        "Y": 0.595,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube963",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14687.506,
+        "Y": 44479.1,
+        "Z": -3499.8594
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99995,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.595,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube964",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14674.611,
+        "Y": 44439.504,
+        "Z": -3509.246
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 149.99992,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.1,
+        "Y": 0.15,
+        "Z": 0.05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube965",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14636.381,
+        "Y": 44431.34,
+        "Z": -3509.246
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -79.99971,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.1,
+        "Y": 0.15,
+        "Z": 0.05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube966",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14694.053,
+        "Y": 44357.75,
+        "Z": -3261.879
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99995,
+        "Roll": -95.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube967",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14608.529,
+        "Y": 44370.86,
+        "Z": -3420.838
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube968",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14669.689,
+        "Y": 44184.574,
+        "Z": -3507.3633
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -79.999794,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube969",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14818.975,
+        "Y": 44067.133,
+        "Z": -3471.5273
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -119.99994,
+        "Roll": 90.00007
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.5,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube970",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Red'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Red.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -15115.904,
+        "Y": 44013.176,
+        "Z": 1562.9358
+      },
+      "RelativeRotation": {
+        "Pitch": 52.022182,
+        "Yaw": 164.7576,
+        "Roll": 4.471511
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 9.25,
+        "Z": 1.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube971",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14510.447,
+        "Y": 44158.227,
+        "Z": -3487.121
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 100.00003,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube972",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14510.447,
+        "Y": 44158.227,
+        "Z": -3437.3242
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99995,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube973",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -15002.877,
+        "Y": 44471.62,
+        "Z": -3491.9824
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 79.999855,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube974",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -15011.346,
+        "Y": 44427.426,
+        "Z": -3510.5664
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -169.99983,
+        "Roll": 90.00005
+      },
+      "RelativeScale3D": {
+        "X": 0.03,
+        "Y": 0.03,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube975",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14999.068,
+        "Y": 44379.15,
+        "Z": -3402.0527
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": -3.1E-05
+      },
+      "RelativeScale3D": {
+        "X": 0.05,
+        "Y": 0.05,
+        "Z": 2.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube976",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14986.955,
+        "Y": 44403.86,
+        "Z": -3284.0195
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.1,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube977",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 100.0
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 100.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14994.881,
+        "Y": 44352.445,
+        "Z": -3284.0195
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 69.99999,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.1,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cylinder276",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cylinder'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cylinder.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 152.3216
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 152.3216
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Red'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Red.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -15243.877,
+        "Y": 44090.434,
+        "Z": 1710.8535
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99995,
+        "Roll": 60.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 7.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cylinder77_25",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cylinder'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cylinder.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 152.3216
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 152.3216
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14501.748,
+        "Y": 44002.363,
+        "Z": -3424.211
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -0.00010928302,
+        "Roll": -179.99979
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cylinder78_35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cylinder'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cylinder.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 152.3216
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 152.3216
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14655.6,
+        "Y": 44440.38,
+        "Z": -3501.7285
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.1,
+        "Y": 0.1,
+        "Z": 0.2
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cylinder79_44",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cylinder'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cylinder.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 152.3216
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 152.3216
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14854.822,
+        "Y": 44053.453,
+        "Z": -3503.709
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99995,
+        "Roll": 90.00007
+      },
+      "RelativeScale3D": {
+        "X": 0.15,
+        "Y": 0.15,
+        "Z": 0.05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cylinder80_45",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cylinder'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cylinder.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 152.3216
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 152.3216
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14798.752,
+        "Y": 44022.85,
+        "Z": -3503.709
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 149.99991,
+        "Roll": 90.00008
+      },
+      "RelativeScale3D": {
+        "X": 0.15,
+        "Y": 0.15,
+        "Z": 0.05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cylinder81_46",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cylinder'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cylinder.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 152.3216
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 152.3216
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14770.959,
+        "Y": 44071.61,
+        "Z": -3503.709
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 149.99991,
+        "Roll": 90.00008
+      },
+      "RelativeScale3D": {
+        "X": 0.15,
+        "Y": 0.15,
+        "Z": 0.05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cylinder82_47",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cylinder'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cylinder.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 152.3216
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 152.3216
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14821.42,
+        "Y": 44106.863,
+        "Z": -3503.709
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99995,
+        "Roll": 90.00007
+      },
+      "RelativeScale3D": {
+        "X": 0.15,
+        "Y": 0.15,
+        "Z": 0.05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere104_54",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -15023.615,
+        "Y": 43843.527,
+        "Z": -3490.252
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 1.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere105_55",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14979.455,
+        "Y": 44145.344,
+        "Z": -3490.252
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 1.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere214_65",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -15004.205,
+        "Y": 44382.156,
+        "Z": -3512.8057
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere34_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14874.865,
+        "Y": 43727.566,
+        "Z": -3259.7812
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.2925,
+        "Z": 0.655
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere35_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14879.584,
+        "Y": 43745.168,
+        "Z": -3510.793
+      },
+      "RelativeRotation": {
+        "Pitch": -5.5E-05,
+        "Yaw": -109.99993,
+        "Roll": 90.00014
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.0,
+        "Z": 0.655
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere36_13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14852.623,
+        "Y": 43777.01,
+        "Z": -3510.793
+      },
+      "RelativeRotation": {
+        "Pitch": -5.5E-05,
+        "Yaw": -140.00003,
+        "Roll": 90.000084
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.0,
+        "Z": 0.655
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere37_14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14696.607,
+        "Y": 43777.01,
+        "Z": -3510.793
+      },
+      "RelativeRotation": {
+        "Pitch": -4.1E-05,
+        "Yaw": -50.000004,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.0,
+        "Z": 0.655
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere38_15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14930.381,
+        "Y": 43824.62,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -5.5E-05,
+        "Yaw": -109.99993,
+        "Roll": 90.00014
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere39_16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14911.564,
+        "Y": 43789.062,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -5.5E-05,
+        "Yaw": -109.99993,
+        "Roll": 90.00014
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere40_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14891.627,
+        "Y": 43808.6,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -4.1E-05,
+        "Yaw": -49.999943,
+        "Roll": 90.00008
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere41_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14851.424,
+        "Y": 43807.12,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -4.1E-05,
+        "Yaw": -49.999943,
+        "Roll": 90.00008
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere42_19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -15001.982,
+        "Y": 43937.37,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere43_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14923.982,
+        "Y": 43903.766,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere44_26",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14541.869,
+        "Y": 43946.613,
+        "Z": -3431.5078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 140.00002,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.185,
+        "Y": 0.25,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere45_27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14527.799,
+        "Y": 44035.746,
+        "Z": -3431.5078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 169.99983,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.245,
+        "Y": 0.5,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere46_39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14808.111,
+        "Y": 44289.242,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere47_40",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14741.123,
+        "Y": 44266.652,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere48_48",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14793.521,
+        "Y": 44044.234,
+        "Z": -3437.6328
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere49_49",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14836.729,
+        "Y": 44044.234,
+        "Z": -3437.6328
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere50_50",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14832.283,
+        "Y": 44101.8,
+        "Z": -3443.5117
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere51_51",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14834.701,
+        "Y": 44078.84,
+        "Z": -3450.5605
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere52_52",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14846.783,
+        "Y": 44027.86,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere53_53",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 188.01874
+        },
+        {
+          "PackedRelativeBox": 0,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 188.01874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_PlaygroundPanels_Purple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_PlaygroundPanels_Purple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -14749.154,
+        "Y": 43987.242,
+        "Z": -3504.2637
+      },
+      "RelativeRotation": {
+        "Pitch": -3.4E-05,
+        "Yaw": -79.99979,
+        "Roll": 90.00009
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_WHITEBOX_GatorGolf_Store_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.4"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_WHITEBOX_GatorGolf_Store_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.6"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

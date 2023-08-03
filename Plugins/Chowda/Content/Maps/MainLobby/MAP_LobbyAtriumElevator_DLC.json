@@ -1,0 +1,2464 @@
+[
+  {
+    "Type": "BlockingVolume",
+    "Name": "BlockingVolume140",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'BlockingVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume140.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.7"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume140.BrushComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.4"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume140.BrushComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.4"
+      }
+    }
+  },
+  {
+    "Type": "BlockingVolume",
+    "Name": "BlockingVolume141",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'BlockingVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume141.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.8"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume141.BrushComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.5"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume141.BrushComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.5"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "2DFE2915424C4B00E0AE0DBBE6FEDBCB",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0xAF7E"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "6ADB49114688CF2E5E83B4B6517C39C3",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0xB59C"
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "BlockingVolume140",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume140.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.7"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume140.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "NoVisibilityCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1276.5548,
+        "Y": 28587.436,
+        "Z": 2131.6558
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6716882,
+        "Y": 0.151236,
+        "Z": 2.22799
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "BlockingVolume141",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume141.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.8"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume141.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.3"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "NoVisibilityCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -617.86066,
+        "Y": 28636.791,
+        "Z": 2131.6558
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.35671145,
+        "Y": 0.28552264,
+        "Z": 2.22799
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_LobbyAtriumElevator_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_LobbyAtriumElevator_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.9"
+      },
+      "StreamingTextureGuids": [
+        "F62E97C1-4517CFB4-811690A3-3D535D50",
+        "CD356E67-4F1DAB1E-67D353B5-62D8DF6E",
+        "49C3AD0F-46DEA597-C5BA0DA1-BD2AE869",
+        "FA6C594D-4E5E3701-676B8E99-E8F19B15",
+        "A7FBB152-45D2EE92-6A1372BC-581B2EBF",
+        "6F2F4D1A-4EB38177-60A5D0BF-DF9B7701",
+        "4BD48D88-477A0CC3-8F5C528C-A7414D5B",
+        "0CD07189-489A35B9-CFA9C3A4-BAA5BF53",
+        "3832F605-4C75A59A-1A99128C-02076A9B",
+        "F5DBD982-41BE6D28-9E988CBA-C9652D5F",
+        "6E0A3237-44B263C9-89561DAE-1EC36699",
+        "735E7E32-4B18EF1A-CCD92D9F-10F17DE5",
+        "62D1EF32-4543E8DA-94623EA4-812BA93C",
+        "C3BCA45B-493E6A87-25495D8E-6261997C",
+        "AB74C20B-48FAC111-616908BB-A0D65306",
+        "7B4CD14B-474A0535-BAF9D686-01359EE9",
+        "D2778396-479B2831-7B21EB9D-595ADA73",
+        "861C873D-4E9E5FA6-16238C88-2337954B",
+        "4893E7A4-4C5A3D13-1F8B4286-3F9C7E0D",
+        "50F50942-4AC13CF5-6631F781-774CA334",
+        "AE94EB06-45234B7C-BB397288-43F7672E",
+        "7ED0984B-4B4392F8-01D8918B-EF980B18",
+        "4E593648-4EF089A0-873EC3B6-7E77964A",
+        "B541A07D-4C00D484-E6A88B82-2EBEC47C",
+        "54AB2A81-4F7ECF31-D429709A-AA4BF25B",
+        "93BB23F1-47B4BF8A-B383A98A-7FB6B116",
+        "6BB5D09E-4BEEE531-4AE295BA-6D481BC2",
+        "B6077058-4215DF6F-39C1F192-76CFCF4B",
+        "FCB228CC-4127FB0A-DE663C8D-17452F05",
+        "641F3B9B-4C6ED134-A794F09F-E02D1FD6",
+        "763FD50F-40A6B4E8-43E1A6A5-FA295F82",
+        "676633AD-47047987-6F9F9890-01E044C8"
+      ],
+      "LevelBuildDataId": "540FDE0A-49C42E45-D848CBBB-8BEA107F",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_LobbyAtriumElevator_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.34"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_LobbyAtriumElevator_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.34"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_ElevatorFrameDoor_L_18'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_PartyDoor_Beam7'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_PartyDoor_Beam8'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_PartyDoor_Beam9'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.PRE_GeneralElevator_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.19"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_Daycare_Elevator_Cover2_4'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.SM_DinerA_IntTrimA_VarA3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.SM_DinerA_IntTrimA_VarA4'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.Cube41_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_ElevatorFrameDoor_L3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_ElevatorFrameDoor_L4'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.14"
+      },
+      {
+        "ObjectName": "BlockingVolume'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume140'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.0"
+      },
+      {
+        "ObjectName": "BlockingVolume'MAP_LobbyAtriumElevator_DLC:PersistentLevel.BlockingVolume141'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.1"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_LobbyAtriumElevator_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.9"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "BlockingVolume140",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "A2632D68-48F45BF3-35BC0F81-6FFBB9C7",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "BlockingVolume141",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "20182CDB-4D8B5818-C9FD5897-5CAB1A35",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "D372925F-4CDD0C3F-F29B2188-846360FD",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube41_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.Cube41_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.22"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.Cube41_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.22"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Daycare_Elevator_Cover2_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_Daycare_Elevator_Cover2_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.23"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_Daycare_Elevator_Cover2_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.23"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_ElevatorFrameDoor_L3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_ElevatorFrameDoor_L3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.24"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_ElevatorFrameDoor_L3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.24"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_ElevatorFrameDoor_L4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_ElevatorFrameDoor_L4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.25"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_ElevatorFrameDoor_L4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.25"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_ElevatorFrameDoor_L_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_ElevatorFrameDoor_L_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.26"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_ElevatorFrameDoor_L_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.26"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PartyDoor_Beam7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_PartyDoor_Beam7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.27"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_PartyDoor_Beam7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.27"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PartyDoor_Beam8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_PartyDoor_Beam8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.28"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_PartyDoor_Beam8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.28"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PartyDoor_Beam9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_PartyDoor_Beam9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.29"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.MOD_PartyDoor_Beam9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.29"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "PRE_GeneralElevator_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.PRE_GeneralElevator_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.30"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.PRE_GeneralElevator_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.30"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerA_IntTrimA_VarA3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.SM_DinerA_IntTrimA_VarA3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.31"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.SM_DinerA_IntTrimA_VarA3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.31"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerA_IntTrimA_VarA4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.SM_DinerA_IntTrimA_VarA4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.32"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LobbyAtriumElevator_DLC:PersistentLevel.SM_DinerA_IntTrimA_VarA4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.32"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube41_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_MAT_UnlitSolidColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_MAT_UnlitSolidColor.0"
+        }
+      ],
+      "VisibilityId": 3409,
+      "RelativeLocation": {
+        "X": -2400.0,
+        "Y": 28377.0,
+        "Z": 2197.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.113088675,
+        "Z": 3.9254465
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "CE5430A64FFEB3C82ABEFFAAE74D0FFB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Daycare_Elevator_Cover2_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Daycare_Elevator_Cover'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Daycare_Elevator_Cover.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 100,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 1245.8988
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 1245.8988
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 26,
+          "TexelFactor": 1245.8988
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 1245.8988
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 1245.8988
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 27,
+          "TexelFactor": 1245.8988
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 23,
+          "TexelFactor": 1245.8988
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 1245.8988
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_ElevatorCover_Grunge'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_ElevatorCover_Grunge.0"
+        }
+      ],
+      "VisibilityId": 3406,
+      "RelativeLocation": {
+        "X": -2397.429,
+        "Y": 28471.957,
+        "Z": 2061.1094
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8B6C90A84AD3DEFAE49124AA2F8C592F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_ElevatorFrameDoor_L3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ElevatorFrameDoor_R'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/AtriumArch/MOD_ElevatorFrameDoor_R.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 474.93094
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 474.93094
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 474.93094
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_ElevatorFrame_Grunge'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_ElevatorFrame_Grunge.0"
+        }
+      ],
+      "VisibilityId": 3410,
+      "RelativeLocation": {
+        "X": -2488.0254,
+        "Y": 28370.459,
+        "Z": 2067.7888
+      },
+      "RelativeScale3D": {
+        "X": 1.2962406,
+        "Y": 1.2962406,
+        "Z": 1.2962406
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "44040657425A4B5F76809AA296B22220"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_ElevatorFrameDoor_L4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ElevatorFrameDoor_R'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/AtriumArch/MOD_ElevatorFrameDoor_R.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 474.93094
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 474.93094
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 474.93094
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_ElevatorFrame_Grunge'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_ElevatorFrame_Grunge.0"
+        }
+      ],
+      "VisibilityId": 3411,
+      "RelativeLocation": {
+        "X": -2395.9666,
+        "Y": 28370.459,
+        "Z": 2067.7888
+      },
+      "RelativeScale3D": {
+        "X": 1.2962406,
+        "Y": 1.2962406,
+        "Z": 1.2962406
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3F7EC57341A598FC3AFAE8AF3A946B27"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_ElevatorFrameDoor_L_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ElevatorFrameDoor_L'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/AtriumArch/MOD_ElevatorFrameDoor_L.2"
+      },
+      "bUseDefaultCollision": false,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 474.931
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 474.931
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 474.931
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_ElevatorFrame_Grunge'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_ElevatorFrame_Grunge.0"
+        }
+      ],
+      "VisibilityId": 3401,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "NoPlayerCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1032.1259,
+        "Y": 28343.436,
+        "Z": 2074.224
+      },
+      "RelativeRotation": {
+        "Pitch": -0.000258,
+        "Yaw": 151.87473,
+        "Roll": 90.000374
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0A364AB745242379BC7DF48503818D16"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PartyDoor_Beam7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PartyDoor_Beam01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_PartyDoor_Beam01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292806725,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 1569.9578
+        },
+        {
+          "PackedRelativeBox": 4292806725,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1569.9578
+        },
+        {
+          "PackedRelativeBox": 4292806725,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1569.9578
+        }
+      ],
+      "VisibilityId": 3402,
+      "RelativeLocation": {
+        "X": -2854.4692,
+        "Y": 28130.326,
+        "Z": 2065.9663
+      },
+      "RelativeScale3D": {
+        "X": 1.0274239,
+        "Y": 1.0274239,
+        "Z": 1.0274239
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FE00C33848B6F1D447BB93A1691DC0AF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PartyDoor_Beam8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PartyDoor_Beam01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_PartyDoor_Beam01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292806725,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 1569.9578
+        },
+        {
+          "PackedRelativeBox": 4292806725,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1569.9578
+        },
+        {
+          "PackedRelativeBox": 4292806725,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1569.9578
+        }
+      ],
+      "VisibilityId": 3403,
+      "RelativeLocation": {
+        "X": -1889.82,
+        "Y": 28130.326,
+        "Z": 2065.9663
+      },
+      "RelativeScale3D": {
+        "X": 1.0274239,
+        "Y": 1.0274239,
+        "Z": 1.0274239
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EA64D50C458BBDB8BF10AEAA291275BF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PartyDoor_Beam9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PartyDoor_Beam02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_PartyDoor_Beam02.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3208577152,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 1681.3595
+        },
+        {
+          "PackedRelativeBox": 3208577152,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1681.3595
+        },
+        {
+          "PackedRelativeBox": 3208577152,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1681.3595
+        }
+      ],
+      "VisibilityId": 3404,
+      "RelativeLocation": {
+        "X": -2388.6348,
+        "Y": 28131.244,
+        "Z": 2590.5935
+      },
+      "RelativeScale3D": {
+        "X": 1.0274239,
+        "Y": 1.0274239,
+        "Z": 1.0274239
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6B2258984CCACB8203AA67BED5653B9F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "PRE_GeneralElevator_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ElevatorArch_Broken_2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_ElevatorArch_Broken_2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 484,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3820683269,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 7365.6646
+        },
+        {
+          "PackedRelativeBox": 3820683269,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 7365.6646
+        },
+        {
+          "PackedRelativeBox": 3820683269,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 7365.6646
+        },
+        {
+          "PackedRelativeBox": 3820683269,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 7365.6646
+        },
+        {
+          "PackedRelativeBox": 3820683269,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 7365.6646
+        },
+        {
+          "PackedRelativeBox": 133562763,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 1918.931
+        },
+        {
+          "PackedRelativeBox": 133562763,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 1918.931
+        },
+        {
+          "PackedRelativeBox": 133562763,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 1918.931
+        },
+        {
+          "PackedRelativeBox": 133562763,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 1918.931
+        },
+        {
+          "PackedRelativeBox": 133562763,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1918.931
+        },
+        {
+          "PackedRelativeBox": 4294902144,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 1931.4548
+        },
+        {
+          "PackedRelativeBox": 4294902144,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 1931.4548
+        },
+        {
+          "PackedRelativeBox": 4294902144,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 1931.4548
+        },
+        {
+          "PackedRelativeBox": 4294902144,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 1931.4548
+        },
+        {
+          "PackedRelativeBox": 4294902144,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1931.4548
+        },
+        {
+          "PackedRelativeBox": 3820683269,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 7365.6646
+        },
+        {
+          "PackedRelativeBox": 3820683269,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 7365.6646
+        },
+        {
+          "PackedRelativeBox": 3820683269,
+          "TextureLevelIndex": 23,
+          "TexelFactor": 7365.6646
+        },
+        {
+          "PackedRelativeBox": 133562763,
+          "TextureLevelIndex": 24,
+          "TexelFactor": 1918.931
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_GrungeSolidGlassArcade1'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MI_GrungeSolidGlassArcade1.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_ElevatorLobbyLobbySide_DLC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_ElevatorLobbyLobbySide_DLC.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_BlackMarbleTilesNoDisplacement'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MAT_BlackMarbleTilesNoDisplacement.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_GrungeSolidGlassArcade1'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MI_GrungeSolidGlassArcade1.0"
+        }
+      ],
+      "VisibilityId": 3405,
+      "RelativeLocation": {
+        "X": -2384.3896,
+        "Y": 28088.19,
+        "Z": 2068.3008
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.90665,
+        "Roll": 1.99998E-06
+      },
+      "RelativeScale3D": {
+        "X": 1.0274239,
+        "Y": 1.0274239,
+        "Z": 1.0274239
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E12D5BD84DFA173E898F0C9B104F585D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerA_IntTrimA_VarA3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerA_IntTrimA_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerA_IntTrimA_VarA.2"
+      },
+      "bOverrideLightMapRes": true,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2522572229,
+          "TextureLevelIndex": 28,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522572229,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522572229,
+          "TextureLevelIndex": 29,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522572229,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522572229,
+          "TextureLevelIndex": 23,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2451272133,
+          "TextureLevelIndex": 30,
+          "TexelFactor": 44.012566
+        },
+        {
+          "PackedRelativeBox": 2451272133,
+          "TextureLevelIndex": 31,
+          "TexelFactor": 44.012566
+        },
+        {
+          "PackedRelativeBox": 2522572229,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522572229,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 185.73466
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_DinerA_TrimA_Grunge'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_DinerA_TrimA_Grunge.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_DinerA_ExteriorWallA_Grunge1'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_DinerA_ExteriorWallA_Grunge1.0"
+        }
+      ],
+      "VisibilityId": 3407,
+      "RelativeLocation": {
+        "X": -2526.1814,
+        "Y": 28092.846,
+        "Z": 2068.8389
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00003,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.6773386,
+        "Y": 1.576002,
+        "Z": 1.576002
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BD586735482765DBCA2AA180CE299BDB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerA_IntTrimA_VarA4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerA_IntTrimA_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerA_IntTrimA_VarA.2"
+      },
+      "bOverrideLightMapRes": true,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2522506693,
+          "TextureLevelIndex": 28,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522506693,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522506693,
+          "TextureLevelIndex": 29,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522506693,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522506693,
+          "TextureLevelIndex": 23,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2451206597,
+          "TextureLevelIndex": 30,
+          "TexelFactor": 44.012566
+        },
+        {
+          "PackedRelativeBox": 2451206597,
+          "TextureLevelIndex": 31,
+          "TexelFactor": 44.012566
+        },
+        {
+          "PackedRelativeBox": 2522506693,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 185.73466
+        },
+        {
+          "PackedRelativeBox": 2522506693,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 185.73466
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_DinerA_TrimA_Grunge'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_DinerA_TrimA_Grunge.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_DinerA_ExteriorWallA_Grunge1'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_DinerA_ExteriorWallA_Grunge1.0"
+        }
+      ],
+      "VisibilityId": 3408,
+      "RelativeLocation": {
+        "X": -1919.5936,
+        "Y": 28092.846,
+        "Z": 2068.8389
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00003,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.576002,
+        "Y": 1.576002,
+        "Z": 1.576002
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FB95ABF945C7ABB4449A9F9E1B83EC43"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_LobbyAtriumElevator_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_LobbyAtriumElevator_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.6"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_LobbyAtriumElevator_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.10"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

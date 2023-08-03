@@ -1,0 +1,596 @@
+[
+  {
+    "Type": "ARCollectible_C",
+    "Name": "Collectible_AR_11a",
+    "Outer": "PersistentLevel",
+    "Template": "Default__ARCollectible_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.ARCollectible_C'",
+    "Properties": {
+      "Niagara": {
+        "ObjectName": "NiagaraComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.Niagara'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.6"
+      },
+      "ARCollectibleLight": {
+        "ObjectName": "PointLightComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.ARCollectibleLight'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.8"
+      },
+      "BoxMesh1": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.BoxMesh1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.12"
+      },
+      "BoxMesh": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.BoxMesh'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.11"
+      },
+      "Timeline_0": {
+        "ObjectName": "TimelineComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.Timeline_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.14"
+      },
+      "Dissolve": {
+        "ObjectName": "TimelineComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.Dissolve'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.13"
+      },
+      "InventoryConditional": {
+        "ObjectName": "InventoryConditionalComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.InventoryConditional'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.2"
+      },
+      "GameTypeCheckDestroy": {
+        "ObjectName": "GameTypeCheckDestroy'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.GameTypeCheckDestroy'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.1"
+      },
+      "CollectionRange": {
+        "ObjectName": "SphereComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.CollectionRange'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.10"
+      },
+      "PlayerInteractHoldComponent": {
+        "ObjectName": "PlayerInteractHoldComponent_C'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.PlayerInteractHoldComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.7"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.9"
+      },
+      "ItemName": "ARPrize_Lunch01",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.9"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.9"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.CollectionRange'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.10"
+        },
+        {
+          "ObjectName": "PlayerInteractHoldComponent_C'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.PlayerInteractHoldComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.7"
+        },
+        {
+          "ObjectName": "GameTypeCheckDestroy'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.GameTypeCheckDestroy'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.1"
+        },
+        {
+          "ObjectName": "InventoryConditionalComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.InventoryConditional'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.2"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.BoxMesh'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.11"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.BoxMesh1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.12"
+        },
+        {
+          "ObjectName": "PointLightComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.ARCollectibleLight'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.8"
+        },
+        {
+          "ObjectName": "NiagaraComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.Niagara'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.6"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.Dissolve'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.13"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.Timeline_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GameTypeCheckDestroy",
+    "Name": "GameTypeCheckDestroy",
+    "Outer": "Collectible_AR_11a",
+    "Template": "GameTypeCheckDestroy_GEN_VARIABLE",
+    "Class": "UScriptClass'GameTypeCheckDestroy'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "InventoryConditionalComponent",
+    "Name": "InventoryConditional",
+    "Outer": "Collectible_AR_11a",
+    "Template": "InventoryConditional_GEN_VARIABLE",
+    "Class": "UScriptClass'InventoryConditionalComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_FazerBlast_TransitionRoom_Gameplay_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.4"
+      },
+      "LevelBuildDataId": "19479575-42C8BC32-9434EEBF-DC9439D0",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.16"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.16"
+      },
+      null,
+      {
+        "ObjectName": "ARCollectible_C'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.0"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "B4E35367-4FEE7D12-615EF283-D09D1F00",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara",
+    "Outer": "Collectible_AR_11a",
+    "Template": "Niagara_GEN_VARIABLE",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.9"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PlayerInteractHoldComponent_C",
+    "Name": "PlayerInteractHoldComponent",
+    "Outer": "Collectible_AR_11a",
+    "Template": "PlayerInteractHoldComponent_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Player/PlayerInteractHoldComponent.PlayerInteractHoldComponent_C'",
+    "Properties": {
+      "OnHoldCompleted": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "ARCollectible_C'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.0"
+            },
+            "FunctionName": "BndEvt__PlayerInteractHoldComponent_K2Node_ComponentBoundEvent_1_OnHoldCompleted__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "ARCollectibleLight",
+    "Outer": "Collectible_AR_11a",
+    "Template": "ARCollectibleLight_GEN_VARIABLE",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.9"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Collectible_AR_11a",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -36223.812,
+        "Y": 85828.41,
+        "Z": -4312.178
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollectionRange",
+    "Outer": "Collectible_AR_11a",
+    "Template": "CollectionRange_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "ARCollectible_C'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.0"
+            },
+            "FunctionName": "BndEvt__ARCollectible_CollectionRange_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "ARCollectible_C'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.0"
+            },
+            "FunctionName": "BndEvt__ARCollectible_CollectionRange_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.9"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BoxMesh",
+    "Outer": "Collectible_AR_11a",
+    "Template": "BoxMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.9"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BoxMesh1",
+    "Outer": "Collectible_AR_11a",
+    "Template": "BoxMesh1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.9"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Dissolve",
+    "Outer": "Collectible_AR_11a",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 1.0,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.15"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "Dissolve_NewTrack_0_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_1'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.16"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Brightness",
+            "FloatPropertyName": "Dissolve_Brightness_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_2'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.17"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Opacity",
+            "FloatPropertyName": "Dissolve_Opacity_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_3'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.18"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Depth",
+            "FloatPropertyName": "Dissolve_Depth_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_5'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.20"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Lightintensity",
+            "FloatPropertyName": "Dissolve_Lightintensity_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 1,
+          "Name": "Dissolve__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 1,
+          "Name": "Dissolve__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "ARCollectible_C'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.0"
+        },
+        "DirectionPropertyName": "Dissolve__Direction_055AD7C242F5F4E1216DCABEAB1F0CA0"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Timeline_0",
+    "Outer": "Collectible_AR_11a",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 1.0,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_4'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.19"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "Timeline_0_NewTrack_0_099BA60045BD38ED27F08FAAB83F7592"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_7'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.21"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "LightIntensity",
+            "FloatPropertyName": "Timeline_0_LightIntensity_099BA60045BD38ED27F08FAAB83F7592"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 1,
+          "Name": "Timeline_0__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 1,
+          "Name": "Timeline_0__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "ARCollectible_C'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.Collectible_AR_11a'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.0"
+        },
+        "DirectionPropertyName": "Timeline_0__Direction_099BA60045BD38ED27F08FAAB83F7592"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_FazerBlast_TransitionRoom_Gameplay_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.3"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_FazerBlast_TransitionRoom_Gameplay_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_TransitionRoom_Gameplay_DLC.5"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

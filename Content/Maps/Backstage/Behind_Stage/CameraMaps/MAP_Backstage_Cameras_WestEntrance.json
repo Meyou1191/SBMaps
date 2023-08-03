@@ -1,0 +1,1236 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Backstage_West_Corridor_Cam",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.39"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.14"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.13"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.12"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.7"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.45"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.32"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.42"
+      },
+      "InitialPitch": -15.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.30"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.23"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.31"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "RRGiftsWest"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.22"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.42"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.32"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.45"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.7"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.12"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.13"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.14"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.39"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Backstage_WestDoor_Camera",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.40"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.17"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.16"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.15"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.8"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.46"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.35"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.43"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.33"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.26"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.34"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "FazwatchAccessible": false,
+      "CameraName": {
+        "CultureInvariantString": "RRDoorWest"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.25"
+      },
+      "Tags": [
+        "BackstageScreenCam"
+      ],
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.43"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.35"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.46"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.8"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.17"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.40"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera11_MontyEyes",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.41"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.20"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.19"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.18"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.9"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.47"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.38"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.44"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.36"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.29"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.37"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "RROfficeWest1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.28"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.44"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.38"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.47"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.9"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.20"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.41"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Backstage_Cameras_WestEntrance",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.10"
+      },
+      "LevelBuildDataId": "9FD0A37B-4405D4C6-5A727584-979FA7DB",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.49"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.49"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.3"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.4"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.10"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "7BCFDFC7-4C0D8196-E51DF78D-A199870D",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.23"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.23"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.23"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.26"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.26"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.26"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.22"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5193.5483,
+        "Y": 45176.4,
+        "Z": 1854.4376
+      },
+      "RelativeRotation": {
+        "Pitch": -11.799911,
+        "Yaw": 221.62227,
+        "Roll": 9E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.22"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4167.726,
+        "Y": 48789.043,
+        "Z": 1846.9479
+      },
+      "RelativeRotation": {
+        "Pitch": -17.520992,
+        "Yaw": -166.32158,
+        "Roll": 4.8346737E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.25"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.28"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4285.348,
+        "Y": 45018.586,
+        "Z": 1784.265
+      },
+      "RelativeRotation": {
+        "Pitch": -13.399506,
+        "Yaw": 88.600464,
+        "Roll": 2.720763E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.28"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.21"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.3"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.22"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.3"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.24"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.4"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.25"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.4"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.27"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.5"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.28"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.5"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Backstage_West_Corridor_Cam",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_West_Corridor_Cam.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Backstage_WestDoor_Camera",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Backstage_WestDoor_Camera.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera11_MontyEyes",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.Camera11_MontyEyes.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Backstage_Cameras_WestEntrance",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Backstage_Cameras_WestEntrance:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.6"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Backstage_Cameras_WestEntrance:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_WestEntrance.11"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

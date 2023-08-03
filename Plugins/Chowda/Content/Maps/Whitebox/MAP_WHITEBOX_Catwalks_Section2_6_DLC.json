@@ -1,0 +1,574 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_WHITEBOX_Catwalks_Section2_6_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.1"
+      },
+      "LevelBuildDataId": "684A335E-4D214308-CEA70590-A6127355",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.20"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.20"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube102'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube103'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube444'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube445'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube470'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube471'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube472'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube473'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.10"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "88A7F88C-44768744-BAC1CABB-96964FAE",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube102",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube102.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.11"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube102.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.11"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube103",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube103.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.12"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube103.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube444",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube444.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.13"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube444.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube445",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube445.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.14"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube445.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube470",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube470.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.15"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube470.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube471",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube471.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.16"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube471.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.16"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube472",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube472.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.17"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube472.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.17"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube473",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube473.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.18"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.Cube473.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.18"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube102",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_Testing_WorldGridMaterial'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Functions/Functions_Traces/M_Testing_WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -42889.734,
+        "Y": 44978.88,
+        "Z": -4380.6973
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00006,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.068002,
+        "Y": 6.195671,
+        "Z": 0.183322
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube103",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_Testing_WorldGridMaterial'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Functions/Functions_Traces/M_Testing_WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -43096.727,
+        "Y": 44978.88,
+        "Z": -4130.639
+      },
+      "RelativeRotation": {
+        "Pitch": 1.3660378E-05,
+        "Yaw": 90.00006,
+        "Roll": 70.00012
+      },
+      "RelativeScale3D": {
+        "X": 2.068002,
+        "Y": 6.195671,
+        "Z": 0.183322
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube444",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_Testing_WorldGridMaterial'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Functions/Functions_Traces/M_Testing_WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -42889.734,
+        "Y": 44978.88,
+        "Z": 615.7514
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00006,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.068002,
+        "Y": 6.195671,
+        "Z": 0.183322
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube445",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_Testing_WorldGridMaterial'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Functions/Functions_Traces/M_Testing_WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -43096.727,
+        "Y": 44978.88,
+        "Z": 865.8107
+      },
+      "RelativeRotation": {
+        "Pitch": 1.4E-05,
+        "Yaw": 90.00006,
+        "Roll": 70.00012
+      },
+      "RelativeScale3D": {
+        "X": 2.068002,
+        "Y": 6.195671,
+        "Z": 0.183322
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube470",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_Testing_WorldGridMaterial'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Functions/Functions_Traces/M_Testing_WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -43035.016,
+        "Y": 44972.086,
+        "Z": -4260.6113
+      },
+      "RelativeRotation": {
+        "Pitch": 66.08571,
+        "Yaw": -180.75424,
+        "Roll": 0.00015065631
+      },
+      "RelativeScale3D": {
+        "X": 2.380683,
+        "Y": 0.315872,
+        "Z": 0.315872
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube471",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'DangerYellow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/DangerYellow.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -43038.613,
+        "Y": 44972.13,
+        "Z": -4247.951
+      },
+      "RelativeRotation": {
+        "Pitch": 66.08571,
+        "Yaw": -180.75424,
+        "Roll": 0.00015065631
+      },
+      "RelativeScale3D": {
+        "X": 0.325432,
+        "Y": 0.472682,
+        "Z": 0.472682
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube472",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_Testing_WorldGridMaterial'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Functions/Functions_Traces/M_Testing_WorldGridMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -43035.016,
+        "Y": 44972.086,
+        "Z": 731.3314
+      },
+      "RelativeRotation": {
+        "Pitch": 66.08571,
+        "Yaw": -180.75424,
+        "Roll": 0.000151
+      },
+      "RelativeScale3D": {
+        "X": 2.380683,
+        "Y": 0.315872,
+        "Z": 0.315872
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube473",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'DangerYellow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/DangerYellow.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -43038.613,
+        "Y": 44972.13,
+        "Z": 743.9916
+      },
+      "RelativeRotation": {
+        "Pitch": 66.08571,
+        "Yaw": -180.75424,
+        "Roll": 0.000151
+      },
+      "RelativeScale3D": {
+        "X": 0.325432,
+        "Y": 0.472682,
+        "Z": 0.472682
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_WHITEBOX_Catwalks_Section2_6_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_WHITEBOX_Catwalks_Section2_6_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Catwalks_Section2_6_DLC.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

@@ -1,0 +1,886 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MAP_SplashScreen",
+    "Outer": "MAP_SplashScreen_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_SwitchOnPlatform_Platform",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESWGPlatform'",
+          "ObjectPath": "/Script/SWGPlatformUtil"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FNAFSaveGameSystem'",
+          "ObjectPath": "/Script/fnaf9"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetUserIndex_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DoesSaveGameExist_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_GetLocalizationCultureFromSteam_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ELocalizationCulture'",
+          "ObjectPath": "/Script/fnaf9"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 10,
+        "Function": {
+          "ObjectName": "Function'SWGPlatformUtilFunctions:SwitchOnPlatform'",
+          "ObjectPath": "/Script/SWGPlatformUtil"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+                "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+              },
+              "Property": {
+                "Type": "EnumProperty",
+                "Name": "CallFunc_SwitchOnPlatform_Platform",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "Enum": {
+                  "ObjectName": "Enum'ESWGPlatform'",
+                  "ObjectPath": "/Script/SWGPlatformUtil"
+                },
+                "UnderlyingProp": {
+                  "Type": "ByteProperty",
+                  "Name": "UnderlyingType",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "Enum": null
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 29,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_SwitchEnum_CmpSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetMathLibrary:NotEqual_ByteByte'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+                  "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+                },
+                "Property": {
+                  "Type": "EnumProperty",
+                  "Name": "CallFunc_SwitchOnPlatform_Platform",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "Enum": {
+                    "ObjectName": "Enum'ESWGPlatform'",
+                    "ObjectPath": "/Script/SWGPlatformUtil"
+                  },
+                  "UnderlyingProp": {
+                    "Type": "ByteProperty",
+                    "Name": "UnderlyingType",
+                    "Flags": "RF_Public",
+                    "ElementSize": 1,
+                    "Enum": null
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 60,
+        "CodeOffset": 79,
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.ExecuteUbergraph_MAP_SplashScreen[79]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_SwitchEnum_CmpSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 74,
+        "CodeOffset": 274,
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.ExecuteUbergraph_MAP_SplashScreen[274]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 79,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+            },
+            "Property": {
+              "Type": "ByteProperty",
+              "Name": "CallFunc_GetLocalizationCultureFromSteam_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "Enum": {
+                "ObjectName": "Enum'ELocalizationCulture'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'Localization:GetLocalizationCultureFromSteam'",
+            "ObjectPath": "/Script/fnaf9"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 107,
+        "Function": {
+          "ObjectName": "Function'Localization:ChangeLocalizationCulture'",
+          "ObjectPath": "/Script/fnaf9"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+                "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+              },
+              "Property": {
+                "Type": "ByteProperty",
+                "Name": "CallFunc_GetLocalizationCultureFromSteam_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "Enum": {
+                  "ObjectName": "Enum'ELocalizationCulture'",
+                  "ObjectPath": "/Script/fnaf9"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 126,
+        "CodeOffset": 274,
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.ExecuteUbergraph_MAP_SplashScreen[274]"
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 131,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SubsystemBlueprintLibrary:GetGameInstanceSubsystem'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'FNAFSaveGameSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 161,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_GetUserIndex_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+                "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'FNAFSaveGameSystem'",
+                  "ObjectPath": "/Script/fnaf9"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_GetUserIndex_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'FNAFSaveGameSystem:GetUserIndex'",
+              "ObjectPath": "/Script/fnaf9"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 211,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_DoesSaveGameExist_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:DoesSaveGameExist'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_StringConst",
+              "Value": "PlayerSettingsSlot"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+                  "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "CallFunc_GetUserIndex_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 260,
+        "CodeOffset": 10,
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.ExecuteUbergraph_MAP_SplashScreen[10]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_DoesSaveGameExist_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 274,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 276
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "MAP_SplashScreen_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+          "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 131
+          }
+        ],
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.ExecuteUbergraph_MAP_SplashScreen[131]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MAP_SplashScreen_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MAP_SplashScreen_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.1"
+      },
+      {
+        "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MAP_SplashScreen": {
+        "ObjectName": "Function'MAP_SplashScreen_C:ExecuteUbergraph_MAP_SplashScreen'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'MAP_SplashScreen_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.1"
+      }
+    },
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MAP_SplashScreen_C'Default__MAP_SplashScreen_C'",
+      "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.3"
+    }
+  },
+  {
+    "Type": "MAP_SplashScreen_C",
+    "Name": "Default__MAP_SplashScreen_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Maps/Title/MAP_SplashScreen.MAP_SplashScreen_C'",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "3DBrightness_WI_C",
+    "Name": "3DBrightness_WI_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__3DBrightness_WI_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/UI/SplashScreen/3DBrightness_WI.3DBrightness_WI_C'",
+    "Properties": {
+      "Camera": {
+        "ObjectName": "CameraComponent'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.5"
+      },
+      "BrightnessWidget": {
+        "ObjectName": "WidgetComponent'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2.BrightnessWidget'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.11"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.10"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.10"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.10"
+        },
+        {
+          "ObjectName": "WidgetComponent'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2.BrightnessWidget'",
+          "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.11"
+        },
+        {
+          "ObjectName": "CameraComponent'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Camera",
+    "Outer": "3DBrightness_WI_2",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_SplashScreen",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_SplashScreen:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.8"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "MAP_SplashScreen_C'MAP_SplashScreen:PersistentLevel.MAP_SplashScreen_C_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.7"
+      },
+      "LevelBuildDataId": "BFB7462A-4F62CFF4-762A51AE-70C081A6",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_SplashScreen:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.13"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_SplashScreen:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.13"
+      },
+      null,
+      {
+        "ObjectName": "3DBrightness_WI_C'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.4"
+      },
+      {
+        "ObjectName": "MAP_SplashScreen_C'MAP_SplashScreen:PersistentLevel.MAP_SplashScreen_C_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.7"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Engine/Maps/Entry",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_SplashScreen:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.8"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "MAP_SplashScreen_C'MAP_SplashScreen:PersistentLevel.MAP_SplashScreen_C_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.7"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "MAP_SplashScreen_C",
+    "Name": "MAP_SplashScreen_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MAP_SplashScreen_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Maps/Title/MAP_SplashScreen.MAP_SplashScreen_C'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A5CA18CC-45B30CD4-5613FB95-266DE310",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "3DBrightness_WI_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeScale3D": {
+        "X": 0.2,
+        "Y": 0.2,
+        "Z": 0.2
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "BrightnessWidget",
+    "Outer": "3DBrightness_WI_2",
+    "Template": "BrightnessWidget_GEN_VARIABLE",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "CurrentDrawSize": {
+        "X": 1920,
+        "Y": 1080
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_SplashScreen:PersistentLevel.3DBrightness_WI_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_SplashScreen",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_SplashScreen:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.6"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_SplashScreen:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_SplashScreen.9"
+      },
+      "DefaultGameMode": {
+        "ObjectName": "BlueprintGeneratedClass'SplashGM_C'",
+        "ObjectPath": "fnaf9/Content/Blueprints/System/Title/SplashGM.0"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

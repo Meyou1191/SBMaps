@@ -1,0 +1,1398 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Stage_Area:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.53"
+      },
+      "LevelBuildDataId": "DE279205-49273DA6-223CB68E-487ED92F",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Stage_Area:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.58"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Stage_Area:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.58"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Stage_Area:PersistentLevel.MOD_LargeTarp12'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.55"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Stage_Area:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.53"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_0",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_Atrium_3rd_Floor.MAP_Atrium_3rd_Floor",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.91406256,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFF600"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_1",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_Atrium_Ground_Floor.MAP_Atrium_Ground_Floor",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.11718702,
+        "A": 1.0,
+        "Hex": "FFFF0060"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_2",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_Atrium_Food_Court.MAP_Atrium_Food_Court",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0078125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF1500FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_3",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_Doors.MAP_Doors",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.4296875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFAF00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_4",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_Atrium_2nd_Floor.MAP_Atrium_2nd_Floor",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.47656238,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFB8FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_5",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_GroundColliders.MAP_GroundColliders",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.5234375,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFC000FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Daycare/MAP_Daycare_Gameplay.MAP_Daycare_Gameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.546875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFC300FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Arcade/MAP_EastArcade.MAP_EastArcade",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.93750006,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFF800"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_10",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Daycare/Airlock_Rooms/MAP_Airlock_3_Bathroom_Womens.MAP_Airlock_3_Bathroom_Womens",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.48437476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00B9FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_11",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Atrium/MAP_Cupcake_Shop.MAP_Cupcake_Shop",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.88281274,
+        "A": 1.0,
+        "Hex": "FF00FFF2"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_12",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/FazerBlast/MAP_FazerBlast_Bathrooms.MAP_FazerBlast_Bathrooms",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.79687506,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFE700"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_13",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Cinematics/CinematicMaps/MAP_Atrium_Cinematic.MAP_Atrium_Cinematic",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.2109375,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF7F00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_14",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/WestArcade/MAP_BowlingAlley_Entrance.MAP_BowlingAlley_Entrance",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.4765625,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFB800FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_15",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/West_Atrium/MAP_West_Atrium_Sublobbies.MAP_West_Atrium_Sublobbies",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.40625,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFAB00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_16",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/West_Atrium/MAP_West_Sublobby_2nd_Floor.MAP_West_Sublobby_2nd_Floor",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.5624995,
+        "A": 1.0,
+        "Hex": "FFFF00C6"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_17",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Utility/MAP_Utility_Center.MAP_Utility_Center",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.726562,
+        "A": 1.0,
+        "Hex": "FFFF00DE"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_19",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_Atrium_to_Lower_Kitchen_Vent.MAP_Atrium_to_Lower_Kitchen_Vent",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.359375,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFA200FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/MainLobby/NightLighting/MAP_MainLobby_LightsOff.MAP_MainLobby_LightsOff",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.3359375,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF9D00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_20",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_WorldAmbience.MAP_WorldAmbience",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.5156245,
+        "A": 1.0,
+        "Hex": "FFFF00BE"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_21",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Atrium/MAP_East_Sublobby_2nd_Floor.MAP_East_Sublobby_2nd_Floor",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.60937506,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFCD00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_22",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Atrium/MAP_East_Atrium_Sublobbies.MAP_East_Atrium_Sublobbies",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.57812476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00C8FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_23",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/MAP_RockstarRow_Entrance_West.MAP_RockstarRow_Entrance_West",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.5625,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFC600"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_24",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/FazerBlast/MAP_FazerBlast_EquipmentRoom.MAP_FazerBlast_EquipmentRoom",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.71874976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00DDFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_25",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_PrizeCounter.MAP_PrizeCounter",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.26562488,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF8DFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_26",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/West_Atrium/MAP_GlamRock_Salon_EXT.MAP_GlamRock_Salon_EXT",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.27343726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF008FFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_27",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/West_Atrium/MAP_GlamRock_Salon_INT.MAP_GlamRock_Salon_INT",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.820312,
+        "A": 1.0,
+        "Hex": "FFFF00EA"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_28",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/MAP_RockstarRow_Entrance_East.MAP_RockstarRow_Entrance_East",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.25781202,
+        "A": 1.0,
+        "Hex": "FFFF008B"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_29",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/MAP_FoodCourt_UnusedMeshSave.MAP_FoodCourt_UnusedMeshSave",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.25,
+        "A": 1.0,
+        "Hex": "FF00FF89"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/RoxyRacer/MAP_RoxyRacer.MAP_RoxyRacer",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.9921875,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_30",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_AtriumGroundFloor_SetDressing.MAP_AtriumGroundFloor_SetDressing",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.6874999,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFD8FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_31",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/MAP_Kitchen_Gameplay.MAP_Kitchen_Gameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.93750006,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFF800"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_32",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/West_Atrium/MAP_West_Atrium_Sublobbies_Gameplay.MAP_West_Atrium_Sublobbies_Gameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.07031202,
+        "A": 1.0,
+        "Hex": "FFFF004B"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_33",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/MAP_Kitchen_GameplayElements.MAP_Kitchen_GameplayElements",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.55468774,
+        "A": 1.0,
+        "Hex": "FF00FFC5"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_34",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Behind_Stage/MAP_Backstage_Gameplay.MAP_Backstage_Gameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.1875,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF7800"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_35",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/MainLobby/MAP_MainLobby_Gameplay.MAP_MainLobby_Gameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.5703124,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFC7FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_36",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/Airlocks/Airlock_4.Airlock_4",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.7499995,
+        "A": 1.0,
+        "Hex": "FFFF00E1"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_37",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/East_Atrium/MAP_EastAtrium_Sublobbies_Gameplay.MAP_EastAtrium_Sublobbies_Gameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.40624988,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFABFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_38",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/Airlocks/Airlock_5.Airlock_5",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.7812499,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFE5FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/Mazercise/MAP_Mazercise.MAP_Mazercise",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0546875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF4200FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_41",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/StageArea/MAP_StageAreaGameplay.MAP_StageAreaGameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.7968745,
+        "A": 1.0,
+        "Hex": "FFFF00E7"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_42",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Utility/MAP_UtiliDoorsGameplay.MAP_UtiliDoorsGameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.67187524,
+        "A": 1.0,
+        "Hex": "FF00FFD6"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_44",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_SurvivalWorldGameplay.MAP_SurvivalWorldGameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.64843726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00D3FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_45",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_WorldGameplay.MAP_WorldGameplay",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.46093774,
+        "A": 1.0,
+        "Hex": "FF00FFB5"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_46",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/MainLobby/NightLighting/MAP_Glam_Rock_Gifts_LightsOff.MAP_Glam_Rock_Gifts_LightsOff",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.14843738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF6BFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_47",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/MainLobby/NightLighting/MAP_HelpDesk_LightsOff.MAP_HelpDesk_LightsOff",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.3125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF9800FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_48",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/MainLobby/NightLighting/MAP_Kitchen_FazPad_LightsOff.MAP_Kitchen_FazPad_LightsOff",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.6171874,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFCEFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_49",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Utility/MAP_Utility_UnderStageArea.MAP_Utility_UnderStageArea",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.945313,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFF900FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_51",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Daycare/DayTime/MAP_Daycare_Store_LightsOn.MAP_Daycare_Store_LightsOn",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.5937499,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFCBFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/MAP_Atrium_Main_Doors.MAP_Atrium_Main_Doors",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.515625,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFBE00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/DO_Not_Cook/Mazercise/MAP_Mazercise_Lighting.MAP_Mazercise_Lighting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.79687506,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFE700"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Daycare/Airlock_Rooms/Airlock_3.Airlock_3",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.1171875,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF6000"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_9",
+    "Outer": "MAP_Stage_Area",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Daycare/Airlock_Rooms/MAP_Airlock_3_Bathroom_Mens.MAP_Airlock_3_Bathroom_Mens",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.24218738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF87FF00"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "3EAE2A7F-43BB56E2-4441DF86-03AFAFA6",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_LargeTarp12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Stage_Area:PersistentLevel.MOD_LargeTarp12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.56"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Stage_Area:PersistentLevel.MOD_LargeTarp12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.56"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_LargeTarp12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_LargeTarp'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_LargeTarp.2"
+      },
+      "bOverrideLightMapRes": true,
+      "RelativeLocation": {
+        "X": 3764.5986,
+        "Y": 41634.94,
+        "Z": 2723.2263
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 29.732065,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 16.089096,
+        "Y": 16.089096,
+        "Z": 16.089096
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Stage_Area",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Stage_Area:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_4'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.39"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.51"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_9'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.52"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_10'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.9"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_30'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.30"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.49"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.50"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_11'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.10"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_14'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.13"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_15'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.14"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_16'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.15"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_17'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.16"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_29'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.28"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_19'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.17"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_20'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.19"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_21'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.20"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_22'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.21"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_25'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.24"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_26'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.25"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_27'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.26"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Stage_Area:LevelStreamingAlwaysLoaded_0'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.1"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.8"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_23'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.22"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_24'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.23"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_28'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.27"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_32'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.32"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_34'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.34"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_37'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.37"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_49'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.47"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_13'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.12"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Stage_Area:LevelStreamingAlwaysLoaded_1'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.2"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Stage_Area:LevelStreamingAlwaysLoaded_2'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.3"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.18"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Stage_Area:LevelStreamingAlwaysLoaded_3'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.4"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Stage_Area:LevelStreamingAlwaysLoaded_4'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.5"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_Stage_Area:LevelStreamingAlwaysLoaded_5'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.6"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_36'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.36"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_38'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.38"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.7"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_31'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.31"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_33'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.33"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_35'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.35"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_41'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.40"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_42'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.41"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_44'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.42"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_45'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.43"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_46'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.44"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_47'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.45"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_48'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.46"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_51'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.48"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.29"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Stage_Area:LevelStreamingDynamic_12'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.11"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Stage_Area:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_Stage_Area.54"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

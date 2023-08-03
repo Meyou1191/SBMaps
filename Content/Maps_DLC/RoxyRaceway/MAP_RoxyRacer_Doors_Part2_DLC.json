@@ -1,0 +1,2048 @@
+[
+  {
+    "Type": "BoxComponent",
+    "Name": "CloseTrigger",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "CloseTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+            },
+            "FunctionName": "BndEvt__SecurityRm_BP_DoorMaster_DLC_Unlockable_CloseTrigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Door_Collision",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "Door_Collision_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -81.203125,
+        "Z": 104.99951
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_0",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "DoorDirection_Collision_0_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_0_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_1",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "DoorDirection_Collision_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_1_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Double",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "PlayerCollision_Double_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_LaserTag",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "PlayerCollision_LaserTag_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_SecurityDouble",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "PlayerCollision_SecurityDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Single",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "PlayerCollision_Single_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CloseTrigger",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "CloseTrigger_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+            },
+            "FunctionName": "BndEvt__SecurityRm_BP_DoorMaster_DLC_Unlockable_CloseTrigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Door_Collision",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "Door_Collision_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -81.203125,
+        "Z": 104.99927
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_0",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "DoorDirection_Collision_0_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_0_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_1",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "DoorDirection_Collision_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_1_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Double",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "PlayerCollision_Double_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_LaserTag",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "PlayerCollision_LaserTag_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_SecurityDouble",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "PlayerCollision_SecurityDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Single",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "PlayerCollision_Single_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "Decal1_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "Decal1_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DLC_DoorPairedActor_C",
+    "Name": "DLC_DoorPairedActor",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "DLC_DoorPairedActor_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/DLC_DoorPairedActor.DLC_DoorPairedActor_C'",
+    "Properties": {
+      "PairedActor": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_DLC.MAP_RoxyRacer_Doors_DLC",
+        "SubPathString": "PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DLC_DoorPairedActor_C",
+    "Name": "DLC_DoorPairedActor",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "DLC_DoorPairedActor_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/DLC_DoorPairedActor.DLC_DoorPairedActor_C'",
+    "Properties": {
+      "PairedActor": {
+        "AssetPathName": "/Game/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_DLC.MAP_RoxyRacer_Doors_DLC",
+        "SubPathString": "PersistentLevel.BP_DoorMaster_DLC4_2"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "OnInitialOpen": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_4_OnInitialOpen__DelegateSignature"
+          }
+        ]
+      },
+      "OnOpenDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_2_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "OnCloseDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_3_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "NormalDoorEntryRequirements": {
+        "bIsAutomaticDoorForPlayer": true,
+        "bIsAutomaticDoorForAI": true
+      },
+      "OnInitialOpen": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_4_OnInitialOpen__DelegateSignature"
+          }
+        ]
+      },
+      "OnOpenDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_2_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "OnCloseDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_3_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_RoxyRacer_Doors_Part2_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.25"
+      },
+      "LevelBuildDataId": "84DE32DD-46283860-12C5DEA5-F1481063",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.60"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.60"
+      },
+      null,
+      {
+        "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+      },
+      {
+        "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.25"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "F3C65EE7-40B4D616-4AEEC4BA-E34E6320",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "RR2_BP_DoorMaster_DLC_Unlockable_C",
+    "Name": "BP_DoorMaster_DLC4_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__RR2_BP_DoorMaster_DLC_Unlockable_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Plugins/Chowda/Content/Blueprints/RoxyRaceway/RR2_BP_DoorMaster_DLC_Unlockable.RR2_BP_DoorMaster_DLC_Unlockable_C'",
+    "Properties": {
+      "CloseTrigger": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.CloseTrigger'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.0"
+      },
+      "DLC_DoorPairedActor": {
+        "ObjectName": "DLC_DoorPairedActor_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DLC_DoorPairedActor'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.20"
+      },
+      "DoorDirection_Collision_1": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorDirection_Collision_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.3"
+      },
+      "DoorDirection_Collision_0": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorDirection_Collision_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.2"
+      },
+      "SecurityNumberDouble1": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityNumberDouble1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.50"
+      },
+      "SecurityNumberDouble": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityNumberDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.49"
+      },
+      "SecurityNumberSingle1": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityNumberSingle1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.52"
+      },
+      "SecurityNumberSingle": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityNumberSingle'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.51"
+      },
+      "Decal1": {
+        "ObjectName": "DecalComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Decal1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.17"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Decal'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.16"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.22"
+      },
+      "PlayerCollision_SecurityDouble": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.PlayerCollision_SecurityDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.6"
+      },
+      "PlayerCollision_Double": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.PlayerCollision_Double'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.4"
+      },
+      "PlayerCollision_LaserTag": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.PlayerCollision_LaserTag'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.5"
+      },
+      "PlayerCollision_Single": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.PlayerCollision_Single'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.7"
+      },
+      "Rotator2": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.31"
+      },
+      "Rotator1": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.30"
+      },
+      "SecurityDoorRotator2": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.34"
+      },
+      "SecurityDoorRotator1": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.33"
+      },
+      "MOD_Star_Plaque": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.MOD_Star_Plaque'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.44"
+      },
+      "MESH": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.29"
+      },
+      "DoorMesh_2": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.43"
+      },
+      "DoorMesh_1": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.42"
+      },
+      "DoorMesh_0": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.41"
+      },
+      "Door_Collision": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Door_Collision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.1"
+      },
+      "Open Door/ Close Door": {
+        "ObjectName": "TimelineComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Open Door/ Close Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.57"
+      },
+      "DoorOpen%": 80.0,
+      "InvertedDoorOpen%": 80.0,
+      "Scene": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Door_Collision'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.1"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.MESH'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.29"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.41"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityDoorRotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.33"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Rotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.30"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.43"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityDoorRotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.34"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Rotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.31"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.42"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.MOD_Star_Plaque'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.44"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityNumberSingle'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.51"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityNumberSingle1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.52"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityNumberDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.49"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityNumberDouble1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.50"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.PlayerCollision_Single'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.7"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.PlayerCollision_LaserTag'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.5"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.PlayerCollision_Double'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.4"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.PlayerCollision_SecurityDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.6"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.22"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Decal'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.16"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Decal1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.17"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorDirection_Collision_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.2"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorDirection_Collision_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.3"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Open Door/ Close Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.57"
+        },
+        {
+          "ObjectName": "DLC_DoorPairedActor_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DLC_DoorPairedActor'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.20"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.CloseTrigger'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "RR2_BP_DoorMaster_DLC_Unlockable_C",
+    "Name": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Outer": "PersistentLevel",
+    "Template": "Default__RR2_BP_DoorMaster_DLC_Unlockable_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Plugins/Chowda/Content/Blueprints/RoxyRaceway/RR2_BP_DoorMaster_DLC_Unlockable.RR2_BP_DoorMaster_DLC_Unlockable_C'",
+    "Properties": {
+      "CloseTrigger": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.CloseTrigger'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.8"
+      },
+      "DLC_DoorPairedActor": {
+        "ObjectName": "DLC_DoorPairedActor_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DLC_DoorPairedActor'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.21"
+      },
+      "DoorDirection_Collision_1": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorDirection_Collision_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.11"
+      },
+      "DoorDirection_Collision_0": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorDirection_Collision_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.10"
+      },
+      "SecurityNumberDouble1": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityNumberDouble1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.54"
+      },
+      "SecurityNumberDouble": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityNumberDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.53"
+      },
+      "SecurityNumberSingle1": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityNumberSingle1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.56"
+      },
+      "SecurityNumberSingle": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityNumberSingle'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.55"
+      },
+      "Decal1": {
+        "ObjectName": "DecalComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Decal1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.19"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Decal'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.18"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.23"
+      },
+      "PlayerCollision_SecurityDouble": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.PlayerCollision_SecurityDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.14"
+      },
+      "PlayerCollision_Double": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.PlayerCollision_Double'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.12"
+      },
+      "PlayerCollision_LaserTag": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.PlayerCollision_LaserTag'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.13"
+      },
+      "PlayerCollision_Single": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.PlayerCollision_Single'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.15"
+      },
+      "Rotator2": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.37"
+      },
+      "Rotator1": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.36"
+      },
+      "SecurityDoorRotator2": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.40"
+      },
+      "SecurityDoorRotator1": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.39"
+      },
+      "MOD_Star_Plaque": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.MOD_Star_Plaque'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.48"
+      },
+      "MESH": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.35"
+      },
+      "DoorMesh_2": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.47"
+      },
+      "DoorMesh_1": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.46"
+      },
+      "DoorMesh_0": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.45"
+      },
+      "Door_Collision": {
+        "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Door_Collision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.9"
+      },
+      "Open Door/ Close Door": {
+        "ObjectName": "TimelineComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Open Door/ Close Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.58"
+      },
+      "DoorOpen%": 80.0,
+      "InvertedDoorOpen%": 80.0,
+      "Scene": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Door_Collision'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.9"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.MESH'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.35"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.45"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityDoorRotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.39"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Rotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.36"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.47"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityDoorRotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.40"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Rotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.37"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.46"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.MOD_Star_Plaque'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.48"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityNumberSingle'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.55"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityNumberSingle1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.56"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityNumberDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.53"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityNumberDouble1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.54"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.PlayerCollision_Single'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.15"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.PlayerCollision_LaserTag'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.13"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.PlayerCollision_Double'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.12"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.PlayerCollision_SecurityDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.14"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.23"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Decal'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.18"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Decal1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.19"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorDirection_Collision_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.10"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorDirection_Collision_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.11"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Open Door/ Close Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.58"
+        },
+        {
+          "ObjectName": "DLC_DoorPairedActor_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DLC_DoorPairedActor'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.21"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.CloseTrigger'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MESH",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "MESH_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator1",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "Rotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator2",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "Rotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -45187.68,
+        "Y": 91607.66,
+        "Z": 702.10693
+      },
+      "RelativeRotation": {
+        "Pitch": -8.455078,
+        "Yaw": -179.99986,
+        "Roll": 2.234361
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator1",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "SecurityDoorRotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator2",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "SecurityDoorRotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MESH",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "MESH_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator1",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "Rotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.39"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator2",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "Rotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -45197.68,
+        "Y": 91607.66,
+        "Z": -4299.9106
+      },
+      "RelativeRotation": {
+        "Pitch": -8.455078,
+        "Yaw": -179.99986,
+        "Roll": 2.234361
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator1",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "SecurityDoorRotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator2",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "SecurityDoorRotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_0",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "DoorMesh_0_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHorizontalSlider_SM_SHS_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHorizontalSlider_SM_SHS_00.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DoorA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DoorA.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0DD8A3C6415FFB881DAE209E53A5F679"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_1",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "DoorMesh_1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SecuritySingleDoor_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SecuritySingleDoor_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_SecuritySingleDoor_Red_DLC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MAT_SecuritySingleDoor_Red_DLC.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3CDF9DF147F133AB81910BA0C7CE0212"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_2",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "DoorMesh_2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": null,
+      "LightmapType": "ELightmapType::Default",
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Star_Plaque",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "MOD_Star_Plaque_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.42"
+      },
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bVisible",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bHiddenInGame",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EACBB45E41D1CB503B0FE6AD6EA8AF2E"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_0",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "DoorMesh_0_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHorizontalSlider_SM_SHS_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHorizontalSlider_SM_SHS_00.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DoorA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DoorA.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "ACA478BC460453CDA7F6D5A028F2D714"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_1",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "DoorMesh_1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SecuritySingleDoor_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SecuritySingleDoor_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_SecuritySingleDoor_Red_DLC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MAT_SecuritySingleDoor_Red_DLC.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DB629EE24A90E82967633295520D3474"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_2",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "DoorMesh_2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": null,
+      "LightmapType": "ELightmapType::Default",
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Star_Plaque",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "MOD_Star_Plaque_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.46"
+      },
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bVisible",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bHiddenInGame",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FC8BB9AA45D8E2798D94DE8A6B7ED71E"
+      }
+    ]
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "SecurityNumberDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble1",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "SecurityNumberDouble1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "SecurityNumberSingle_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle1",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Template": "SecurityNumberSingle1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "SecurityNumberDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble1",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "SecurityNumberDouble1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "SecurityNumberSingle_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle1",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Template": "SecurityNumberSingle1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Open Door/ Close Door",
+    "Outer": "BP_DoorMaster_DLC4_2",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_DoorMaster_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Doors/BP_DoorMaster.66"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Move Door",
+            "FloatPropertyName": "Open_Door__Close_Door_Move_Door_EC8CD7C648A27AEAA7307CB9A6CE4381"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 28,
+          "Name": "Open Door/ Close Door__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 28,
+          "Name": "Open Door/ Close Door__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC4_2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.27"
+        },
+        "DirectionPropertyName": "Open_Door__Close_Door__Direction_EC8CD7C648A27AEAA7307CB9A6CE4381"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Open Door/ Close Door",
+    "Outer": "BP_DoorMaster_DLC_Unlockable5_6",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_DoorMaster_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Doors/BP_DoorMaster.66"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Move Door",
+            "FloatPropertyName": "Open_Door__Close_Door_Move_Door_EC8CD7C648A27AEAA7307CB9A6CE4381"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 29,
+          "Name": "Open Door/ Close Door__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 29,
+          "Name": "Open Door/ Close Door__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "RR2_BP_DoorMaster_DLC_Unlockable_C'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.BP_DoorMaster_DLC_Unlockable5_6'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.28"
+        },
+        "DirectionPropertyName": "Open_Door__Close_Door__Direction_EC8CD7C648A27AEAA7307CB9A6CE4381"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_RoxyRacer_Doors_Part2_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.24"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_RoxyRacer_Doors_Part2_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/RoxyRaceway/MAP_RoxyRacer_Doors_Part2_DLC.26"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

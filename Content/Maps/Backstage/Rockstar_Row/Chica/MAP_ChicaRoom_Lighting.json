@@ -1,0 +1,2125 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "475F4D064FA50005E725C69433C882AB",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0xBBCC"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DrawBox0",
+    "Outer": "BoxReflectionCapture_1",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "BoxReflectionCaptureComponent'MAP_ChicaRoom_Lighting:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.4"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DrawBox1",
+    "Outer": "BoxReflectionCapture_1",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 0.9814926,
+        "Y": 0.97736233,
+        "Z": 0.9648108
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "BoxReflectionCaptureComponent'MAP_ChicaRoom_Lighting:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.4"
+      }
+    }
+  },
+  {
+    "Type": "BoxReflectionCapture",
+    "Name": "BoxReflectionCapture_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'BoxReflectionCapture'",
+    "Properties": {
+      "CaptureComponent": {
+        "ObjectName": "BoxReflectionCaptureComponent'MAP_ChicaRoom_Lighting:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.4"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxReflectionCaptureComponent'MAP_ChicaRoom_Lighting:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.4"
+      }
+    }
+  },
+  {
+    "Type": "BoxReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "BoxReflectionCapture_1",
+    "Class": "UScriptClass'BoxReflectionCaptureComponent'",
+    "Properties": {
+      "BoxTransitionDistance": 10.0,
+      "PreviewInfluenceBox": {
+        "ObjectName": "BoxComponent'MAP_ChicaRoom_Lighting:PersistentLevel.BoxReflectionCapture_1.DrawBox0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.1"
+      },
+      "PreviewCaptureBox": {
+        "ObjectName": "BoxComponent'MAP_ChicaRoom_Lighting:PersistentLevel.BoxReflectionCapture_1.DrawBox1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.2"
+      },
+      "CaptureOffsetComponent": null,
+      "Brightness": 0.5,
+      "MapBuildDataId": "BE10098E-41171A5C-7F828A90-8E797250",
+      "RelativeLocation": {
+        "X": -4389.1787,
+        "Y": 51264.89,
+        "Z": 1725.9229
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 20.000107,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 540.324,
+        "Y": 441.7412,
+        "Z": 284.1781
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "LightmassImportanceVolume_1",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_ChicaRoom_Lighting:PersistentLevel.LightmassImportanceVolume_1.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.10"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_ChicaRoom_Lighting:PersistentLevel.LightmassImportanceVolume_1.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.0"
+      },
+      "RelativeLocation": {
+        "X": -4413.7656,
+        "Y": 51263.523,
+        "Z": 1730.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 20.00001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 6.6766844,
+        "Y": 4.814228,
+        "Z": 4.0
+      }
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_0",
+    "Outer": "InstancedFoliageActor_6",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": 0.107624054,
+          "Y": 0.022123337,
+          "Z": 3.8440456
+        },
+        "BoxExtent": {
+          "X": 54.015923,
+          "Y": 61.402924,
+          "Z": 53.366135
+        },
+        "SphereRadius": 97.65236
+      },
+      "InstancingRandomSeed": 18426,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Hotdog_LettuceDog'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Hotdog_LettuceDog.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ChicaRoom_Lighting:PersistentLevel.InstancedFoliageActor_6.RootComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.57"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "InstancedFoliageActor",
+    "Name": "InstancedFoliageActor_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'InstancedFoliageActor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ChicaRoom_Lighting:PersistentLevel.InstancedFoliageActor_6.RootComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.57"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_ChicaRoom_Lighting",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_ChicaRoom_Lighting:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.11"
+      },
+      "LevelBuildDataId": "30500121-46480CDA-BC885BBC-3FEE2A6D",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_ChicaRoom_Lighting:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.59"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_ChicaRoom_Lighting:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.59"
+      },
+      null,
+      {
+        "ObjectName": "LightmassImportanceVolume'MAP_ChicaRoom_Lighting:PersistentLevel.LightmassImportanceVolume_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.9"
+      },
+      {
+        "ObjectName": "PointLight'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.18"
+      },
+      {
+        "ObjectName": "PointLight'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.13"
+      },
+      {
+        "ObjectName": "PointLight'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight3'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.14"
+      },
+      {
+        "ObjectName": "PointLight'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight4'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.15"
+      },
+      {
+        "ObjectName": "PointLight'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight6'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.16"
+      },
+      {
+        "ObjectName": "PointLight'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight7'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.17"
+      },
+      {
+        "ObjectName": "BoxReflectionCapture'MAP_ChicaRoom_Lighting:PersistentLevel.BoxReflectionCapture_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.3"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight18'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.25"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight19'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.26"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight20'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.27"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight21'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.28"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight22'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.29"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight23'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.30"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight24'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.31"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight25'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.32"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight26'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.33"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight27'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.34"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight28'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.35"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight29'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.36"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight30'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.37"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight31'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.38"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight32'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.39"
+      },
+      {
+        "ObjectName": "RectLight'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight33'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.40"
+      },
+      {
+        "ObjectName": "InstancedFoliageActor'MAP_ChicaRoom_Lighting:PersistentLevel.InstancedFoliageActor_6'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.7"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_ChicaRoom_Lighting:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.11"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LightmassImportanceVolume",
+    "Name": "LightmassImportanceVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LightmassImportanceVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_ChicaRoom_Lighting:PersistentLevel.LightmassImportanceVolume_1.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.10"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_ChicaRoom_Lighting:PersistentLevel.LightmassImportanceVolume_1.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.5"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_ChicaRoom_Lighting:PersistentLevel.LightmassImportanceVolume_1.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.5"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "LightmassImportanceVolume_1",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "D9F2DBE9-48DC435C-BBF31BA8-0523249E",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A994584D-404FD93F-5CB2CBA9-33D9F447",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.19"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.19"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.19"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.20"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.20"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.20"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight4.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.21"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight4.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.21"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight4.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.21"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.22"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.22"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.22"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight7.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.23"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight7.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.23"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight7.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.23"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.24"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.24"
+      },
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.PointLight_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.24"
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight2",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 1248.1793,
+      "LightGuid": "63332ECD-46BE002A-256ED6B6-E3907D87",
+      "Intensity": 0.0,
+      "RelativeLocation": {
+        "X": -3969.5903,
+        "Y": 53728.086,
+        "Z": 1764.6117
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight3",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 1248.1793,
+      "LightGuid": "BB6170B0-4ECEC184-B6464385-C4E2B1A3",
+      "Intensity": 0.0,
+      "RelativeLocation": {
+        "X": -3890.9185,
+        "Y": 53007.312,
+        "Z": 1764.6117
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight4",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 1248.1793,
+      "LightGuid": "EDEAC3E3-4661C34F-AB918F8C-DEC42E78",
+      "Intensity": 0.0,
+      "RelativeLocation": {
+        "X": -3803.0457,
+        "Y": 52303.81,
+        "Z": 1764.6117
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight6",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 105.05522,
+      "SoftSourceRadius": 100.0,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "5D06121A-4C37188B-90814BB5-F8E0EDB5",
+      "Intensity": 0.0,
+      "RelativeLocation": {
+        "X": -4753.1094,
+        "Y": 52068.18,
+        "Z": 1735.4434
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight7",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 105.05522,
+      "SoftSourceRadius": 100.0,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "D9F115A9-4A8B9D34-D2068FB8-009DCA68",
+      "Intensity": 0.0,
+      "RelativeLocation": {
+        "X": -4632.886,
+        "Y": 52542.08,
+        "Z": 1735.4434
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight_1",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 1248.1793,
+      "LightGuid": "B51BD205-44548A32-10BB5883-50C53975",
+      "Intensity": 0.0,
+      "RelativeLocation": {
+        "X": -5002.3833,
+        "Y": 53327.035,
+        "Z": 1764.6117
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight18.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.41"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight18.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.41"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight18.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.41"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight19.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.42"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight19.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.42"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight19.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.42"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight20.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.43"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight20.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.43"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight20.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.43"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight21.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.44"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight21.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.44"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight21.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.44"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.45"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.45"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.45"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight23.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.46"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight23.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.46"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight23.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.46"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight24.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.47"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight24.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.47"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight24.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.47"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight25",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight25.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.48"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight25.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.48"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight25.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.48"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight26.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.49"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight26.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.49"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight26.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.49"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight27.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.50"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight27.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.50"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight27.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.50"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight28.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.51"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight28.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.51"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight28.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.51"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight29",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight29.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.52"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight29.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.52"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight29.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.52"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight30",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight30.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.53"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight30.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.53"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight30.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.53"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight31",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight31.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.54"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight31.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.54"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight31.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.54"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight32",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight32.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.55"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight32.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.55"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight32.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.55"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight33",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight33.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.56"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight33.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.56"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_ChicaRoom_Lighting:PersistentLevel.RectLight33.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.56"
+      }
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight18",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "B21B0327-4D184EB1-55EDE89F-E783C817",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": -4920.319,
+        "Y": 51356.426,
+        "Z": 1941.3821
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 7.1250153,
+        "Roll": -348.72495
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight19",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "206EE6B4-4E1D988A-83859F95-E1BB3F54",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": -4835.228,
+        "Y": 51102.734,
+        "Z": 1941.3821
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 90.0,
+        "Roll": -71.59851
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight20",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "C46F43A9-4E9B4C11-19A0A9BF-B6787290",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": -4739.262,
+        "Y": 50841.566,
+        "Z": 1941.3821
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 90.0,
+        "Roll": -71.59851
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight21",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "9A7ACACF-4082A5EF-FE4388B8-938AA3BE",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": -4064.5735,
+        "Y": 51687.273,
+        "Z": 1941.3821
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -89.99999,
+        "Roll": 108.40094
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight22",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "A9129C82-4A2736B7-47FB4B98-ABF8604A",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": -3972.663,
+        "Y": 51435.31,
+        "Z": 1941.3821
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 90.0,
+        "Roll": -71.59851
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight23",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "ED4A585B-482511F9-ED426B9B-7FFA3EDB",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": -3881.4397,
+        "Y": 51172.605,
+        "Z": 1941.3821
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 90.0,
+        "Roll": -71.59851
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight24",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "FD027EC8-417D5919-F0DFE69A-9523325A",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4567.668,
+        "Y": 51423.797,
+        "Z": 1983.5128
+      },
+      "RelativeRotation": {
+        "Pitch": 0.81615293,
+        "Yaw": -287.73608,
+        "Roll": 1.1473029
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight25",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "D6CEB8CA-4DAC45BC-D9BE9EAD-0B320FC2",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4376.2983,
+        "Y": 51494.55,
+        "Z": 1990.1943
+      },
+      "RelativeRotation": {
+        "Pitch": -0.90263695,
+        "Yaw": 147.50076,
+        "Roll": 1.0829237
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight26",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "3D5C1DD0-4D74605C-0AA5518B-D0936898",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4292.338,
+        "Y": 51472.633,
+        "Z": 1990.1831
+      },
+      "RelativeRotation": {
+        "Pitch": 1.363508,
+        "Yaw": 3.2064552,
+        "Roll": -0.3529725
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight27",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "7172DC79-4E630DFC-4358F3A9-CEFD2419",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4191.083,
+        "Y": 51320.984,
+        "Z": 1992.262
+      },
+      "RelativeRotation": {
+        "Pitch": 0.71737474,
+        "Yaw": -291.1839,
+        "Roll": 1.2774899
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight28",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "BA74E73D-44CE8CA3-286C5BBE-87B55379",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4188.335,
+        "Y": 51220.207,
+        "Z": 1990.6565
+      },
+      "RelativeRotation": {
+        "Pitch": 0.32604212,
+        "Yaw": -68.99985,
+        "Roll": -1.4291769
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight29",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "37BA3902-49C84615-6B3E03B0-DA25F83E",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4282.9985,
+        "Y": 51093.594,
+        "Z": 1987.9615
+      },
+      "RelativeRotation": {
+        "Pitch": 1.3217477,
+        "Yaw": -2.122478,
+        "Roll": -0.4764055
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight30",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "E4E58993-4A4F687A-70F4A9B5-5AE46136",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4385.0874,
+        "Y": 51059.93,
+        "Z": 1985.6754
+      },
+      "RelativeRotation": {
+        "Pitch": -1.2819364,
+        "Yaw": -137.98428,
+        "Roll": -0.57944983
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight31",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "40061B5B-4079A345-C3D8AC98-0287218D",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4537.4287,
+        "Y": 51094.156,
+        "Z": 1983.9703
+      },
+      "RelativeRotation": {
+        "Pitch": 0.022724286,
+        "Yaw": -71.292946,
+        "Roll": -1.4071982
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight32",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "72C6074A-4769EB99-82768297-2E66BCEC",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4600.6494,
+        "Y": 51171.402,
+        "Z": 1982.2987
+      },
+      "RelativeRotation": {
+        "Pitch": -0.9644088,
+        "Yaw": -209.02837,
+        "Roll": 1.0250367
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight33",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 251.67302,
+      "SourceHeight": 16.720999,
+      "BarnDoorAngle": 41.714283,
+      "BarnDoorLength": 4.750828,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 200.0,
+      "LightGuid": "B6E71734-467628EE-81780DB1-B04E9984",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 80,
+        "G": 255,
+        "R": 70,
+        "A": 255,
+        "Hex": "FF46FF50"
+      },
+      "RelativeLocation": {
+        "X": -4621.458,
+        "Y": 51354.723,
+        "Z": 1983.7462
+      },
+      "RelativeRotation": {
+        "Pitch": -1.3336619,
+        "Yaw": -143.4562,
+        "Roll": -0.45402223
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Outer": "InstancedFoliageActor_6",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_ChicaRoom_Lighting",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_ChicaRoom_Lighting:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.8"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_ChicaRoom_Lighting:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.12"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

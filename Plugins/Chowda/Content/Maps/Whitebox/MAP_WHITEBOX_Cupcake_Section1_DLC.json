@@ -1,0 +1,4988 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_WHITEBOX_Cupcake_Section1_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.1"
+      },
+      "LevelBuildDataId": "20762FA9-4B2F5249-3787C1B9-F44CA427",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.238"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.238"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.119"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube4'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.73"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube20'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube21'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.64"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube22'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube24'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.67"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube33'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.68"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube34'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.69"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube35'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.70"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube23_24'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.66"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube36'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.71"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube37'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.72"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube41'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.74"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube42'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.75"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube43'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.76"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube44'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.77"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube45'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.78"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube46'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.79"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube47'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.80"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube48'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.81"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube49'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.82"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube920'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.83"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube921'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.84"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube922'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.85"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube923'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.86"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube924'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.87"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube925'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.88"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube926'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.89"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube927'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.90"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube928'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.91"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube929'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.92"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube930'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.93"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube931'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.94"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube932'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.95"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube933'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.96"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube934'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.97"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube935'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.98"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube936'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.99"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube937'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.100"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube938'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.101"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube939'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.102"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube940'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.103"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube941'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.104"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube942'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.105"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube943'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.106"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube944'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.107"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube945'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.108"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube946'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.109"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube947'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.110"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube948'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.111"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube949'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.112"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube950'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.113"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube951'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.114"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube952'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.115"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube953'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.116"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube954'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.117"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube955'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.118"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1018'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1019'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1020'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1021'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1022'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1023'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1024'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1025'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1026'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1027'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1028'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1029'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1030'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1031'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1032'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1033'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1034'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1035'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1036'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1037'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1038'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1039'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1040'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1041'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1042'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1043'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1044'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1045'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1046'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1047'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1048'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1049'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1050'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1051'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1052'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1053'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1054'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1055'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1056'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1057'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1058'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1059'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1060'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1061'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1062'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1063'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1064'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1065'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1066'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1067'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1068'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1069'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1070'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1071'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1072'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1073'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1074'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.59"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1716'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1717'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.61"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A59ED166-4B8A1B70-980C98BF-52D00905",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1018",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1018.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.120"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1018.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.120"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1019",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1019.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.121"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1019.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.121"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1020",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1020.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.122"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1020.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.122"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1021",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1021.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.123"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1021.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.123"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1022",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1022.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.124"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1022.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.124"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1023",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1023.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.125"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1023.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.125"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1024",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1024.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.126"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1024.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.126"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1025",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1025.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.127"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1025.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.127"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1026",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1026.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.128"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1026.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.128"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1027",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1027.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.129"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1027.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.129"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1028",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1028.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.130"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1028.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.130"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1029",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1029.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.131"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1029.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.131"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1030",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1030.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.132"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1030.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.132"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1031",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1031.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.133"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1031.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.133"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1032",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1032.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.134"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1032.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.134"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1033",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1033.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.135"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1033.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.135"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1034",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1034.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.136"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1034.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.136"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1035",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1035.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.137"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1035.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.137"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1036",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1036.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.138"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1036.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.138"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1037",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1037.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.139"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1037.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.139"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1038",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1038.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.140"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1038.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.140"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1039",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1039.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.141"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1039.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.141"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1040",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1040.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.142"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1040.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.142"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1041",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1041.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.143"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1041.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.143"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1042",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1042.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.144"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1042.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.144"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1043",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1043.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.145"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1043.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.145"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1044",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1044.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.146"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1044.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.146"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1045",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1045.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.147"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1045.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.147"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1046",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1046.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.148"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1046.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.148"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1047",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1047.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.149"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1047.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.149"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1048",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1048.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.150"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1048.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.150"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1049",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1049.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.151"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1049.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.151"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1050",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1050.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.152"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1050.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.152"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1051",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1051.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.153"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1051.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.153"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1052",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1052.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.154"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1052.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.154"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1053",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1053.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.155"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1053.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.155"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1054",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1054.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.156"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1054.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.156"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1055",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1055.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.157"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1055.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.157"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1056",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1056.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.158"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1056.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.158"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1057",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1057.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.159"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1057.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.159"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1058",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1058.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.160"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1058.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.160"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1059",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1059.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.161"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1059.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.161"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1060",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1060.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.162"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1060.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.162"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1061",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1061.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.163"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1061.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.163"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1062",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1062.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.164"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1062.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.164"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1063",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1063.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.165"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1063.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.165"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1064",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1064.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.166"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1064.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.166"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1065",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1065.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.167"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1065.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.167"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1066",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1066.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.168"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1066.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.168"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1067",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1067.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.169"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1067.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.169"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1068",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1068.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.170"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1068.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.170"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1069",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1069.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.171"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1069.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.171"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1070",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1070.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.172"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1070.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.172"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1071",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1071.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.173"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1071.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.173"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1072",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1072.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.174"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1072.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.174"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1073",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1073.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.175"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1073.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.175"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1074",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1074.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.176"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1074.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.176"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1716",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1716.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.177"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1716.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.177"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube1717",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1717.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.178"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube1717.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.178"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.179"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.179"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.180"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.180"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.181"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.181"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.182"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.182"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube23_24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube23_24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.183"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube23_24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.183"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.184"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.184"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube33",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.185"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.185"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube34.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.186"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube34.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.186"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.187"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.187"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube36.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.188"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube36.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.188"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.189"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.189"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.190"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.190"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube41",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.191"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.191"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube42",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.192"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.192"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube43",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube43.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.193"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube43.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.193"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.194"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.194"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube45",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.195"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.195"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube46",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.196"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.196"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube47",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube47.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.197"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube47.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.197"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.198"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.198"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube49",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube49.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.199"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube49.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.199"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube920",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube920.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.200"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube920.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.200"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube921",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube921.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.201"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube921.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.201"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube922",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube922.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.202"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube922.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.202"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube923",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube923.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.203"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube923.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.203"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube924",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube924.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.204"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube924.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.204"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube925",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube925.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.205"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube925.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.205"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube926",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube926.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.206"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube926.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.206"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube927",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube927.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.207"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube927.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.207"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube928",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube928.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.208"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube928.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.208"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube929",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube929.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.209"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube929.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.209"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube930",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube930.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.210"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube930.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.210"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube931",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube931.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.211"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube931.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.211"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube932",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube932.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.212"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube932.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.212"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube933",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube933.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.213"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube933.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.213"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube934",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube934.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.214"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube934.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.214"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube935",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube935.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.215"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube935.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.215"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube936",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube936.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.216"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube936.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.216"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube937",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube937.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.217"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube937.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.217"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube938",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube938.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.218"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube938.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.218"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube939",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube939.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.219"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube939.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.219"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube940",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube940.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.220"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube940.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.220"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube941",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube941.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.221"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube941.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.221"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube942",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube942.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.222"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube942.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.222"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube943",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube943.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.223"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube943.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.223"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube944",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube944.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.224"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube944.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.224"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube945",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube945.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.225"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube945.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.225"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube946",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube946.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.226"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube946.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.226"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube947",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube947.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.227"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube947.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.227"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube948",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube948.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.228"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube948.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.228"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube949",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube949.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.229"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube949.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.229"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube950",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube950.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.230"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube950.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.230"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube951",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube951.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.231"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube951.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.231"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube952",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube952.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.232"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube952.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.232"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube953",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube953.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.233"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube953.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.233"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube954",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube954.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.234"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube954.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.234"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube955",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube955.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.235"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube955.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.235"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.236"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.Cube_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.236"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1018",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1019",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1020",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'BlueDark'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/BlueDark.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1021",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1022",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'BlueDark'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/BlueDark.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1.3E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1023",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1024",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1025",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1026",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Green_Plastic_GrungeMainSlide'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Green_Plastic_GrungeMainSlide.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1027",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1028",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1029",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1030",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1031",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1032",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1033",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1034",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1035",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1036",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1037",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1038",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1039",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1040",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1041",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1042",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1043",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1044",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1045",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1046",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1047",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1048",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1049",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1050",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1051",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1052",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1053",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1054",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1055",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1056",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1057",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1058",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1059",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1060",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1061",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1062",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1063",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1064",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1065",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1066",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1067",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1068",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1069",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1070",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1071",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1072",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1073",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1074",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1716",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube1717",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Plaster_PaintedA_TintApurple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Plaster_PaintedA_TintApurple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4.005432E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'BlueDark'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/BlueDark.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube23_24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube33",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'BlueDark'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/BlueDark.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1.335144E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube34",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Green_Plastic_GrungeMainSlide'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Green_Plastic_GrungeMainSlide.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Plaster_PaintedA_TintApurple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Plaster_PaintedA_TintApurple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4.005432E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube41",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube42",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube43",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube44",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube45",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube46",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube47",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube48",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube49",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube920",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube921",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube922",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube923",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube924",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube925",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube926",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube927",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube928",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube929",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube930",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube931",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube932",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube933",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube934",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube935",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube936",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube937",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube938",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube939",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube940",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube941",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube942",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube943",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube944",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube945",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube946",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube947",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube948",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube949",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube950",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube951",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube952",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube953",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube954",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube955",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Plaster_PaintedA_TintApurple'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Plaster_PaintedA_TintApurple.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": -700.0
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_WHITEBOX_Cupcake_Section1_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_WHITEBOX_Cupcake_Section1_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_Cupcake_Section1_DLC.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

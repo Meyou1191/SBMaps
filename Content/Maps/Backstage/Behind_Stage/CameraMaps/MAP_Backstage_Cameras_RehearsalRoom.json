@@ -1,0 +1,511 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "BackRehearsalCam1",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "BackRehearsalCam1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.15"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.8"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.7"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.6"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.3"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.17"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.14"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.16"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.12"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.11"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.13"
+      },
+      "CameraInventoryName": "CamerasOffice_Backstage",
+      "CameraName": {
+        "CultureInvariantString": "Rehearsal1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.10"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.16"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.14"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.17"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.3"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.6"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.7"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.8"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.15"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Backstage_Cameras_RehearsalRoom",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.4"
+      },
+      "LevelBuildDataId": "9FD0A37B-4405D4C6-5A727584-979FA7DB",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.19"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.19"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.1"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "BackRehearsalCam1",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "3AA7B407-48E85CC0-3F535483-313AFE3D",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "BackRehearsalCam1",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.11"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "BackRehearsalCam1",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.11"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "BackRehearsalCam1",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.11"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "BackRehearsalCam1",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.10"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BackRehearsalCam1",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -8886.324,
+        "Y": 51608.188,
+        "Z": 2145.4358
+      },
+      "RelativeRotation": {
+        "Pitch": -18.599512,
+        "Yaw": -35.132774,
+        "Roll": 4.7E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "BackRehearsalCam1",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.10"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "BackRehearsalCam1",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.9"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "BackRehearsalCam1",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.1"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.10"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "BackRehearsalCam1",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.1"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "BackRehearsalCam1",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "BackRehearsalCam1",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.12"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "BackRehearsalCam1",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.BackRehearsalCam1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Backstage_Cameras_RehearsalRoom",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.2"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Backstage_Cameras_RehearsalRoom:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/MAP_Backstage_Cameras_RehearsalRoom.5"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

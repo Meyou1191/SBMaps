@@ -1,0 +1,529 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_LM_DLC_00:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.15"
+      },
+      "LevelBuildDataId": "6B31AF77-401F2BCE-32A0DBA9-4C72B789",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_LM_DLC_00:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.18"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_LM_DLC_00:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.18"
+      },
+      null,
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_LM_DLC_00:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.15"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_Doors_MainLobby_DLC.MAP_Doors_MainLobby_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.99999976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00FFFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.MAP_ElevatorMainLobbyPrize_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.05468738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF42FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_10",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FoodCourtUtility/MAP_Utility_WestToSublobby_DLC.MAP_Utility_WestToSublobby_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.67187524,
+        "A": 1.0,
+        "Hex": "FF00FFD6"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_11",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/LightingMaps/NonAR/MAP_N_DLC_00.MAP_N_DLC_00",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.1171875,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF6000"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_12",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_LobbyAtriumElevatorShaft_DLC.MAP_LobbyAtriumElevatorShaft_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.17187488,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF73FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_13",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Gameplay_DLC.MAP_FoodCourtUtility_Gameplay_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.96875,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFCFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_14",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_MainLobby_Gameplay_DLC.MAP_MainLobby_Gameplay_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.23437452,
+        "A": 1.0,
+        "Hex": "FFFF0085"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_15",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_Transition_Pipe.MAP_Transition_Pipe",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.5234374,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFC0FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_Glam_Rock_Gifts_LightsOff_DLC.MAP_Glam_Rock_Gifts_LightsOff_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.6406255,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFD200FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_5",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.MAP_LobbyAtriumElevator_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.46093774,
+        "A": 1.0,
+        "Hex": "FF00FFB5"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_MainLobby_LightsOff_DLC.MAP_MainLobby_LightsOff_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.93750006,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFF800"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_Outside_LightsOff_DLC.MAP_Outside_LightsOff_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.1953125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF7A00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FoodCourtUtility/MAP_Atrium_Food_Court_DLC.MAP_Atrium_Food_Court_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.5937499,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFCBFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_9",
+    "Outer": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.MAP_FoodCourtUtility_Doors_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.2734375,
+        "A": 1.0,
+        "Hex": "FF00FF8F"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "1BA76702-475DE0FC-94854FBE-B1884000",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_LM_DLC_00",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_LM_DLC_00:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.1"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.2"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.9"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_5'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.10"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.11"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.12"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.13"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_9'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.14"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_10'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.3"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_11'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.4"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_12'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.5"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_13'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.6"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_14'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.7"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_00:LevelStreamingDynamic_15'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.8"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_LM_DLC_00:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_00.16"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

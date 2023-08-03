@@ -1,0 +1,3711 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "B0BC64364C9E7501C48F69A2BBBBD879",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x129B2"
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "LightmassImportanceVolume_1",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_Freddy_Back_Lights:PersistentLevel.LightmassImportanceVolume_1.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.4"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_Freddy_Back_Lights:PersistentLevel.LightmassImportanceVolume_1.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.0"
+      },
+      "RelativeLocation": {
+        "X": 1542.7704,
+        "Y": 52549.54,
+        "Z": 1588.5074
+      },
+      "RelativeScale3D": {
+        "X": 30.849953,
+        "Y": 30.849964,
+        "Z": 30.849949
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Freddy_Back_Lights",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Freddy_Back_Lights:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.5"
+      },
+      "LevelBuildDataId": "721189FC-43F019C5-122EE0A3-6B2868DD",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Freddy_Back_Lights:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.120"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Freddy_Back_Lights:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.120"
+      },
+      null,
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight172'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.15"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight174'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.16"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight179'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.17"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight180'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.18"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight5_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.35"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight6_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.36"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight2_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.83"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight3'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.84"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight4'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.85"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight5'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.86"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight6'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.93"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight7'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.94"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight8'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.95"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight7_3'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.37"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight8_4'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.38"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight9_5'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.39"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight10_6'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.7"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight11_7'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.8"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight12_8'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.9"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight13_9'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.10"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight14_10'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.11"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight15_11'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.12"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight18_12'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.19"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight19_13'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.20"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight20_14'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.21"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight22'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.22"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight23'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.23"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight24'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.24"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight25'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.25"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight26'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.26"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight4_12'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.34"
+      },
+      {
+        "ObjectName": "SpotLight'MAP_Freddy_Back_Lights:PersistentLevel.SpotLight_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.117"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight_3'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.40"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight16_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.13"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight2_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.30"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight17'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.14"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight10'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.75"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight11'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.76"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight12'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.77"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight13'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.78"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight14'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.79"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight15'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.80"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight16'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.81"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight17'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.82"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight27_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.27"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight28'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.28"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight29'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.29"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight30'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.31"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight31_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.32"
+      },
+      {
+        "ObjectName": "LightmassImportanceVolume'MAP_Freddy_Back_Lights:PersistentLevel.LightmassImportanceVolume_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.3"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Freddy_Back_Lights:PersistentLevel.PointLight32_6'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.33"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight50'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.87"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight51'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.88"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight52'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.89"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight53'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.90"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight54'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.91"
+      },
+      {
+        "ObjectName": "RectLight'MAP_Freddy_Back_Lights:PersistentLevel.RectLight55'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.92"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Freddy_Back_Lights:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.5"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LightmassImportanceVolume",
+    "Name": "LightmassImportanceVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LightmassImportanceVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_Freddy_Back_Lights:PersistentLevel.LightmassImportanceVolume_1.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.4"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_Freddy_Back_Lights:PersistentLevel.LightmassImportanceVolume_1.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.1"
+      },
+      "bHidden": false,
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_Freddy_Back_Lights:PersistentLevel.LightmassImportanceVolume_1.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.1"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "LightmassImportanceVolume_1",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "C2D6F960-47DB4106-2BF880A8-F7CCF7BA",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "97FEF9F3-41E012A5-5B7813BA-FF07B373",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight10_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight10_6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.41"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight10_6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.41"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight10_6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.41"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight11_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight11_7.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.42"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight11_7.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.42"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight11_7.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.42"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight12_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight12_8.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.43"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight12_8.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.43"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight12_8.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.43"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight13_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight13_9.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.44"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight13_9.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.44"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight13_9.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.44"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight14_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight14_10.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.45"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight14_10.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.45"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight14_10.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.45"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight15_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight15_11.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.46"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight15_11.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.46"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight15_11.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.46"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight16_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight16_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.47"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight16_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.47"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight16_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.47"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight17.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.48"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight17.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.48"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight17.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.48"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight172",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight172.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.49"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight172.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.49"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight172.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.49"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight174",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight174.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.50"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight174.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.50"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight174.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.50"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight179",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight179.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.51"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight179.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.51"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight179.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.51"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight180",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight180.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.52"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight180.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.52"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight180.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.52"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight18_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight18_12.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.53"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight18_12.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.53"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight18_12.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.53"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight19_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight19_13.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.54"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight19_13.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.54"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight19_13.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.54"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight20_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight20_14.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.55"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight20_14.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.55"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight20_14.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.55"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.56"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.56"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.56"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight23.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.57"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight23.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.57"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight23.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.57"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight24.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.58"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight24.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.58"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight24.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.58"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight25",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight25.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.59"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight25.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.59"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight25.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.59"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight26.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.60"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight26.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.60"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight26.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.60"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight27_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight27_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.61"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight27_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.61"
+      },
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight27_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.61"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight28.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.62"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight28.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.62"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight28.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.62"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight29",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight29.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.63"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight29.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.63"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight29.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.63"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight2_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight2_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.64"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight2_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.64"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight2_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.64"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight30",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight30.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.65"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight30.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.65"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight30.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.65"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight31_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight31_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.66"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight31_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.66"
+      },
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight31_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.66"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight32_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight32_6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.67"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight32_6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.67"
+      },
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight32_6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.67"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight4_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight4_12.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.68"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight4_12.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.68"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight4_12.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.68"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight5_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight5_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.69"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight5_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.69"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight5_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.69"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight6_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight6_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.70"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight6_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.70"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight6_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.70"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight7_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight7_3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.71"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight7_3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.71"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight7_3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.71"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight8_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight8_4.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.72"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight8_4.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.72"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight8_4.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.72"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight9_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight9_5.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.73"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight9_5.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.73"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight9_5.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.73"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight_3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.74"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight_3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.74"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.PointLight_3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.74"
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight10_6",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "D1766298-4C3FF093-17A12480-3D548C91",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2147.8193,
+        "Y": 51547.14,
+        "Z": 1734.4539
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight11_7",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "6CF0647F-40CE4E6D-84E07891-D2956339",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2147.8193,
+        "Y": 51547.14,
+        "Z": 1695.214
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight12_8",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "3566F439-4494B45F-720253B8-51A8DB05",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2147.8193,
+        "Y": 51547.14,
+        "Z": 1655.8124
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight13_9",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "54BE6D6D-4F9A71CA-8DBCC693-DDE090C6",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2147.8193,
+        "Y": 51547.14,
+        "Z": 1616.431
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight14_10",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "129EBBB8-4C5ADEE2-3EB573B8-30BA2EE3",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2011.493,
+        "Y": 51599.105,
+        "Z": 1852.1461
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight15_11",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "62CBF0AC-4A15F86C-3E708292-E15DFA4E",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2011.493,
+        "Y": 51599.105,
+        "Z": 1812.9062
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight16_2",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 99.91858,
+      "SoftSourceRadius": 82595.27,
+      "SourceLength": 234.33006,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "C513B404-4DA00C52-AA4D389F-54232838",
+      "Intensity": 1.4,
+      "LightColor": {
+        "B": 255,
+        "G": 211,
+        "R": 212,
+        "A": 255,
+        "Hex": "FFD4D3FF"
+      },
+      "RelativeLocation": {
+        "X": 1836.3999,
+        "Y": 52493.957,
+        "Z": 1676.936
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 95.4516
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight17",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 99.91858,
+      "SoftSourceRadius": 82595.27,
+      "SourceLength": 234.33006,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "ECA0C9D0-466D8998-40F587AC-20B32EF2",
+      "Intensity": 1.4,
+      "LightColor": {
+        "B": 255,
+        "G": 211,
+        "R": 212,
+        "A": 255,
+        "Hex": "FFD4D3FF"
+      },
+      "RelativeLocation": {
+        "X": 1767.2771,
+        "Y": 52149.117,
+        "Z": 1676.936
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -21.277067,
+        "Roll": 95.4516
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight172",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 0.818107,
+      "SourceLength": 867.7625,
+      "AttenuationRadius": 400.0,
+      "LightGuid": "4A7227EA-46D2F420-0D1384AB-FE86DDE7",
+      "Intensity": 15000.0,
+      "LightColor": {
+        "B": 252,
+        "G": 145,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF0091FC"
+      },
+      "RelativeLocation": {
+        "X": 1782.8416,
+        "Y": 51203.387,
+        "Z": 2029.9874
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -26.565033,
+        "Roll": -83.43469
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight174",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 0.818107,
+      "SourceLength": 867.7625,
+      "AttenuationRadius": 400.0,
+      "LightGuid": "C45ED562-4DB82B48-8C62EC83-FA126E7B",
+      "Intensity": 15000.0,
+      "LightColor": {
+        "B": 252,
+        "G": 145,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF0091FC"
+      },
+      "RelativeLocation": {
+        "X": 1361.1649,
+        "Y": 51356.78,
+        "Z": 2029.9904
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -26.565033,
+        "Roll": -83.43469
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight179",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 0.818107,
+      "SourceLength": 867.7625,
+      "AttenuationRadius": 400.0,
+      "LightGuid": "31D5E8BF-407E1AE4-E77B47B8-CC397560",
+      "Intensity": 15000.0,
+      "LightColor": {
+        "B": 252,
+        "G": 145,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF0091FC"
+      },
+      "RelativeLocation": {
+        "X": 1517.8905,
+        "Y": 51069.562,
+        "Z": 2029.9897
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -19.99997
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight180",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 0.818107,
+      "SourceLength": 867.7625,
+      "AttenuationRadius": 400.0,
+      "LightGuid": "B4D7BA34-4D16813D-6B0FED98-18AA1B16",
+      "Intensity": 15000.0,
+      "LightColor": {
+        "B": 252,
+        "G": 145,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF0091FC"
+      },
+      "RelativeLocation": {
+        "X": 1700.0374,
+        "Y": 51570.0,
+        "Z": 2029.9897
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -19.99997
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight18_12",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "EBA8A531-407C98A9-614F50A3-CA1FD284",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2011.493,
+        "Y": 51599.105,
+        "Z": 1773.5046
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight19_13",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "9D1F380C-47CC75D1-B8779DA5-DD767C28",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2011.493,
+        "Y": 51599.105,
+        "Z": 1734.4539
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight20_14",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "605BC2B6-42D6EDE1-E6A50BB9-5566BEAC",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2011.5096,
+        "Y": 51599.07,
+        "Z": 1689.7913
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight22",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "071D89C1-4197681C-E585BE96-71E8F274",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2011.493,
+        "Y": 51599.105,
+        "Z": 1655.8124
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight23",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "1F33F8FC-4305F246-279E898A-CE027807",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2011.493,
+        "Y": 51599.105,
+        "Z": 1616.431
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight24",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 24.814428,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 83.0522,
+      "LightGuid": "B6E1956E-45BB213A-E64460BE-A97DBF49",
+      "Intensity": 0.1,
+      "LightColor": {
+        "B": 255,
+        "G": 252,
+        "R": 95,
+        "A": 255,
+        "Hex": "FF5FFCFF"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 1787.09,
+        "Y": 51555.777,
+        "Z": 1825.8804
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight25",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 24.814428,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 83.0522,
+      "LightGuid": "57F66299-46D697A0-A455E490-CE381FE9",
+      "Intensity": 0.1,
+      "LightColor": {
+        "B": 255,
+        "G": 252,
+        "R": 95,
+        "A": 255,
+        "Hex": "FF5FFCFF"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 1418.5518,
+        "Y": 51697.38,
+        "Z": 1825.8804
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight26",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 24.814428,
+      "SoftSourceRadius": 299.71198,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 83.0522,
+      "LightGuid": "194E2025-42CB06FA-FFD3E9B6-4D7C3F4C",
+      "Intensity": 0.05,
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 2066.802,
+        "Y": 51540.17,
+        "Z": 1495.2139
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight27_2",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 145.84648,
+      "SoftSourceRadius": 20.38,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "544F9FED-431A6EF3-146859B4-3B3362AF",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 2895.7688,
+        "Y": 53334.613,
+        "Z": 1729.9873
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight28",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 145.84648,
+      "SoftSourceRadius": 20.38,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "C1D7AD48-45812548-7C3569BF-F3AA4869",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 2895.7688,
+        "Y": 52658.18,
+        "Z": 1729.9873
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight29",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 145.84648,
+      "SoftSourceRadius": 20.38,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "DD10AF05-48C0EEA2-666D7288-59B06B71",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 2895.7688,
+        "Y": 52052.832,
+        "Z": 1729.9878
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight2_2",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 111.33821,
+      "SoftSourceRadius": 11.373063,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 476.2029,
+      "LightGuid": "C03F6582-487E9473-9D103585-96EB9527",
+      "Intensity": 2.0,
+      "RelativeLocation": {
+        "X": 1334.3416,
+        "Y": 52846.89,
+        "Z": 1747.9587
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight30",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 145.84648,
+      "SoftSourceRadius": 20.38,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "03531D4C-483D562F-710B0788-87CFB709",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 2895.7688,
+        "Y": 51566.58,
+        "Z": 1729.9878
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight31_2",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "EB5FE2A8-444161C2-6D927899-00D7C6F5",
+      "Intensity": 21.424932,
+      "RelativeLocation": {
+        "X": 1881.0452,
+        "Y": 53406.766,
+        "Z": 1737.501
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight32_6",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 87.86042,
+      "SoftSourceRadius": 192.44489,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightGuid": "809A04FD-45118FF3-7FFA9F87-2321E166",
+      "Intensity": 1.0,
+      "RelativeLocation": {
+        "X": 1763.611,
+        "Y": 52155.52,
+        "Z": 1725.3442
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight4_12",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 366.4704,
+      "LightGuid": "FA27DFFF-4CFA0095-9DBBFBB3-0C2F6DE3",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 124,
+        "G": 107,
+        "R": 220,
+        "A": 255,
+        "Hex": "FFDC6B7C"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 2046.5795,
+        "Y": 52661.773,
+        "Z": 1680.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight5_1",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 20.0,
+      "LightGuid": "E68D0413-45EB43BE-1ED6FB85-21AEE3A5",
+      "Intensity": 0.1,
+      "LightColor": {
+        "B": 0,
+        "G": 0,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFF0000"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 1417.4532,
+        "Y": 51731.445,
+        "Z": 1806.5399
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight6_2",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 20.0,
+      "LightGuid": "E9205760-438539AF-3E7621B4-4EA087D9",
+      "Intensity": 0.1,
+      "LightColor": {
+        "B": 0,
+        "G": 0,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFF0000"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 1808.7904,
+        "Y": 51587.367,
+        "Z": 1804.81
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight7_3",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "B1A64211-462EF3A7-CD9EDD81-9C32153C",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2147.8193,
+        "Y": 51547.14,
+        "Z": 1852.1461
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight8_4",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "A52F79A6-49EB6802-1A166484-B0686280",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2147.8193,
+        "Y": 51547.14,
+        "Z": 1812.9062
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight9_5",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 40.0,
+      "LightGuid": "2A767917-403FC4BD-75F52F85-4F0DBEA8",
+      "Intensity": 0.09,
+      "LightColor": {
+        "B": 201,
+        "G": 241,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFF1C9"
+      },
+      "RelativeLocation": {
+        "X": 2147.8193,
+        "Y": 51547.14,
+        "Z": 1773.5046
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight_3",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 14.863911,
+      "SourceLength": 456.9208,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 582.7095,
+      "LightGuid": "693AB367-43526CD6-98CD9594-903F0361",
+      "Intensity": 1.4,
+      "LightColor": {
+        "B": 255,
+        "G": 206,
+        "R": 222,
+        "A": 255,
+        "Hex": "FFDECEFF"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 1591.1407,
+        "Y": 52837.348,
+        "Z": 1679.936
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 1080.0,
+        "Roll": 2141.7815
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight10.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.96"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight10.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.96"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight10.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.96"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight11.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.97"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight11.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.97"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight11.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.97"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight12.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.98"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight12.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.98"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight12.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.98"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight13.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.99"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight13.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.99"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight13.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.99"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight14.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.100"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight14.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.100"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight14.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.100"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight15.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.101"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight15.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.101"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight15.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.101"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight16.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.102"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight16.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.102"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight16.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.102"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight17.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.103"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight17.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.103"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight17.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.103"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight2_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight2_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.104"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight2_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.104"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight2_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.104"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.105"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.105"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight3.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.105"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight4.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.106"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight4.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.106"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight4.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.106"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight5.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.107"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight5.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.107"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight5.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.107"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight50",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight50.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.108"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight50.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.108"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight50.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.108"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight51",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight51.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.109"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight51.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.109"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight51.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.109"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight52",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight52.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.110"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight52.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.110"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight52.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.110"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight53",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight53.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.111"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight53.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.111"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight53.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.111"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight54",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight54.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.112"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight54.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.112"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight54.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.112"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight55",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight55.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.113"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight55.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.113"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight55.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.113"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.114"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.114"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight6.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.114"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight7.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.115"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight7.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.115"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight7.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.115"
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight8.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.116"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight8.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.116"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.RectLight8.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.116"
+      }
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight10",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "9C556492-4FE2CF52-0EA12BBA-7AC31514",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1669.4597,
+        "Y": 51446.113,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -130.62415,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight11",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "D385F8F8-489B47EC-162DEF93-F39D0C7D",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1712.1882,
+        "Y": 51421.633,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -102.30348,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight12",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "D8240E8F-420A398A-D5B48AA2-4643962E",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1768.394,
+        "Y": 51416.746,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -79.92047,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight13",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "A679493E-48AC9D92-1D7856B0-2C234116",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1813.3846,
+        "Y": 51436.19,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -54.08597,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight14",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 134.71544,
+      "LightGuid": "DB13BF59-4A9C60EA-F4FC5FA5-56FB12C7",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1847.9333,
+        "Y": 51480.168,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -30.181343,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight15",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 134.71544,
+      "LightGuid": "944DC5FF-4CADE4BF-99CDB39D-7D5C12AF",
+      "Intensity": 4.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1861.5592,
+        "Y": 51528.914,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.114922,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight16",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 134.71544,
+      "LightGuid": "362E0EE4-4A244B25-4E5B59BC-8E6553C2",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1855.2096,
+        "Y": 51571.508,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.114922,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight17",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 102.665665,
+      "LightGuid": "2E98572F-4E5FFC21-29EBD590-2E1DD6ED",
+      "Intensity": 0.5,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1858.8727,
+        "Y": 51618.54,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -16.969141,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight2_2",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 266.2943,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "B90804FB-48F168CC-D3A667AB-8908063F",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1379.8622,
+        "Y": 51627.938,
+        "Z": 1458.7351
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -105.07212,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight3",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "9E443814-4B16ED44-CBCFE589-2DC3877D",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1440.5702,
+        "Y": 51575.99,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -144.59793,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight4",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "A57AB42F-48C238E8-030E3EB6-A491CA18",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1471.747,
+        "Y": 51539.75,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -136.39273,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight5",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "03A34CE8-49928115-F905CEA7-8D688E60",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1507.5752,
+        "Y": 51507.31,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -121.530624,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight50",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "FB71F806-46C14DE7-35B554B2-1B798CE4",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 1268.2766,
+        "Y": 51719.58,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 2.8624115,
+        "Roll": 334.26364
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight51",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "117C07BD-4BA47439-EB4A8BBD-ED30CE86",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 1166.4049,
+        "Y": 51476.375,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 7.125023,
+        "Roll": -29.996735
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight52",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "AE75BFFA-44174335-34DF4EBB-34496094",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 1064.7258,
+        "Y": 51213.195,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 9.462341,
+        "Roll": -32.335236
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight53",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "C6E292EB-42739B31-29C8F088-4161B9BA",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 2127.7188,
+        "Y": 51422.668,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 14.03627,
+        "Roll": -36.909332
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight54",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "F1182F42-4F985030-1A3B3390-F41869A3",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 2031.234,
+        "Y": 51173.938,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 26.565033,
+        "Roll": -49.437447
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight55",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 31.523827,
+      "SourceHeight": 25.055086,
+      "BarnDoorAngle": 58.285717,
+      "BarnDoorLength": 12.492216,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 700.0,
+      "Temperature": 4700.0,
+      "bUseTemperature": true,
+      "LightGuid": "C5A727C6-4F75CBFA-544BE9AE-1E706FA1",
+      "Intensity": 8.0,
+      "RelativeLocation": {
+        "X": 1926.6729,
+        "Y": 50916.992,
+        "Z": 1941.3862
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 90.0,
+        "Roll": -112.87281
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight6",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "EB4DF3CC-45C86591-D6838F92-075C693E",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1550.0679,
+        "Y": 51483.215,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -110.18357,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight7",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "16AB08DE-430BAA87-1C1F3A85-BB498304",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1595.6936,
+        "Y": 51469.867,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -100.68572,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight8",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceWidth": 53.86623,
+      "SourceHeight": 19.165892,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 232.41283,
+      "LightGuid": "1EA3CDD1-49BAC791-29D664A5-36100F8B",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 208,
+        "R": 91,
+        "A": 255,
+        "Hex": "FF5BD0FF"
+      },
+      "RelativeLocation": {
+        "X": 1631.5131,
+        "Y": 51466.402,
+        "Z": 1457.685
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -100.68572,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SpotLight",
+    "Name": "SpotLight_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SpotLight'",
+    "Properties": {
+      "SpotLightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.SpotLight_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.118"
+      },
+      "LightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.SpotLight_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.118"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Freddy_Back_Lights:PersistentLevel.SpotLight_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.118"
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "SpotLight_1",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "OuterConeAngle": 33.466667,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 729.3419,
+      "LightGuid": "F8B86CFE-41526D16-0B21AA9D-C8EC3BB4",
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 255,
+        "G": 197,
+        "R": 221,
+        "A": 255,
+        "Hex": "FFDDC5FF"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 1440.8248,
+        "Y": 52673.35,
+        "Z": 1930.2786
+      },
+      "RelativeRotation": {
+        "Pitch": -21.284601,
+        "Yaw": 156.97316,
+        "Roll": -17.56676
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Freddy_Back_Lights",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Freddy_Back_Lights:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.2"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Freddy_Back_Lights:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.6"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

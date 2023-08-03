@@ -1,0 +1,1835 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_DLC_Hidden_C",
+    "Name": "Camera_DLC_Hidden2_5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_Hidden_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC_Hidden.Camera_DLC_Hidden_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.56"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.29"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.55"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.17"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.16"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.15"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.9"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.67"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.45"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.63"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.43"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.30"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.44"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.28"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.63"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.45"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.67"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.9"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.17"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.55"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.0"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.29"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.56"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_Hidden_C",
+    "Name": "Camera_DLC_Hidden3_8",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_Hidden_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC_Hidden.Camera_DLC_Hidden_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.58"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.33"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.57"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.20"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.19"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.18"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.10"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.68"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.48"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.64"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.46"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.34"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.47"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.32"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.64"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.48"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.68"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.10"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.20"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.57"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.1"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.33"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.58"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_Hidden_C",
+    "Name": "Camera_DLC_Hidden4_11",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_Hidden_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC_Hidden.Camera_DLC_Hidden_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.60"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.37"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.59"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.23"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.22"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.21"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.11"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.69"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.51"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.65"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.49"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.38"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.50"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.36"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.65"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.51"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.69"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.11"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.22"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.23"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.59"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.2"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.37"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.60"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_Hidden_C",
+    "Name": "Camera_DLC_Hidden_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_Hidden_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC_Hidden.Camera_DLC_Hidden_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.62"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.41"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.61"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.26"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.25"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.24"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.12"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.70"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.54"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.66"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.52"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.42"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.53"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.40"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.66"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.54"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.70"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.12"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.25"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.26"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.61"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.3"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.41"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.62"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Underground_Cameras_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Underground_Cameras_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.13"
+      },
+      "LevelBuildDataId": "590933F0-4205B334-10D9F9B1-102ACE0F",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Underground_Cameras_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.72"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Underground_Cameras_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.72"
+      },
+      null,
+      {
+        "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.4"
+      },
+      {
+        "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.7"
+      },
+      {
+        "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.5"
+      },
+      {
+        "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.6"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Underground_Cameras_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.13"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "9C17DF20-407D8379-65885592-C0A9CA4E",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.28"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 18239.395,
+        "Y": 58378.92,
+        "Z": -2631.0054
+      },
+      "RelativeRotation": {
+        "Pitch": -18.747248,
+        "Yaw": 201.17293,
+        "Roll": 22.903996
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.28"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.32"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 17597.492,
+        "Y": 58125.59,
+        "Z": -2635.0
+      },
+      "RelativeRotation": {
+        "Pitch": -18.74727,
+        "Yaw": 248.82744,
+        "Roll": 52.095947
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.32"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.36"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 17373.963,
+        "Y": 57529.547,
+        "Z": -2677.1113
+      },
+      "RelativeRotation": {
+        "Pitch": -19.68349,
+        "Yaw": 200.6277,
+        "Roll": -48.616455
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.36"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.40"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 18724.0,
+        "Y": 58946.0,
+        "Z": -2661.0
+      },
+      "RelativeRotation": {
+        "Pitch": -15.188965,
+        "Yaw": -138.23685,
+        "Roll": -28.167816
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.40"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.4"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.27"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.4"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.27"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.4"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.5"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.31"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.5"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.31"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.5"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.6"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.35"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.6"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.35"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.6"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.7"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.39"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.7"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.39"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_Hidden_C'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.7"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_DLC_Hidden2_5",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_DLC_Hidden3_8",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden3_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_DLC_Hidden4_11",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden4_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_DLC_Hidden_2",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Underground_Cameras_DLC:PersistentLevel.Camera_DLC_Hidden_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Underground_Cameras_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Underground_Cameras_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.8"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Underground_Cameras_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.14"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

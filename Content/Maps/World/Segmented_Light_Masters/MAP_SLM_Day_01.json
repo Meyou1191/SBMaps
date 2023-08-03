@@ -1,0 +1,523 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_SLM_Day_01:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.15"
+      },
+      "LevelBuildDataId": "D1BD4C7D-4D53AD4D-4C7EAD84-267A5DE6",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_SLM_Day_01:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.18"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_SLM_Day_01:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.18"
+      },
+      null,
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_SLM_Day_01:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.15"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/RoxyRacer/MAP_Roxy_Racer_Bathrooms.MAP_Roxy_Racer_Bathrooms",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.45312488,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFB4FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/RoxyRacer/MAP_RoxyRacer.MAP_RoxyRacer",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.86718756,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFF000"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_12",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/West_Atrium/MAP_West_Sublobby_2nd_Floor.MAP_West_Sublobby_2nd_Floor",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.015624762,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF0021FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_16",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/SegmentedLightingScenarios/MAP_Day_01.MAP_Day_01",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.08593726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF0053FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_17",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_LightingUtilities.MAP_LightingUtilities",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.6171874,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFCEFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_18",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_Doors.MAP_Doors",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0390625,
+        "A": 1.0,
+        "Hex": "FF00FF37"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_19",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/RoxyRacer/Map_RoxyBossBattle.Map_RoxyBossBattle",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.171875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF7300FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.MAP_RoxyRacer_Cameras",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.22656226,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF0083FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/RoxyRacer/MAP_RoxyRacer_Gameplay.MAP_RoxyRacer_Gameplay",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.64843774,
+        "A": 1.0,
+        "Hex": "FF00FFD3"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/RoxyRacer/MAP_RoxyRacer_Garages.MAP_RoxyRacer_Garages",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.15625,
+        "A": 1.0,
+        "Hex": "FF00FF6E"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_5",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/RoxyRacer/MAP_RoxyRacer_MoonMan.MAP_RoxyRacer_MoonMan",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.78906274,
+        "A": 1.0,
+        "Hex": "FF00FFE6"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/RoxyRacer/MAP_RoxyRacer_Sound.MAP_RoxyRacer_Sound",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.992188,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFF00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Cinematics/CinematicMaps/MAP_Cinematic_RoxyRacer.MAP_Cinematic_RoxyRacer",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.6875005,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFD800FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/Elevators/MAP_ElevatorSinkhole.MAP_ElevatorSinkhole",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.92968726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00F7FF"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "4AE1EE3B-41C63AD0-05E1839B-918C7C66",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_SLM_Day_01",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_SLM_Day_01:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.1"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.2"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.8"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.9"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_4'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.10"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_5'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.11"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.12"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_12'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.3"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_16'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.4"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_18'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.6"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_19'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.7"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.13"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_17'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.5"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_01:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.14"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_SLM_Day_01:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_01.16"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

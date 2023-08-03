@@ -1,0 +1,1173 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_WHITEBOX_GatorGolf_Kitchen_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.1"
+      },
+      "LevelBuildDataId": "ADF24409-4EF4EBB1-22309BAE-04737A05",
+      "bTextureStreamingRotationChanged": true,
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.42"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.42"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere29'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere30'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere117'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere118'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere119'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere120'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere121'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere122'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere123'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere124'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube352_11'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube353_12'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube354_13'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube355_14'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube356_15'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube357_16'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube358_17'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube359_18'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube360_19'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.11"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "0E152F5C-43A4462E-70624BB7-0B858932",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube352_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube352_11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.22"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube352_11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.22"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube353_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube353_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.23"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube353_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.23"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube354_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube354_13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.24"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube354_13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.24"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube355_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube355_14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.25"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube355_14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.25"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube356_15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube356_15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.26"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube356_15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.26"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube357_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube357_16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.27"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube357_16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.27"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube358_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube358_17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.28"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube358_17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.28"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube359_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube359_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.29"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube359_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.29"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube360_19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube360_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.30"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Cube360_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.30"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere117",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere117.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.31"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere117.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.31"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere118",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere118.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.32"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere118.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.32"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere119",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere119.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.33"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere119.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.33"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere120",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere120.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.34"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere120.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.34"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere121",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere121.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.35"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere121.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.35"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere122",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere122.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.36"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere122.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.36"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere123",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere123.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.37"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere123.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.37"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere124",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere124.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.38"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere124.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.38"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere29",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere29.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.39"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere29.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.39"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Sphere30",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere30.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.40"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.Sphere30.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.40"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube352_11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20516.688,
+        "Y": 40974.117,
+        "Z": 1065.0312
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -147.1019,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 1.5,
+        "Z": 2.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube353_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20566.848,
+        "Y": 40941.203,
+        "Z": 1015.2129
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -149.99991,
+        "Roll": 90.00008
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.5,
+        "Z": 2.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube354_13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20949.328,
+        "Y": 41441.12,
+        "Z": 1121.0093
+      },
+      "RelativeRotation": {
+        "Pitch": -71.8887,
+        "Yaw": -121.02103,
+        "Roll": -25.33379
+      },
+      "RelativeScale3D": {
+        "X": 3.1,
+        "Y": 7.1,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube355_14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -21244.277,
+        "Y": 41995.062,
+        "Z": 1016.2495
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -147.1019,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.305,
+        "Y": 1.5,
+        "Z": 1.5225
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube356_15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -21182.047,
+        "Y": 42031.984,
+        "Z": -3934.9688
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -147.1019,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 1.5,
+        "Z": 2.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube357_16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20516.688,
+        "Y": 40974.117,
+        "Z": -3934.9688
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -147.1019,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 1.5,
+        "Z": 2.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube358_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20566.848,
+        "Y": 40941.203,
+        "Z": -3984.787
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -149.99991,
+        "Roll": 90.00008
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.5,
+        "Z": 2.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube359_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20949.328,
+        "Y": 41441.12,
+        "Z": -3878.9902
+      },
+      "RelativeRotation": {
+        "Pitch": -71.8887,
+        "Yaw": -121.02103,
+        "Roll": -25.33379
+      },
+      "RelativeScale3D": {
+        "X": 3.1,
+        "Y": 7.1,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube360_19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -21244.277,
+        "Y": 41995.062,
+        "Z": -3983.75
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -147.1019,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.305,
+        "Y": 1.5,
+        "Z": 1.5225
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere117",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20773.734,
+        "Y": 41466.76,
+        "Z": 1041.7961
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere118",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20787.914,
+        "Y": 41489.66,
+        "Z": 1041.2515
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere119",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20780.52,
+        "Y": 41479.06,
+        "Z": 1059.3962
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere120",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20764.518,
+        "Y": 41457.32,
+        "Z": 1059.3962
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere121",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20751.848,
+        "Y": 41435.73,
+        "Z": 1059.3962
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere122",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20771.332,
+        "Y": 41470.152,
+        "Z": 1079.6272
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere123",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20715.953,
+        "Y": 41384.664,
+        "Z": 1041.0718
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere124",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20780.125,
+        "Y": 41414.316,
+        "Z": 1041.0718
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere29",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20758.246,
+        "Y": 41445.168,
+        "Z": 1041.0718
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Sphere30",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -20744.852,
+        "Y": 41423.84,
+        "Z": 1041.0718
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.25,
+        "Y": 0.25,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_WHITEBOX_GatorGolf_Kitchen_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_WHITEBOX_GatorGolf_Kitchen_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Kitchen_DLC.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

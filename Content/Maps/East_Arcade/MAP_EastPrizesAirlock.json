@@ -1,0 +1,780 @@
+[
+  {
+    "Type": "EastArcadeHallManager_C",
+    "Name": "EastArcadeHallManager_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__EastArcadeHallManager_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/LightManagers/EastArcadeHallManager.EastArcadeHallManager_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_EastPrizesAirlock:PersistentLevel.EastArcadeHallManager_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.4"
+      },
+      "RefToHallChunks": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "RefToGroup": {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.HallGroup'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.6"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_EastPrizesAirlock:PersistentLevel.EastArcadeHallManager_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.4"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_EastPrizesAirlock:PersistentLevel.EastArcadeHallManager_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_EastPrizesAirlock",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_EastPrizesAirlock:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.2"
+      },
+      "LevelBuildDataId": "AF908C49-4337DFCB-F49BDEAE-FECC32EF",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_EastPrizesAirlock:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.26"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_EastPrizesAirlock:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.26"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.East_Arcade_Carpet_Test11_34'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.SM_WallDoorHole300_2'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M86_12'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M88_15'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M89'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M95'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M96'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M90_21'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.11"
+      },
+      {
+        "ObjectName": "EastArcadeHallManager_C'MAP_EastPrizesAirlock:PersistentLevel.EastArcadeHallManager_2'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.0"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.HallGroup'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_EastPrizesAirlock:PersistentLevel.MOD_SplineFix_LightTunnle2'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.7"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_EastPrizesAirlock:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.2"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "CB3FAF7F-459185D9-A5E65889-C72D23EF",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "EastArcadeHallManager_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -4570.673,
+        "Y": 22173.252,
+        "Z": 3251.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "East_Arcade_Carpet_Test11_34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.East_Arcade_Carpet_Test11_34.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.15"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.East_Arcade_Carpet_Test11_34.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "HallGroup",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.HallGroup.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.16"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.HallGroup.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.16"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SplineFix_LightTunnle2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.MOD_SplineFix_LightTunnle2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.17"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.MOD_SplineFix_LightTunnle2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.17"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M86_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M86_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.18"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M86_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.18"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M88_15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M88_15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.19"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M88_15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.19"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M89",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M89.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.20"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M89.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.20"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M90_21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M90_21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.21"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M90_21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.21"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M95",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M95.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.22"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M95.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.22"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M96",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M96.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.23"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallB_3M96.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.23"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallDoorHole300_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallDoorHole300_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.24"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_EastPrizesAirlock:PersistentLevel.SM_WallDoorHole300_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.24"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "East_Arcade_Carpet_Test11_34",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'East_Arcade_Outer_Carpet_11'",
+        "ObjectPath": "fnaf9/Content/Meshes/East_Arcade_Outer_Carpet_11.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_ArcadeCarpet_02'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_ArcadeCarpet_02.0"
+        }
+      ],
+      "CastShadow": false,
+      "VisibilityId": 2943,
+      "RelativeLocation": {
+        "X": -5181.6367,
+        "Y": 21735.635,
+        "Z": 3251.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 360.00018,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "19143677494381A43659C0A8806CE9A1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "HallGroup",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 2951,
+      "RelativeLocation": {
+        "X": -4895.7305,
+        "Y": 22282.932,
+        "Z": 3251.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D189CB09420F6CE652B8C0ADAA2C73A5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SplineFix_LightTunnle2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SplineFix_LightTunnle2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_SplineFix_LightTunnle2.2"
+      },
+      "VisibilityId": 2952
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0907253445AF89AAB1315AB4DC7FDF65"
+      },
+      {
+        "MapBuildDataId": "390C614E834C9EFB998F3E80F361936E"
+      },
+      {
+        "MapBuildDataId": "56132C97201BE7F0462E0B1615F708E2"
+      },
+      {
+        "MapBuildDataId": "1EBCFF99E3C83265E2A57FE084F27786"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M86_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        }
+      ],
+      "VisibilityId": 2945,
+      "RelativeLocation": {
+        "X": -3792.512,
+        "Y": 24624.701,
+        "Z": 3563.0552
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.66484,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "82E6DB4D41D4FDD0D4D45DB9703F1BE8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M88_15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        }
+      ],
+      "VisibilityId": 2946,
+      "RelativeLocation": {
+        "X": -3790.7532,
+        "Y": 24924.695,
+        "Z": 3563.0552
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.66484,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6E5FC934476C941F40CC49BAFECD9B60"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M89",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_1third_Mid'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_1third_Mid.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        }
+      ],
+      "VisibilityId": 2947,
+      "RelativeLocation": {
+        "X": -3824.8125,
+        "Y": 24747.816,
+        "Z": 3696.5085
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 720.0,
+        "Roll": 270.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3926A1BF4648CEA301E0E1B3C77E49B3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M90_21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_1third_Mid'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_1third_Mid.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        }
+      ],
+      "VisibilityId": 2950,
+      "RelativeLocation": {
+        "X": -3824.8125,
+        "Y": 25047.816,
+        "Z": 3696.5085
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 720.0,
+        "Roll": 270.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2B6036A6417E8A53610CDA886B9268D1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M95",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_1third_R'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_1third_R.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        }
+      ],
+      "VisibilityId": 2948,
+      "RelativeLocation": {
+        "X": -3792.512,
+        "Y": 24574.785,
+        "Z": 3563.0552
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.66484,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DDB985A4476B4EA4B433FB93F5836513"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M96",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_1third_R'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_1third_R.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Formica_PrizeC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Formica_PrizeC.0"
+        }
+      ],
+      "VisibilityId": 2949,
+      "RelativeLocation": {
+        "X": -3879.7385,
+        "Y": 24961.56,
+        "Z": 3563.0552
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 269.6647,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "811371694895E4D431D28E9C473A2E14"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallDoorHole300_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallDoorHole300'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallDoorHole300.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Plaster_BlueNight'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Plaster_BlueNight.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Plaster_BlueNight'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Plaster_BlueNight.0"
+        }
+      ],
+      "VisibilityId": 2944,
+      "RelativeLocation": {
+        "X": -3864.3982,
+        "Y": 25083.693,
+        "Z": 3250.4487
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -91.03935,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.1102133,
+        "Y": 1.9299802,
+        "Z": 1.9299802
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "759772644BBAFD3C30A516A2C21CB7BE"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_EastPrizesAirlock",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_EastPrizesAirlock:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.1"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_EastPrizesAirlock:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/East_Arcade/MAP_EastPrizesAirlock.3"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

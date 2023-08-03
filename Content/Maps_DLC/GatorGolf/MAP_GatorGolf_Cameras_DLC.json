@@ -1,0 +1,4060 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_1a",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_1b",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_1c",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_door",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_door_AR",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_P",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_P_AR",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_AR_Barrier",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.130"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.74"
+      },
+      "InteractionMesh": {
+        "AssetPathName": "/Game/Maps_DLC/GatorGolf/MAP_GatorGolf_Gameplay_DLC.MAP_GatorGolf_Gameplay_DLC",
+        "SubPathString": "PersistentLevel.TVDoorGatorGolfToDaycare_2"
+      },
+      "Brightness": 0.7,
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.129"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.41"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.40"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.39"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.19"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.153"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.107"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.144"
+      },
+      "LocationName": {
+        "TableId": "/Game/Data/Localizations/Loc_Locations_DLC.Loc_Locations_DLC",
+        "Key": "Loc_Locations_DLC_MontyGolf"
+      },
+      "ForceCapture": true,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.105"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.75"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.106"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.73"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.144"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.107"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.153"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.39"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.40"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.41"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.129"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.3"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.74"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.130"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_AR_Barrier_Symbol1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.132"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.78"
+      },
+      "Symbol": "ECameraSymbol::NewEnumerator0",
+      "InteractionMesh": {
+        "AssetPathName": "/Game/Maps_DLC/GatorGolf/MAP_GatorGolf_Gameplay_DLC.MAP_GatorGolf_Gameplay_DLC",
+        "SubPathString": "PersistentLevel.AR_Barrier_Symbol_1"
+      },
+      "Brightness": 0.7,
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.4"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.131"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.44"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.43"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.42"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.20"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.154"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.110"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.145"
+      },
+      "LocationName": {
+        "TableId": "/Game/Data/Localizations/Loc_Locations_DLC.Loc_Locations_DLC",
+        "Key": "Loc_Locations_DLC_MontyGolf"
+      },
+      "ForceCapture": true,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.108"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.79"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.109"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.77"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.145"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.110"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.154"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.20"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.42"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.43"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.44"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.131"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.4"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.78"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.132"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_door",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.134"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.82"
+      },
+      "Brightness": 0.8,
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.5"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.133"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.47"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.46"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.45"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.21"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.155"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.113"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.146"
+      },
+      "LocationName": {
+        "TableId": "/Game/Data/Localizations/Loc_Locations_DLC.Loc_Locations_DLC",
+        "Key": "Loc_Locations_DLC_MontyGolf"
+      },
+      "ForceCapture": true,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.111"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.83"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.112"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.81"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.146"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.113"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.155"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.45"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.46"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.47"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.133"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.5"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.82"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.134"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_door_AR",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.136"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.86"
+      },
+      "Brightness": 0.8,
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.6"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.135"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.50"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.49"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.48"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.22"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.156"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.116"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.147"
+      },
+      "LocationName": {
+        "TableId": "/Game/Data/Localizations/Loc_Locations_DLC.Loc_Locations_DLC",
+        "Key": "Loc_Locations_DLC_MontyGolf"
+      },
+      "ForceCapture": true,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.114"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.87"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.115"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.85"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.147"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.116"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.156"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.22"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.48"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.49"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.50"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.135"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.6"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.86"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.136"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_P",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.138"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.90"
+      },
+      "Brightness": 0.8,
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.7"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.137"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.53"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.52"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.51"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.23"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.157"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.119"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.148"
+      },
+      "LocationName": {
+        "TableId": "/Game/Data/Localizations/Loc_Locations_DLC.Loc_Locations_DLC",
+        "Key": "Loc_Locations_DLC_MontyGolf"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.117"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.91"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.118"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.89"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.148"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.119"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.157"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.23"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.51"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.52"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.53"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.137"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.7"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.90"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.138"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_P_AR",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.140"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.94"
+      },
+      "Brightness": 0.8,
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.8"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.139"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.56"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.55"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.54"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.24"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.158"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.122"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.149"
+      },
+      "LocationName": {
+        "TableId": "/Game/Data/Localizations/Loc_Locations_DLC.Loc_Locations_DLC",
+        "Key": "Loc_Locations_DLC_MontyGolf"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.120"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.95"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.121"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.93"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.149"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.122"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.158"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.54"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.55"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.56"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.139"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.8"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.94"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.140"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_GatorGolf_Cameras_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.25"
+      },
+      "LevelBuildDataId": "EF96D01B-484EB60D-678976BD-236E8112",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_GatorGolf_Cameras_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.160"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_GatorGolf_Cameras_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.160"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.9"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.10"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.11"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.12"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.13"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.14"
+      },
+      {
+        "ObjectName": "MontySpawnCamera_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.26"
+      },
+      {
+        "ObjectName": "MontySpawnCamera_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.27"
+      },
+      {
+        "ObjectName": "MontySpawnCamera_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.28"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.25"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_1a",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_1b",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_1c",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_door",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_door_AR",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_P",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_P_AR",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "6DB2F652-4617C7C3-33C48A9E-146B8658",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MontySpawnCamera_C",
+    "Name": "Camera_1a",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MontySpawnCamera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/RuinedMontyGatorGolf/MontySpawnCamera.MontySpawnCamera_C'",
+    "Properties": {
+      "Monty Spawn Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.Monty Spawn Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.59"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.124"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.60"
+      },
+      "Brightness": 1.0,
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.123"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.32"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.31"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.30"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.16"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.150"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.98"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.141"
+      },
+      "LocationName": {
+        "TableId": "/Game/Data/Localizations/Loc_Locations_DLC.Loc_Locations_DLC",
+        "Key": "Loc_Locations_DLC_MontyGolf"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.96"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.61"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.97"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.141"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.98"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.150"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.30"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.31"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.32"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.123"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.0"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.60"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.124"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.Monty Spawn Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.59"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MontySpawnCamera_C",
+    "Name": "Camera_1b",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MontySpawnCamera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/RuinedMontyGatorGolf/MontySpawnCamera.MontySpawnCamera_C'",
+    "Properties": {
+      "Monty Spawn Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.Monty Spawn Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.64"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.126"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.65"
+      },
+      "CanDistract": true,
+      "Brightness": 0.8,
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.125"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.35"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.34"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.33"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.17"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.151"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.101"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.142"
+      },
+      "LocationName": {
+        "TableId": "/Game/Data/Localizations/Loc_Locations_DLC.Loc_Locations_DLC",
+        "Key": "Loc_Locations_DLC_MontyGolf"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.99"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.66"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.100"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.142"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.101"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.151"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.17"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.33"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.34"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.35"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.125"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.1"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.65"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.126"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.Monty Spawn Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.64"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MontySpawnCamera_C",
+    "Name": "Camera_1c",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MontySpawnCamera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/RuinedMontyGatorGolf/MontySpawnCamera.MontySpawnCamera_C'",
+    "Properties": {
+      "Monty Spawn Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.Monty Spawn Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.69"
+      },
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.128"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.70"
+      },
+      "CanDistract": true,
+      "Brightness": 0.8,
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.127"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.38"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.37"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.36"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.18"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.152"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.104"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.143"
+      },
+      "LocationName": {
+        "TableId": "/Game/Data/Localizations/Loc_Locations_DLC.Loc_Locations_DLC",
+        "Key": "Loc_Locations_DLC_MontyGolf"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.102"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.71"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.103"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.143"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.104"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.152"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.36"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.37"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.38"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.127"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.2"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.70"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.128"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.Monty Spawn Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.69"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_1a",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_1a",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_1a",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_1b",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_1b",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_1b",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_1c",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_1c",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_1c",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.75"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.75"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.75"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_door",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_door",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_door",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_door_AR",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.87"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_door_AR",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.87"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_door_AR",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.87"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_P",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.91"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_P",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.91"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_P",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.91"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_P_AR",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.95"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_P_AR",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.95"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_P_AR",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.95"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_1a",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_1a",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -27706.598,
+        "Y": 55711.676,
+        "Z": 1201.6266
+      },
+      "RelativeRotation": {
+        "Pitch": -29.350264,
+        "Yaw": 68.15836,
+        "Roll": 9.6970776E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Monty Spawn Location",
+    "Outer": "Camera_1a",
+    "Template": "Monty Spawn Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      },
+      "RelativeLocation": {
+        "X": -27664.635,
+        "Y": 55769.58,
+        "Z": 977.3387
+      },
+      "bAbsoluteLocation": true,
+      "bAbsoluteRotation": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_1a",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      },
+      "RelativeLocation": {
+        "X": -27567.148,
+        "Y": 55947.664,
+        "Z": 949.45996
+      },
+      "bAbsoluteLocation": true,
+      "bAbsoluteRotation": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_1a",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_1b",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_1b",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -27636.111,
+        "Y": 57268.383,
+        "Z": 1254.6266
+      },
+      "RelativeRotation": {
+        "Pitch": -24.632915,
+        "Yaw": -135.19966,
+        "Roll": 1.595472E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Monty Spawn Location",
+    "Outer": "Camera_1b",
+    "Template": "Monty Spawn Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      },
+      "RelativeLocation": {
+        "X": -27553.914,
+        "Y": 57209.61,
+        "Z": 1109.0068
+      },
+      "bAbsoluteLocation": true,
+      "bAbsoluteRotation": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_1b",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      },
+      "RelativeLocation": {
+        "X": -27747.023,
+        "Y": 57111.145,
+        "Z": 1126.5161
+      },
+      "bAbsoluteLocation": true,
+      "bAbsoluteRotation": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_1b",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_1c",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_1c",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -27852.516,
+        "Y": 57935.645,
+        "Z": 1099.0587
+      },
+      "RelativeRotation": {
+        "Pitch": -13.559633,
+        "Yaw": 153.26848,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Monty Spawn Location",
+    "Outer": "Camera_1c",
+    "Template": "Monty Spawn Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      },
+      "RelativeLocation": {
+        "X": -29056.807,
+        "Y": 58194.84,
+        "Z": 1047.5562
+      },
+      "bAbsoluteLocation": true,
+      "bAbsoluteRotation": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_1c",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      },
+      "RelativeLocation": {
+        "X": 679.7998,
+        "Y": 94.95508,
+        "Z": 7.149536
+      },
+      "bAbsoluteRotation": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_1c",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -25826.158,
+        "Y": 45879.816,
+        "Z": -3227.9885
+      },
+      "RelativeRotation": {
+        "Pitch": -24.195248,
+        "Yaw": -60.87136,
+        "Roll": 2.3399927E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.77"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -25494.273,
+        "Y": 46375.91,
+        "Z": -3304.377
+      },
+      "RelativeRotation": {
+        "Pitch": -29.59527,
+        "Yaw": -146.07126,
+        "Roll": 2.4546825E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.77"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_door",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.81"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_door",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -30334.527,
+        "Y": 54081.98,
+        "Z": 1284.2289
+      },
+      "RelativeRotation": {
+        "Pitch": -19.683056,
+        "Yaw": 190.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_door",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_door",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.81"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_door_AR",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.85"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_door_AR",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -30324.527,
+        "Y": 54091.98,
+        "Z": -3715.771
+      },
+      "RelativeRotation": {
+        "Pitch": -19.683056,
+        "Yaw": 190.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_door_AR",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_door_AR",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.85"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_P",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.89"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_P",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -26667.598,
+        "Y": 57959.676,
+        "Z": 1201.6266
+      },
+      "RelativeRotation": {
+        "Pitch": -16.54895,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_P",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_P",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.89"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_P_AR",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.93"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_P_AR",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -26667.598,
+        "Y": 57959.676,
+        "Z": -3798.3733
+      },
+      "RelativeRotation": {
+        "Pitch": -16.54895,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_P_AR",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_P_AR",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.93"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_1a",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.57"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_1a",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "MontySpawnCamera_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.26"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.57"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_1a",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "MontySpawnCamera_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.26"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_1b",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.62"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_1b",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "MontySpawnCamera_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.27"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.62"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_1b",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "MontySpawnCamera_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.27"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_1c",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.67"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_1c",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "MontySpawnCamera_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.28"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.67"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_1c",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "MontySpawnCamera_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.28"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.72"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.9"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.72"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.9"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.76"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.10"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.76"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.10"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_door",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.11"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.80"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_door",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.11"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.80"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_door",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.11"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_door_AR",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.84"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_door_AR",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.12"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.84"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_door_AR",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.12"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_P",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.13"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.88"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_P",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.13"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.88"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_P",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.13"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_P_AR",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.92"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_P_AR",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.14"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.92"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_P_AR",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.14"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_1a",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_1a",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_1b",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_1b",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_1c",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_1c",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.78"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_door",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_door",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_door_AR",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_door_AR",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.86"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_P",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_P",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.90"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_P_AR",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_P_AR",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.94"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_1a",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_1b",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.99"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_1c",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.102"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.105"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.108"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_door",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.111"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_door_AR",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.114"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_P",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.117"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_P_AR",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.120"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_1a",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1a.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_1b",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1b.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_1c",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_1c.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_AR_Barrier",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_AR_Barrier_Symbol1",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Symbol1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_door",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_door_AR",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_door_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_P",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_P_AR",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_Cameras_DLC:PersistentLevel.Camera_P_AR.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_GatorGolf_Cameras_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_GatorGolf_Cameras_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.15"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_GatorGolf_Cameras_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Cameras_DLC.29"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

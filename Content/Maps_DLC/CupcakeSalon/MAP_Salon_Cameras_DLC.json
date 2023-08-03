@@ -1,0 +1,3287 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_AR_Barrier_Salon",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.97"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.49"
+      },
+      "InteractionMesh": {
+        "AssetPathName": "/Game/Maps_DLC/CupcakeSalon/MAP_AR_GlamrockSalon_StateChange_DLC.MAP_AR_GlamrockSalon_StateChange_DLC",
+        "SubPathString": "PersistentLevel.MOD_DamagedRoxyStatue_Lower4"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.96"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.28"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.27"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.26"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.15"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.117"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.77"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.110"
+      },
+      "LocationName": {
+        "CultureInvariantString": "Salon_Camera_1"
+      },
+      "ForceCapture": true,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.75"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.50"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.76"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.48"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.110"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.77"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.117"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.26"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.27"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.28"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.96"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.0"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.49"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.97"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.99"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.53"
+      },
+      "Symbol": "ECameraSymbol::NewEnumerator4",
+      "InteractionMesh": {
+        "AssetPathName": "/Game/Maps_DLC/CupcakeSalon/MAP_Salon_Gameplay_DLC.MAP_Salon_Gameplay_DLC",
+        "SubPathString": "PersistentLevel.AR_Barrier_Salon_Symbol_1"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.98"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.31"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.30"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.29"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.16"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.118"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.80"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.111"
+      },
+      "LocationName": {
+        "CultureInvariantString": "Salon_Camera_2"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.78"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.54"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.79"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.52"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.111"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.80"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.118"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.29"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.30"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.31"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.98"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.1"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.53"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.99"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.101"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.57"
+      },
+      "Symbol": "ECameraSymbol::NewEnumerator5",
+      "InteractionMesh": {
+        "AssetPathName": "/Game/Maps_DLC/CupcakeSalon/MAP_AR_GlamRock_Salon_EXT_DLC.MAP_AR_GlamRock_Salon_EXT_DLC",
+        "SubPathString": "PersistentLevel.VendingMachine29"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.100"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.34"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.33"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.32"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.17"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.119"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.83"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.112"
+      },
+      "LocationName": {
+        "CultureInvariantString": "Salon_Camera_4"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.81"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.58"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.82"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.56"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.112"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.83"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.119"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.17"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.32"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.33"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.34"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.100"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.2"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.57"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.101"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.103"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.61"
+      },
+      "Symbol": "ECameraSymbol::NewEnumerator6",
+      "InteractionMesh": {
+        "AssetPathName": "/Game/Maps_DLC/CupcakeSalon/MAP_AR_GlamRock_Salon_EXT_DLC.MAP_AR_GlamRock_Salon_EXT_DLC",
+        "SubPathString": "PersistentLevel.SM_scissors01open27"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.102"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.37"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.36"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.35"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.18"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.120"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.86"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.113"
+      },
+      "LocationName": {
+        "CultureInvariantString": "Salon_Camera_6"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.84"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.62"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.85"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.60"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.113"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.86"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.120"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.35"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.36"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.37"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.102"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.3"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.61"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.103"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.105"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.65"
+      },
+      "Symbol": "ECameraSymbol::NewEnumerator7",
+      "InteractionMesh": {
+        "AssetPathName": "/Game/Maps_DLC/CupcakeSalon/MAP_AR_GlamRock_Salon_EXT_DLC.MAP_AR_GlamRock_Salon_EXT_DLC",
+        "SubPathString": "PersistentLevel.MOD_EndoEye_15"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.4"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.104"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.40"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.39"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.38"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.19"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.121"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.89"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.114"
+      },
+      "LocationName": {
+        "CultureInvariantString": "Salon_Camera_4"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.87"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.66"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.88"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.64"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.114"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.89"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.121"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.38"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.39"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.40"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.104"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.4"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.65"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.105"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_DLC_Salon_3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.107"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.69"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.5"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.106"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.43"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.42"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.41"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.20"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.122"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.92"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.115"
+      },
+      "LocationName": {
+        "CultureInvariantString": "Salon_Camera_3"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.90"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.70"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.91"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.68"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.115"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.92"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.122"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.20"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.41"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.42"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.43"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.106"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.5"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.69"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.107"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_DLC_C",
+    "Name": "Camera_DLC_Salon_5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera_DLC.Camera_DLC_C'",
+    "Properties": {
+      "Sphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.Sphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.109"
+      },
+      "Noise Maker Location": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.73"
+      },
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.6"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.108"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.46"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.45"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.44"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.21"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.123"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.95"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.116"
+      },
+      "LocationName": {
+        "CultureInvariantString": "Salon_Camera_5"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.93"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.74"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.94"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.72"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.116"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.95"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.123"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.44"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.45"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.46"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.108"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.6"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.Noise Maker Location'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.73"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.Sphere'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.109"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Salon_Cameras_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Salon_Cameras_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.22"
+      },
+      "LevelBuildDataId": "E344924C-450577B0-032B85B8-5173C883",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Salon_Cameras_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.125"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Salon_Cameras_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.125"
+      },
+      null,
+      {
+        "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.7"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.8"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.12"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.9"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.13"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.10"
+      },
+      {
+        "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.11"
+      },
+      null,
+      {
+        "ObjectName": "NiagaraActor'MAP_Salon_Cameras_DLC:PersistentLevel.NS_RW_BlockerDistortion_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.24"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Salon_Cameras_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.22"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "1C74AB52-49A318D3-1E6FADBB-610F60C3",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "NS_RW_BlockerDistortion_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'MAP_Salon_Cameras_DLC:PersistentLevel.NS_RW_BlockerDistortion_2.NiagaraComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.25"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'MAP_Salon_Cameras_DLC:PersistentLevel.NS_RW_BlockerDistortion_2.NiagaraComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.25"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "NS_RW_BlockerDistortion_2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'NS_RW_BlockerDistortion_02'",
+        "ObjectPath": "fnaf9/Content/FX_DLC/Systems/NS_RW_BlockerDistortion_02.22"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BoxSize",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BoxSize",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "PixelColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.PixelColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpawnMult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpawnMult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BoxSize",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.PixelColor",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 28,
+            "Name": "User.SpawnMult",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          240,
+          66,
+          0,
+          0,
+          240,
+          66,
+          0,
+          0,
+          240,
+          66,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'MAP_Salon_Cameras_DLC:PersistentLevel.NS_RW_BlockerDistortion_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.24"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -42514.875,
+        "Y": 75353.9,
+        "Z": 2141.6233
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -33.377224,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.54"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.54"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.54"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.48"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -43767.203,
+        "Y": 76113.375,
+        "Z": -2681.75
+      },
+      "RelativeRotation": {
+        "Pitch": -27.398165,
+        "Yaw": -173.59665,
+        "Roll": 5.505393E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.48"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.52"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -43093.844,
+        "Y": 76234.24,
+        "Z": -2662.4465
+      },
+      "RelativeRotation": {
+        "Pitch": -15.799132,
+        "Yaw": 22.198584,
+        "Roll": 0.00015284157
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.52"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.56"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -42527.703,
+        "Y": 74609.52,
+        "Z": -2672.6157
+      },
+      "RelativeRotation": {
+        "Pitch": -25.394499,
+        "Yaw": 21.014687,
+        "Roll": 0.00034165065
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.56"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.60"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -42848.984,
+        "Y": 75485.51,
+        "Z": -2571.77
+      },
+      "RelativeRotation": {
+        "Pitch": 9.002551,
+        "Yaw": 110.808205,
+        "Roll": -15.004915
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.60"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.64"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -43490.445,
+        "Y": 77200.16,
+        "Z": -2320.3274
+      },
+      "RelativeRotation": {
+        "Pitch": -25.593485,
+        "Yaw": -164.98325,
+        "Roll": 0.00036976405
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.64"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.68"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -42803.945,
+        "Y": 75184.41,
+        "Z": -2445.0676
+      },
+      "RelativeRotation": {
+        "Pitch": -45.79555,
+        "Yaw": 19.213366,
+        "Roll": 0.00034960575
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.68"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.72"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -45380.03,
+        "Y": 76409.59,
+        "Z": -2411.6108
+      },
+      "RelativeRotation": {
+        "Pitch": -29.391901,
+        "Yaw": -50.180553,
+        "Roll": 0.0006496762
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Noise Maker Location",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "Noise Maker Location_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.72"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.47"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.7"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.47"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.7"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.51"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.8"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.51"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.8"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.55"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.9"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.55"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.9"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.59"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.10"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.59"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.10"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.63"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.11"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.63"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.11"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.67"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.12"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.67"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.12"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.71"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.13"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.71"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_DLC_C'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.13"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.57"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.69"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "Sphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 500000.0,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.Noise Maker Location'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SphereRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.75"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.78"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.81"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.84"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.87"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.90"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_AR_Barrier_Salon",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_1",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_2",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_3",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_AR_Barrier_Salon_Symbol_4",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_AR_Barrier_Salon_Symbol_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_DLC_Salon_3",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_DLC_Salon_5",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Salon_Cameras_DLC:PersistentLevel.Camera_DLC_Salon_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Salon_Cameras_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Salon_Cameras_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.14"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Salon_Cameras_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_Cameras_DLC.23"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

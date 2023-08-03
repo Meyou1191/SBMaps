@@ -1,0 +1,244 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_GatorGolf_Working8_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_GatorGolf_Working8_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.5"
+      },
+      "LevelBuildDataId": "2A057794-47FEEDF1-008C2899-A9007541",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_GatorGolf_Working8_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.8"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_GatorGolf_Working8_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.8"
+      },
+      null,
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_GatorGolf_Working8_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.5"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_GatorGolf_Working8_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/GatorGolf/MAP_GatorGolf_Store_DLC.MAP_GatorGolf_Store_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.71875024,
+        "A": 1.0,
+        "Hex": "FF00FFDD"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_GatorGolf_Working8_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/GatorGolf/MAP_GatorGolf_DLC.MAP_GatorGolf_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.43749976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00B1FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_GatorGolf_Working8_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_Store_DLC.MAP_WHITEBOX_GatorGolf_Store_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.20312476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF007CFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_GatorGolf_Working8_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/Whitebox/MAP_WHITEBOX_GatorGolf_GiftShop_Section8.MAP_WHITEBOX_GatorGolf_GiftShop_Section8",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.28906238,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF92FF00"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "E82E0B5F-4F8E2790-5334FCA6-497BDD72",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_GatorGolf_Working8_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_GatorGolf_Working8_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_GatorGolf_Working8_DLC:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.1"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_GatorGolf_Working8_DLC:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.3"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_GatorGolf_Working8_DLC:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.4"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_GatorGolf_Working8_DLC:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.2"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_GatorGolf_Working8_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_Working8_DLC.6"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

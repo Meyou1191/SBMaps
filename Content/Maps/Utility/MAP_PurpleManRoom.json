@@ -1,0 +1,3357 @@
+[
+  {
+    "Type": "AkAmbientSound",
+    "Name": "Play_sfx_general_monitor_active_hum_small_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'AkAmbientSound'",
+    "Properties": {
+      "AkComponent": {
+        "ObjectName": "AkComponent'MAP_PurpleManRoom:PersistentLevel.Play_sfx_general_monitor_active_hum_small_2.AkAudioComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.2"
+      },
+      "RootComponent": {
+        "ObjectName": "AkComponent'MAP_PurpleManRoom:PersistentLevel.Play_sfx_general_monitor_active_hum_small_2.AkAudioComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.2"
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Music_ForeverAndEver_Emitter_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.Music_ForeverAndEver_Emitter_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkAudioComponent0",
+    "Outer": "Play_sfx_general_monitor_active_hum_small_2",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AkAudioEvent": {
+        "ObjectName": "AkAudioEvent'Play_sfx_general_monitor_active_hum_small'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/Environment/Emitters/Play_sfx_general_monitor_active_hum_small.1"
+      },
+      "RelativeLocation": {
+        "X": 3091.7969,
+        "Y": 35609.215,
+        "Z": -446.3348
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerInteract",
+    "Outer": "PlaybackMachine_2",
+    "Template": "PlayerInteract_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.StaticMesh'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.87"
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.25,
+        "Z": 1.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "M_Dirt_decal48_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.M_Dirt_decal48_7.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.11"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.M_Dirt_decal48_7.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.11"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "M_Dirt_decal49",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.M_Dirt_decal49.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.12"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.M_Dirt_decal49.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.12"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "Mat_PaintfadeDecalUCenter2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.13"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.13"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "Mat_PaintfadeDecalUCenter3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter3.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.14"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter3.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.14"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "Mat_PaintfadeDecalUCenter4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter4.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.15"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter4.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.15"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "Mat_PaintfadeDecalUCenter5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter5.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.16"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter5.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.16"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "Mat_PaintfadeDecalUCenter_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.17"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.17"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "M_Dirt_decal48_7",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "Material'M_Dirt_decal'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Decals/Dirt_Decals/M_Dirt_decal.0"
+      },
+      "RelativeLocation": {
+        "X": 3328.73,
+        "Y": 35375.39,
+        "Z": -561.00085
+      },
+      "RelativeScale3D": {
+        "X": 0.04992088,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "M_Dirt_decal49",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'M_Decal_Rust_Concrete'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Decals/M_Decal_Rust_Concrete.0"
+      },
+      "RelativeLocation": {
+        "X": 3193.9763,
+        "Y": 35406.69,
+        "Z": -483.96057
+      },
+      "RelativeRotation": {
+        "Pitch": -29.647198,
+        "Yaw": -54.3601,
+        "Roll": 87.00507
+      },
+      "RelativeScale3D": {
+        "X": 0.038800664,
+        "Y": 0.09140744,
+        "Z": 0.09140744
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "Mat_PaintfadeDecalUCenter2",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "Material'Mat_PaintfadeDecalUCenter'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Mat_PaintfadeDecalUCenter.0"
+      },
+      "RelativeLocation": {
+        "X": 2906.4377,
+        "Y": 35245.348,
+        "Z": -420.49542
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0001280274,
+        "Yaw": 180.00081,
+        "Roll": 90.00056
+      },
+      "RelativeScale3D": {
+        "X": 0.072441,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "Mat_PaintfadeDecalUCenter3",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "Material'Mat_PaintfadeDecalUCenter'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Mat_PaintfadeDecalUCenter.0"
+      },
+      "RelativeLocation": {
+        "X": 3524.3347,
+        "Y": 35327.95,
+        "Z": -420.49344
+      },
+      "RelativeRotation": {
+        "Pitch": -0.000128,
+        "Yaw": 180.00081,
+        "Roll": 90.00056
+      },
+      "RelativeScale3D": {
+        "X": 0.072441,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "Mat_PaintfadeDecalUCenter4",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Poster_Decals_PosterRoxyRace'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Poster_Decals_PosterRoxyRace.0"
+      },
+      "RelativeLocation": {
+        "X": 2910.5535,
+        "Y": 35387.22,
+        "Z": -377.49344
+      },
+      "RelativeRotation": {
+        "Pitch": -0.000128,
+        "Yaw": 180.00081,
+        "Roll": 90.00056
+      },
+      "RelativeScale3D": {
+        "X": 0.072441,
+        "Y": 0.25011143,
+        "Z": 0.25011143
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "Mat_PaintfadeDecalUCenter5",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Poster_Decals_PosterFazer'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Poster_Decals_PosterFazer.0"
+      },
+      "RelativeLocation": {
+        "X": 3515.3694,
+        "Y": 35240.188,
+        "Z": -377.53598
+      },
+      "RelativeRotation": {
+        "Pitch": 0.00039615095,
+        "Yaw": 0.00062177324,
+        "Roll": 90.00054
+      },
+      "RelativeScale3D": {
+        "X": 0.072441,
+        "Y": 0.250111,
+        "Z": 0.250111
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "Mat_PaintfadeDecalUCenter_2",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "Material'Mat_PaintfadeDecalUCenter'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Mat_PaintfadeDecalUCenter.0"
+      },
+      "RelativeLocation": {
+        "X": 3337.6772,
+        "Y": 35777.316,
+        "Z": -420.48856
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0006420377,
+        "Yaw": 90.00064,
+        "Roll": 90.00019
+      },
+      "RelativeScale3D": {
+        "X": 0.072441466,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "PRE_DecalIcons_2",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceDynamic'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.MaterialInstanceDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.22"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'DecalComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "DecalMaterial",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_PurpleManRoom",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_PurpleManRoom:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.23"
+      },
+      "LevelBuildDataId": "2BE1C3F2-446E2E0E-AC99D0AB-B66CAC0B",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_PurpleManRoom:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.123"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_PurpleManRoom:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.123"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.Mod_ButterBowl_5'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M168'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M171'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.64"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M181'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M184'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.66"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M185'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.67"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M187'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.68"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M188'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.69"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M192'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.70"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M195'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.71"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA3'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA4'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.47"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M338'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.73"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_end_table_14_aar2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_PurpleMan_TV_205'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter3'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter4'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter5'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.41"
+      },
+      null,
+      {
+        "ObjectName": "DecalActor'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.10"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.6"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter3'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.7"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_PurpleManRoom:PersistentLevel.M_Dirt_decal48_7'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_pillow_01_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.62"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_PurpleManRoom:PersistentLevel.M_Dirt_decal49'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.5"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter4'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.8"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_PurpleManRoom:PersistentLevel.Mat_PaintfadeDecalUCenter5'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_PurpleMan_Clock_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M246'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.72"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA5'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA6'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.49"
+      },
+      {
+        "ObjectName": "PRE_DecalIcons_C'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_PurpleMan_Popcorn_Spill_Bucket_Low2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_SpilledPopcorn_3'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_SpilledPopcorn_7'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_Cable_Plug_12'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_Cable_Plug_16'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.44"
+      },
+      {
+        "ObjectName": "AkAmbientSound'MAP_PurpleManRoom:PersistentLevel.Play_sfx_general_monitor_active_hum_small_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.0"
+      },
+      {
+        "ObjectName": "Music_ForeverAndEver_Emitter_C'MAP_PurpleManRoom:PersistentLevel.Music_ForeverAndEver_Emitter_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.MOD_PizzaPlex_ArmChair2_215'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.32"
+      },
+      {
+        "ObjectName": "PlaybackMachine_C'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom1'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom3'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom4'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom5'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom6'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom7'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom8'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom9'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom10'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom11'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.53"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_PurpleManRoom:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.23"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_0",
+    "Outer": "MAP_PurpleManRoom",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/SegmentedLightingScenarios/MAP_Day_10.MAP_Day_10",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.91406256,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFF600"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_1",
+    "Outer": "MAP_PurpleManRoom",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Utility/MAP_Utility_WestToSublobby.MAP_Utility_WestToSublobby",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.546875,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFC300FF"
+      }
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "PRE_DecalIcons_2",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Poster_Decals'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Poster_Decals.0"
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'TX_FreddyLogo_White'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TX_FreddyLogo_White.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_TilingNoise11'",
+          "ObjectPath": "fnaf9/Content/Effects/Textures/Noise/T_TilingNoise11.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "FECC6D27-4118EDE4-85DAB8AC-CB3C0899",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "Music_ForeverAndEver_Emitter_C",
+    "Name": "Music_ForeverAndEver_Emitter_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Music_ForeverAndEver_Emitter_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Audio/Music_ForeverAndEver_Emitter.Music_ForeverAndEver_Emitter_C'",
+    "Properties": {
+      "Ak": {
+        "ObjectName": "AkComponent'MAP_PurpleManRoom:PersistentLevel.Music_ForeverAndEver_Emitter_2.Ak'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.1"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.Music_ForeverAndEver_Emitter_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.28"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.Music_ForeverAndEver_Emitter_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.28"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.Music_ForeverAndEver_Emitter_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.28"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PurpleManRoom:PersistentLevel.Music_ForeverAndEver_Emitter_2.Ak'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PlaybackMachine_C",
+    "Name": "PlaybackMachine_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__PlaybackMachine_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Objects/Actors/PlaybackMachine.PlaybackMachine_C'",
+    "Properties": {
+      "Text": {
+        "ObjectName": "TextRenderComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.Text'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.119"
+      },
+      "PlayerInteract": {
+        "ObjectName": "BoxComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.PlayerInteract'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.3"
+      },
+      "MOD_CD_Retro": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.MOD_CD_Retro'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.86"
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.StaticMesh'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.87"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.29"
+      },
+      "CD_Drop": {
+        "ObjectName": "TimelineComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.CD_Drop'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.120"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.29"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.29"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.StaticMesh'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.87"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.MOD_CD_Retro'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.86"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.PlayerInteract'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.3"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.Text'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.119"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.CD_Drop'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.120"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PRE_DecalIcons_C",
+    "Name": "PRE_DecalIcons_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__PRE_DecalIcons_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/SetsPRE/PRE_DecalIcons.PRE_DecalIcons_C'",
+    "Properties": {
+      "Widget": {
+        "ObjectName": "WidgetComponent'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.Widget'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.121"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.Decal'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.18"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.30"
+      },
+      "Noise_Scale": 1.0,
+      "Noise_Strength": 0.0,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.30"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.30"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.Decal'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.18"
+        },
+        {
+          "ObjectName": "WidgetComponent'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.Widget'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.121"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Music_ForeverAndEver_Emitter_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3093.3293,
+        "Y": 35610.086,
+        "Z": -445.36407
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -50.692444,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "PlaybackMachine_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3514.0,
+        "Y": 35357.0,
+        "Z": -471.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999954,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "PRE_DecalIcons_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3201.0984,
+        "Y": 35768.824,
+        "Z": -639.4254
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00027,
+        "Roll": 89.99982
+      },
+      "RelativeScale3D": {
+        "X": 0.007332,
+        "Y": 1.2908798,
+        "Z": 1.1911708
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mod_ButterBowl_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.Mod_ButterBowl_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.Mod_ButterBowl_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PizzaPlex_ArmChair2_215",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_PizzaPlex_ArmChair2_215.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_PizzaPlex_ArmChair2_215.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PurpleMan_Clock_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_PurpleMan_Clock_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_PurpleMan_Clock_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PurpleMan_Popcorn_Spill_Bucket_Low2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_PurpleMan_Popcorn_Spill_Bucket_Low2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_PurpleMan_Popcorn_Spill_Bucket_Low2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PurpleMan_TV_205",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_PurpleMan_TV_205.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_PurpleMan_TV_205.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SpilledPopcorn_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_SpilledPopcorn_3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_SpilledPopcorn_3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SpilledPopcorn_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_SpilledPopcorn_7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_SpilledPopcorn_7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Stick_OfButter2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Stick_OfButter3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Stick_OfButter4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Stick_OfButter5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Stick_OfButter_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.MOD_Stick_OfButter_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Cable_Plug_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_Cable_Plug_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_Cable_Plug_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Cable_Plug_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_Cable_Plug_16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_Cable_Plug_16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerA_TrimC_VarA2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerA_TrimC_VarA3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerA_TrimC_VarA4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.92"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerA_TrimC_VarA5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.93"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_DinerA_TrimC_VarA6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_DinerA_TrimC_VarA6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.94"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_end_table_14_aar2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_end_table_14_aar2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_end_table_14_aar2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.95"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom1.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.96"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom1.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.96"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.97"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.97"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.98"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.98"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.99"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.99"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.100"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.100"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.101"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.101"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.102"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.102"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.103"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.103"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.104"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.104"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.105"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.105"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MERGED_PurpleManRoom9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.106"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_MERGED_PurpleManRoom9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.106"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_pillow_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_pillow_01_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.107"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_pillow_01_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.107"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M168",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M168.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.108"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M168.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.108"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M171",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M171.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.109"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M171.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.109"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M181",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M181.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.110"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M181.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.110"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M184",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M184.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.111"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M184.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.111"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M185",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M185.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.112"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M185.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.112"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M187",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M187.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.113"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M187.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.113"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M188",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M188.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.114"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M188.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.114"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M192",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M192.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.115"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M192.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.115"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M195",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M195.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.116"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M195.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.116"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M246",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M246.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.117"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M246.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.117"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M338",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M338.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.118"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.SM_WallB_3M338.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.118"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mod_ButterBowl_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mod_ButterBowl'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/Mod_ButterBowl.2"
+      },
+      "VisibilityId": 7617,
+      "RelativeLocation": {
+        "X": 3061.6526,
+        "Y": 35613.082,
+        "Z": -414.51077
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -40.48251,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.0909612,
+        "Y": 0.0909612,
+        "Z": 0.0909612
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3115682941C3EAD978329FAFA906BAF5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PizzaPlex_ArmChair2_215",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WornChair'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WornChair.2"
+      },
+      "VisibilityId": 7647,
+      "RelativeLocation": {
+        "X": 3189.9224,
+        "Y": 35413.1,
+        "Z": -560.92975
+      },
+      "RelativeRotation": {
+        "Pitch": -0.665438,
+        "Yaw": 35.369114,
+        "Roll": 1.3093675
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "30FBD847458CF74793F4DF9A5DCAD5FF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PurpleMan_Clock_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PurpleMan_Clock'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_PurpleMan_Clock.2"
+      },
+      "VisibilityId": 7638,
+      "RelativeLocation": {
+        "X": 2919.7004,
+        "Y": 35655.293,
+        "Z": -360.01306
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 270.00092
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AA1F377D49D829B9C70B3CAE9EE5D637"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PurpleMan_Popcorn_Spill_Bucket_Low2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PurpleMan_Popcorn_Spill_untitled_002'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_PurpleMan_Popcorn_Spill_untitled_002.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'SpillPopcorn_Cutout'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/SpillPopcorn_Cutout.0"
+        }
+      ],
+      "VisibilityId": 7642,
+      "RelativeLocation": {
+        "X": 3075.5833,
+        "Y": 35521.453,
+        "Z": -563.3291
+      },
+      "RelativeRotation": {
+        "Pitch": 3.3074112,
+        "Yaw": 11.877182,
+        "Roll": -1.9728113
+      },
+      "RelativeScale3D": {
+        "X": 0.94678277,
+        "Y": 0.94678277,
+        "Z": 0.94678277
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "837451E3410AD8834345A9898E4F8164"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PurpleMan_TV_205",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PurpleMan_TV'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_PurpleMan_TV.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "Material'MAT_ScratchedGlass1'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_ScratchedGlass1.0"
+        }
+      ],
+      "VisibilityId": 7632,
+      "RelativeLocation": {
+        "X": 3073.0718,
+        "Y": 35630.61,
+        "Z": -475.2826
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -150.39975,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "80CF2C4244C79345A812E987F6D0A8B8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SpilledPopcorn_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SpilledPopcorn_2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SpilledPopcorn_2.2"
+      },
+      "VisibilityId": 7643,
+      "RelativeLocation": {
+        "X": 3098.7007,
+        "Y": 35526.29,
+        "Z": -561.94806
+      },
+      "RelativeRotation": {
+        "Pitch": -2.9200132,
+        "Yaw": 4.89189,
+        "Roll": -1.9900854
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "11867BD4410EB1BDB84F81A8A85BA8B7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SpilledPopcorn_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SpilledPopcorn_2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SpilledPopcorn_2.2"
+      },
+      "VisibilityId": 7644,
+      "RelativeLocation": {
+        "X": 3084.5925,
+        "Y": 35525.27,
+        "Z": -557.8005
+      },
+      "RelativeRotation": {
+        "Pitch": 5.481561,
+        "Yaw": 189.54811,
+        "Roll": 1.6939578
+      },
+      "RelativeScale3D": {
+        "X": 0.73024136,
+        "Y": 0.73024136,
+        "Z": 0.73024136
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "27F96CD54CA981671A655DA313C1DCF5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Stick_OfButter2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Stick_OfButter'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Stick_OfButter.2"
+      },
+      "VisibilityId": 7633,
+      "RelativeLocation": {
+        "X": 3066.9548,
+        "Y": 35606.08,
+        "Z": -401.50723
+      },
+      "RelativeRotation": {
+        "Pitch": -1.767187,
+        "Yaw": 34.444763,
+        "Roll": 56.729977
+      },
+      "RelativeScale3D": {
+        "X": 0.08751,
+        "Y": 0.08751,
+        "Z": 0.08751
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DA9336F74CEA801DE6F7118784A62E66"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Stick_OfButter3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Stick_OfButter'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Stick_OfButter.2"
+      },
+      "VisibilityId": 7634,
+      "RelativeLocation": {
+        "X": 3073.5303,
+        "Y": 35614.734,
+        "Z": -398.92056
+      },
+      "RelativeRotation": {
+        "Pitch": -17.870987,
+        "Yaw": 15.5412445,
+        "Roll": 100.48389
+      },
+      "RelativeScale3D": {
+        "X": 0.08751,
+        "Y": 0.08751,
+        "Z": 0.08751
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "422D9FC3419C6BF7938EE78567628146"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Stick_OfButter4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Stick_OfButter'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Stick_OfButter.2"
+      },
+      "VisibilityId": 7635,
+      "RelativeLocation": {
+        "X": 3053.0564,
+        "Y": 35614.957,
+        "Z": -401.509
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -98.49664,
+        "Roll": 52.666416
+      },
+      "RelativeScale3D": {
+        "X": 0.08751,
+        "Y": 0.08751,
+        "Z": 0.08751
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D7E2866A4AF1EA7CCE3CE392BB42517C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Stick_OfButter5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Stick_OfButter'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Stick_OfButter.2"
+      },
+      "VisibilityId": 7636,
+      "RelativeLocation": {
+        "X": 3059.7463,
+        "Y": 35623.89,
+        "Z": -401.509
+      },
+      "RelativeRotation": {
+        "Pitch": 1.3660378E-05,
+        "Yaw": -143.931,
+        "Roll": 52.66696
+      },
+      "RelativeScale3D": {
+        "X": 0.08751,
+        "Y": 0.08751,
+        "Z": 0.08751
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "28F8FFA94F607AD0FEB2BCBDF8C50E86"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Stick_OfButter_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Stick_OfButter'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Stick_OfButter.2"
+      },
+      "VisibilityId": 7616,
+      "RelativeLocation": {
+        "X": 3055.8728,
+        "Y": 35603.707,
+        "Z": -399.63687
+      },
+      "RelativeRotation": {
+        "Pitch": 0.113913886,
+        "Yaw": -19.71788,
+        "Roll": 55.087734
+      },
+      "RelativeScale3D": {
+        "X": 0.087510094,
+        "Y": 0.087510094,
+        "Z": 0.087510094
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "48CA45F04156A5161AED959ADAB51839"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_CD_Retro",
+    "Outer": "PlaybackMachine_2",
+    "Template": "MOD_CD_Retro_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.StaticMesh'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.87"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh",
+    "Outer": "PlaybackMachine_2",
+    "Template": "StaticMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Cable_Plug_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Cable_Plug_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Cable_Plug_01.2"
+      },
+      "VisibilityId": 7645,
+      "RelativeLocation": {
+        "X": 2932.0117,
+        "Y": 35308.938,
+        "Z": -516.0798
+      },
+      "RelativeRotation": {
+        "Pitch": 0.00025954717,
+        "Yaw": 0.0003376007,
+        "Roll": 180.0013
+      },
+      "RelativeScale3D": {
+        "X": 0.2686193,
+        "Y": 0.2686193,
+        "Z": 0.2686193
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "58F50C304622E2FB5BB79197981FBFDA"
+      },
+      {
+        "MapBuildDataId": "E0A39F701BF678DB6C93A925A86CCCCE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Cable_Plug_16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Cable_Plug_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Cable_Plug_01.2"
+      },
+      "VisibilityId": 7646,
+      "RelativeLocation": {
+        "X": 2932.0117,
+        "Y": 35318.4,
+        "Z": -516.0798
+      },
+      "RelativeRotation": {
+        "Pitch": 0.00026,
+        "Yaw": 0.000338,
+        "Roll": 180.0013
+      },
+      "RelativeScale3D": {
+        "X": 0.268619,
+        "Y": 0.268619,
+        "Z": 0.268619
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B54FD02E4DF69658F5769B95D76FFC62"
+      },
+      {
+        "MapBuildDataId": "549077F8BC9A55614C3F0E1B9C5C906D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerA_TrimC_VarA2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerA_TrimC_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerA_TrimC_VarA.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MAT_Wood_Tile_World'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Wood_Tile_World.0"
+        }
+      ],
+      "VisibilityId": 7627,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2912.959,
+        "Y": 35803.727,
+        "Z": -449.99057
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 90.0,
+        "Roll": -179.99863
+      },
+      "RelativeScale3D": {
+        "X": 1.9682225,
+        "Y": 1.9682225,
+        "Z": 1.9682225
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "09B7661C4A4AEE2DCDB415B86A0E5CAA"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerA_TrimC_VarA3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerA_TrimC_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerA_TrimC_VarA.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MAT_Wood_Tile_World'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Wood_Tile_World.0"
+        }
+      ],
+      "VisibilityId": 7628,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2912.959,
+        "Y": 35770.63,
+        "Z": -449.99042
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 7.6293945E-06,
+        "Roll": 0.0012664795
+      },
+      "RelativeScale3D": {
+        "X": 1.968222,
+        "Y": 1.968222,
+        "Z": 1.968222
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "280E46784C933D426036B7AEF9CC2428"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerA_TrimC_VarA4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerA_TrimC_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerA_TrimC_VarA.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MAT_Wood_Tile_World'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Wood_Tile_World.0"
+        }
+      ],
+      "VisibilityId": 7629,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 3517.9065,
+        "Y": 35796.082,
+        "Z": -449.99
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -7.1250305,
+        "Roll": -82.873535
+      },
+      "RelativeScale3D": {
+        "X": 1.968222,
+        "Y": 1.968222,
+        "Z": 1.968222
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AEE52470456A669B305A6EB59CF244C2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerA_TrimC_VarA5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerA_TrimC_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerA_TrimC_VarA.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MAT_Wood_Tile_World'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Wood_Tile_World.0"
+        }
+      ],
+      "VisibilityId": 7640,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 3289.0203,
+        "Y": 35014.395,
+        "Z": -449.99152
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -2.531096,
+        "Roll": 2.5325305
+      },
+      "RelativeScale3D": {
+        "X": 1.968222,
+        "Y": 1.968222,
+        "Z": 1.968222
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "37398F28410193C56BCA75AB1ED886EE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_DinerA_TrimC_VarA6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DinerA_TrimC_VarA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_DinerA_TrimC_VarA.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MAT_Wood_Tile_World'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Wood_Tile_World.0"
+        }
+      ],
+      "VisibilityId": 7641,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 3140.1257,
+        "Y": 35014.344,
+        "Z": -449.9911
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.019234,
+        "Roll": 179.98236
+      },
+      "RelativeScale3D": {
+        "X": 1.968222,
+        "Y": 1.968222,
+        "Z": 1.968222
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "CF27960A44F363B3A9FC23A5B4595AD0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_end_table_14_aar2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_end_table_43_aar'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_end_table_43_aar.2"
+      },
+      "VisibilityId": 7631,
+      "RelativeLocation": {
+        "X": 2992.1267,
+        "Y": 35556.242,
+        "Z": -560.9993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 21.609148,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.1570125,
+        "Y": 1.1570125,
+        "Z": 1.1570125
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DF3E2B584482C1D11E3E2A8CB960E3EE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom1",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom1.2"
+      },
+      "VisibilityId": 7648,
+      "RelativeLocation": {
+        "X": 3515.3464,
+        "Y": 35468.227,
+        "Z": -560.99304
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1AF48FAC45C1B9D00B103485515E63EC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom10'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom10.3"
+      },
+      "VisibilityId": 7657,
+      "RelativeLocation": {
+        "X": 3003.0679,
+        "Y": 35484.33,
+        "Z": -512.34607
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5174817C49CEEB6C47D0838DE0A9A5B0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom11'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom11.2"
+      },
+      "VisibilityId": 7658,
+      "RelativeLocation": {
+        "X": 2915.95,
+        "Y": 35768.223,
+        "Z": -260.9973
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "39808146436237E356F683ADD3EED769"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom2.2"
+      },
+      "VisibilityId": 7649,
+      "RelativeLocation": {
+        "X": 2915.9543,
+        "Y": 35168.83,
+        "Z": -561.0006
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "138CE6D045289E451FA204B7F2DEE230"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom3'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom3.2"
+      },
+      "VisibilityId": 7650,
+      "RelativeLocation": {
+        "X": 3605.426,
+        "Y": 35018.375,
+        "Z": -664.1146
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "63D36E2B49EC4059A151268038B450FE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom4'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom4.2"
+      },
+      "VisibilityId": 7651,
+      "RelativeLocation": {
+        "X": 3001.0942,
+        "Y": 35767.406,
+        "Z": -664.1127
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "70025C3B4C8B5F1D74AA97AEE55C0E95"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom5'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom5.2"
+      },
+      "VisibilityId": 7652,
+      "RelativeLocation": {
+        "X": 2917.3662,
+        "Y": 35124.17,
+        "Z": -664.1164
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4F87A912430A1011F4A70C86D224B628"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom6'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom6.3"
+      },
+      "VisibilityId": 7653,
+      "RelativeLocation": {
+        "X": 2995.6814,
+        "Y": 35550.61,
+        "Z": -491.5786
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "178F246248F0F95309A4AFB9B7040119"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom7'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom7.3"
+      },
+      "VisibilityId": 7654,
+      "RelativeLocation": {
+        "X": 3421.5706,
+        "Y": 35257.36,
+        "Z": -561.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "26012A914DAE00D309328BAD3111DE85"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom8'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom8.2"
+      },
+      "VisibilityId": 7655,
+      "RelativeLocation": {
+        "X": 3439.4116,
+        "Y": 35016.156,
+        "Z": -561.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EC21135246ACB7CAC77EFF9C97A26312"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MERGED_PurpleManRoom9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_PurpleManRoom9'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/MergedActors/Utility/PurpleManRoom/SM_MERGED_PurpleManRoom9.2"
+      },
+      "VisibilityId": 7656,
+      "RelativeLocation": {
+        "X": 3366.4683,
+        "Y": 35767.67,
+        "Z": -561.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1A8C93D4441AA9027F74BE89C7ABA300"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_pillow_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_pillow_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_pillow_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_bedding_set_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_bedding_set_01.0"
+        }
+      ],
+      "VisibilityId": 7637,
+      "RelativeLocation": {
+        "X": 3198.5237,
+        "Y": 35399.27,
+        "Z": -488.16135
+      },
+      "RelativeRotation": {
+        "Pitch": -62.148743,
+        "Yaw": -237.39514,
+        "Roll": 1.0893114
+      },
+      "RelativeScale3D": {
+        "X": 0.46729624,
+        "Y": 0.46729624,
+        "Z": 0.46729624
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6CEF22B14B56DB782C8716A75D6E75CC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M168",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_StreamersCarpet5'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_StreamersCarpet5.0"
+        }
+      ],
+      "VisibilityId": 7618,
+      "RelativeLocation": {
+        "X": 3490.7793,
+        "Y": 35007.63,
+        "Z": -561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C10069814D76E2C45B650197B56AE7F1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M171",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_StreamersCarpet5'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_StreamersCarpet5.0"
+        }
+      ],
+      "VisibilityId": 7619,
+      "RelativeLocation": {
+        "X": 3190.7793,
+        "Y": 35007.63,
+        "Z": -561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "611A5037469A53A28B955CBB9BDB7162"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M181",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_StreamersCarpet5'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_StreamersCarpet5.0"
+        }
+      ],
+      "VisibilityId": 7620,
+      "RelativeLocation": {
+        "X": 2890.7793,
+        "Y": 35007.63,
+        "Z": -561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F660F463487FF9337457868BBAD9F818"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M184",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_StreamersCarpet5'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_StreamersCarpet5.0"
+        }
+      ],
+      "VisibilityId": 7621,
+      "RelativeLocation": {
+        "X": 2890.7793,
+        "Y": 35307.63,
+        "Z": -561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "38B76B524EBBF9655FB7DE9E953AB012"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M185",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_StreamersCarpet5'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_StreamersCarpet5.0"
+        }
+      ],
+      "VisibilityId": 7622,
+      "RelativeLocation": {
+        "X": 3190.7793,
+        "Y": 35307.63,
+        "Z": -561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9AEEB289424EB2FF2277D382DD72156B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M187",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_StreamersCarpet5'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_StreamersCarpet5.0"
+        }
+      ],
+      "VisibilityId": 7623,
+      "RelativeLocation": {
+        "X": 3490.7793,
+        "Y": 35307.63,
+        "Z": -561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "309603CE4F5490AF18D0F49BA39A7D2A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M188",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_StreamersCarpet5'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_StreamersCarpet5.0"
+        }
+      ],
+      "VisibilityId": 7624,
+      "RelativeLocation": {
+        "X": 2890.7793,
+        "Y": 35607.63,
+        "Z": -561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0B35D4E940C3B00A98B48E90033D6F80"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M192",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_StreamersCarpet5'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_StreamersCarpet5.0"
+        }
+      ],
+      "VisibilityId": 7625,
+      "RelativeLocation": {
+        "X": 3190.7793,
+        "Y": 35607.63,
+        "Z": -561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EBBF640B45A2888BF055E0ACDE8FA9F6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M195",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_StreamersCarpet5'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_StreamersCarpet5.0"
+        }
+      ],
+      "VisibilityId": 7626,
+      "RelativeLocation": {
+        "X": 3490.7793,
+        "Y": 35607.63,
+        "Z": -561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "77AC62D84356863F562E6684DACA9FBA"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M246",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Banner_4_3'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Banner_4_3.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Sprite_PurpleRoomScreen'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Sprite_PurpleRoomScreen.0"
+        }
+      ],
+      "VisibilityId": 7639,
+      "RelativeLocation": {
+        "X": 3094.4648,
+        "Y": 35611.496,
+        "Z": -442.3401
+      },
+      "RelativeRotation": {
+        "Pitch": 0.00016403198,
+        "Yaw": 570.2018,
+        "Roll": 450.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5752005,
+        "Y": 0.5752005,
+        "Z": 0.5752005
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "34108009474ECCC15B4E09BE18838D51"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M338",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M_Half_Top'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SubLobby_Arch/SM_WallB_3M_Half_Top.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_WallBeige_Purpleroom2'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_WallBeige_Purpleroom2.0"
+        }
+      ],
+      "VisibilityId": 7630,
+      "RelativeLocation": {
+        "X": 2916.756,
+        "Y": 35758.13,
+        "Z": -664.10925
+      },
+      "RelativeRotation": {
+        "Pitch": 0.00040448585,
+        "Yaw": 720.0006,
+        "Roll": 359.99933
+      },
+      "RelativeScale3D": {
+        "X": 0.705506,
+        "Y": 0.705506,
+        "Z": 0.705506
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2B4790B447393202D9EAACA5C69C2FED"
+      }
+    ]
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "Text",
+    "Outer": "PlaybackMachine_2",
+    "Template": "Text_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "CD_Drop",
+    "Outer": "PlaybackMachine_2",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 1.0,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'PlaybackMachine_C:CurveFloat_2'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Actors/PlaybackMachine.26"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "CD_Drop_NewTrack_0_17056FF646F3FFC07575BAA4E9D5F794"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 27,
+          "Name": "CD_Drop__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 27,
+          "Name": "CD_Drop__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "PlaybackMachine_C'MAP_PurpleManRoom:PersistentLevel.PlaybackMachine_2'",
+          "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.26"
+        },
+        "DirectionPropertyName": "CD_Drop__Direction_17056FF646F3FFC07575BAA4E9D5F794"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "Widget",
+    "Outer": "PRE_DecalIcons_2",
+    "Template": "Widget_GEN_VARIABLE",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "CurrentDrawSize": {
+        "X": 2048,
+        "Y": 2048
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PurpleManRoom:PersistentLevel.PRE_DecalIcons_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_PurpleManRoom",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_PurpleManRoom:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.19"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_PurpleManRoom:LevelStreamingAlwaysLoaded_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.21"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_PurpleManRoom:LevelStreamingAlwaysLoaded_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.20"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_PurpleManRoom:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_PurpleManRoom.25"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

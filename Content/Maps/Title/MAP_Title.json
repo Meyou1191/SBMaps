@@ -1,0 +1,597 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MAP_Title",
+    "Outer": "MAP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+          "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_CheckForTrophyTimeAchievement_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass'FNAFGameInstanceInterface_C'",
+          "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstanceInterface.13"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstance_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'GameInstance'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetGameInstance'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 31,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+                "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameInstance_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'GameInstance'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Class": {
+            "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+                "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameInstance_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'GameInstance'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 67,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool2",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+                "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                  "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 96,
+        "CodeOffset": 156,
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.ExecuteUbergraph_MAP_Title[156]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 110,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+              "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+              }
+            }
+          }
+        },
+        "Offset": 14,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_LocalVirtualFunction",
+          "Function": "CheckForTrophyTimeAchievement",
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 146,
+        "CodeOffset": 156,
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.ExecuteUbergraph_MAP_Title[156]"
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 151,
+        "CodeOffset": 10,
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.ExecuteUbergraph_MAP_Title[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 156,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 158
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "MAP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+          "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 151
+          }
+        ],
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.ExecuteUbergraph_MAP_Title[151]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MAP_Title_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MAP_Title_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.1"
+      },
+      {
+        "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MAP_Title": {
+        "ObjectName": "Function'MAP_Title_C:ExecuteUbergraph_MAP_Title'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'MAP_Title_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.1"
+      }
+    },
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MAP_Title_C'Default__MAP_Title_C'",
+      "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.3"
+    }
+  },
+  {
+    "Type": "MAP_Title_C",
+    "Name": "Default__MAP_Title_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Maps/Title/MAP_Title.MAP_Title_C'",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Title",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Title:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.6"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "MAP_Title_C'MAP_Title:PersistentLevel.MAP_Title_C_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.5"
+      },
+      "LevelBuildDataId": "BFB7462A-4F62CFF4-762A51AE-70C081A6",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Title:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.9"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Title:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.9"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MAP_Title_C'MAP_Title:PersistentLevel.MAP_Title_C_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Engine/Maps/Entry",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Title:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.6"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "MAP_Title_C'MAP_Title:PersistentLevel.MAP_Title_C_1'",
+      "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.5"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "MAP_Title_C",
+    "Name": "MAP_Title_C_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MAP_Title_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Maps/Title/MAP_Title.MAP_Title_C'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "DA340A25-45FFEABD-8E96EFAC-13C8FFB8",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Title",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Title:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.4"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Title:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Title/MAP_Title.7"
+      },
+      "DefaultGameMode": {
+        "ObjectName": "BlueprintGeneratedClass'TitleGM_C'",
+        "ObjectPath": "fnaf9/Content/Blueprints/System/Title/TitleGM.0"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

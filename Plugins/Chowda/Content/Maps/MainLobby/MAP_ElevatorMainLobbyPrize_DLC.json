@@ -1,0 +1,4524 @@
+[
+  {
+    "Type": "A_Elevator_DoorSweep_C",
+    "Name": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__A_Elevator_DoorSweep_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Elevator/A_Elevator_DoorSweep.A_Elevator_DoorSweep_C'",
+    "Properties": {
+      "Box_Top": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Top'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.19"
+      },
+      "Box_Right": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Right'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.18"
+      },
+      "Box_Left": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Left'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.17"
+      },
+      "Box_Wall": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Wall'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.20"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.66"
+      },
+      "P_Boxes": [
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Top'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.19"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Left'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.17"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Right'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.18"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Wall'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.20"
+        }
+      ],
+      "P_WallMinDistance": 25.0,
+      "P_WallMaxDistance": 288.0,
+      "AutoSetup": false,
+      "TransformFallback": {
+        "Translation": {
+          "X": -1689.7579,
+          "Y": 26559.13,
+          "Z": 1481.2871
+        },
+        "Scale3D": {
+          "X": 1.390622,
+          "Y": 1.390622,
+          "Z": 1.390622
+        }
+      },
+      "Settings": {
+        "DoorWidth_8_F43BDB8C4F264126FEA9538819943FFF": 144.5,
+        "DoorHeight_9_9FE7FF0F4757481387868A83B12440E6": 233.9,
+        "DoorDepth_10_2C6885224119CE51C397418BFEAB4E18": 7.0,
+        "Flip_13_00E1873748B0D8C8D372B7A7B16C586E": true,
+        "OffsetLocation_16_A8E7F3AA430EAB548575E9AF8F14FE43": {
+          "X": 0.0,
+          "Y": 7.0,
+          "Z": 0.0
+        },
+        "Alignment_20_5D4A3F6044D22E93AA6B6790E8B0944F": "E_Elevator_DoorSweep_Alignment::NewEnumerator1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.66"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.NODE_AddChildActorComponent-0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.32"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.66"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Wall'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.20"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Left'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.17"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Right'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.18"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.Box_Top'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.19"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "A_Elevator_DoorSweep_C",
+    "Name": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__A_Elevator_DoorSweep_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Elevator/A_Elevator_DoorSweep.A_Elevator_DoorSweep_C'",
+    "Properties": {
+      "Box_Top": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Top'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.23"
+      },
+      "Box_Right": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Right'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.22"
+      },
+      "Box_Left": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Left'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.21"
+      },
+      "Box_Wall": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Wall'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.24"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.67"
+      },
+      "P_Boxes": [
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Top'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.23"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Left'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.21"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Right'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.22"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Wall'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.24"
+        }
+      ],
+      "P_WallMinDistance": 25.0,
+      "P_WallMaxDistance": 288.0,
+      "AutoSetup": false,
+      "TransformFallback": {
+        "Translation": {
+          "X": -1689.7579,
+          "Y": 26559.13,
+          "Z": 1481.2871
+        },
+        "Scale3D": {
+          "X": 1.390622,
+          "Y": 1.390622,
+          "Z": 1.390622
+        }
+      },
+      "Settings": {
+        "DoorWidth_8_F43BDB8C4F264126FEA9538819943FFF": 144.5,
+        "DoorHeight_9_9FE7FF0F4757481387868A83B12440E6": 233.9,
+        "DoorDepth_10_2C6885224119CE51C397418BFEAB4E18": 7.0,
+        "Flip_13_00E1873748B0D8C8D372B7A7B16C586E": true,
+        "OffsetLocation_16_A8E7F3AA430EAB548575E9AF8F14FE43": {
+          "X": 0.0,
+          "Y": 7.0,
+          "Z": 0.0
+        },
+        "Alignment_20_5D4A3F6044D22E93AA6B6790E8B0944F": "E_Elevator_DoorSweep_Alignment::NewEnumerator1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.67"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.NODE_AddChildActorComponent-0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.31"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.67"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Wall'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.24"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Left'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.21"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Right'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.22"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.Box_Top'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "A_Elevator_StreamViewpoint_C",
+    "Name": "A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__A_Elevator_StreamViewpoint_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Elevator/A_Elevator_StreamViewpoint.A_Elevator_StreamViewpoint_C'",
+    "Properties": {
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.48"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.57"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.57"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.A_Elevator_StreamViewpoint_A'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.33"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.57"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.48"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "A_Elevator_StreamViewpoint_C",
+    "Name": "A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__A_Elevator_StreamViewpoint_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Elevator/A_Elevator_StreamViewpoint.A_Elevator_StreamViewpoint_C'",
+    "Properties": {
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.49"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.58"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.58"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.A_Elevator_StreamViewpoint_B'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.34"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.58"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.49"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak",
+    "Outer": "SM_elevator_2",
+    "Template": "Ak_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Play_mus_FreddysFanfare_80sSynth_elevator",
+    "Outer": "SM_elevator_2",
+    "Template": "Play_mus_FreddysFanfare_80sSynth_elevator_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "Freddy_Spawn",
+    "Outer": "SM_elevator_2",
+    "Template": "Freddy_Spawn_GEN_VARIABLE",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Outer": "Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3",
+    "Template": "Box_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Outer": "Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2",
+    "Template": "Box_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "NODE_AddBoxComponent-0",
+    "Outer": "Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2",
+    "Template": "NODE_AddBoxComponent-0",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 168.25,
+        "Y": 128.0,
+        "Z": 164.95
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.54"
+            },
+            "FunctionName": "OverlapBegin"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.54"
+            },
+            "FunctionName": "OverlapEnd"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.63"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 135.00029,
+        "Z": 164.94997
+      },
+      "UCSSerializationIndex": 0,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Outer": "Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1",
+    "Template": "Box_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Outer": "Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0",
+    "Template": "Box_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "NODE_AddBoxComponent-0",
+    "Outer": "Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0",
+    "Template": "NODE_AddBoxComponent-0",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 168.25,
+        "Y": 128.0,
+        "Z": 164.95
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.56"
+            },
+            "FunctionName": "OverlapBegin"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.56"
+            },
+            "FunctionName": "OverlapEnd"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.65"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 135.00029,
+        "Z": 164.94997
+      },
+      "UCSSerializationIndex": 0,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_Left",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0",
+    "Template": "Box_Left_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 32.0,
+        "Y": 160.0,
+        "Z": 180.95
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.66"
+      },
+      "RelativeLocation": {
+        "X": -104.24996,
+        "Y": 160.00035,
+        "Z": 116.95004
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "BoxExtent",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_Right",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0",
+    "Template": "Box_Right_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 32.0,
+        "Y": 160.0,
+        "Z": 180.95
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.66"
+      },
+      "RelativeLocation": {
+        "X": 104.24996,
+        "Y": 160.00035,
+        "Z": 116.95004
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "BoxExtent",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_Top",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0",
+    "Template": "Box_Top_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 136.25,
+        "Y": 160.0,
+        "Z": 32.0
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.66"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 160.00035,
+        "Z": 265.9
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "BoxExtent",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_Wall",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0",
+    "Template": "Box_Wall_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 136.25,
+        "Y": 32.0,
+        "Z": 180.95
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.66"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 288.0006,
+        "Z": 116.95004
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "BoxExtent",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_Left",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1",
+    "Template": "Box_Left_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 32.0,
+        "Y": 160.0,
+        "Z": 180.95
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.67"
+      },
+      "RelativeLocation": {
+        "X": -104.24996,
+        "Y": 160.00035,
+        "Z": 116.95004
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "BoxExtent",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_Right",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1",
+    "Template": "Box_Right_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 32.0,
+        "Y": 160.0,
+        "Z": 180.95
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.67"
+      },
+      "RelativeLocation": {
+        "X": 104.24996,
+        "Y": 160.00035,
+        "Z": 116.95004
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "BoxExtent",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_Top",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1",
+    "Template": "Box_Top_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 136.25,
+        "Y": 160.0,
+        "Z": 32.0
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.67"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 160.00035,
+        "Z": 265.9
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "BoxExtent",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_Wall",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1",
+    "Template": "Box_Wall_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 136.25,
+        "Y": 32.0,
+        "Z": 180.95
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.67"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 288.0006,
+        "Z": 116.95004
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "BoxExtent",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box",
+    "Outer": "SM_elevator_2",
+    "Template": "Box_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_WakeupOverlaps'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InsideOverlap",
+    "Outer": "SM_elevator_2",
+    "Template": "InsideOverlap_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "PRE_Elevator_LobbyToPrize_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.52"
+            },
+            "FunctionName": "BndEvt__InsideOverlap_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "PRE_Elevator_LobbyToPrize_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.52"
+            },
+            "FunctionName": "BndEvt__InsideOverlap_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_PawnInsideOverlaps'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BP_ArrowIndicator_C",
+    "Name": "BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_ArrowIndicator_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Elevator/BP_ArrowIndicator.BP_ArrowIndicator_C'",
+    "Properties": {
+      "Arrowslider": {
+        "ObjectName": "WidgetComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.Arrowslider'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.91"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.59"
+      },
+      "Timeline_0": {
+        "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.Timeline_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.86"
+      },
+      "FadeUPThenDown": {
+        "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.FadeUPThenDown'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.85"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.59"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator_A'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.36"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.59"
+        },
+        {
+          "ObjectName": "WidgetComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.Arrowslider'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.91"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.FadeUPThenDown'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.85"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.Timeline_0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.86"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_ArrowIndicator_C",
+    "Name": "BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_ArrowIndicator_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Elevator/BP_ArrowIndicator.BP_ArrowIndicator_C'",
+    "Properties": {
+      "Arrowslider": {
+        "ObjectName": "WidgetComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.Arrowslider'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.92"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.60"
+      },
+      "Timeline_0": {
+        "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.Timeline_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.88"
+      },
+      "FadeUPThenDown": {
+        "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.FadeUPThenDown'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.87"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.60"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator_B'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.37"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.60"
+        },
+        {
+          "ObjectName": "WidgetComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.Arrowslider'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.92"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.FadeUPThenDown'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.87"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.Timeline_0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.88"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_ArrowIndicator_C",
+    "Name": "BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_ArrowIndicator_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Elevator/BP_ArrowIndicator.BP_ArrowIndicator_C'",
+    "Properties": {
+      "Arrowslider": {
+        "ObjectName": "WidgetComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.Arrowslider'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.93"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.61"
+      },
+      "Timeline_0": {
+        "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.Timeline_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.90"
+      },
+      "FadeUPThenDown": {
+        "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.FadeUPThenDown'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.89"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.61"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.35"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.61"
+        },
+        {
+          "ObjectName": "WidgetComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.Arrowslider'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.93"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.FadeUPThenDown'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.89"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.Timeline_0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.90"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "C_Elevator_Audio_C",
+    "Name": "Elevator_Audio",
+    "Outer": "SM_elevator_2",
+    "Template": "Elevator_Audio_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Elevator/C_Elevator_Audio.C_Elevator_Audio_C'",
+    "Properties": {
+      "PlayAudioEvent": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "PRE_Elevator_LobbyToPrize_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.52"
+            },
+            "FunctionName": "BndEvt__Elevator_Audio_K2Node_ComponentBoundEvent_2_PlayAudioEvent__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "NODE_AddChildActorComponent-0",
+    "Outer": "Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3",
+    "Template": "NODE_AddChildActorComponent-0",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "A_Elevator_DoorSweep_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.1"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.62"
+      },
+      "UCSSerializationIndex": 0,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "NODE_AddChildActorComponent-0",
+    "Outer": "Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1",
+    "Template": "NODE_AddChildActorComponent-0",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "A_Elevator_DoorSweep_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.64"
+      },
+      "UCSSerializationIndex": 0,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "A_Elevator_StreamViewpoint_A",
+    "Outer": "SM_elevator_2",
+    "Template": "A_Elevator_StreamViewpoint_A_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "A_Elevator_StreamViewpoint_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.2"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "A_Elevator_StreamViewpoint_B",
+    "Outer": "SM_elevator_2",
+    "Template": "A_Elevator_StreamViewpoint_B_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "A_Elevator_StreamViewpoint_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.3"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "BP_ArrowIndicator",
+    "Outer": "SM_elevator_2",
+    "Template": "BP_ArrowIndicator_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.29"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "BP_ArrowIndicator_A",
+    "Outer": "SM_elevator_2",
+    "Template": "BP_ArrowIndicator_A_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.27"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_ArrowIndicators'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.69"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "BP_ArrowIndicator_B",
+    "Outer": "SM_elevator_2",
+    "Template": "BP_ArrowIndicator_B_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.28"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_ArrowIndicators'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.69"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "Door_A_Inner",
+    "Outer": "SM_elevator_2",
+    "Template": "Door_A_Inner_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.53"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Door_A'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "Door_A_Outer",
+    "Outer": "SM_elevator_2",
+    "Template": "Door_A_Outer_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.54"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Door_A'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "Door_B_Inner",
+    "Outer": "SM_elevator_2",
+    "Template": "Door_B_Inner_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.55"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Door_B'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "Door_B_Outer",
+    "Outer": "SM_elevator_2",
+    "Template": "Door_B_Outer_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActor": {
+        "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.56"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Door_B'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "SM_elevator_2",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_ElevatorMainLobbyPrize_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.50"
+      },
+      "LevelBuildDataId": "131EB177-4269D92C-34BB6692-E242C62D",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.95"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.95"
+      },
+      null,
+      {
+        "ObjectName": "PRE_Elevator_LobbyToPrize_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.52"
+      },
+      {
+        "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.53"
+      },
+      {
+        "ObjectName": "A_Elevator_DoorSweep_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.1"
+      },
+      {
+        "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.54"
+      },
+      {
+        "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.55"
+      },
+      {
+        "ObjectName": "A_Elevator_DoorSweep_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.0"
+      },
+      {
+        "ObjectName": "PRE_ElevatorDoor_General_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.56"
+      },
+      {
+        "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.27"
+      },
+      {
+        "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.28"
+      },
+      {
+        "ObjectName": "A_Elevator_StreamViewpoint_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.2"
+      },
+      {
+        "ObjectName": "A_Elevator_StreamViewpoint_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.3"
+      },
+      {
+        "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.29"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.50"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.57"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "D06B585F-495E168F-78E44E83-D3FCBE47",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PRE_Elevator_LobbyToPrize_C",
+    "Name": "SM_elevator_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__PRE_Elevator_LobbyToPrize_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Objects/LobbyElevator/PRE_Elevator_LobbyToPrize.PRE_Elevator_LobbyToPrize_C'",
+    "Properties": {
+      "MOD_ElevatorFrameDoor_R": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.MOD_ElevatorFrameDoor_R'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.84"
+      },
+      "BP_ArrowIndicator": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.35"
+      },
+      "ElevatorMesh": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.ElevatorMesh'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.83"
+      },
+      "Elevator_Audio": {
+        "ObjectName": "C_Elevator_Audio_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Elevator_Audio'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.30"
+      },
+      "Freddy_Spawn": {
+        "ObjectName": "ArrowComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Freddy_Spawn'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.10"
+      },
+      "Play_mus_FreddysFanfare_80sSynth_elevator": {
+        "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Play_mus_FreddysFanfare_80sSynth_elevator'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.9"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Ak'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.8"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.46"
+      },
+      "InsideOverlap": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.InsideOverlap'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.26"
+      },
+      "Scene_PawnInsideOverlaps": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_PawnInsideOverlaps'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.73"
+      },
+      "A_Elevator_StreamViewpoint_B": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.A_Elevator_StreamViewpoint_B'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.34"
+      },
+      "A_Elevator_StreamViewpoint_A": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.A_Elevator_StreamViewpoint_A'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.33"
+      },
+      "Box": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Box'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.25"
+      },
+      "Scene_WakeupOverlaps": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_WakeupOverlaps'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.74"
+      },
+      "BP_ArrowIndicator_B": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator_B'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.37"
+      },
+      "BP_ArrowIndicator_A": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator_A'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.36"
+      },
+      "Scene_ArrowIndicators": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_ArrowIndicators'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.69"
+      },
+      "Scene_Audio": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Audio'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.70"
+      },
+      "Door_B_Outer": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_B_Outer'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.41"
+      },
+      "Door_B_Inner": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_B_Inner'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.40"
+      },
+      "Scene_Door_B": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Door_B'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.72"
+      },
+      "Door_A_Outer": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_A_Outer'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.39"
+      },
+      "Door_A_Inner": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_A_Inner'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.38"
+      },
+      "Scene_Door_A": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Door_A'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.71"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Door_A'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.71"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_A_Inner'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.38"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_A_Outer'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.39"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Door_B'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.72"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_B_Inner'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.40"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_B_Outer'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.41"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_Audio'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.70"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_ArrowIndicators'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.69"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator_A'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.36"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator_B'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.37"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_WakeupOverlaps'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.74"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Box'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.25"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.A_Elevator_StreamViewpoint_A'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.33"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.A_Elevator_StreamViewpoint_B'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.34"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Scene_PawnInsideOverlaps'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.73"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.InsideOverlap'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.26"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Ak'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.8"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Play_mus_FreddysFanfare_80sSynth_elevator'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.9"
+        },
+        {
+          "ObjectName": "ArrowComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Freddy_Spawn'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.10"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.46"
+        },
+        {
+          "ObjectName": "C_Elevator_Audio_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Elevator_Audio'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.30"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.ElevatorMesh'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.83"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.35"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.MOD_ElevatorFrameDoor_R'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.84"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PRE_ElevatorDoor_General_C",
+    "Name": "Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__PRE_ElevatorDoor_General_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/SetsPRE/PRE_ElevatorDoor_General.PRE_ElevatorDoor_General_C'",
+    "Properties": {
+      "Box": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.Box'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.11"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.Ak'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.4"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.Door'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.42"
+      },
+      "IndustrialDoor_IndustrialE_01": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.IndustrialDoor_IndustrialE_01'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.75"
+      },
+      "IndustrialDoor_IndustrialE_02": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.IndustrialDoor_IndustrialE_02'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.76"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.62"
+      },
+      "P_DoorSweep": {
+        "ObjectName": "A_Elevator_DoorSweep_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.1"
+      },
+      "CloseDelay": 0.375,
+      "Sweep": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.62"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_A_Inner'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.38"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.62"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.IndustrialDoor_IndustrialE_02'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.76"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.IndustrialDoor_IndustrialE_01'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.75"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.Ak'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.4"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.Door'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.42"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.Box'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.11"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.NODE_AddChildActorComponent-0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PRE_ElevatorDoor_General_C",
+    "Name": "Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__PRE_ElevatorDoor_General_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/SetsPRE/PRE_ElevatorDoor_General.PRE_ElevatorDoor_General_C'",
+    "Properties": {
+      "Box": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.Box'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.12"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.Ak'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.5"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.Door'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.43"
+      },
+      "IndustrialDoor_IndustrialE_01": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.IndustrialDoor_IndustrialE_01'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.77"
+      },
+      "IndustrialDoor_IndustrialE_02": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.IndustrialDoor_IndustrialE_02'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.78"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.63"
+      },
+      "OpenDelay": 0.375,
+      "P_Box": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.NODE_AddBoxComponent-0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.13"
+      },
+      "Overlap": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.63"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_A_Outer'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.39"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.63"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.IndustrialDoor_IndustrialE_02'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.78"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.IndustrialDoor_IndustrialE_01'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.77"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.Ak'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.5"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.Door'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.43"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.Box'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.12"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.NODE_AddBoxComponent-0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PRE_ElevatorDoor_General_C",
+    "Name": "Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__PRE_ElevatorDoor_General_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/SetsPRE/PRE_ElevatorDoor_General.PRE_ElevatorDoor_General_C'",
+    "Properties": {
+      "Box": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.Box'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.14"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.Ak'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.6"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.Door'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.44"
+      },
+      "IndustrialDoor_IndustrialE_01": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.IndustrialDoor_IndustrialE_01'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.79"
+      },
+      "IndustrialDoor_IndustrialE_02": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.IndustrialDoor_IndustrialE_02'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.80"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.64"
+      },
+      "P_DoorSweep": {
+        "ObjectName": "A_Elevator_DoorSweep_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.0"
+      },
+      "CloseDelay": 0.375,
+      "Sweep": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.64"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_B_Inner'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.40"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.64"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.IndustrialDoor_IndustrialE_02'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.80"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.IndustrialDoor_IndustrialE_01'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.79"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.Ak'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.6"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.Door'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.44"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.Box'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.14"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.NODE_AddChildActorComponent-0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.32"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PRE_ElevatorDoor_General_C",
+    "Name": "Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__PRE_ElevatorDoor_General_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/SetsPRE/PRE_ElevatorDoor_General.PRE_ElevatorDoor_General_C'",
+    "Properties": {
+      "Box": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.Box'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.15"
+      },
+      "Ak": {
+        "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.Ak'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.7"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.Door'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.45"
+      },
+      "IndustrialDoor_IndustrialE_01": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.IndustrialDoor_IndustrialE_01'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.81"
+      },
+      "IndustrialDoor_IndustrialE_02": {
+        "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.IndustrialDoor_IndustrialE_02'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.82"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.65"
+      },
+      "OpenDelay": 0.375,
+      "P_Box": {
+        "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.NODE_AddBoxComponent-0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.16"
+      },
+      "Overlap": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.65"
+      },
+      "ParentComponent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_B_Outer'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.41"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.65"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.IndustrialDoor_IndustrialE_02'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.82"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.IndustrialDoor_IndustrialE_01'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.81"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.Ak'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.7"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.Door'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.45"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.Box'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.15"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.NODE_AddBoxComponent-0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "A_Elevator_StreamViewpoint_A_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_1",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.A_Elevator_StreamViewpoint_A'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "A_Elevator_StreamViewpoint_B_GEN_VARIABLE_A_Elevator_StreamViewpoint_C_CAT_0",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.A_Elevator_StreamViewpoint_B'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator_A'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator_B'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.BP_ArrowIndicator'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_A_Inner'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_A_Outer'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.39"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_B_Inner'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.Door_B_Outer'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_0",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.NODE_AddChildActorComponent-0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "NODE_AddChildActorComponent-0_A_Elevator_DoorSweep_C_CAT_1",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ChildActorComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.NODE_AddChildActorComponent-0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_elevator_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1689.7579,
+        "Y": 26568.865,
+        "Z": 1481.2871
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_ArrowIndicators",
+    "Outer": "SM_elevator_2",
+    "Template": "Scene_ArrowIndicators_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_Audio",
+    "Outer": "SM_elevator_2",
+    "Template": "Scene_Audio_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_Door_A",
+    "Outer": "SM_elevator_2",
+    "Template": "Scene_Door_A_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_Door_B",
+    "Outer": "SM_elevator_2",
+    "Template": "Scene_Door_B_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_PawnInsideOverlaps",
+    "Outer": "SM_elevator_2",
+    "Template": "Scene_PawnInsideOverlaps_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_WakeupOverlaps",
+    "Outer": "SM_elevator_2",
+    "Template": "Scene_WakeupOverlaps_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "IndustrialDoor_IndustrialE_01",
+    "Outer": "Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3",
+    "Template": "IndustrialDoor_IndustrialE_01_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.62"
+      },
+      "RelativeLocation": {
+        "X": 72.30002,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "IndustrialDoor_IndustrialE_02",
+    "Outer": "Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3",
+    "Template": "IndustrialDoor_IndustrialE_02_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.62"
+      },
+      "RelativeLocation": {
+        "X": -72.30002,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "IndustrialDoor_IndustrialE_01",
+    "Outer": "Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2",
+    "Template": "IndustrialDoor_IndustrialE_01_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.63"
+      },
+      "RelativeLocation": {
+        "X": 72.30002,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "IndustrialDoor_IndustrialE_02",
+    "Outer": "Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2",
+    "Template": "IndustrialDoor_IndustrialE_02_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_A_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.63"
+      },
+      "RelativeLocation": {
+        "X": -72.30002,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "IndustrialDoor_IndustrialE_01",
+    "Outer": "Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1",
+    "Template": "IndustrialDoor_IndustrialE_01_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.64"
+      },
+      "RelativeLocation": {
+        "X": 72.30002,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "IndustrialDoor_IndustrialE_02",
+    "Outer": "Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1",
+    "Template": "IndustrialDoor_IndustrialE_02_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Inner_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.64"
+      },
+      "RelativeLocation": {
+        "X": -72.30002,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "IndustrialDoor_IndustrialE_01",
+    "Outer": "Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0",
+    "Template": "IndustrialDoor_IndustrialE_01_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.65"
+      },
+      "RelativeLocation": {
+        "X": 72.30002,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "IndustrialDoor_IndustrialE_02",
+    "Outer": "Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0",
+    "Template": "IndustrialDoor_IndustrialE_02_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.Door_B_Outer_GEN_VARIABLE_PRE_ElevatorDoor_General_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.65"
+      },
+      "RelativeLocation": {
+        "X": -72.30002,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ElevatorMesh",
+    "Outer": "SM_elevator_2",
+    "Template": "ElevatorMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "OverrideMaterials": [
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_GrungeSolidGlass'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MI_GrungeSolidGlass.0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_ElevatorFrameDoor_R",
+    "Outer": "SM_elevator_2",
+    "Template": "MOD_ElevatorFrameDoor_R_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.SM_elevator_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "FadeUPThenDown",
+    "Outer": "BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ArrowIndicator_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Elevator/BP_ArrowIndicator.11"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "FadeUPThenDown_NewTrack_0_749F62634336CD3FDE6BF6997B45AC17"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 28,
+          "Name": "FadeUPThenDown__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 28,
+          "Name": "FadeUPThenDown__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.27"
+        },
+        "DirectionPropertyName": "FadeUPThenDown__Direction_749F62634336CD3FDE6BF6997B45AC17"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Timeline_0",
+    "Outer": "BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ArrowIndicator_C:CurveFloat_0_1'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Elevator/BP_ArrowIndicator.12"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "Timeline_0_NewTrack_0_2408F79E4278A86EB70DF0B11BAEE9A8"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 28,
+          "Name": "Timeline_0__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 28,
+          "Name": "Timeline_0__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.27"
+        },
+        "DirectionPropertyName": "Timeline_0__Direction_2408F79E4278A86EB70DF0B11BAEE9A8"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "FadeUPThenDown",
+    "Outer": "BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ArrowIndicator_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Elevator/BP_ArrowIndicator.11"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "FadeUPThenDown_NewTrack_0_749F62634336CD3FDE6BF6997B45AC17"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 29,
+          "Name": "FadeUPThenDown__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 29,
+          "Name": "FadeUPThenDown__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.28"
+        },
+        "DirectionPropertyName": "FadeUPThenDown__Direction_749F62634336CD3FDE6BF6997B45AC17"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Timeline_0",
+    "Outer": "BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ArrowIndicator_C:CurveFloat_0_1'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Elevator/BP_ArrowIndicator.12"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "Timeline_0_NewTrack_0_2408F79E4278A86EB70DF0B11BAEE9A8"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 29,
+          "Name": "Timeline_0__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 29,
+          "Name": "Timeline_0__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.28"
+        },
+        "DirectionPropertyName": "Timeline_0__Direction_2408F79E4278A86EB70DF0B11BAEE9A8"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "FadeUPThenDown",
+    "Outer": "BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ArrowIndicator_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Elevator/BP_ArrowIndicator.11"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "FadeUPThenDown_NewTrack_0_749F62634336CD3FDE6BF6997B45AC17"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 30,
+          "Name": "FadeUPThenDown__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 30,
+          "Name": "FadeUPThenDown__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.29"
+        },
+        "DirectionPropertyName": "FadeUPThenDown__Direction_749F62634336CD3FDE6BF6997B45AC17"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Timeline_0",
+    "Outer": "BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_ArrowIndicator_C:CurveFloat_0_1'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Elevator/BP_ArrowIndicator.12"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "Timeline_0_NewTrack_0_2408F79E4278A86EB70DF0B11BAEE9A8"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 30,
+          "Name": "Timeline_0__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 30,
+          "Name": "Timeline_0__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_ArrowIndicator_C'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.29"
+        },
+        "DirectionPropertyName": "Timeline_0__Direction_2408F79E4278A86EB70DF0B11BAEE9A8"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "Arrowslider",
+    "Outer": "BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2",
+    "Template": "Arrowslider_GEN_VARIABLE",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "CurrentDrawSize": {
+        "X": 1024,
+        "Y": 1024
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_A_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.59"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "Arrowslider",
+    "Outer": "BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1",
+    "Template": "Arrowslider_GEN_VARIABLE",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "CurrentDrawSize": {
+        "X": 1024,
+        "Y": 1024
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_B_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "Arrowslider",
+    "Outer": "BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0",
+    "Template": "Arrowslider_GEN_VARIABLE",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "CurrentDrawSize": {
+        "X": 1024,
+        "Y": 1024
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.BP_ArrowIndicator_GEN_VARIABLE_BP_ArrowIndicator_C_CAT_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_ElevatorMainLobbyPrize_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.47"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_ElevatorMainLobbyPrize_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.51"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

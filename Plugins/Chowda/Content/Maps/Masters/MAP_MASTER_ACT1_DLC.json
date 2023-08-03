@@ -1,0 +1,2911 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MAP_MASTER_ACT1_DLC",
+    "Outer": "MAP_MASTER_ACT1_DLC_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameMode_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameModeBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsMain_Game_GM",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'MainGameGM_C'",
+          "ObjectPath": "fnaf9/Content/Blueprints/System/GameModes/MainGameGM.42"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+          "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsPlayInEditor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsFromTitle_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetWorldSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'RoomSystem'",
+          "ObjectPath": "/Script/RoomSystem"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Pawn'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsGregory",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'Gregory_C'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Player/Gregory.123"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsMain_Game_PC",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'MainGamePC_C'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Player/MainGamePC.147"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'WorldStateSystem'",
+          "ObjectPath": "/Script/fnaf9"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'Cassie_C'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Player/Cassie.194"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerPawn_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Pawn'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 0,
+        "PushingAddress": 1262,
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.ExecuteUbergraph_MAP_MASTER_ACT1_DLC[1262]"
+      },
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 5,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 15,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetPlayerController_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'PlayerController'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetPlayerController'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 41,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMain_Game_PC",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'MainGamePC_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/Player/MainGamePC.147"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainGamePC_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/Player/MainGamePC.147"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetPlayerController_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'PlayerController'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Class": {
+            "ObjectName": "BlueprintGeneratedClass'MainGamePC_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/Player/MainGamePC.147"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetPlayerController_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'PlayerController'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 77,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_3",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool2",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsMain_Game_PC",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'MainGamePC_C'",
+                  "ObjectPath": "fnaf9/Content/Blueprints/Player/MainGamePC.147"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 106,
+        "CodeOffset": 165,
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.ExecuteUbergraph_MAP_MASTER_ACT1_DLC[165]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_3",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 120,
+        "Variable": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsMain_Game_PC",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'MainGamePC_C'",
+                  "ObjectPath": "fnaf9/Content/Blueprints/Player/MainGamePC.147"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'MainGamePC_C'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Player/MainGamePC.147"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EnabledInputFlags",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 4,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'MainGamePC_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/Player/MainGamePC.147"
+              },
+              "Property": {
+                "Type": "IntProperty",
+                "Name": "EnabledInputFlags",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 4,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_IntConst",
+          "Value": 63231
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 165,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetPlayerPawn_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Pawn'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetPlayerPawn'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 191,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetPlayerController_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'PlayerController'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetPlayerController'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 217,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetPlayerPawn_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Pawn'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 23,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "EnableInput",
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                  "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetPlayerController_ReturnValue_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'PlayerController'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 262
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 263,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameMode_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'GameModeBase'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetGameMode'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 284,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMain_Game_GM",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'MainGameGM_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/GameModes/MainGameGM.42"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'MainGameGM_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/System/GameModes/MainGameGM.42"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameMode_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'GameModeBase'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Class": {
+            "ObjectName": "BlueprintGeneratedClass'MainGameGM_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/System/GameModes/MainGameGM.42"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameMode_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'GameModeBase'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 320,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool2",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsMain_Game_GM",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'MainGameGM_C'",
+                  "ObjectPath": "fnaf9/Content/Blueprints/System/GameModes/MainGameGM.42"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 349,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 359,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMain_Game_GM",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'MainGameGM_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/GameModes/MainGameGM.42"
+              }
+            }
+          }
+        },
+        "Offset": 14,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_LocalVirtualFunction",
+          "Function": "FinishLoading",
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 395,
+        "Function": {
+          "ObjectName": "Function'KismetSystemLibrary:Delay'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 1.0
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'LatentActionInfo'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_SkipOffsetConst",
+                "Value": 15
+              },
+              {
+                "Inst": "EX_IntConst",
+                "Value": 713431161
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "ExecuteUbergraph_MAP_MASTER_ACT1_DLC"
+              },
+              {
+                "Inst": "EX_Self"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 449
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 450,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstance_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'GameInstance'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetGameInstance'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 471,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameInstance_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'GameInstance'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Class": {
+            "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameInstance_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'GameInstance'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 507,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool2",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                  "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 536,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 546,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsFromTitle_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                  "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsFromTitle_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'FNAFGameInstanceBase:IsFromTitle'",
+              "ObjectPath": "/Script/fnaf9"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 588,
+        "CodeOffset": 603,
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.ExecuteUbergraph_MAP_MASTER_ACT1_DLC[603]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsFromTitle_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 602
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 603,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsFNAFGame_Instance",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'FNAFGameInstance_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/System/FNAFGameInstance.98"
+              }
+            }
+          }
+        },
+        "Offset": 12,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'FNAFGameInstanceBase:StartGamePlay'",
+            "ObjectPath": "/Script/fnaf9"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 1
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 637,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Pawn'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetPlayerPawn'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 663,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsGregory",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'Gregory_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/Player/Gregory.123"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'Gregory_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/Player/Gregory.123"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Pawn'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Class": {
+            "ObjectName": "BlueprintGeneratedClass'Gregory_C'",
+            "ObjectPath": "fnaf9/Content/Blueprints/Player/Gregory.123"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Pawn'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 699,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool2",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsGregory",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'Gregory_C'",
+                  "ObjectPath": "fnaf9/Content/Blueprints/Player/Gregory.123"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 728,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 738,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'MAP_MASTER_ACT1_DLC_C'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "GregoryPawn",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'Gregory_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/Player/Gregory.123"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsGregory",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'Gregory_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/Player/Gregory.123"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 757,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Pawn'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetPlayerPawn'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 783,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetTransform_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 48,
+              "PropertyFlags": "ConstParm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Pawn'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetTransform_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 48,
+              "PropertyFlags": "ConstParm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'Actor:GetTransform'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 833,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:BeginDeferredActorSpawnFromClass'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "BlueprintGeneratedClass'Cassie_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/Player/Cassie.194"
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                  "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetTransform_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 48,
+                  "PropertyFlags": "ConstParm",
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'Transform'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_NoObject"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 875,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Pawn'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetPlayerPawn'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 901,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetTransform_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 48,
+              "PropertyFlags": "ConstParm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Pawn'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetTransform_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 48,
+              "PropertyFlags": "ConstParm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'Actor:GetTransform'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 951,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'Cassie_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/Player/Cassie.194"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:FinishSpawningActor'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                  "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                  "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetTransform_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 48,
+                  "PropertyFlags": "ConstParm",
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'Transform'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 989,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetPlayerController_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'PlayerController'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetPlayerController'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1015,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetPlayerController_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'PlayerController'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 19,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'Controller:Possess'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+                  "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Cassie_C'",
+                    "ObjectPath": "fnaf9/Content/Blueprints/Player/Cassie.194"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1056,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'MAP_MASTER_ACT1_DLC_C'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "GregoryPawn",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'Gregory_C'",
+                "ObjectPath": "fnaf9/Content/Blueprints/Player/Gregory.123"
+              }
+            }
+          }
+        },
+        "Offset": 14,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "K2_DestroyActor",
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1092,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetWorldSubsystem_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'RoomSystem'",
+                "ObjectPath": "/Script/RoomSystem"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SubsystemBlueprintLibrary:GetWorldSubsystem'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'RoomSystem'",
+                "ObjectPath": "/Script/RoomSystem"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1122,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetWorldSubsystem_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'RoomSystem'",
+                "ObjectPath": "/Script/RoomSystem"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'RoomSystem:StartRoomSystem'",
+            "ObjectPath": "/Script/RoomSystem"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1154,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'WorldStateSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'SubsystemBlueprintLibrary:GetGameInstanceSubsystem'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'WorldStateSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1184,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'WorldStateSystem'",
+                "ObjectPath": "/Script/fnaf9"
+              }
+            }
+          }
+        },
+        "Offset": 11,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'WorldStateSystem:SetCanCallFreddy'",
+            "ObjectPath": "/Script/fnaf9"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1217,
+        "CodeOffset": 263,
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.ExecuteUbergraph_MAP_MASTER_ACT1_DLC[263]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1222,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsPlayInEditor_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'ChowdaUtils:IsPlayInEditor'",
+            "ObjectPath": "/Script/fnaf9"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 1242,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsPlayInEditor_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1252,
+        "CodeOffset": 450,
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.ExecuteUbergraph_MAP_MASTER_ACT1_DLC[450]"
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1257,
+        "CodeOffset": 1222,
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.ExecuteUbergraph_MAP_MASTER_ACT1_DLC[1222]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 1262,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 1264
+      }
+    ],
+    "FunctionFlags": 8421377
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "MAP_MASTER_ACT1_DLC_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 1257
+          }
+        ],
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.ExecuteUbergraph_MAP_MASTER_ACT1_DLC[1257]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MAP_MASTER_ACT1_DLC_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.1"
+      },
+      {
+        "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GregoryPawn",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'Gregory_C'",
+          "ObjectPath": "fnaf9/Content/Blueprints/Player/Gregory.123"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MAP_MASTER_ACT1_DLC": {
+        "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ExecuteUbergraph_MAP_MASTER_ACT1_DLC'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'MAP_MASTER_ACT1_DLC_C:ReceiveBeginPlay'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.1"
+      }
+    },
+    "ClassFlags": 8653332,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MAP_MASTER_ACT1_DLC_C'Default__MAP_MASTER_ACT1_DLC_C'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.3"
+    }
+  },
+  {
+    "Type": "MAP_MASTER_ACT1_DLC_C",
+    "Name": "Default__MAP_MASTER_ACT1_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.MAP_MASTER_ACT1_DLC_C'",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_MASTER_ACT1_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.25"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "MAP_MASTER_ACT1_DLC_C'MAP_MASTER_ACT1_DLC:PersistentLevel.MAP_MASTER_ACT1_DLC_C_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.24"
+      },
+      "LevelBuildDataId": "1C0F6875-42F45C1F-2BCB42B8-5B172774",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_MASTER_ACT1_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.28"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_MASTER_ACT1_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.28"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MAP_MASTER_ACT1_DLC_C'MAP_MASTER_ACT1_DLC:PersistentLevel.MAP_MASTER_ACT1_DLC_C_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.24"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_MASTER_ACT1_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.25"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "MAP_MASTER_ACT1_DLC_C'MAP_MASTER_ACT1_DLC:PersistentLevel.MAP_MASTER_ACT1_DLC_C_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.24"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_0",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_MainLobby_LightsOff_DLC.MAP_MainLobby_LightsOff_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.24218738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF87FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_1",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_MainLobby_Gameplay_DLC.MAP_MainLobby_Gameplay_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.39062476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00A8FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_10",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_HelpDesk_LightsOff_DLC.MAP_HelpDesk_LightsOff_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.97656226,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00FDFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_11",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_Kitchen_FazPad_LightsOff_DLC.MAP_Kitchen_FazPad_LightsOff_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.23437452,
+        "A": 1.0,
+        "Hex": "FFFF0085"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_12",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_LobbyAtriumElevator_DLC.MAP_LobbyAtriumElevator_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.70312506,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFDB00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_18",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Audio/MAP_Audio_Act1_DLC.MAP_Audio_Act1_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.82031256,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFEA00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_19",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_LobbyAtriumElevatorShaft_DLC.MAP_LobbyAtriumElevatorShaft_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.7812505,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFE500FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_20",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/LightingMaps/NonAR/MAP_N_DLC_00.MAP_N_DLC_00",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.81249976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00E9FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_3",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FoodCourtUtility/MAP_Atrium_Food_Court_DLC.MAP_Atrium_Food_Court_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.328125,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF9B00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_4",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Doors_DLC.MAP_FoodCourtUtility_Doors_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.203125,
+        "A": 1.0,
+        "Hex": "FF00FF7C"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_5",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FoodCourtUtility/MAP_FoodCourtUtility_Gameplay_DLC.MAP_FoodCourtUtility_Gameplay_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.39062524,
+        "A": 1.0,
+        "Hex": "FF00FFA8"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_6",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/FoodCourtUtility/MAP_Utility_WestToSublobby_DLC.MAP_Utility_WestToSublobby_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.97656274,
+        "A": 1.0,
+        "Hex": "FF00FFFD"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_7",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_Doors_MainLobby_DLC.MAP_Doors_MainLobby_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.65625006,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFD400"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_8",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_ElevatorMainLobbyPrize_DLC.MAP_ElevatorMainLobbyPrize_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.664063,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFD500FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_9",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/MainLobby/MAP_Glam_Rock_Gifts_LightsOff_DLC.MAP_Glam_Rock_Gifts_LightsOff_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.58593756,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFCA00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/Whitebox/MAP_WHITEBOX_FoodCourt_DLC.MAP_WHITEBOX_FoodCourt_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.851563,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFEE00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/Whitebox/MAP_WHITEBOX_FoodCourt_Utility_WestToSublobby_DLC.MAP_WHITEBOX_FoodCourt_Utility_WestToSublobby_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.63281256,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFD100"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/Whitebox/MAP_WHITEBOX_FoodCourtUtilityStairs_DLC.MAP_WHITEBOX_FoodCourtUtilityStairs_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.5937499,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFCBFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Chowda/Maps/Whitebox/MAP_WHITEBOX_MainLobby_DLC.MAP_WHITEBOX_MainLobby_DLC",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.757813,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFE200FF"
+      }
+    }
+  },
+  {
+    "Type": "MAP_MASTER_ACT1_DLC_C",
+    "Name": "MAP_MASTER_ACT1_DLC_C_0",
+    "Outer": "PersistentLevel",
+    "Template": "Default__MAP_MASTER_ACT1_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.MAP_MASTER_ACT1_DLC_C'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "1806AF83-4FA126F0-34A61CA7-7E82333C",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_MASTER_ACT1_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_MASTER_ACT1_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.4"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.5"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.6"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.13"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_4'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.14"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_5'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.15"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_6'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.16"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_7'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.17"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_8'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.18"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_9'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.19"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_10'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.7"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_11'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.8"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_12'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.9"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_18'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.10"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_19'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.11"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'MAP_MASTER_ACT1_DLC:LevelStreamingAlwaysLoaded_20'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.12"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_MASTER_ACT1_DLC:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.20"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_MASTER_ACT1_DLC:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.21"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_MASTER_ACT1_DLC:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.22"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_MASTER_ACT1_DLC:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.23"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_MASTER_ACT1_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Masters/MAP_MASTER_ACT1_DLC.26"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

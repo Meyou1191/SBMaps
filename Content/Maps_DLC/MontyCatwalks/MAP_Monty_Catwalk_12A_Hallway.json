@@ -1,0 +1,5436 @@
+[
+  {
+    "Type": "BlockingVolume",
+    "Name": "BlockingVolume54_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'BlockingVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume54_2.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.7"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume54_2.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.4"
+      },
+      "bHidden": false,
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume54_2.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.4"
+      }
+    }
+  },
+  {
+    "Type": "BlockingVolume",
+    "Name": "BlockingVolume55",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'BlockingVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume55.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.8"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume55.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.5"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume55.BrushComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.5"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "8E52BA53437F556FC45E29BCB738E4E9",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x16164"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "8506F8AE4D6F3DB58F8945AEC5B5CB0A",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x16782"
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "BlockingVolume54_2",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume54_2.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.7"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume54_2.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.2"
+      },
+      "RelativeLocation": {
+        "X": -39739.0,
+        "Y": 29407.0,
+        "Z": -7419.0
+      },
+      "RelativeScale3D": {
+        "X": 32.72577,
+        "Y": 0.11291167,
+        "Z": 1.5306017
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "BlockingVolume55",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume55.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.8"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume55.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.3"
+      },
+      "RelativeLocation": {
+        "X": -39739.0,
+        "Y": 29628.0,
+        "Z": -7435.0
+      },
+      "RelativeScale3D": {
+        "X": 32.72577,
+        "Y": 0.112912,
+        "Z": 1.530602
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Monty_Catwalk_12A_Hallway",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.9"
+      },
+      "StreamingTextureGuids": [
+        "847ABAF3-472EE9C0-B5F0D7A1-3561B766",
+        "437C3879-429FE08A-AE0E9997-66013FBD",
+        "BE134123-4E2BEA7D-E726D79A-40DFDEF4",
+        "E6EDA35B-4EA9AE16-C7DB02AF-2BB45E20",
+        "31CE4E5B-410D2777-25329AA4-EE5F5743",
+        "C7B6D8A1-46E7EA23-3BEADA8C-2413E381",
+        "AF87471C-4AC9FF44-03EE8ABE-68761B5F",
+        "8CD629C3-47F887D3-94B219A8-2FC9C532",
+        "8043892C-4857A1E6-EE7439B0-B6C03FB1",
+        "50C4DC9C-4293D341-23D1AD89-F3C59902",
+        "4A3673C8-462FEC85-19FBBFB9-5732D88E",
+        "9EEB5058-489C726B-AD48018F-78BD8678",
+        "00842F25-4A01712E-EBCE0D99-76685C91",
+        "B8260D21-4CB7C7C3-313B81BE-125147C9",
+        "357C8DB5-4022F32A-A059DA9A-3EDA1537",
+        "5251FF51-4E0C82CA-45AB14BC-A464CFB6"
+      ],
+      "LevelBuildDataId": "9FB1E0ED-4563F074-B1EAD187-27023109",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.94"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.94"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift3'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift5'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift7'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift8'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift9'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.Wall_5_480'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.Wall_5_485'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift10'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift11'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift12'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A9_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A10'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A11'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A12'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A13'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A14'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A15'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A16'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A17'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A18'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A19'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A20'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A21'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A22'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A23'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A24'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A25'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A26'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A27'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A28'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_Const_barricade_24'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_Const_barricade_11'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_ConstructionPylons_01e11_28'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_ConstructionPylons_01e12_31'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.51"
+      },
+      {
+        "ObjectName": "BlockingVolume'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume54_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.0"
+      },
+      {
+        "ObjectName": "BlockingVolume'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.BlockingVolume55'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.1"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_CatwalksHallTube'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.47"
+      },
+      {
+        "ObjectName": "NiagaraActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.NS_MeshCircuits_9'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.11"
+      },
+      {
+        "ObjectName": "NiagaraActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.NS_Portal_Mimic_02_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.12"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.9"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "BlockingVolume54_2",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "D5D63E46-4DBD24A8-B41D26A1-9863DE4C",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "BlockingVolume55",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "B78AAF52-4B3C1233-DFC89192-F671C142",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "0AE8A91C-4DE8DED8-CE05EF96-181D3756",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "NS_MeshCircuits_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.NS_MeshCircuits_9.NiagaraComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.13"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.NS_MeshCircuits_9.NiagaraComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.13"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "NS_Portal_Mimic_02_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.NS_Portal_Mimic_02_2.NiagaraComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.14"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.NS_Portal_Mimic_02_2.NiagaraComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.14"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "NS_MeshCircuits_9",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'NS_MeshCircuits_02'",
+        "ObjectPath": "fnaf9/Content/FX_DLC/Systems/NS_MeshCircuits_02.17"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpawnRate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpawnRate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.SpawnRate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          32,
+          65
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.NS_MeshCircuits_9'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.11"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -42706.0,
+        "Y": 29518.0,
+        "Z": -7440.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "NS_Portal_Mimic_02_2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'NS_Portal_Mimic_02'",
+        "ObjectPath": "fnaf9/Content/FX_DLC/Systems/NS_Portal_Mimic_02.83"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "CoreRadius",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.CoreRadius",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpawnMult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpawnMult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.CoreRadius",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.SpawnMult",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.NS_Portal_Mimic_02_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.12"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -39343.68,
+        "Y": 29515.85,
+        "Z": -7560.999
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.54"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.54"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.55"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.55"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.56"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.56"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.57"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.57"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.58"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.58"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.59"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.59"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.60"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.60"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.61"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.61"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.62"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.62"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.63"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.63"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.64"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.64"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.65"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.65"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.66"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.66"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.67"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.67"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.68"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.68"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A25",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.69"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.69"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A26.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.70"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A26.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.70"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.71"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.71"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.72"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.72"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Broken_Catwalk_Rail_A9_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A9_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.73"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Broken_Catwalk_Rail_A9_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.73"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Catwalk_Reg_Long_Lift_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.MOD_Catwalk_Reg_Long_Lift_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_CatwalksHallTube",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_CatwalksHallTube.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_CatwalksHallTube.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Const_barricade_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_Const_barricade_11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_Const_barricade_11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Const_barricade_24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_Const_barricade_24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_Const_barricade_24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_ConstructionPylons_01e11_28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_ConstructionPylons_01e11_28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_ConstructionPylons_01e11_28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_ConstructionPylons_01e12_31",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_ConstructionPylons_01e12_31.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.SM_ConstructionPylons_01e12_31.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Wall_5_480",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.Wall_5_480.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.Wall_5_480.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Wall_5_485",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.Wall_5_485.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.Wall_5_485.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.92"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_B'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 976.7274
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7932,
+      "RelativeLocation": {
+        "X": -37382.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "ED6FC4F549F6D580E4F4919C1572433A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7933,
+      "RelativeLocation": {
+        "X": -38002.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "60BB96A34A09C06793128AAA6144ED93"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_B'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 976.7274
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7934,
+      "RelativeLocation": {
+        "X": -38619.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E24595D14A41E9EB213513BE070853FA"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7935,
+      "RelativeLocation": {
+        "X": -39239.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C2723A34480F68DB32A344ACEB8015E8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_B'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 976.7274
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7936,
+      "RelativeLocation": {
+        "X": -39856.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9090A73A496C53F7BC3324801243579B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7937,
+      "RelativeLocation": {
+        "X": -40476.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4268AA2646565C84689F79B089E10460"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_B'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 976.7274
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7938,
+      "RelativeLocation": {
+        "X": -41093.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BA04390C41B20F23F94D489E5E3E2836"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7939,
+      "RelativeLocation": {
+        "X": -41714.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "855B30A24D5472E06F49F9870B107FE6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_E'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_E.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 974.9883
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 974.9883
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 974.9883
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7940,
+      "RelativeLocation": {
+        "X": -42331.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D85717DA492D90164AF793AF5C0CEE96"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7941,
+      "RelativeLocation": {
+        "X": -36765.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F142203647A9B420C2B2C280D9F9C3D1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_B'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 976.7274
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7942,
+      "RelativeLocation": {
+        "X": -37382.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DD598CAB44B86596C5B2109390ECFD1D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7943,
+      "RelativeLocation": {
+        "X": -38002.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1A4C15C946339731A2D9B9BF84DD1146"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_B'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 976.7274
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7944,
+      "RelativeLocation": {
+        "X": -38619.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "626A8CA644F807DDCA04D6BFE7570676"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7945,
+      "RelativeLocation": {
+        "X": -39239.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8123E6C24A23F902DA58CD89C42CC16A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_B'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 976.7274
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7946,
+      "RelativeLocation": {
+        "X": -39856.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C8A720364814E18365D7C7BCB12800CC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A25",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7947,
+      "RelativeLocation": {
+        "X": -40476.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B55EBA9A4C21EC88F7E675B325198506"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A26",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_B'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 976.7274
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 976.7274
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7948,
+      "RelativeLocation": {
+        "X": -41093.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C89EBA694177CC4F8E35D5AD1D05038B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7949,
+      "RelativeLocation": {
+        "X": -41714.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "71B372834DD85FEB59BE4484A269FD57"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A28",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_E'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_E.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 974.9883
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 974.9883
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 974.9883
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7950,
+      "RelativeLocation": {
+        "X": -42331.0,
+        "Y": 29416.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2A6F0D264C91CC28C910C8A66099F0B1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Broken_Catwalk_Rail_A9_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Broken_Catwalk_Rail_A'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/MOD_Broken_Catwalk_Rail_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 973.73944
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 973.73944
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CatwalkRailingsAll'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/GolfGreenGrunges/MI_CatwalkRailingsAll.0"
+        }
+      ],
+      "VisibilityId": 7931,
+      "RelativeLocation": {
+        "X": -36765.0,
+        "Y": 29628.0,
+        "Z": -7568.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "47AB497D443334E11802A29CC160A2BE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7928,
+      "RelativeLocation": {
+        "X": -41752.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B73E0CD946E5784299862EAC37C594B8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7929,
+      "RelativeLocation": {
+        "X": -42252.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "CD37259E406206A11777ADB93FD006C4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7930,
+      "RelativeLocation": {
+        "X": -42752.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "99F0AF494ACF41CA1430DEBB80B38206"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7918,
+      "RelativeLocation": {
+        "X": -40752.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D5981CD64425AB1D906648ACA0392E87"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7919,
+      "RelativeLocation": {
+        "X": -40252.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "79400BC748C386585051A0985305368F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7920,
+      "RelativeLocation": {
+        "X": -39752.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "62CC7BCF48EB73135C27D9BE34C23AE3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7921,
+      "RelativeLocation": {
+        "X": -39252.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "40A363EB49C25BCBDB48D49B8449326D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7922,
+      "RelativeLocation": {
+        "X": -38752.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C99BC86844B158853BC0F1BB0BA9D7EB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7923,
+      "RelativeLocation": {
+        "X": -38252.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F669788441930E33560AF2987361480A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7924,
+      "RelativeLocation": {
+        "X": -37752.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2D7280664C83D56B54590288BC2B779B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7925,
+      "RelativeLocation": {
+        "X": -37252.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7AEE1A23426AF73A6A3E468E9B3713C8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Catwalk_Reg_Long_Lift_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Catwalk_Reg_Long_Lift'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_Catwalk_Reg_Long_Lift.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4156548160,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 103.16091
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 515.5884
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 515.5884
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Grunge_00'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Grunge_00.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Scaffold3Piece_Mesh_Grunge_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Scaffold3Piece_Mesh_Grunge_01.0"
+        }
+      ],
+      "VisibilityId": 7917,
+      "RelativeLocation": {
+        "X": -41252.254,
+        "Y": 29518.129,
+        "Z": -7592.993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C8E79FB44756C8A47198589ABCC9D238"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_CatwalksHallTube",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CatwalksHallTube'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/DLCArch/SM_CatwalksHallTube.2"
+      },
+      "bUseDefaultCollision": false,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_MAT_UnlitSolidColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_MAT_UnlitSolidColor.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_MeshWireframeNoWPO_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/AR_EffectsMaterials/MAT_MeshWireframeNoWPO_Inst.0"
+        },
+        {
+          "ObjectName": "Material'M_MAT_UnlitSolidColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_MAT_UnlitSolidColor.0"
+        }
+      ],
+      "VisibilityId": 7955,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -36751.0,
+        "Y": 29543.0,
+        "Z": -7347.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 4.4329257,
+        "Z": 4.4329257
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5613B45E49D56CCF7488D3AFA97A2965"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Const_barricade_11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Const_barricade_04'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_Const_barricade_04.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3480694890,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 141.66478
+        },
+        {
+          "PackedRelativeBox": 3480694890,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 141.66478
+        },
+        {
+          "PackedRelativeBox": 3480694890,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 141.66478
+        }
+      ],
+      "VisibilityId": 7952,
+      "RelativeLocation": {
+        "X": -42737.0,
+        "Y": 29509.0,
+        "Z": -7561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.780262,
+        "Y": 0.780262,
+        "Z": 0.780262
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E6C23A1B4D0A98D0B1714683E2012A81"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Const_barricade_24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Const_barricade_04'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_Const_barricade_04.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3480694890,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 141.66478
+        },
+        {
+          "PackedRelativeBox": 3480694890,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 141.66478
+        },
+        {
+          "PackedRelativeBox": 3480694890,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 141.66478
+        }
+      ],
+      "VisibilityId": 7951,
+      "RelativeLocation": {
+        "X": -36782.0,
+        "Y": 29509.0,
+        "Z": -7561.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7802621,
+        "Y": 0.7802621,
+        "Z": 0.7802621
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1F6C3D584B4D9615F6E2F7B6C1DADC5D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_ConstructionPylons_01e11_28",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ConstructionPylons_01e'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_ConstructionPylons_01e.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2998225227,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 282.40143
+        },
+        {
+          "PackedRelativeBox": 2998225227,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 282.40143
+        },
+        {
+          "PackedRelativeBox": 2998225227,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 282.40143
+        }
+      ],
+      "VisibilityId": 7953,
+      "RelativeLocation": {
+        "X": -37629.0,
+        "Y": 29426.0,
+        "Z": -7563.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9339BCC44F2FC7376C40CEA81C83E2E3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_ConstructionPylons_01e12_31",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ConstructionPylons_01e'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_ConstructionPylons_01e.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2863819114,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 282.40143
+        },
+        {
+          "PackedRelativeBox": 2863819114,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 282.40143
+        },
+        {
+          "PackedRelativeBox": 2863819114,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 282.40143
+        }
+      ],
+      "VisibilityId": 7954,
+      "RelativeLocation": {
+        "X": -39064.0,
+        "Y": 29620.0,
+        "Z": -7546.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 13.120957,
+        "Roll": -104.667885
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A5DEFD544955108A98FF0C89A264A1B2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Wall_5_480",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MM_Black_01a'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MM_Black_01a.0"
+        }
+      ],
+      "VisibilityId": 7926,
+      "RelativeLocation": {
+        "X": -36749.4,
+        "Y": 29537.787,
+        "Z": -10175.071
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 15.707051,
+        "Y": 18.334404,
+        "Z": 18.334404
+      },
+      "ComponentTags": [
+        "DuplicationCounter_1470",
+        "DuplicationCounter_1471",
+        "DuplicationCounter_1472",
+        "DuplicationCounter_1473",
+        "DuplicationCounter_1474",
+        "DuplicationCounter_1475",
+        "DuplicationCounter_1476",
+        "DuplicationCounter_1477",
+        "DuplicationCounter_1478",
+        "DuplicationCounter_1479",
+        "DuplicationCounter_1480",
+        "DuplicationCounter_1481",
+        "DuplicationCounter_1495",
+        "DuplicationCounter_1496",
+        "DuplicationCounter_1000",
+        "DuplicationCounter_1001",
+        "DuplicationCounter_1002",
+        "DuplicationCounter_1003",
+        "DuplicationCounter_1004",
+        "DuplicationCounter_1005",
+        "DuplicationCounter_1006",
+        "DuplicationCounter_1007",
+        "DuplicationCounter_1008",
+        "DuplicationCounter_1009",
+        "DuplicationCounter_1010",
+        "DuplicationCounter_1011",
+        "DuplicationCounter_1012",
+        "DuplicationCounter_1013",
+        "DuplicationCounter_1014",
+        "DuplicationCounter_1015",
+        "DuplicationCounter_1016",
+        "DuplicationCounter_1017",
+        "DuplicationCounter_1018",
+        "DuplicationCounter_1019",
+        "DuplicationCounter_1020",
+        "DuplicationCounter_1021",
+        "DuplicationCounter_1022",
+        "DuplicationCounter_1023",
+        "DuplicationCounter_1024",
+        "DuplicationCounter_1025",
+        "DuplicationCounter_1026",
+        "DuplicationCounter_1027",
+        "DuplicationCounter_1028",
+        "DuplicationCounter_1029",
+        "DuplicationCounter_1030",
+        "DuplicationCounter_1031",
+        "DuplicationCounter_1032",
+        "DuplicationCounter_1033",
+        "DuplicationCounter_1034",
+        "DuplicationCounter_1035",
+        "DuplicationCounter_1397",
+        "DuplicationCounter_1398",
+        "DuplicationCounter_1399",
+        "DuplicationCounter_1400",
+        "DuplicationCounter_1401",
+        "DuplicationCounter_1402",
+        "DuplicationCounter_1403",
+        "DuplicationCounter_1404",
+        "DuplicationCounter_1405",
+        "DuplicationCounter_1406",
+        "DuplicationCounter_1407",
+        "DuplicationCounter_1408",
+        "DuplicationCounter_1409",
+        "DuplicationCounter_1410",
+        "DuplicationCounter_1411",
+        "DuplicationCounter_1412",
+        "DuplicationCounter_1413",
+        "DuplicationCounter_1414",
+        "DuplicationCounter_1415",
+        "DuplicationCounter_1416",
+        "DuplicationCounter_1417",
+        "DuplicationCounter_1418",
+        "DuplicationCounter_1127",
+        "DuplicationCounter_1128",
+        "DuplicationCounter_1129",
+        "DuplicationCounter_1130",
+        "DuplicationCounter_1131",
+        "DuplicationCounter_1132",
+        "DuplicationCounter_1133",
+        "DuplicationCounter_1134",
+        "DuplicationCounter_1135",
+        "DuplicationCounter_1136",
+        "DuplicationCounter_1137",
+        "DuplicationCounter_1138",
+        "DuplicationCounter_1139",
+        "DuplicationCounter_1140",
+        "DuplicationCounter_1141",
+        "DuplicationCounter_1142",
+        "DuplicationCounter_1143",
+        "DuplicationCounter_1144",
+        "DuplicationCounter_1145",
+        "DuplicationCounter_1146",
+        "DuplicationCounter_1147",
+        "DuplicationCounter_1148",
+        "DuplicationCounter_1149",
+        "DuplicationCounter_1150",
+        "DuplicationCounter_1151",
+        "DuplicationCounter_1152",
+        "DuplicationCounter_1153",
+        "DuplicationCounter_1154",
+        "DuplicationCounter_1155",
+        "DuplicationCounter_1156",
+        "DuplicationCounter_1157",
+        "DuplicationCounter_1158",
+        "DuplicationCounter_1159",
+        "DuplicationCounter_1160",
+        "DuplicationCounter_1161",
+        "DuplicationCounter_1162",
+        "DuplicationCounter_1163",
+        "DuplicationCounter_1164",
+        "DuplicationCounter_1165",
+        "DuplicationCounter_1166",
+        "DuplicationCounter_1167",
+        "DuplicationCounter_1168",
+        "DuplicationCounter_1169",
+        "DuplicationCounter_1170",
+        "DuplicationCounter_1171",
+        "DuplicationCounter_1172",
+        "DuplicationCounter_1173",
+        "DuplicationCounter_1174",
+        "DuplicationCounter_1175",
+        "DuplicationCounter_1176",
+        "DuplicationCounter_1177",
+        "DuplicationCounter_1178",
+        "DuplicationCounter_1179",
+        "DuplicationCounter_1180",
+        "DuplicationCounter_1181",
+        "DuplicationCounter_1182",
+        "DuplicationCounter_1183",
+        "DuplicationCounter_1184",
+        "DuplicationCounter_1185",
+        "DuplicationCounter_1186",
+        "DuplicationCounter_1187",
+        "DuplicationCounter_1188",
+        "DuplicationCounter_1192",
+        "DuplicationCounter_1193",
+        "DuplicationCounter_1194",
+        "DuplicationCounter_1195",
+        "DuplicationCounter_1196",
+        "DuplicationCounter_1197",
+        "DuplicationCounter_1198",
+        "DuplicationCounter_1199",
+        "DuplicationCounter_1200",
+        "DuplicationCounter_1201",
+        "DuplicationCounter_1202",
+        "DuplicationCounter_1203",
+        "DuplicationCounter_1204",
+        "DuplicationCounter_1205",
+        "DuplicationCounter_1206",
+        "DuplicationCounter_1207",
+        "DuplicationCounter_1208",
+        "DuplicationCounter_1209",
+        "DuplicationCounter_1210",
+        "DuplicationCounter_1211",
+        "DuplicationCounter_1212",
+        "DuplicationCounter_1213",
+        "DuplicationCounter_1214",
+        "DuplicationCounter_1215",
+        "DuplicationCounter_1216",
+        "DuplicationCounter_1217",
+        "DuplicationCounter_1218",
+        "DuplicationCounter_1219",
+        "DuplicationCounter_1220",
+        "DuplicationCounter_1355",
+        "DuplicationCounter_1356",
+        "DuplicationCounter_1357",
+        "DuplicationCounter_1358",
+        "DuplicationCounter_1359",
+        "DuplicationCounter_1360",
+        "DuplicationCounter_1361",
+        "DuplicationCounter_1362",
+        "DuplicationCounter_1363",
+        "DuplicationCounter_1364",
+        "DuplicationCounter_1365",
+        "DuplicationCounter_1366",
+        "DuplicationCounter_1367",
+        "DuplicationCounter_1368",
+        "DuplicationCounter_1369",
+        "DuplicationCounter_1370",
+        "DuplicationCounter_1371",
+        "DuplicationCounter_1372",
+        "DuplicationCounter_1373",
+        "DuplicationCounter_1374",
+        "DuplicationCounter_1375",
+        "DuplicationCounter_1376",
+        "DuplicationCounter_1377",
+        "DuplicationCounter_1378",
+        "DuplicationCounter_1379",
+        "DuplicationCounter_1380",
+        "DuplicationCounter_1381",
+        "DuplicationCounter_1382",
+        "DuplicationCounter_1383",
+        "DuplicationCounter_1384",
+        "DuplicationCounter_1385",
+        "DuplicationCounter_1386",
+        "DuplicationCounter_1387",
+        "DuplicationCounter_1388",
+        "DuplicationCounter_1389",
+        "DuplicationCounter_1390",
+        "DuplicationCounter_1221",
+        "DuplicationCounter_1222",
+        "DuplicationCounter_1393",
+        "DuplicationCounter_1394",
+        "DuplicationCounter_1395",
+        "DuplicationCounter_1396",
+        "DuplicationCounter_1485",
+        "DuplicationCounter_1486",
+        "DuplicationCounter_1487",
+        "DuplicationCounter_1488",
+        "DuplicationCounter_1489",
+        "DuplicationCounter_1490",
+        "DuplicationCounter_1491",
+        "DuplicationCounter_1492",
+        "DuplicationCounter_1493",
+        "DuplicationCounter_1494",
+        "DuplicationCounter_1445",
+        "DuplicationCounter_1448",
+        "DuplicationCounter_1447",
+        "DuplicationCounter_1446",
+        "DuplicationCounter_1449",
+        "DuplicationCounter_1069",
+        "DuplicationCounter_1071",
+        "DuplicationCounter_1073",
+        "DuplicationCounter_1075",
+        "DuplicationCounter_1077",
+        "DuplicationCounter_1079",
+        "DuplicationCounter_1085",
+        "DuplicationCounter_1274",
+        "DuplicationCounter_1391",
+        "DuplicationCounter_1392",
+        "DuplicationCounter_1226",
+        "DuplicationCounter_1191",
+        "DuplicationCounter_1227",
+        "DuplicationCounter_1228",
+        "DuplicationCounter_1275",
+        "DuplicationCounter_1276",
+        "DuplicationCounter_1277",
+        "DuplicationCounter_1278",
+        "DuplicationCounter_1279",
+        "DuplicationCounter_1280",
+        "DuplicationCounter_1281",
+        "DuplicationCounter_1282",
+        "DuplicationCounter_1283",
+        "DuplicationCounter_1284",
+        "DuplicationCounter_1285",
+        "DuplicationCounter_1286",
+        "DuplicationCounter_1287",
+        "DuplicationCounter_1288",
+        "DuplicationCounter_1289",
+        "DuplicationCounter_1290",
+        "DuplicationCounter_1291",
+        "DuplicationCounter_1292",
+        "DuplicationCounter_1293",
+        "DuplicationCounter_1294",
+        "DuplicationCounter_1295",
+        "DuplicationCounter_1296",
+        "DuplicationCounter_1297",
+        "DuplicationCounter_1298",
+        "DuplicationCounter_1299",
+        "DuplicationCounter_1300",
+        "DuplicationCounter_1223",
+        "DuplicationCounter_1224",
+        "DuplicationCounter_1774",
+        "DuplicationCounter_1775",
+        "DuplicationCounter_1912",
+        "DuplicationCounter_1913",
+        "DuplicationCounter_2411",
+        "DuplicationCounter_2412",
+        "DuplicationCounter_2413",
+        "DuplicationCounter_2414",
+        "DuplicationCounter_2415",
+        "DuplicationCounter_2416",
+        "DuplicationCounter_2417",
+        "DuplicationCounter_2461",
+        "DuplicationCounter_1953",
+        "DuplicationCounter_1102",
+        "DuplicationCounter_1103",
+        "DuplicationCounter_1717",
+        "DuplicationCounter_1718",
+        "DuplicationCounter_1719",
+        "DuplicationCounter_1720",
+        "DuplicationCounter_1721",
+        "DuplicationCounter_1722",
+        "DuplicationCounter_1723",
+        "DuplicationCounter_1724",
+        "DuplicationCounter_1725",
+        "DuplicationCounter_1726",
+        "DuplicationCounter_1727",
+        "DuplicationCounter_1728",
+        "DuplicationCounter_1419",
+        "DuplicationCounter_1420",
+        "DuplicationCounter_1421",
+        "DuplicationCounter_1422",
+        "DuplicationCounter_1423",
+        "DuplicationCounter_1424",
+        "DuplicationCounter_1425",
+        "DuplicationCounter_1426",
+        "DuplicationCounter_1427",
+        "DuplicationCounter_1428",
+        "DuplicationCounter_1429",
+        "DuplicationCounter_1954",
+        "DuplicationCounter_1955",
+        "DuplicationCounter_1956",
+        "DuplicationCounter_2458",
+        "DuplicationCounter_2448",
+        "DuplicationCounter_2449",
+        "DuplicationCounter_2450",
+        "DuplicationCounter_2451",
+        "DuplicationCounter_2452",
+        "DuplicationCounter_2453",
+        "DuplicationCounter_2454",
+        "DuplicationCounter_2455",
+        "DuplicationCounter_2456",
+        "DuplicationCounter_2457",
+        "DuplicationCounter_2459",
+        "DuplicationCounter_2460",
+        "DuplicationCounter_1189",
+        "DuplicationCounter_2016",
+        "DuplicationCounter_2017",
+        "DuplicationCounter_2018",
+        "DuplicationCounter_2019",
+        "DuplicationCounter_2759",
+        "DuplicationCounter_2798",
+        "DuplicationCounter_2799",
+        "DuplicationCounter_2800",
+        "DuplicationCounter_2801",
+        "DuplicationCounter_1225",
+        "DuplicationCounter_1711",
+        "DuplicationCounter_1957",
+        "DuplicationCounter_1958",
+        "DuplicationCounter_1959",
+        "DuplicationCounter_1960",
+        "DuplicationCounter_1104",
+        "DuplicationCounter_1105",
+        "DuplicationCounter_1106",
+        "DuplicationCounter_1107",
+        "DuplicationCounter_1961",
+        "DuplicationCounter_1962",
+        "DuplicationCounter_1963",
+        "DuplicationCounter_1964",
+        "DuplicationCounter_1965",
+        "DuplicationCounter_1966",
+        "DuplicationCounter_1967",
+        "DuplicationCounter_1968",
+        "DuplicationCounter_1969",
+        "DuplicationCounter_1970",
+        "DuplicationCounter_1971",
+        "DuplicationCounter_1972",
+        "DuplicationCounter_1973",
+        "DuplicationCounter_1974",
+        "DuplicationCounter_1975",
+        "DuplicationCounter_1976",
+        "DuplicationCounter_1977",
+        "DuplicationCounter_1978",
+        "DuplicationCounter_1979",
+        "DuplicationCounter_1980",
+        "DuplicationCounter_1981",
+        "DuplicationCounter_1982",
+        "DuplicationCounter_1983",
+        "DuplicationCounter_1984",
+        "DuplicationCounter_1985",
+        "DuplicationCounter_1986",
+        "DuplicationCounter_1987",
+        "DuplicationCounter_1506",
+        "DuplicationCounter_1108",
+        "DuplicationCounter_1109",
+        "DuplicationCounter_1110",
+        "DuplicationCounter_1111",
+        "DuplicationCounter_1112",
+        "DuplicationCounter_1113",
+        "DuplicationCounter_1114",
+        "DuplicationCounter_1115",
+        "DuplicationCounter_1116",
+        "DuplicationCounter_1117",
+        "DuplicationCounter_1118",
+        "DuplicationCounter_1119",
+        "DuplicationCounter_1120",
+        "DuplicationCounter_1121",
+        "DuplicationCounter_1762",
+        "DuplicationCounter_1122",
+        "DuplicationCounter_989",
+        "DuplicationIndex_HasDuplicate"
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D2BCFFD84E2D8C87084336BD78A6E799"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Wall_5_485",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MM_Black_01a'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MM_Black_01a.0"
+        }
+      ],
+      "VisibilityId": 7927,
+      "RelativeLocation": {
+        "X": -42958.457,
+        "Y": 29452.559,
+        "Z": -10070.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 360.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 15.465685,
+        "Y": 18.783934,
+        "Z": 18.193356
+      },
+      "ComponentTags": [
+        "DuplicationCounter_1470",
+        "DuplicationCounter_1471",
+        "DuplicationCounter_1472",
+        "DuplicationCounter_1473",
+        "DuplicationCounter_1474",
+        "DuplicationCounter_1475",
+        "DuplicationCounter_1476",
+        "DuplicationCounter_1477",
+        "DuplicationCounter_1478",
+        "DuplicationCounter_1479",
+        "DuplicationCounter_1480",
+        "DuplicationCounter_1481",
+        "DuplicationCounter_1495",
+        "DuplicationCounter_1496",
+        "DuplicationCounter_1000",
+        "DuplicationCounter_1001",
+        "DuplicationCounter_1002",
+        "DuplicationCounter_1003",
+        "DuplicationCounter_1004",
+        "DuplicationCounter_1005",
+        "DuplicationCounter_1006",
+        "DuplicationCounter_1007",
+        "DuplicationCounter_1008",
+        "DuplicationCounter_1009",
+        "DuplicationCounter_1010",
+        "DuplicationCounter_1011",
+        "DuplicationCounter_1012",
+        "DuplicationCounter_1013",
+        "DuplicationCounter_1014",
+        "DuplicationCounter_1015",
+        "DuplicationCounter_1016",
+        "DuplicationCounter_1017",
+        "DuplicationCounter_1018",
+        "DuplicationCounter_1019",
+        "DuplicationCounter_1020",
+        "DuplicationCounter_1021",
+        "DuplicationCounter_1022",
+        "DuplicationCounter_1023",
+        "DuplicationCounter_1024",
+        "DuplicationCounter_1025",
+        "DuplicationCounter_1026",
+        "DuplicationCounter_1027",
+        "DuplicationCounter_1028",
+        "DuplicationCounter_1029",
+        "DuplicationCounter_1030",
+        "DuplicationCounter_1031",
+        "DuplicationCounter_1032",
+        "DuplicationCounter_1033",
+        "DuplicationCounter_1034",
+        "DuplicationCounter_1035",
+        "DuplicationCounter_1397",
+        "DuplicationCounter_1398",
+        "DuplicationCounter_1399",
+        "DuplicationCounter_1400",
+        "DuplicationCounter_1401",
+        "DuplicationCounter_1402",
+        "DuplicationCounter_1403",
+        "DuplicationCounter_1404",
+        "DuplicationCounter_1405",
+        "DuplicationCounter_1406",
+        "DuplicationCounter_1407",
+        "DuplicationCounter_1408",
+        "DuplicationCounter_1409",
+        "DuplicationCounter_1410",
+        "DuplicationCounter_1411",
+        "DuplicationCounter_1412",
+        "DuplicationCounter_1413",
+        "DuplicationCounter_1414",
+        "DuplicationCounter_1415",
+        "DuplicationCounter_1416",
+        "DuplicationCounter_1417",
+        "DuplicationCounter_1418",
+        "DuplicationCounter_1127",
+        "DuplicationCounter_1128",
+        "DuplicationCounter_1129",
+        "DuplicationCounter_1130",
+        "DuplicationCounter_1131",
+        "DuplicationCounter_1132",
+        "DuplicationCounter_1133",
+        "DuplicationCounter_1134",
+        "DuplicationCounter_1135",
+        "DuplicationCounter_1136",
+        "DuplicationCounter_1137",
+        "DuplicationCounter_1138",
+        "DuplicationCounter_1139",
+        "DuplicationCounter_1140",
+        "DuplicationCounter_1141",
+        "DuplicationCounter_1142",
+        "DuplicationCounter_1143",
+        "DuplicationCounter_1144",
+        "DuplicationCounter_1145",
+        "DuplicationCounter_1146",
+        "DuplicationCounter_1147",
+        "DuplicationCounter_1148",
+        "DuplicationCounter_1149",
+        "DuplicationCounter_1150",
+        "DuplicationCounter_1151",
+        "DuplicationCounter_1152",
+        "DuplicationCounter_1153",
+        "DuplicationCounter_1154",
+        "DuplicationCounter_1155",
+        "DuplicationCounter_1156",
+        "DuplicationCounter_1157",
+        "DuplicationCounter_1158",
+        "DuplicationCounter_1159",
+        "DuplicationCounter_1160",
+        "DuplicationCounter_1161",
+        "DuplicationCounter_1162",
+        "DuplicationCounter_1163",
+        "DuplicationCounter_1164",
+        "DuplicationCounter_1165",
+        "DuplicationCounter_1166",
+        "DuplicationCounter_1167",
+        "DuplicationCounter_1168",
+        "DuplicationCounter_1169",
+        "DuplicationCounter_1170",
+        "DuplicationCounter_1171",
+        "DuplicationCounter_1172",
+        "DuplicationCounter_1173",
+        "DuplicationCounter_1174",
+        "DuplicationCounter_1175",
+        "DuplicationCounter_1176",
+        "DuplicationCounter_1177",
+        "DuplicationCounter_1178",
+        "DuplicationCounter_1179",
+        "DuplicationCounter_1180",
+        "DuplicationCounter_1181",
+        "DuplicationCounter_1182",
+        "DuplicationCounter_1183",
+        "DuplicationCounter_1184",
+        "DuplicationCounter_1185",
+        "DuplicationCounter_1186",
+        "DuplicationCounter_1187",
+        "DuplicationCounter_1188",
+        "DuplicationCounter_1192",
+        "DuplicationCounter_1193",
+        "DuplicationCounter_1194",
+        "DuplicationCounter_1195",
+        "DuplicationCounter_1196",
+        "DuplicationCounter_1197",
+        "DuplicationCounter_1198",
+        "DuplicationCounter_1199",
+        "DuplicationCounter_1200",
+        "DuplicationCounter_1201",
+        "DuplicationCounter_1202",
+        "DuplicationCounter_1203",
+        "DuplicationCounter_1204",
+        "DuplicationCounter_1205",
+        "DuplicationCounter_1206",
+        "DuplicationCounter_1207",
+        "DuplicationCounter_1208",
+        "DuplicationCounter_1209",
+        "DuplicationCounter_1210",
+        "DuplicationCounter_1211",
+        "DuplicationCounter_1212",
+        "DuplicationCounter_1213",
+        "DuplicationCounter_1214",
+        "DuplicationCounter_1215",
+        "DuplicationCounter_1216",
+        "DuplicationCounter_1217",
+        "DuplicationCounter_1218",
+        "DuplicationCounter_1219",
+        "DuplicationCounter_1220",
+        "DuplicationCounter_1355",
+        "DuplicationCounter_1356",
+        "DuplicationCounter_1357",
+        "DuplicationCounter_1358",
+        "DuplicationCounter_1359",
+        "DuplicationCounter_1360",
+        "DuplicationCounter_1361",
+        "DuplicationCounter_1362",
+        "DuplicationCounter_1363",
+        "DuplicationCounter_1364",
+        "DuplicationCounter_1365",
+        "DuplicationCounter_1366",
+        "DuplicationCounter_1367",
+        "DuplicationCounter_1368",
+        "DuplicationCounter_1369",
+        "DuplicationCounter_1370",
+        "DuplicationCounter_1371",
+        "DuplicationCounter_1372",
+        "DuplicationCounter_1373",
+        "DuplicationCounter_1374",
+        "DuplicationCounter_1375",
+        "DuplicationCounter_1376",
+        "DuplicationCounter_1377",
+        "DuplicationCounter_1378",
+        "DuplicationCounter_1379",
+        "DuplicationCounter_1380",
+        "DuplicationCounter_1381",
+        "DuplicationCounter_1382",
+        "DuplicationCounter_1383",
+        "DuplicationCounter_1384",
+        "DuplicationCounter_1385",
+        "DuplicationCounter_1386",
+        "DuplicationCounter_1387",
+        "DuplicationCounter_1388",
+        "DuplicationCounter_1389",
+        "DuplicationCounter_1390",
+        "DuplicationCounter_1221",
+        "DuplicationCounter_1222",
+        "DuplicationCounter_1393",
+        "DuplicationCounter_1394",
+        "DuplicationCounter_1395",
+        "DuplicationCounter_1396",
+        "DuplicationCounter_1485",
+        "DuplicationCounter_1486",
+        "DuplicationCounter_1487",
+        "DuplicationCounter_1488",
+        "DuplicationCounter_1489",
+        "DuplicationCounter_1490",
+        "DuplicationCounter_1491",
+        "DuplicationCounter_1492",
+        "DuplicationCounter_1493",
+        "DuplicationCounter_1494",
+        "DuplicationCounter_1445",
+        "DuplicationCounter_1448",
+        "DuplicationCounter_1447",
+        "DuplicationCounter_1446",
+        "DuplicationCounter_1449",
+        "DuplicationCounter_1069",
+        "DuplicationCounter_1071",
+        "DuplicationCounter_1073",
+        "DuplicationCounter_1075",
+        "DuplicationCounter_1077",
+        "DuplicationCounter_1079",
+        "DuplicationCounter_1085",
+        "DuplicationCounter_1274",
+        "DuplicationCounter_1391",
+        "DuplicationCounter_1392",
+        "DuplicationCounter_1226",
+        "DuplicationCounter_1191",
+        "DuplicationCounter_1227",
+        "DuplicationCounter_1228",
+        "DuplicationCounter_1275",
+        "DuplicationCounter_1276",
+        "DuplicationCounter_1277",
+        "DuplicationCounter_1278",
+        "DuplicationCounter_1279",
+        "DuplicationCounter_1280",
+        "DuplicationCounter_1281",
+        "DuplicationCounter_1282",
+        "DuplicationCounter_1283",
+        "DuplicationCounter_1284",
+        "DuplicationCounter_1285",
+        "DuplicationCounter_1286",
+        "DuplicationCounter_1287",
+        "DuplicationCounter_1288",
+        "DuplicationCounter_1289",
+        "DuplicationCounter_1290",
+        "DuplicationCounter_1291",
+        "DuplicationCounter_1292",
+        "DuplicationCounter_1293",
+        "DuplicationCounter_1294",
+        "DuplicationCounter_1295",
+        "DuplicationCounter_1296",
+        "DuplicationCounter_1297",
+        "DuplicationCounter_1298",
+        "DuplicationCounter_1299",
+        "DuplicationCounter_1300",
+        "DuplicationCounter_1223",
+        "DuplicationCounter_1224",
+        "DuplicationCounter_1774",
+        "DuplicationCounter_1775",
+        "DuplicationCounter_1912",
+        "DuplicationCounter_1913",
+        "DuplicationCounter_2411",
+        "DuplicationCounter_2412",
+        "DuplicationCounter_2413",
+        "DuplicationCounter_2414",
+        "DuplicationCounter_2415",
+        "DuplicationCounter_2416",
+        "DuplicationCounter_2417",
+        "DuplicationCounter_2461",
+        "DuplicationCounter_1953",
+        "DuplicationCounter_1102",
+        "DuplicationCounter_1103",
+        "DuplicationCounter_1717",
+        "DuplicationCounter_1718",
+        "DuplicationCounter_1719",
+        "DuplicationCounter_1720",
+        "DuplicationCounter_1721",
+        "DuplicationCounter_1722",
+        "DuplicationCounter_1723",
+        "DuplicationCounter_1724",
+        "DuplicationCounter_1725",
+        "DuplicationCounter_1726",
+        "DuplicationCounter_1727",
+        "DuplicationCounter_1728",
+        "DuplicationCounter_1419",
+        "DuplicationCounter_1420",
+        "DuplicationCounter_1421",
+        "DuplicationCounter_1422",
+        "DuplicationCounter_1423",
+        "DuplicationCounter_1424",
+        "DuplicationCounter_1425",
+        "DuplicationCounter_1426",
+        "DuplicationCounter_1427",
+        "DuplicationCounter_1428",
+        "DuplicationCounter_1429",
+        "DuplicationCounter_1954",
+        "DuplicationCounter_1955",
+        "DuplicationCounter_1956",
+        "DuplicationCounter_2458",
+        "DuplicationCounter_2448",
+        "DuplicationCounter_2449",
+        "DuplicationCounter_2450",
+        "DuplicationCounter_2451",
+        "DuplicationCounter_2452",
+        "DuplicationCounter_2453",
+        "DuplicationCounter_2454",
+        "DuplicationCounter_2455",
+        "DuplicationCounter_2456",
+        "DuplicationCounter_2457",
+        "DuplicationCounter_2459",
+        "DuplicationCounter_2460",
+        "DuplicationCounter_1189",
+        "DuplicationCounter_2016",
+        "DuplicationCounter_2017",
+        "DuplicationCounter_2018",
+        "DuplicationCounter_2019",
+        "DuplicationCounter_2759",
+        "DuplicationCounter_2798",
+        "DuplicationCounter_2799",
+        "DuplicationCounter_2800",
+        "DuplicationCounter_2801",
+        "DuplicationCounter_1225",
+        "DuplicationCounter_1711",
+        "DuplicationCounter_1957",
+        "DuplicationCounter_1958",
+        "DuplicationCounter_1959",
+        "DuplicationCounter_1960",
+        "DuplicationCounter_1104",
+        "DuplicationCounter_1105",
+        "DuplicationCounter_1106",
+        "DuplicationCounter_1107",
+        "DuplicationCounter_1961",
+        "DuplicationCounter_1962",
+        "DuplicationCounter_1963",
+        "DuplicationCounter_1964",
+        "DuplicationCounter_1965",
+        "DuplicationCounter_1966",
+        "DuplicationCounter_1967",
+        "DuplicationCounter_1968",
+        "DuplicationCounter_1969",
+        "DuplicationCounter_1970",
+        "DuplicationCounter_1971",
+        "DuplicationCounter_1972",
+        "DuplicationCounter_1973",
+        "DuplicationCounter_1974",
+        "DuplicationCounter_1975",
+        "DuplicationCounter_1976",
+        "DuplicationCounter_1977",
+        "DuplicationCounter_1978",
+        "DuplicationCounter_1979",
+        "DuplicationCounter_1980",
+        "DuplicationCounter_1981",
+        "DuplicationCounter_1982",
+        "DuplicationCounter_1983",
+        "DuplicationCounter_1984",
+        "DuplicationCounter_1985",
+        "DuplicationCounter_1986",
+        "DuplicationCounter_1987",
+        "DuplicationCounter_1506",
+        "DuplicationCounter_1108",
+        "DuplicationCounter_1109",
+        "DuplicationCounter_1110",
+        "DuplicationCounter_1111",
+        "DuplicationCounter_1112",
+        "DuplicationCounter_1113",
+        "DuplicationCounter_1114",
+        "DuplicationCounter_1115",
+        "DuplicationCounter_1116",
+        "DuplicationCounter_1117",
+        "DuplicationCounter_1118",
+        "DuplicationCounter_1119",
+        "DuplicationCounter_1120",
+        "DuplicationCounter_1121",
+        "DuplicationCounter_1762",
+        "DuplicationCounter_1122",
+        "DuplicationCounter_989",
+        "DuplicationIndex_HasDuplicate"
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AEC84A4B4BE2A21B3BAC4F949D0E9E51"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Monty_Catwalk_12A_Hallway",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.6"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Monty_Catwalk_12A_Hallway:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_Monty_Catwalk_12A_Hallway.10"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

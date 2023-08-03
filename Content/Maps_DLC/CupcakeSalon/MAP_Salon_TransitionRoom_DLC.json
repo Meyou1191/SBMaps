@@ -1,0 +1,608 @@
+[
+  {
+    "Type": "DDGIVolume",
+    "Name": "DDGIVolume19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DDGIVolume'",
+    "Properties": {
+      "DDGIVolumeComponent": {
+        "ObjectName": "DDGIVolumeComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.DDGIVolume19.DDGI'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.3"
+      },
+      "RootComponent": {
+        "ObjectName": "DDGIVolumeComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.DDGIVolume19.DDGI'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.3"
+      }
+    }
+  },
+  {
+    "Type": "DDGIVolume",
+    "Name": "DDGIVolume20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DDGIVolume'",
+    "Properties": {
+      "DDGIVolumeComponent": {
+        "ObjectName": "DDGIVolumeComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.DDGIVolume20.DDGI'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.4"
+      },
+      "RootComponent": {
+        "ObjectName": "DDGIVolumeComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.DDGIVolume20.DDGI'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.4"
+      }
+    }
+  },
+  {
+    "Type": "DDGIVolume",
+    "Name": "DDGIVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DDGIVolume'",
+    "Properties": {
+      "DDGIVolumeComponent": {
+        "ObjectName": "DDGIVolumeComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.DDGIVolume_1.DDGI'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.5"
+      },
+      "RootComponent": {
+        "ObjectName": "DDGIVolumeComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.DDGIVolume_1.DDGI'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.5"
+      }
+    }
+  },
+  {
+    "Type": "DDGIVolumeComponent",
+    "Name": "DDGI",
+    "Outer": "DDGIVolume19",
+    "Class": "UScriptClass'DDGIVolumeComponent'",
+    "Properties": {
+      "LastOrigin": {
+        "X": -52443.82,
+        "Y": 79740.03,
+        "Z": 45.99759
+      },
+      "RelativeLocation": {
+        "X": -52443.82,
+        "Y": 79740.03,
+        "Z": 45.99759
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -14.403746
+      },
+      "RelativeScale3D": {
+        "X": 4.630069,
+        "Y": 15.407667,
+        "Z": 6.73737
+      }
+    }
+  },
+  {
+    "Type": "DDGIVolumeComponent",
+    "Name": "DDGI",
+    "Outer": "DDGIVolume20",
+    "Class": "UScriptClass'DDGIVolumeComponent'",
+    "Properties": {
+      "LastOrigin": {
+        "X": -52386.867,
+        "Y": 81781.46,
+        "Z": 702.91595
+      },
+      "RelativeLocation": {
+        "X": -52386.867,
+        "Y": 81781.46,
+        "Z": 702.91595
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 6.5263796,
+        "Y": 9.335408,
+        "Z": 4.011343
+      }
+    }
+  },
+  {
+    "Type": "DDGIVolumeComponent",
+    "Name": "DDGI",
+    "Outer": "DDGIVolume_1",
+    "Class": "UScriptClass'DDGIVolumeComponent'",
+    "Properties": {
+      "LastOrigin": {
+        "X": -52303.664,
+        "Y": 78037.58,
+        "Z": -274.27618
+      },
+      "RelativeLocation": {
+        "X": -52303.664,
+        "Y": 78037.58,
+        "Z": -274.27618
+      },
+      "RelativeScale3D": {
+        "X": 7.780599,
+        "Y": 4.221354,
+        "Z": 6.73737
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Salon_TransitionRoom_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Salon_TransitionRoom_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.7"
+      },
+      "LevelBuildDataId": "2EA9A8AC-420E7B4B-5B77138D-B327D336",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Salon_TransitionRoom_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.22"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Salon_TransitionRoom_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.22"
+      },
+      null,
+      {
+        "ObjectName": "SpotLight'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight22'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.13"
+      },
+      {
+        "ObjectName": "SpotLight'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight23'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.14"
+      },
+      {
+        "ObjectName": "SpotLight'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight24'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.15"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Salon_TransitionRoom_DLC:PersistentLevel.PointLight63_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.9"
+      },
+      {
+        "ObjectName": "PointLight'MAP_Salon_TransitionRoom_DLC:PersistentLevel.PointLight64'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.10"
+      },
+      {
+        "ObjectName": "SpotLight'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight25'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.16"
+      },
+      {
+        "ObjectName": "DDGIVolume'MAP_Salon_TransitionRoom_DLC:PersistentLevel.DDGIVolume_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.2"
+      },
+      {
+        "ObjectName": "DDGIVolume'MAP_Salon_TransitionRoom_DLC:PersistentLevel.DDGIVolume19'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.0"
+      },
+      {
+        "ObjectName": "DDGIVolume'MAP_Salon_TransitionRoom_DLC:PersistentLevel.DDGIVolume20'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.1"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Salon_TransitionRoom_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.7"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "0C0B16E9-40AD2EA9-D8DE67AF-812647D8",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight63_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.PointLight63_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.11"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.PointLight63_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.11"
+      },
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.PointLight63_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.11"
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight64",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.PointLight64.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.12"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.PointLight64.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.12"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.PointLight64.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.12"
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight63_2",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 372.47528,
+      "Temperature": 6990.476,
+      "bUseTemperature": true,
+      "Intensity": 0.4,
+      "RelativeLocation": {
+        "X": -52845.535,
+        "Y": 77755.54,
+        "Z": -294.48044
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Movable"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight64",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 271.36646,
+      "Temperature": 6990.476,
+      "bUseTemperature": true,
+      "SpecularScale": 0.0,
+      "Intensity": 0.5,
+      "RelativeLocation": {
+        "X": -52139.61,
+        "Y": 79887.48,
+        "Z": 269.5678
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Movable"
+    }
+  },
+  {
+    "Type": "SpotLight",
+    "Name": "SpotLight22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SpotLight'",
+    "Properties": {
+      "SpotLightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.17"
+      },
+      "LightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.17"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight22.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.17"
+      }
+    }
+  },
+  {
+    "Type": "SpotLight",
+    "Name": "SpotLight23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SpotLight'",
+    "Properties": {
+      "SpotLightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight23.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.18"
+      },
+      "LightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight23.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.18"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight23.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.18"
+      }
+    }
+  },
+  {
+    "Type": "SpotLight",
+    "Name": "SpotLight24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SpotLight'",
+    "Properties": {
+      "SpotLightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight24.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.19"
+      },
+      "LightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight24.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.19"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight24.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.19"
+      }
+    }
+  },
+  {
+    "Type": "SpotLight",
+    "Name": "SpotLight25",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SpotLight'",
+    "Properties": {
+      "SpotLightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight25.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.20"
+      },
+      "LightComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight25.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.20"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SpotLightComponent'MAP_Salon_TransitionRoom_DLC:PersistentLevel.SpotLight25.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.20"
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "SpotLight22",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "Intensity": 73.396286,
+      "LightColor": {
+        "B": 148,
+        "G": 185,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFB994"
+      },
+      "RelativeLocation": {
+        "X": -52156.926,
+        "Y": 79084.36,
+        "Z": -9.06604
+      },
+      "RelativeRotation": {
+        "Pitch": -16.874952,
+        "Yaw": 185.62506,
+        "Roll": 6E-06
+      },
+      "Mobility": "EComponentMobility::Movable"
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "SpotLight23",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightFunctionMaterial": {
+        "ObjectName": "Material'M_LightFunction_Flicker_DontDie'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_LightFunction_Flicker_DontDie.0"
+      },
+      "Intensity": 73.396286,
+      "LightColor": {
+        "B": 148,
+        "G": 185,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFB994"
+      },
+      "RelativeLocation": {
+        "X": -52188.73,
+        "Y": 79844.47,
+        "Z": 283.08914
+      },
+      "RelativeRotation": {
+        "Pitch": -16.874952,
+        "Yaw": 185.62506,
+        "Roll": 6E-06
+      },
+      "Mobility": "EComponentMobility::Movable"
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "SpotLight24",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "Intensity": 73.396286,
+      "LightColor": {
+        "B": 148,
+        "G": 185,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFB994"
+      },
+      "RelativeLocation": {
+        "X": -52136.06,
+        "Y": 80401.16,
+        "Z": 513.58545
+      },
+      "RelativeRotation": {
+        "Pitch": -16.874952,
+        "Yaw": 185.62506,
+        "Roll": 6E-06
+      },
+      "Mobility": "EComponentMobility::Movable"
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "SpotLight25",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Candelas",
+      "LightFunctionMaterial": {
+        "ObjectName": "MaterialInstanceConstant'M_StrobeFlicker'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_StrobeFlicker.0"
+      },
+      "Intensity": 73.396286,
+      "LightColor": {
+        "B": 148,
+        "G": 185,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFB994"
+      },
+      "RelativeLocation": {
+        "X": -52664.617,
+        "Y": 80739.28,
+        "Z": 331.83792
+      },
+      "RelativeRotation": {
+        "Pitch": 27.58274,
+        "Yaw": 410.2989,
+        "Roll": -207.2609
+      },
+      "Mobility": "EComponentMobility::Movable"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Salon_TransitionRoom_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Salon_TransitionRoom_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.6"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Salon_TransitionRoom_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/CupcakeSalon/MAP_Salon_TransitionRoom_DLC.8"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

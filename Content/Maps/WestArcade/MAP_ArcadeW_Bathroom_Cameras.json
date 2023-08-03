@@ -1,0 +1,508 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera19_Breaker",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera19_Breaker",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.15"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.8"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.7"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.6"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.3"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.17"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.14"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.16"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.12"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.11"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.13"
+      },
+      "CameraInventoryName": "CamerasOffice_WestArcade",
+      "CameraName": {
+        "CultureInvariantString": "Janitorial"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.10"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.16"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.14"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.17"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.3"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.6"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.7"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.8"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.15"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_ArcadeW_Bathroom_Cameras",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.4"
+      },
+      "LevelBuildDataId": "944A9FC0-44C533A8-D90A249E-CC8E66D5",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.19"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.19"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.1"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera19_Breaker",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "9B74BA65-40E61840-25B9379F-76CF59AB",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera19_Breaker",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.11"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera19_Breaker",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.11"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera19_Breaker",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.11"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera19_Breaker",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.10"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera19_Breaker",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8961.324,
+        "Y": 22896.688,
+        "Z": 2295.0269
+      },
+      "RelativeRotation": {
+        "Pitch": -32.192898,
+        "Yaw": 104.38659,
+        "Roll": 0.0005649725
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera19_Breaker",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.10"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera19_Breaker",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.9"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera19_Breaker",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.1"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.10"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera19_Breaker",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.1"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera19_Breaker",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera19_Breaker",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.12"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera19_Breaker",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.Camera19_Breaker.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.10"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_ArcadeW_Bathroom_Cameras",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.2"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_ArcadeW_Bathroom_Cameras:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_ArcadeW_Bathroom_Cameras.5"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

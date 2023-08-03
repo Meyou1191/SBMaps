@@ -1,0 +1,2047 @@
+[
+  {
+    "Type": "AIPathComponent",
+    "Name": "AIPath",
+    "Outer": "GatorGolfDLC_RabbitPatrolPath",
+    "Template": "AIPath_GEN_VARIABLE",
+    "Class": "UScriptClass'AIPathComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_GatorGolf_AIPaths_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.2"
+      },
+      "LevelBuildDataId": "C6C564CF-4429EF0C-F12845B0-9313C112",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.7"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.7"
+      },
+      null,
+      {
+        "ObjectName": "SeekerPatrolPath_C'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.GatorGolfDLC_RabbitPatrolPath'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.2"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "2F600501-466A858B-E60D42AE-6D80D583",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "GatorGolfDLC_RabbitPatrolPath",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -25350.867,
+        "Y": 56351.438,
+        "Z": -3493.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SeekerPatrolPath_C",
+    "Name": "GatorGolfDLC_RabbitPatrolPath",
+    "Outer": "PersistentLevel",
+    "Template": "Default__SeekerPatrolPath_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Seeker/Pathing/SeekerPatrolPath.SeekerPatrolPath_C'",
+    "Properties": {
+      "PathType": "EFNAFAISpawnType::DLC_Rabbit",
+      "PathName": "BlackRabbitPatrolPathGatorGolf",
+      "Icon": null,
+      "AIPath": {
+        "ObjectName": "AIPathComponent'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.GatorGolfDLC_RabbitPatrolPath.AIPath'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.0"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.GatorGolfDLC_RabbitPatrolPath.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.4"
+      },
+      "Points": [
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 59.0,
+            "Y": -66.0,
+            "Z": -13.0
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            1,
+            7,
+            11
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -0.45507812,
+            "Y": -563.625,
+            "Z": 8.090576
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            2,
+            6,
+            0
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 217.2461,
+            "Y": -801.6094,
+            "Z": 7.661133
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            5,
+            1,
+            7,
+            3
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -306.14258,
+            "Y": -1337.4297,
+            "Z": -19.0
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            4,
+            6,
+            10,
+            2
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 328.09766,
+            "Y": -2074.6133,
+            "Z": -20.0
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            5,
+            3,
+            10
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 455.09668,
+            "Y": -1383.625,
+            "Z": -19.000244
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            2,
+            4
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -516.55273,
+            "Y": -779.85547,
+            "Z": -19.0
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            3,
+            1
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 519.1094,
+            "Y": -420.0547,
+            "Z": -11.922363
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            0,
+            2,
+            8,
+            9
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 1111.3955,
+            "Y": -573.1094,
+            "Z": -18.012207
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            9,
+            7
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 1137.9443,
+            "Y": -107.125,
+            "Z": -18.012207
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            7,
+            8
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -530.4053,
+            "Y": -1941.4453,
+            "Z": -19.0
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            4,
+            3
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -427.60547,
+            "Y": 431.5547,
+            "Z": 1.4624023
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            12,
+            0
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -128.24902,
+            "Y": 751.8008,
+            "Z": 0.8288574
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            13,
+            11
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -395.41992,
+            "Y": 976.8828,
+            "Z": 3.3483887
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            14,
+            12
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -698.5918,
+            "Y": 763.5039,
+            "Z": -0.3557129
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            15,
+            13
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -941.88477,
+            "Y": 950.9531,
+            "Z": -0.22998047
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            16,
+            14
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -1012.7207,
+            "Y": 1258.7734,
+            "Z": 27.093506
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            17,
+            15
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -1232.4395,
+            "Y": 1510.4766,
+            "Z": -4.906494
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            18,
+            16
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -1416.1348,
+            "Y": 2173.6484,
+            "Z": -17.32837
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            19,
+            17
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -1836.9688,
+            "Y": 2513.6562,
+            "Z": -17.685059
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            20,
+            18
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -2154.3145,
+            "Y": 2483.8164,
+            "Z": -17.932617
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            21,
+            19
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -2451.4648,
+            "Y": 2254.5703,
+            "Z": -3.9592285
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            22,
+            20
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4096.7676,
+            "Y": 2532.6445,
+            "Z": -14.229492
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            23,
+            21
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4093.588,
+            "Y": 1490.0156,
+            "Z": -18.999512
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            24,
+            25,
+            26,
+            22
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -3748.3477,
+            "Y": 2090.371,
+            "Z": -15.168945
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            23
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4546.217,
+            "Y": 895.8594,
+            "Z": -17.71582
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            27,
+            23
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -3975.9844,
+            "Y": 708.53125,
+            "Z": 1.5187988
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            27,
+            23
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4630.4355,
+            "Y": 223.78906,
+            "Z": -18.999756
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            28,
+            25,
+            26
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -5359.5586,
+            "Y": 285.4336,
+            "Z": -15.57959
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            29,
+            27
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4487.451,
+            "Y": -368.34375,
+            "Z": -466.22314
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            30,
+            28
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4621.631,
+            "Y": -747.64844,
+            "Z": -567.00024
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            31,
+            32,
+            34,
+            29
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4170.5957,
+            "Y": -938.0547,
+            "Z": -565.99927
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            32,
+            33,
+            34,
+            30
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4174.9043,
+            "Y": -128.80078,
+            "Z": -567.0
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            31,
+            30
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4073.6133,
+            "Y": -2544.9375,
+            "Z": -439.61865
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            31
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -5360.92,
+            "Y": -2285.3164,
+            "Z": -562.8296
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            30,
+            31,
+            35
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -5641.916,
+            "Y": -2589.8008,
+            "Z": -566.9817
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            36,
+            37,
+            34
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -5003.1816,
+            "Y": -3648.9062,
+            "Z": -565.8899
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            37,
+            35,
+            38
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -5700.4727,
+            "Y": -3336.2305,
+            "Z": -565.9824
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            35,
+            36
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -4937.6816,
+            "Y": -6218.965,
+            "Z": -553.6699
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            39,
+            36
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -1199.7695,
+            "Y": -6287.2266,
+            "Z": -566.5
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            40,
+            38
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -1189.7891,
+            "Y": -6721.668,
+            "Z": -566.5818
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            41,
+            39
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -1638.5605,
+            "Y": -6775.7383,
+            "Z": -566.5818
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            42,
+            40
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -2095.3691,
+            "Y": -6769.7773,
+            "Z": -566.58203
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            43,
+            41
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -2127.1855,
+            "Y": -7310.4883,
+            "Z": -566.5818
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            44,
+            42
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -613.12695,
+            "Y": -7287.176,
+            "Z": -566.5818
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            45,
+            50,
+            43
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 799.667,
+            "Y": -7374.4844,
+            "Z": -566.4507
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            46,
+            44
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 547.8926,
+            "Y": -7864.3477,
+            "Z": -565.1245
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            47,
+            45,
+            49
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 977.7822,
+            "Y": -8214.6875,
+            "Z": -566.4507
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            48,
+            53,
+            46
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 828.5088,
+            "Y": -8938.1875,
+            "Z": -566.4507
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            49,
+            52,
+            47
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 16.186523,
+            "Y": -8464.379,
+            "Z": -565.282
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            50,
+            60,
+            48,
+            46
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -428.90625,
+            "Y": -8119.4297,
+            "Z": -565.45483
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            44,
+            51,
+            49
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -602.06445,
+            "Y": -9024.023,
+            "Z": -379.89014
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            52,
+            50
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 241.55273,
+            "Y": -9094.57,
+            "Z": -379.89014
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            48,
+            51
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 1160.2432,
+            "Y": -7511.5156,
+            "Z": -246.10059
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            54,
+            47
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 989.9971,
+            "Y": -7201.4727,
+            "Z": -253.72412
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            55,
+            53
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 526.7031,
+            "Y": -7221.4375,
+            "Z": -17.993896
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            56,
+            54
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": 32.835938,
+            "Y": -7296.9883,
+            "Z": -38.993652
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            55,
+            63,
+            62
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -151.39551,
+            "Y": -9180.621,
+            "Z": -38.993896
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            58,
+            62
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -168.82812,
+            "Y": -9947.234,
+            "Z": -35.729492
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            59,
+            57
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -421.9004,
+            "Y": -9581.148,
+            "Z": -36.032227
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            58
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -10.783203,
+            "Y": -7610.199,
+            "Z": -375.1526
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            61,
+            49
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -292.42188,
+            "Y": -7535.7344,
+            "Z": -352.41797
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            62,
+            60
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -48.353516,
+            "Y": -8454.082,
+            "Z": -17.993896
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            56,
+            57,
+            61
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "CurrentLocation_14_12380D874E52FBB07FC4DA8EFAA76801": {
+            "X": -316.59766,
+            "Y": -7294.7656,
+            "Z": -38.993896
+          },
+          "CurrentRotation_35_D32D98844D50F467FB73E39A59723E88": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "CurrentScale_39_B8F82E85447C0FF86CDB29A316C67098": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "PointID_12_8DB665B942320A7A682D6C83CD8D187D": "PatrolPointType::NewEnumerator0",
+          "PossibleNextLocation_21_8E2ED29647E1F705D894A08EA582B638": [
+            56
+          ],
+          "POITag_28_6B5CF22742FF1E93C63C89943A839863": "None",
+          "ChildType_31_0482557E40D027BFBCA9488E78B99D67": null,
+          "Child_42_93FB393A4D003C7147ABCFA5DA4A7AF8": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.GatorGolfDLC_RabbitPatrolPath.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.4"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.GatorGolfDLC_RabbitPatrolPath.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.4"
+        },
+        null,
+        {
+          "ObjectName": "AIPathComponent'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.GatorGolfDLC_RabbitPatrolPath.AIPath'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_GatorGolf_AIPaths_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_GatorGolf_AIPaths_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.1"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_GatorGolf_AIPaths_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/GatorGolf/MAP_GatorGolf_AIPaths_DLC.3"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

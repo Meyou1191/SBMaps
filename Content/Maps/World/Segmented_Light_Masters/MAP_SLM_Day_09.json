@@ -1,0 +1,676 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_SLM_Day_09:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.17"
+      },
+      "LevelBuildDataId": "F16489C1-45400FA7-082904B4-4FE61A51",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_SLM_Day_09:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.22"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_SLM_Day_09:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.22"
+      },
+      null,
+      {
+        "ObjectName": "PointLight'MAP_SLM_Day_09:PersistentLevel.PointLight299'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.19"
+      },
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_SLM_Day_09:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.17"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica.MAP_SewerChica",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710677,
+          "W": 0.7071067,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 1050.0,
+          "Y": 21850.0,
+          "Z": -2350.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.8750005,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFF100FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_Airlock.MAP_SewerChica_Airlock",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.27343726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF008FFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_10",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_Sound.MAP_SewerChica_Sound",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.85937524,
+        "A": 1.0,
+        "Hex": "FF00FFEF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_11",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_StartingArea.MAP_SewerChica_StartingArea",
+        "SubPathString": ""
+      },
+      "LevelTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710677,
+          "W": 0.7071067,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 1050.0,
+          "Y": 21850.0,
+          "Z": -2350.0
+        }
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.88281274,
+        "A": 1.0,
+        "Hex": "FF00FFF2"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_12",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_TrashMineshaft.MAP_SewerChica_TrashMineshaft",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.72656256,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFDE00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_13",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/MAP_WorldGameplay.MAP_WorldGameplay",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.81250024,
+        "A": 1.0,
+        "Hex": "FF00FFE9"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_14",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/World/SegmentedLightingScenarios/MAP_Day_09.MAP_Day_09",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.75000006,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFE100"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_15",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Kitchen/Nighttime/MAP_Laundry_Storage_NEW_LightsOn.MAP_Laundry_Storage_NEW_LightsOn",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.773437,
+        "A": 1.0,
+        "Hex": "FFFF00E4"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_Airlock2.MAP_SewerChica_Airlock2",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.05468738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF42FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_Airlock3.MAP_SewerChica_Airlock3",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.7499995,
+        "A": 1.0,
+        "Hex": "FFFF00E1"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_Airlock4.MAP_SewerChica_Airlock4",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.50781226,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00BDFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_5",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_Airlock5.MAP_SewerChica_Airlock5",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.5,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFBC00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_Airlock6.MAP_SewerChica_Airlock6",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.48437524,
+        "A": 1.0,
+        "Hex": "FF00FFB9"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_Gameplay.MAP_SewerChica_Gameplay",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.945313,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFF900FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_JunkYardMaze.MAP_SewerChica_JunkYardMaze",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.46875,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFB600"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_9",
+    "Outer": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Sewer_Chica/MAP_SewerChica_ParkingLot.MAP_SewerChica_ParkingLot",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.1796875,
+        "A": 1.0,
+        "Hex": "FF00FF76"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "C4628F1D-4DFE042F-6ECEBEB0-7925B451",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight299",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_SLM_Day_09:PersistentLevel.PointLight299.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.20"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_SLM_Day_09:PersistentLevel.PointLight299.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.20"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_SLM_Day_09:PersistentLevel.PointLight299.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.20"
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight299",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SourceRadius": 27.611744,
+      "SoftSourceRadius": 1400.0,
+      "SourceLength": 500.0,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 1500.0,
+      "LightGuid": "CCB9BD6B-4FE64D62-152FCDB1-8FA59346",
+      "Intensity": 10.0,
+      "LightColor": {
+        "B": 255,
+        "G": 0,
+        "R": 149,
+        "A": 255,
+        "Hex": "FF9500FF"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": -932.26544,
+        "Y": 16960.107,
+        "Z": -3419.1902
+      },
+      "RelativeRotation": {
+        "Pitch": 7E-06,
+        "Yaw": -24.999954,
+        "Roll": 90.00012
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_SLM_Day_09",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_SLM_Day_09:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.1"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.2"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.9"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.10"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_4'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.11"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_5'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.12"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.13"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.14"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.15"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_9'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.16"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_10'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.3"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_11'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.4"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_12'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.5"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_14'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.7"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_15'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.8"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_SLM_Day_09:LevelStreamingDynamic_13'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.6"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_SLM_Day_09:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/Segmented_Light_Masters/MAP_SLM_Day_09.18"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

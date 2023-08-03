@@ -1,0 +1,3390 @@
+[
+  {
+    "Type": "DecalActor",
+    "Name": "M_Decal_Water_Damage_01_White_Inst2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_Decal_Water_Damage_01_White_Inst2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.4"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_Decal_Water_Damage_01_White_Inst2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.4"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "M_Decal_Water_Damage_01_White_Inst_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_Decal_Water_Damage_01_White_Inst_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.5"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_Decal_Water_Damage_01_White_Inst_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.5"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "M_leakingDecal_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_leakingDecal_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.6"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_leakingDecal_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.6"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "M_leakingDecal_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_leakingDecal_9.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.7"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_leakingDecal_9.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.7"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "M_Decal_Water_Damage_01_White_Inst2",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'M_Decal_Water_Damage_01_White_Inst'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Decals/Leak_Decals/M_Decal_Water_Damage_01_White_Inst.0"
+      },
+      "RelativeLocation": {
+        "X": -3567.0789,
+        "Y": 23701.75,
+        "Z": 46.689636
+      },
+      "RelativeRotation": {
+        "Pitch": 9.6E-05,
+        "Yaw": 180.00006,
+        "Roll": 720.0
+      },
+      "RelativeScale3D": {
+        "X": 0.050606,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "M_Decal_Water_Damage_01_White_Inst_2",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'M_Decal_Water_Damage_01_White_Inst'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Decals/Leak_Decals/M_Decal_Water_Damage_01_White_Inst.0"
+      },
+      "RelativeLocation": {
+        "X": -3567.0874,
+        "Y": 23332.244,
+        "Z": 46.689636
+      },
+      "RelativeRotation": {
+        "Pitch": 8.9E-05,
+        "Yaw": 180.00006,
+        "Roll": 540.0
+      },
+      "RelativeScale3D": {
+        "X": 0.050606,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "M_leakingDecal_2",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "Material'M_leakingDecal_5'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Decals/Leak_Decals/M_leakingDecal_5.0"
+      },
+      "RelativeLocation": {
+        "X": -3890.377,
+        "Y": 23368.535,
+        "Z": 269.1222
+      },
+      "RelativeRotation": {
+        "Pitch": -6.1935105E-05,
+        "Yaw": 0.0002627519,
+        "Roll": 90.00002
+      },
+      "RelativeScale3D": {
+        "X": 0.01580676,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "M_leakingDecal_9",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "Material'M_leakingDecal_5'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Decals/Leak_Decals/M_leakingDecal_5.0"
+      },
+      "RelativeLocation": {
+        "X": -3890.377,
+        "Y": 23612.352,
+        "Z": 269.1222
+      },
+      "RelativeRotation": {
+        "Pitch": -6.2E-05,
+        "Yaw": 0.000263,
+        "Roll": 90.00002
+      },
+      "RelativeScale3D": {
+        "X": 0.015807,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Kitchen_Trash_NEW_LightsOn",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.9"
+      },
+      "LevelBuildDataId": "641DDEB5-4C432EA6-1418B095-9CB72156",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.112"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.112"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_SGate1_334'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner72'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_TrashBSmall3'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_TrashBSmall_311'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_TrashBSmall2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a_342'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a3'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a4'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_CurtainFlaps_Kitchen3'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.21"
+      },
+      {
+        "ObjectName": "SkeletalMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Compactor_Compactor_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a6'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.32"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_Decal_Water_Damage_01_White_Inst_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.1"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_Decal_Water_Damage_01_White_Inst2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.0"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner58'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner105'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner107'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner75_9'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner100'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner104'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner114'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner102'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner103'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner28'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner29_4'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner74'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner101'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2_4'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD2_14'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_05_LOD2_23'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD5'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD4'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD6'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD2_35'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD3'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallPipe_5'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a5'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision1'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision3'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision4'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision5'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision6'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.20"
+      },
+      {
+        "ObjectName": "SkeletalMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_CompactorPillar_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_Light_22'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_Light_23'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Trashcompactorsign_15'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_TrashcompactorWarning_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_TrashcompactorWarning2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Techlight3_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Techlight4'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Techlight00_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.22"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_leakingDecal_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.2"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.M_leakingDecal_9'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.9"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "BE1A1AF5-4F5C87E9-F6F9FCA1-BDA0BC2E",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshActor",
+    "Name": "MOD_Compactor_Compactor_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SkeletalMeshActor'",
+    "Properties": {
+      "SkeletalMeshComponent": {
+        "ObjectName": "SkeletalMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Compactor_Compactor_2.SkeletalMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.13"
+      },
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Compactor_Compactor_2.SkeletalMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.13"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshActor",
+    "Name": "MOD_CompactorPillar_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SkeletalMeshActor'",
+    "Properties": {
+      "SkeletalMeshComponent": {
+        "ObjectName": "SkeletalMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_CompactorPillar_2.SkeletalMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.14"
+      },
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_CompactorPillar_2.SkeletalMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.14"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMeshComponent0",
+    "Outer": "MOD_Compactor_Compactor_2",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'MOD_Compactor_Compactor_Anim'",
+          "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Compactor_Compactor_Anim.0"
+        },
+        "bSavedPlaying": false
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'MOD_Compactor_Compactor'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Compactor_Compactor.0"
+      },
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": -3691.0,
+        "Y": 22875.0,
+        "Z": 2.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00005,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0625,
+        "Y": 1.0625,
+        "Z": 1.0625
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMeshComponent0",
+    "Outer": "MOD_CompactorPillar_2",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'MOD_CompactorPillar'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/RiggedProps/MOD_CompactorPillar.1"
+      },
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": -3598.4985,
+        "Y": 23161.908,
+        "Z": 2.950821
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99999,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0625,
+        "Y": 1.0625,
+        "Z": 1.0625
+      },
+      "ComponentVelocity": {
+        "X": -519.17084,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "PrimaryComponentTick": {
+        "EndTickGroup": "TG_PostPhysics"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CompactorCollision1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision1.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.63"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision1.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.63"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CompactorCollision2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.64"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.64"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CompactorCollision3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.65"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.65"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CompactorCollision4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.66"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.66"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CompactorCollision5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.67"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.67"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CompactorCollision6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.68"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.CompactorCollision6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.68"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_CurtainFlaps_Kitchen3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_CurtainFlaps_Kitchen3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.69"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_CurtainFlaps_Kitchen3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.69"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Techlight00_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Techlight00_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.70"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Techlight00_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.70"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Techlight3_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Techlight3_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.71"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Techlight3_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.71"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Techlight4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Techlight4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.72"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Techlight4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.72"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Trashcompactorsign_15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Trashcompactorsign_15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.73"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_Trashcompactorsign_15.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.73"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_TrashcompactorWarning2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_TrashcompactorWarning2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_TrashcompactorWarning2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_TrashcompactorWarning_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_TrashcompactorWarning_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.MOD_TrashcompactorWarning_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_construction_fence_01a2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_construction_fence_01a3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_construction_fence_01a4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_construction_fence_01a5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_construction_fence_01a6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_construction_fence_01a_342",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a_342.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_construction_fence_01a_342.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Light_22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_Light_22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_Light_22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Light_23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_Light_23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_Light_23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_SGate1_334",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_SGate1_334.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_SGate1_334.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TrashBSmall2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_TrashBSmall2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_TrashBSmall2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TrashBSmall3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_TrashBSmall3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_TrashBSmall3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TrashBSmall_311",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_TrashBSmall_311.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_TrashBSmall_311.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner100",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner100.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner100.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.88"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner101",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner101.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner101.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.89"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner102",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner102.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner102.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.90"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner103",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner103.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner103.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.91"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner104",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner104.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner104.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.92"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner105",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner105.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner105.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.93"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner107",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner107.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner107.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.94"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner114",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner114.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner114.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.95"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.96"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.96"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner29_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner29_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.97"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner29_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.97"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner58",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner58.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.98"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner58.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.98"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner72",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner72.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.99"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner72.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.99"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner74",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner74.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.100"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner74.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.100"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_InnerCorner75_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner75_9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.101"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallB_InnerCorner75_9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.101"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallPipe_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallPipe_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.102"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.SM_WallPipe_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.102"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD2_35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD2_35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.103"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD2_35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.103"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.104"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.104"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.105"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.105"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.106"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.106"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.107"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.107"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD2_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD2_14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.108"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD2_14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.108"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.109"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.109"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_05_LOD2_23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_05_LOD2_23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.110"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_05_LOD2_23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.110"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CompactorCollision1",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 3357,
+      "RelativeLocation": {
+        "X": -3545.471,
+        "Y": 23144.156,
+        "Z": 218.2024
+      },
+      "RelativeScale3D": {
+        "X": 0.9252896,
+        "Y": 0.9252896,
+        "Z": 4.4267282
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A344E12F4A4025671AE294ADF91C8055"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CompactorCollision2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 3358,
+      "RelativeLocation": {
+        "X": -3640.8462,
+        "Y": 22603.676,
+        "Z": 218.20244
+      },
+      "RelativeScale3D": {
+        "X": 3.8360977,
+        "Y": 2.921878,
+        "Z": 4.426728
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "15BA5A0B4A1A67564C0E528AB55F75D1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CompactorCollision3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 3359,
+      "RelativeLocation": {
+        "X": -3874.1948,
+        "Y": 22943.867,
+        "Z": 218.20244
+      },
+      "RelativeScale3D": {
+        "X": 1.0299754,
+        "Y": 4.2625413,
+        "Z": 4.426728
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D79AB42044EBED663D37859A51AE97EB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CompactorCollision4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 3360,
+      "RelativeLocation": {
+        "X": -3511.9846,
+        "Y": 22748.592,
+        "Z": 218.20032
+      },
+      "RelativeScale3D": {
+        "X": 0.38800943,
+        "Y": 0.92529,
+        "Z": 4.426728
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "89E7DCA04B6674B927383D90DCA6DBD1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CompactorCollision5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 3361,
+      "RelativeLocation": {
+        "X": -3676.1174,
+        "Y": 22928.572,
+        "Z": 12.440361
+      },
+      "RelativeScale3D": {
+        "X": 3.1781585,
+        "Y": 3.7472913,
+        "Z": 0.36054718
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "21A783264FBB254C2028DA9B703DABA7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CompactorCollision6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 3362,
+      "RelativeLocation": {
+        "X": -3478.4414,
+        "Y": 22928.572,
+        "Z": 12.012425
+      },
+      "RelativeRotation": {
+        "Pitch": -23.839287,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.84706825,
+        "Y": 3.747291,
+        "Z": 0.02060713
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "570C3C2146A9FB46FCCDC5B870726223"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_CurtainFlaps_Kitchen3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_CurtainFlaps_Kitchen'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_CurtainFlaps_Kitchen.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MIRubber'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MIRubber.0"
+        }
+      ],
+      "VisibilityId": 3332,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -3703.0,
+        "Y": 23150.0,
+        "Z": 27.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00002,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.409167
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2F9DA8AD4B4C9D1E293FAD9D40475D54"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Techlight00_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Techlight00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Techlight00.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Techlight_Red'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Techlight_Red.0"
+        }
+      ],
+      "VisibilityId": 3370,
+      "RelativeLocation": {
+        "X": -3727.1345,
+        "Y": 23462.053,
+        "Z": 393.77798
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0005942264,
+        "Yaw": -179.99998,
+        "Roll": -179.99998
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4C1CCBA84EDCE065E63986B53E542CE4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Techlight3_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Techlight02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Techlight02.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Techlight_LightGreen_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Techlight_LightGreen_Inst.0"
+        }
+      ],
+      "VisibilityId": 3368,
+      "RelativeLocation": {
+        "X": -3497.484,
+        "Y": 22652.92,
+        "Z": 263.74597
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 180.0,
+        "Roll": 180.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "770558884894A5B95E8C529C9AA201A3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Techlight4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Techlight02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Techlight02.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Techlight_LightGreen_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Techlight_LightGreen_Inst.0"
+        }
+      ],
+      "VisibilityId": 3369,
+      "RelativeLocation": {
+        "X": -3690.98,
+        "Y": 22486.107,
+        "Z": 264.20465
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 360.0,
+        "Roll": -90.00006
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "72991E974D1211781049B59F6F5AC65F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Trashcompactorsign_15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Trashcompactorsign'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Trashcompactorsign.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TrashCompactorSign'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_TrashCompactorSign.0"
+        }
+      ],
+      "VisibilityId": 3365,
+      "RelativeLocation": {
+        "X": -3436.0469,
+        "Y": 22926.049,
+        "Z": 524.1769
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.12525,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4F8D9F3E4CAD4FE5669BBF829CA4A37C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_TrashcompactorWarning2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_TrashcompactorWarning'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_TrashcompactorWarning.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TrashCompactorWarning'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_TrashCompactorWarning.0"
+        }
+      ],
+      "VisibilityId": 3367,
+      "RelativeLocation": {
+        "X": -3690.98,
+        "Y": 22489.639,
+        "Z": 204.21802
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00009,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EA926EE34133A59EDA39C58DBB57114E"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_TrashcompactorWarning_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_TrashcompactorWarning'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_TrashcompactorWarning.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TrashCompactorWarning'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_TrashCompactorWarning.0"
+        }
+      ],
+      "VisibilityId": 3366,
+      "RelativeLocation": {
+        "X": -3500.5986,
+        "Y": 22652.92,
+        "Z": 204.21802
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00005,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FE26A9A143723D45E98D7AA0038B214A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_construction_fence_01a2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_construction_fence_01a'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_construction_fence_01a.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 128,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Wall_concrete_00_inst_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Wall_concrete_00_inst_Inst.0"
+        }
+      ],
+      "VisibilityId": 3326,
+      "RelativeLocation": {
+        "X": -3562.5117,
+        "Y": 23719.588,
+        "Z": -4.64354
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.915452,
+        "Y": 1.915452,
+        "Z": 1.915452
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F8327C20468F8E6741AFE98EF6CBF716"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_construction_fence_01a3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_construction_fence_01a'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_construction_fence_01a.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Wall_concrete_00_inst_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Wall_concrete_00_inst_Inst.0"
+        }
+      ],
+      "VisibilityId": 3330,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -3562.8184,
+        "Y": 23582.762,
+        "Z": 389.35645
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99997,
+        "Roll": -89.99997
+      },
+      "RelativeScale3D": {
+        "X": 1.465513,
+        "Y": 1.465513,
+        "Z": 1.465513
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B826B2EB48E8F41737A6938765EE2E75"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_construction_fence_01a4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_construction_fence_01a'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_construction_fence_01a.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Wall_concrete_00_inst_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Wall_concrete_00_inst_Inst.0"
+        }
+      ],
+      "VisibilityId": 3331,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -3562.8184,
+        "Y": 23131.45,
+        "Z": 389.35645
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99997,
+        "Roll": -89.99997
+      },
+      "RelativeScale3D": {
+        "X": 1.465513,
+        "Y": 1.465513,
+        "Z": 1.465513
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "26E68D034132C9434A094EB5250D2779"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_construction_fence_01a5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_construction_fence_01a'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_construction_fence_01a.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Wall_concrete_00_inst_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Wall_concrete_00_inst_Inst.0"
+        }
+      ],
+      "VisibilityId": 3356,
+      "RelativeLocation": {
+        "X": -3565.5159,
+        "Y": 23719.588,
+        "Z": -4.643525
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.915452,
+        "Y": 1.915452,
+        "Z": 1.915452
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F49E42704E09EB7AD18738909F04EFEA"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_construction_fence_01a6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_construction_fence_01a'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_construction_fence_01a.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Wall_concrete_00_inst_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Wall_concrete_00_inst_Inst.0"
+        }
+      ],
+      "VisibilityId": 3333,
+      "RelativeLocation": {
+        "X": -3568.8225,
+        "Y": 23131.45,
+        "Z": -4.64354
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.915452,
+        "Y": 1.915452,
+        "Z": 1.915452
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6662189A41105C4085861288D61DFA6B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_construction_fence_01a_342",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_construction_fence_01a'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_construction_fence_01a.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 128,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Wall_concrete_00_inst_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Wall_concrete_00_inst_Inst.0"
+        }
+      ],
+      "VisibilityId": 3329,
+      "RelativeLocation": {
+        "X": -3563.8184,
+        "Y": 23131.45,
+        "Z": -4.643555
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.915452,
+        "Y": 1.915452,
+        "Z": 1.915452
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D2C0421944C2684F028849B26710D5EC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Light_22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Light_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Light_01.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Area_Light_SepieOrange'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Area_Light_SepieOrange.0"
+        }
+      ],
+      "VisibilityId": 3363,
+      "RelativeLocation": {
+        "X": -3395.6682,
+        "Y": 23030.174,
+        "Z": 551.7686
+      },
+      "RelativeRotation": {
+        "Pitch": -44.99945,
+        "Yaw": 180.0,
+        "Roll": 180.00012
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "07A0CDDB441F63BA7A1F8899778ABEB1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Light_23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Light_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Light_01.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Area_Light_SepieOrange'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Area_Light_SepieOrange.0"
+        }
+      ],
+      "VisibilityId": 3364,
+      "RelativeLocation": {
+        "X": -3395.6682,
+        "Y": 22845.215,
+        "Z": 551.7686
+      },
+      "RelativeRotation": {
+        "Pitch": -44.99953,
+        "Yaw": -180.0,
+        "Roll": 180.00012
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "07FAF1664B973028DF953698116A8069"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SGate1_334",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SGate1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_SGate1.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "VisibilityId": 3323,
+      "RelativeLocation": {
+        "X": -3713.9707,
+        "Y": 23934.86,
+        "Z": 0.896286
+      },
+      "RelativeScale3D": {
+        "X": 0.752927,
+        "Y": 0.752927,
+        "Z": 0.752927
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6AF1C76544F8492472E6EE83AE1648E5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TrashBSmall2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrashBSmall'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_TrashBSmall.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "VisibilityId": 3328,
+      "RelativeLocation": {
+        "X": -3713.7969,
+        "Y": 23515.0,
+        "Z": -57.464447
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -67.31488,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "44658A7048389282CE8566AF2463A523"
+      },
+      {
+        "MapBuildDataId": "D2B5044E587BC81C4AEA5B634BBBBC73"
+      },
+      {
+        "MapBuildDataId": "9CA11AEF8556F4047E913D102AE6714F"
+      },
+      {
+        "MapBuildDataId": "43A7FA2B927D34CA72C50F19A65DEF7C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TrashBSmall3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrashBSmall'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_TrashBSmall.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "VisibilityId": 3325,
+      "RelativeLocation": {
+        "X": -3738.9902,
+        "Y": 23781.203,
+        "Z": -57.464386
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -157.31488,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EFC5FAD044D4C27CF2FDE6AA2D055239"
+      },
+      {
+        "MapBuildDataId": "BD0B12CB0B6F2D332F68FD41B467A056"
+      },
+      {
+        "MapBuildDataId": "50301C7BD2C08CB79701C09E74F78D42"
+      },
+      {
+        "MapBuildDataId": "C0922119A0BBC6A0F68489B350F35EBD"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TrashBSmall_311",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrashBSmall'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_TrashBSmall.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "VisibilityId": 3327,
+      "RelativeLocation": {
+        "X": -3711.9395,
+        "Y": 23252.977,
+        "Z": -57.464447
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "017EB24242AEB0843420CFBA874DA142"
+      },
+      {
+        "MapBuildDataId": "5B3198E4BF2AEA8CB381F20CB260B240"
+      },
+      {
+        "MapBuildDataId": "1A32A24CD3321762F1ADCB379FBF9056"
+      },
+      {
+        "MapBuildDataId": "675977ACFCCC9AA9EA3C0CCB357A9794"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner100",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_12CM_LeftCorner'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_12CM_LeftCorner.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Floor_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Floor_01.0"
+        }
+      ],
+      "VisibilityId": 3338,
+      "RelativeLocation": {
+        "X": -3890.709,
+        "Y": 23542.518,
+        "Z": 46.756115
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 180.0,
+        "Roll": 90.000015
+      },
+      "RelativeScale3D": {
+        "X": 1.332684,
+        "Y": 1.332684,
+        "Z": 1.332684
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AA2745A94D9FFD1D4B08AFA731760BFE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner101",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_12CM_LeftCorner'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_12CM_LeftCorner.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Floor_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Floor_01.0"
+        }
+      ],
+      "VisibilityId": 3346,
+      "RelativeLocation": {
+        "X": -3890.709,
+        "Y": 23335.793,
+        "Z": 46.756447
+      },
+      "RelativeRotation": {
+        "Pitch": -9.2E-05,
+        "Yaw": 449.99976,
+        "Roll": 360.0
+      },
+      "RelativeScale3D": {
+        "X": 1.332684,
+        "Y": 1.332684,
+        "Z": 1.332684
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BC7F114E4E5AD4A05C5B23874956D44A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner102",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_12CM_LeftCorner'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_12CM_LeftCorner.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Floor_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Floor_01.0"
+        }
+      ],
+      "VisibilityId": 3341,
+      "RelativeLocation": {
+        "X": -3890.7095,
+        "Y": 23334.857,
+        "Z": 197.40114
+      },
+      "RelativeRotation": {
+        "Pitch": 270.0,
+        "Yaw": 360.0,
+        "Roll": 449.99985
+      },
+      "RelativeScale3D": {
+        "X": 1.332684,
+        "Y": 1.332684,
+        "Z": 1.332684
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8DA75BBF4C7572AB1E76F9935D1E29F7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner103",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_12CM_LeftCorner'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_12CM_LeftCorner.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Floor_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Floor_01.0"
+        }
+      ],
+      "VisibilityId": 3342,
+      "RelativeLocation": {
+        "X": -3890.7095,
+        "Y": 23734.102,
+        "Z": 197.40115
+      },
+      "RelativeRotation": {
+        "Pitch": 270.0,
+        "Yaw": 360.0,
+        "Roll": 449.99985
+      },
+      "RelativeScale3D": {
+        "X": 1.332684,
+        "Y": 1.332684,
+        "Z": 1.332684
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "13AED5864AE535E8B0231D8CE476624A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner104",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_12CM_LeftCorner'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_12CM_LeftCorner.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Floor_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Floor_01.0"
+        }
+      ],
+      "VisibilityId": 3339,
+      "RelativeLocation": {
+        "X": -3890.7053,
+        "Y": 23926.357,
+        "Z": 197.40115
+      },
+      "RelativeRotation": {
+        "Pitch": 360.0,
+        "Yaw": 269.99994,
+        "Roll": 540.00006
+      },
+      "RelativeScale3D": {
+        "X": 1.332684,
+        "Y": 1.332684,
+        "Z": 1.332684
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0142DA0742B2AB56977A88ACF80466D6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner105",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_1sixth_L'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_1sixth_L.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Rec_Tile_Wall_White'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Rec_Tile_Wall_White.0"
+        }
+      ],
+      "VisibilityId": 3335,
+      "RelativeLocation": {
+        "X": -3862.957,
+        "Y": 23926.37,
+        "Z": -27.505745
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E644C1EB40B950E4EA71128E5C20F311"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner107",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_InnerCorner'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_InnerCorner.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Rec_Tile_Wall_White'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Rec_Tile_Wall_White.0"
+        }
+      ],
+      "VisibilityId": 3336,
+      "RelativeLocation": {
+        "X": -3890.709,
+        "Y": 23948.227,
+        "Z": 252.16357
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3F2CC8AB4993669BF769FDBE563F0543"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner114",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_6M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_6M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Glass_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT_Glass_Inst.0"
+        }
+      ],
+      "VisibilityId": 3340,
+      "RelativeLocation": {
+        "X": -3897.3572,
+        "Y": 23628.22,
+        "Z": 44.989784
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99998,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DF9089AE46563FE8F7B7DBB7784C5B24"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner28",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M_Half_2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SubLobby_Arch/SM_WallB_3M_Half_2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Rec_Tile_Wall_White'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Rec_Tile_Wall_White.0"
+        }
+      ],
+      "VisibilityId": 3343,
+      "RelativeLocation": {
+        "X": -3890.709,
+        "Y": 23335.54,
+        "Z": -47.836426
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1.5E-05,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A292CE8E41A7164A4B7BC3BDD237D991"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner29_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_Window_Mid'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_WallB_Window_Mid.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Rec_Tile_Wall_White'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Rec_Tile_Wall_White.0"
+        }
+      ],
+      "VisibilityId": 3344,
+      "RelativeLocation": {
+        "X": -3890.709,
+        "Y": 23485.156,
+        "Z": -27.505692
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1.5E-05,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "15C28C554E3457511618F6B4A346F7F7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner58",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_6M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_6M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Rec_Tile_Wall_White'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Rec_Tile_Wall_White.0"
+        }
+      ],
+      "VisibilityId": 3334,
+      "RelativeLocation": {
+        "X": -3290.709,
+        "Y": 23948.227,
+        "Z": 252.16357
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F39AFF814204F5D84D8C4383E10AC6FD"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner72",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FlatBlack'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_FlatBlack.0"
+        }
+      ],
+      "VisibilityId": 3324,
+      "RelativeLocation": {
+        "X": -3710.0547,
+        "Y": 23944.434,
+        "Z": 5.218704
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.000015,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.926185,
+        "Y": 0.926185,
+        "Z": 0.926185
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "817BF0234D394A7DF80059895FEE60B9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner74",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_Window_Mid'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_WallB_Window_Mid.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Rec_Tile_Wall_White'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Rec_Tile_Wall_White.0"
+        }
+      ],
+      "VisibilityId": 3345,
+      "RelativeLocation": {
+        "X": -3890.709,
+        "Y": 23785.156,
+        "Z": -27.505692
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1.5E-05,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2E97F52A4B99B4BDD3B56386967CA2E3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_InnerCorner75_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_12CM_LeftCorner'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_12CM_LeftCorner.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Floor_01'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Floor_01.0"
+        }
+      ],
+      "VisibilityId": 3337,
+      "RelativeLocation": {
+        "X": -3890.709,
+        "Y": 23939.66,
+        "Z": 46.755016
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -90.0,
+        "Roll": 180.0
+      },
+      "RelativeScale3D": {
+        "X": 1.332684,
+        "Y": 1.332684,
+        "Z": 1.332684
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "664CE7B24240D235052F4F9C7B3BA1F5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallPipe_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallPipe_06'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallPipe_06.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 3355,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -3886.4714,
+        "Y": 23629.264,
+        "Z": 249.01968
+      },
+      "RelativeRotation": {
+        "Pitch": -4.7E-05,
+        "Yaw": -716.9012,
+        "Roll": 990.0001
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.599968
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "77E8CDF64D743D1BC58B488A11AFC5FC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD2_35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsPRE/MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Metal_Pipe_Modular_Pack_01_inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Metal_Pipe_Modular_Pack_01_inst.0"
+        }
+      ],
+      "VisibilityId": 3353,
+      "RelativeLocation": {
+        "X": -3878.4678,
+        "Y": 23161.0,
+        "Z": 281.71442
+      },
+      "RelativeRotation": {
+        "Pitch": -49.999214,
+        "Yaw": 180.0002,
+        "Roll": -89.99965
+      },
+      "RelativeScale3D": {
+        "X": 2.25,
+        "Y": 2.25,
+        "Z": 2.25
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "47549EA14FDAB6FE813E69960E888369"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsPRE/MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_02_LOD2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Metal_Pipe_Modular_Pack_01_inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Metal_Pipe_Modular_Pack_01_inst.0"
+        }
+      ],
+      "VisibilityId": 3354,
+      "RelativeLocation": {
+        "X": -3878.4678,
+        "Y": 23161.0,
+        "Z": 327.71442
+      },
+      "RelativeRotation": {
+        "Pitch": -49.999214,
+        "Yaw": 180.0002,
+        "Roll": -89.99965
+      },
+      "RelativeScale3D": {
+        "X": 2.25,
+        "Y": 2.25,
+        "Z": 2.25
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D2FB18EC4777DC7FB7100EB117304775"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsPRE/MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Metal_Pipe_Modular_Pack_01_inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Metal_Pipe_Modular_Pack_01_inst.0"
+        }
+      ],
+      "VisibilityId": 3347,
+      "RelativeLocation": {
+        "X": -3880.0,
+        "Y": 23493.0,
+        "Z": 532.7277
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -2.7E-05,
+        "Roll": 6.1E-05
+      },
+      "RelativeScale3D": {
+        "X": 2.4375,
+        "Y": 2.4375,
+        "Z": 2.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9C3ED41C4E3E4F02C0479AB21E8BA8C0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsPRE/MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Metal_Pipe_Modular_Pack_01_inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Metal_Pipe_Modular_Pack_01_inst.0"
+        }
+      ],
+      "VisibilityId": 3350,
+      "RelativeLocation": {
+        "X": -3880.0,
+        "Y": 23169.004,
+        "Z": 282.72562
+      },
+      "RelativeRotation": {
+        "Pitch": 0.000464,
+        "Yaw": 90.000114,
+        "Roll": -229.99963
+      },
+      "RelativeScale3D": {
+        "X": 3.125,
+        "Y": 2.4375,
+        "Z": 2.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "291E8C7246E594C6D83490AAFF8CC294"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsPRE/MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_03_LOD2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Metal_Pipe_Modular_Pack_01_inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Metal_Pipe_Modular_Pack_01_inst.0"
+        }
+      ],
+      "VisibilityId": 3352,
+      "RelativeLocation": {
+        "X": -3880.0,
+        "Y": 23169.004,
+        "Z": 328.72562
+      },
+      "RelativeRotation": {
+        "Pitch": 0.000464,
+        "Yaw": 90.000114,
+        "Roll": -229.99963
+      },
+      "RelativeScale3D": {
+        "X": 3.125,
+        "Y": 2.4375,
+        "Z": 2.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4AD526944A94B8C33151ADA829682237"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD2_14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsPRE/MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Metal_Pipe_Modular_Pack_01_inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Metal_Pipe_Modular_Pack_01_inst.0"
+        }
+      ],
+      "VisibilityId": 3348,
+      "RelativeLocation": {
+        "X": -3877.6836,
+        "Y": 23492.992,
+        "Z": 282.89478
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": -6.1E-05
+      },
+      "RelativeScale3D": {
+        "X": 2.75,
+        "Y": 2.75,
+        "Z": 2.75
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B7762F5F48B3CD3B605E558A838B2504"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsPRE/MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_04_LOD2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Metal_Pipe_Modular_Pack_01_inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Metal_Pipe_Modular_Pack_01_inst.0"
+        }
+      ],
+      "VisibilityId": 3351,
+      "RelativeLocation": {
+        "X": -3877.6836,
+        "Y": 23493.992,
+        "Z": 328.89478
+      },
+      "RelativeRotation": {
+        "Pitch": -0.000183,
+        "Yaw": -89.99989,
+        "Roll": -89.999985
+      },
+      "RelativeScale3D": {
+        "X": 2.75,
+        "Y": 2.75,
+        "Z": 2.75
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DE047D82461A06867CFE7B8FE2070475"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_05_LOD2_23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_05_LOD2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsPRE/MOD_ubrqeehhx_LOD2_Aset_metal__M_ubrqeehhx_05_LOD2.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Metal_Pipe_Modular_Pack_01_inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/Metal_Pipe_Modular_Pack_01_inst.0"
+        }
+      ],
+      "VisibilityId": 3349,
+      "RelativeLocation": {
+        "X": -3883.0,
+        "Y": 23527.0,
+        "Z": 282.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -0.0030599246,
+        "Roll": 179.99641
+      },
+      "RelativeScale3D": {
+        "X": 2.5625,
+        "Y": 2.5625,
+        "Z": 2.5625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4A3C6CAA4B33775BDE53D5A2DD1C0FE5"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Kitchen_Trash_NEW_LightsOn",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.8"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Kitchen_Trash_NEW_LightsOn:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Kitchen/Nighttime/MAP_Kitchen_Trash_NEW_LightsOn.10"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

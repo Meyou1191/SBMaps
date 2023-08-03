@@ -1,0 +1,279 @@
+[
+  {
+    "Type": "BP_MiniMap_Plane_C",
+    "Name": "BP_MiniMap_Plane",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_MiniMap_Plane_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Player/UI/BP_MiniMap_Plane.BP_MiniMap_Plane_C'",
+    "Properties": {
+      "BottomRight": {
+        "ObjectName": "ChildActorComponent'MAP_MinimapPlane:PersistentLevel.BP_MiniMap_Plane.BottomRight'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.1"
+      },
+      "TopLeft": {
+        "ObjectName": "ChildActorComponent'MAP_MinimapPlane:PersistentLevel.BP_MiniMap_Plane.TopLeft'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.2"
+      },
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MinimapPlane:PersistentLevel.BP_MiniMap_Plane.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.6"
+      },
+      "bHidden": true,
+      "bCanBeInCluster": false,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MinimapPlane:PersistentLevel.BP_MiniMap_Plane.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.6"
+      },
+      "Tags": [
+        "MinimapPlane"
+      ],
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "ChildActorComponent'MAP_MinimapPlane:PersistentLevel.BP_MiniMap_Plane.TopLeft'",
+          "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.2"
+        },
+        {
+          "ObjectName": "ChildActorComponent'MAP_MinimapPlane:PersistentLevel.BP_MiniMap_Plane.BottomRight'",
+          "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "BottomRight",
+    "Outer": "BP_MiniMap_Plane",
+    "Template": "BottomRight_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_MinimapPlane:PersistentLevel.BP_MiniMap_Plane.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.6"
+      },
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "TopLeft",
+    "Outer": "BP_MiniMap_Plane",
+    "Template": "TopLeft_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_MinimapPlane:PersistentLevel.BP_MiniMap_Plane.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.6"
+      },
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_MinimapPlane",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_MinimapPlane:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.4"
+      },
+      "LevelBuildDataId": "B578D89D-4BC69E05-6811A89F-F7481AAE",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_MinimapPlane:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.8"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_MinimapPlane:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.8"
+      },
+      null,
+      {
+        "ObjectName": "BP_MiniMap_Plane_C'MAP_MinimapPlane:PersistentLevel.BP_MiniMap_Plane'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.0"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_MinimapPlane:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "1B133D36-40186C86-1E45888E-53480AC5",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BP_MiniMap_Plane",
+    "Template": "StaticMeshComponent0",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "CastShadow": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2325.0,
+        "Y": 35290.0,
+        "Z": 1429.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99997,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 500.0,
+        "Y": 500.0,
+        "Z": 0.0
+      },
+      "bHiddenInGame": true
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_MinimapPlane",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_MinimapPlane:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.3"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_MinimapPlane:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/World/MAP_MinimapPlane.5"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

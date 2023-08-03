@@ -1,0 +1,881 @@
+[
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint1",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.33"
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint2",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.34"
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint3",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.35"
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint4",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.36"
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint5",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.37"
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint6",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint6.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.38"
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint7",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.39"
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint8",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.40"
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint9",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint9.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.41"
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "Icon",
+    "Outer": "MoonmanSpawnPoint_0",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.42"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint1",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint2",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint3",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint4",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint5",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint6",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint7",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint8",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint9",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "MoonmanSpawnPoint_0",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Utility_WestArcade_Airlock_MoonMan",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.21"
+      },
+      "LevelBuildDataId": "54E38648-4B0BE682-DFD52D8B-82049E14",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.54"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.54"
+      },
+      null,
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.31"
+      },
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint1'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.22"
+      },
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint2'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.23"
+      },
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint3'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.24"
+      },
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint4'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.25"
+      },
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint5'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.26"
+      },
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint6'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.27"
+      },
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint7'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.28"
+      },
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint8'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.29"
+      },
+      {
+        "ObjectName": "MoonmanSpawnPoint'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint9'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.30"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.21"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "64C2DC54-493CD18D-46F00485-BA4F518C",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint1.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.0"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint1.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.43"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint1.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.10"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.33"
+      }
+    }
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint2.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.1"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint2.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.44"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint2.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.11"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.34"
+      }
+    }
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint3.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.2"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint3.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.45"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint3.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.12"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.35"
+      }
+    }
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint4.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.3"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint4.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.46"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint4.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.13"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.36"
+      }
+    }
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint5.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.4"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint5.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.47"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint5.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.14"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.37"
+      }
+    }
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint6.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.5"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint6.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.48"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint6.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.15"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint6.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.38"
+      }
+    }
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint7.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.6"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint7.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.49"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint7.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.16"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.39"
+      }
+    }
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint8.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.7"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint8.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.50"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint8.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.17"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.40"
+      }
+    }
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint9.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.8"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint9.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.51"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint9.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.18"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint9.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.41"
+      }
+    }
+  },
+  {
+    "Type": "MoonmanSpawnPoint",
+    "Name": "MoonmanSpawnPoint_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'MoonmanSpawnPoint'",
+    "Properties": {
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint_0.Icon'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.9"
+      },
+      "VisualSource": {
+        "ObjectName": "VisualSourceComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint_0.VisualSourceComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.52"
+      },
+      "MMAnimCategory": "EMMAnimCategory::GeneralFloor",
+      "bShouldFollowPlayer": true,
+      "bAnimLoop": true,
+      "bAimHeadAtPlayer": true,
+      "bIsSingleUse": false,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint_0.CollisionCapsule'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.19"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.MoonmanSpawnPoint_0.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.42"
+      }
+    }
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3695.6196,
+        "Y": 22689.656,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3691.6523,
+        "Y": 22994.596,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3638.0007,
+        "Y": 22609.941,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint4",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3794.2554,
+        "Y": 22997.037,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint5",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3683.412,
+        "Y": 22667.988,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint6",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3791.6309,
+        "Y": 22946.377,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint7",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3733.4016,
+        "Y": 22630.51,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint8",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3775.456,
+        "Y": 22855.615,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint9",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3638.7332,
+        "Y": 22668.719,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "MoonmanSpawnPoint_0",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3783.208,
+        "Y": 23163.73,
+        "Z": 1832.4346
+      }
+    }
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint1",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint2",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint3",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint4",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint5",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint6",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint7",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint8",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint9",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "VisualSourceComponent",
+    "Name": "VisualSourceComponent",
+    "Outer": "MoonmanSpawnPoint_0",
+    "Class": "UScriptClass'VisualSourceComponent'"
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Utility_WestArcade_Airlock_MoonMan",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.20"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Utility_WestArcade_Airlock_MoonMan:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Utility/MAP_Utility_WestArcade_Airlock_MoonMan.32"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

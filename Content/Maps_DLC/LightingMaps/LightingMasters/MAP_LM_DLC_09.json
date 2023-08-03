@@ -1,0 +1,1409 @@
+[
+  {
+    "Type": "BookMark",
+    "Name": "BookMark_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'BookMark'",
+    "Properties": {
+      "Location": {
+        "X": 20545.8,
+        "Y": 61771.863,
+        "Z": -2941.9824
+      },
+      "Rotation": {
+        "Pitch": 12.801046,
+        "Yaw": -2742.1072,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BookMark",
+    "Name": "BookMark_1",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'BookMark'",
+    "Properties": {
+      "Location": {
+        "X": 19125.256,
+        "Y": 59877.73,
+        "Z": -7628.087
+      },
+      "Rotation": {
+        "Pitch": -2.5999146,
+        "Yaw": -3146.912,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "M_leakingDecal_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_LM_DLC_09:PersistentLevel.M_leakingDecal_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.3"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'MAP_LM_DLC_09:PersistentLevel.M_leakingDecal_2.NewDecalComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.3"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "M_leakingDecal_2",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "Material'M_leakingDecal_5'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Decals/Leak_Decals/M_leakingDecal_5.0"
+      },
+      "RelativeLocation": {
+        "X": 23439.523,
+        "Y": 55946.387,
+        "Z": -1461.9512
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -406.68613,
+        "Roll": 1306.6862
+      },
+      "RelativeScale3D": {
+        "X": 0.7262777,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture43_2",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 800.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture43_2.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.45"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture43_2",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture43_2.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.45"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture51_7",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 319.92383,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture51_7.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.46"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture51_7",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture51_7.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.46"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture52",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 319.92383,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture52.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.47"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture52",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture52.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.47"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture88_11",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 348.64774,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture88_11.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.48"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture88_11",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture88_11.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.48"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture89_14",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 660.57153,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture89_14.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.49"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture89_14",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture89_14.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.49"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture97",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 400.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture97.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.50"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture97",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture97.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.50"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture98_18",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 660.57153,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture98_18.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.51"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture98_18",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture98_18.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.51"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture99_2",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 475.8857,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture99_2.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.52"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture99_2",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture99_2.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.52"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_LM_DLC_09:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.31"
+      },
+      "StreamingTextureGuids": [
+        "BA1517C8-4C2D6FC8-AC49A380-F1D5F1D3",
+        "9DA65DAA-45E614E0-3273DEA4-67CA57A8",
+        "8143BEA9-42BC95C3-30E9199C-497541DE",
+        "E76AD93B-49102098-EDD40F92-26111F7E",
+        "4CAA7E86-433F982A-EFFE738F-06E9DCA7"
+      ],
+      "LevelBuildDataId": "CCD6C978-40C3FF37-87856D99-3CED731F",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_LM_DLC_09:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.56"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_LM_DLC_09:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.56"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "RectLight'MAP_LM_DLC_09:PersistentLevel.RectLight25_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.35"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture43_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.37"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture51_7'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.38"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture52'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.39"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture88_11'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.40"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture89_14'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.41"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture97'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.42"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture98_18'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.43"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture99_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_LM_DLC_09:PersistentLevel.SM_lamp_25'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.53"
+      },
+      {
+        "ObjectName": "PointLight'MAP_LM_DLC_09:PersistentLevel.PointLight92_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.33"
+      },
+      {
+        "ObjectName": "DecalActor'MAP_LM_DLC_09:PersistentLevel.M_leakingDecal_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_LM_DLC_09:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.31"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/LightingMaps/NonAR/MAP_N_DLC_09.MAP_N_DLC_09",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.67187524,
+        "A": 1.0,
+        "Hex": "FF00FFD6"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_Sinkhole_DLC.MAP_Sinkhole_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.7031245,
+        "A": 1.0,
+        "Hex": "FFFF00DB"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_13",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_Sinkhole_Depths_DLC.MAP_Sinkhole_Depths_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.53124976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00C1FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_14",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_AR_Sinkhole_Depths_DLC.MAP_AR_Sinkhole_Depths_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.48437476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00B9FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_Underground_Cameras_DLC.MAP_Underground_Cameras_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.64843726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00D3FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_Underground_Cavern_DLC.MAP_Underground_Cavern_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.79687506,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFE700"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_Underground_Doors_DLC.MAP_Underground_Doors_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.92968774,
+        "A": 1.0,
+        "Hex": "FF00FFF7"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_5",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_Underground_ElevatorSinkhole_DLC.MAP_Underground_ElevatorSinkhole_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.3359375,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF9D00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_Underground_Gameplay_DLC.MAP_Underground_Gameplay_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.5234375,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFC000FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Underground/MAP_Underground_Office_DLC.MAP_Underground_Office_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.1796875,
+        "A": 1.0,
+        "Hex": "FF00FF76"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "9EB5E38F-44A24B21-7F5A19B7-96F05F3E",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PointLight",
+    "Name": "PointLight92_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PointLight'",
+    "Properties": {
+      "PointLightComponent": {
+        "ObjectName": "PointLightComponent'MAP_LM_DLC_09:PersistentLevel.PointLight92_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.34"
+      },
+      "LightComponent": {
+        "ObjectName": "PointLightComponent'MAP_LM_DLC_09:PersistentLevel.PointLight92_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.34"
+      },
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'MAP_LM_DLC_09:PersistentLevel.PointLight92_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.34"
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "PointLight92_2",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "SoftSourceRadius": 120.0,
+      "SourceLength": 265.41626,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 298.8833,
+      "Temperature": 2281.0,
+      "bUseTemperature": true,
+      "SpecularScale": 0.0,
+      "LightGuid": "0D9938DE-4B70631A-808889B0-044D3321",
+      "Intensity": 4.04151,
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 23463.922,
+        "Y": 55889.25,
+        "Z": -1635.6489
+      },
+      "RelativeRotation": {
+        "Pitch": 91.20529,
+        "Yaw": 1.5258789E-05,
+        "Roll": 1.5258789E-05
+      }
+    }
+  },
+  {
+    "Type": "RectLight",
+    "Name": "RectLight25_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RectLight'",
+    "Properties": {
+      "RectLightComponent": {
+        "ObjectName": "RectLightComponent'MAP_LM_DLC_09:PersistentLevel.RectLight25_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.36"
+      },
+      "LightComponent": {
+        "ObjectName": "RectLightComponent'MAP_LM_DLC_09:PersistentLevel.RectLight25_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.36"
+      },
+      "RootComponent": {
+        "ObjectName": "RectLightComponent'MAP_LM_DLC_09:PersistentLevel.RectLight25_2.LightComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.36"
+      }
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "RectLight25_2",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Properties": {
+      "SourceHeight": 282.32434,
+      "BarnDoorAngle": 57.999996,
+      "BarnDoorLength": 26.925274,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "AttenuationRadius": 881.68353,
+      "LightGuid": "F61BA027-4796BD12-F01DC1BB-6FC06343",
+      "Intensity": 2.0,
+      "LightColor": {
+        "B": 255,
+        "G": 218,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF00DAFF"
+      },
+      "RelativeLocation": {
+        "X": 26378.965,
+        "Y": 53202.0,
+        "Z": -1439.9843
+      },
+      "RelativeRotation": {
+        "Pitch": -90.00001,
+        "Yaw": 547.125,
+        "Roll": 517.875
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture43_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture43_2.DrawRadius1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.5"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture43_2.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.45"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture43_2.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.45"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture51_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture51_7.DrawRadius1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.7"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture51_7.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.46"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture51_7.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.46"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture52",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture52.DrawRadius1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.9"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture52.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.47"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture52.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.47"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture88_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture88_11.DrawRadius1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.11"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture88_11.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.48"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture88_11.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.48"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture89_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture89_14.DrawRadius1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.13"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture89_14.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.49"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture89_14.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.49"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture97",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture97.DrawRadius1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.15"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture97.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.50"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture97.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.50"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture98_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture98_18.DrawRadius1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.17"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture98_18.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.51"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture98_18.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.51"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture99_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture99_2.DrawRadius1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.19"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture99_2.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.52"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture99_2.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.52"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture43_2",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "InfluenceRadius": 800.0,
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture43_2.DrawRadius0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.4"
+      },
+      "CaptureOffsetComponent": null,
+      "MaxValueRGBM": 64.25,
+      "MapBuildDataId": "DA813240-4AEA4165-3CAB8ABF-27E040B3",
+      "RelativeLocation": {
+        "X": 25222.512,
+        "Y": 54345.73,
+        "Z": -1534.3032
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture51_7",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "InfluenceRadius": 319.92383,
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture51_7.DrawRadius0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.6"
+      },
+      "CaptureOffsetComponent": null,
+      "Brightness": 0.5,
+      "MaxValueRGBM": 42.625,
+      "MapBuildDataId": "91E3CA78-47050A99-9D5252BF-06B7B63A",
+      "RelativeLocation": {
+        "X": 26052.19,
+        "Y": 53455.203,
+        "Z": -1645.9406
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture52",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "InfluenceRadius": 319.92383,
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture52.DrawRadius0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.8"
+      },
+      "CaptureOffsetComponent": null,
+      "Brightness": 0.5,
+      "MaxValueRGBM": 30.203125,
+      "MapBuildDataId": "60BE7522-4D8779EC-A9CEF990-AC75DE9F",
+      "RelativeLocation": {
+        "X": 25509.443,
+        "Y": 54067.938,
+        "Z": -1645.9406
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture88_11",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "InfluenceRadius": 348.64774,
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture88_11.DrawRadius0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.10"
+      },
+      "CaptureOffsetComponent": null,
+      "Brightness": 0.5,
+      "MaxValueRGBM": 26.65625,
+      "MapBuildDataId": "D87882BB-4C9FA2AB-5DD04C87-F10617FD",
+      "RelativeLocation": {
+        "X": 24637.77,
+        "Y": 53187.844,
+        "Z": -1754.4645
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture89_14",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "InfluenceRadius": 660.57153,
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture89_14.DrawRadius0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.12"
+      },
+      "CaptureOffsetComponent": null,
+      "MaxValueRGBM": 65.3125,
+      "MapBuildDataId": "26F32ED9-4E86AFF3-BBE7269F-F5BD3DFA",
+      "RelativeLocation": {
+        "X": 24833.877,
+        "Y": 54129.95,
+        "Z": -1750.1375
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture97",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "InfluenceRadius": 400.0,
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture97.DrawRadius0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.14"
+      },
+      "CaptureOffsetComponent": null,
+      "Brightness": 0.1,
+      "MaxValueRGBM": 6.3093753,
+      "MapBuildDataId": "A9B392EF-4F3D3E5D-88975980-4AC2B132",
+      "RelativeLocation": {
+        "X": 24833.877,
+        "Y": 53669.29,
+        "Z": -1717.389
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture98_18",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "InfluenceRadius": 660.57153,
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture98_18.DrawRadius0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.16"
+      },
+      "CaptureOffsetComponent": null,
+      "Brightness": 0.1,
+      "MaxValueRGBM": 1.0,
+      "MapBuildDataId": "59826A3A-42965DFE-708E8BB5-D1128374",
+      "RelativeLocation": {
+        "X": 23727.77,
+        "Y": 53401.44,
+        "Z": -1740.0728
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture99_2",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "InfluenceRadius": 475.8857,
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'MAP_LM_DLC_09:PersistentLevel.SphereReflectionCapture99_2.DrawRadius0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.18"
+      },
+      "CaptureOffsetComponent": null,
+      "MaxValueRGBM": 9.4375,
+      "MapBuildDataId": "B9574075-4AC5A37C-478F57AC-69D56B1F",
+      "RelativeLocation": {
+        "X": 21713.396,
+        "Y": 54580.473,
+        "Z": -1740.1981
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_lamp_25",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LM_DLC_09:PersistentLevel.SM_lamp_25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.54"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_LM_DLC_09:PersistentLevel.SM_lamp_25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.54"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_lamp_25",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_lamp_02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_lamp_02.2"
+      },
+      "bUseDefaultCollision": false,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2660590921,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 203.20549
+        },
+        {
+          "PackedRelativeBox": 2660590921,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 203.20549
+        },
+        {
+          "PackedRelativeBox": 2660590921,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 203.20549
+        },
+        {
+          "PackedRelativeBox": 2660590921,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 203.20549
+        },
+        {
+          "PackedRelativeBox": 2660590921,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 203.20549
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Area_Light_SepieOrange_reduced_LOW'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Area_Light_SepieOrange_reduced_LOW.0"
+        }
+      ],
+      "VisibilityId": 0,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 21791.38,
+        "Y": 54396.63,
+        "Z": -1526.4801
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 8E-06,
+        "Roll": -89.99982
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FF96F31A49D465612310C7A9EAD65485"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_LM_DLC_09",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_LM_DLC_09:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.20"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_14'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.24"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.22"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.25"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.26"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.27"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_5'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.28"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.29"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.30"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.21"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_09:LevelStreamingDynamic_13'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.23"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_LM_DLC_09:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.32"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "BookMark'MAP_LM_DLC_09:PersistentLevel.WorldSettings.BookMark_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.0"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "BookMark'MAP_LM_DLC_09:PersistentLevel.WorldSettings.BookMark_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_09.1"
+        }
+      ]
+    }
+  }
+]

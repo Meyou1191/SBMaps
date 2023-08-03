@@ -1,0 +1,519 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_AR_EndoEsophagus",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_AR_EndoEsophagus:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.1"
+      },
+      "StreamingTextureGuids": [
+        "69E02F90-4FD58820-27200185-407DE21F",
+        "4DB603BC-4F793C32-F9133DB9-2C66F063",
+        "2FFB9393-41566138-E3D33A90-F1F560CB",
+        "49747B62-4675E825-C2EF5EA6-DD1822A0",
+        "C55EDB50-4AE40146-D3F10991-5E710E4F"
+      ],
+      "LevelBuildDataId": "35344109-4EF21288-B5830AB7-311B2B70",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_AR_EndoEsophagus:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.14"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_AR_EndoEsophagus:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.14"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_EndoEsophagus:PersistentLevel.MOD_TransferVent_Strait_50'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_EndoEsophagus:PersistentLevel.SM_WallB_3M1374'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_EndoEsophagus:PersistentLevel.SM_WallB_3M14_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_EndoEsophagus:PersistentLevel.SM_Sphere_6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_AR_EndoEsophagus:PersistentLevel.MOD_TransferVent_Right_00_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_AR_EndoEsophagus:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "F71BDE34-455A956A-80199D98-5407C3C4",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_TransferVent_Right_00_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.MOD_TransferVent_Right_00_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.8"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.MOD_TransferVent_Right_00_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_TransferVent_Strait_50",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.MOD_TransferVent_Strait_50.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.9"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.MOD_TransferVent_Strait_50.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Sphere_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.SM_Sphere_6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.10"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.SM_Sphere_6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M1374",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.SM_WallB_3M1374.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.11"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.SM_WallB_3M1374.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.11"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M14_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.SM_WallB_3M14_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.12"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_AR_EndoEsophagus:PersistentLevel.SM_WallB_3M14_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_TransferVent_Right_00_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_TransferVent_Right_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_TransferVent_Right_00.2"
+      },
+      "bUseDefaultCollision": false,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3480818722,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 470.26886
+        },
+        {
+          "PackedRelativeBox": 3480818722,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 470.26886
+        },
+        {
+          "PackedRelativeBox": 3480818722,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 470.26886
+        }
+      ],
+      "VisibilityId": 4002,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -35294.0,
+        "Y": 41557.0,
+        "Z": 1752.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "711E692D4C416E63445C88AC569DEE00"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_TransferVent_Strait_50",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_TransferVent_Right_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_TransferVent_Right_00.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3550090401,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 470.26886
+        },
+        {
+          "PackedRelativeBox": 3550090401,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 470.26886
+        },
+        {
+          "PackedRelativeBox": 3550090401,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 470.26886
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "VisibilityId": 3998,
+      "RelativeLocation": {
+        "X": -34704.297,
+        "Y": 40450.61,
+        "Z": -5261.458
+      },
+      "RelativeRotation": {
+        "Pitch": 0.010047,
+        "Yaw": 267.63916,
+        "Roll": -0.032817
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "676B37D14C686CA605CA3AB1DB4EF812"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Sphere_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sphere'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Sphere.2"
+      },
+      "bUseDefaultCollision": false,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_MAT_UnlitSolidColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_MAT_UnlitSolidColor.0"
+        }
+      ],
+      "VisibilityId": 4001,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -35263.0,
+        "Y": 40842.0,
+        "Z": 2043.0
+      },
+      "RelativeScale3D": {
+        "X": 0.015,
+        "Y": 0.0150000015,
+        "Z": 0.0150000015
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EE7D6FF74468E84D8F7A18BC90C3240B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M1374",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MM_Black_01a'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MM_Black_01a.0"
+        }
+      ],
+      "VisibilityId": 3999,
+      "RelativeLocation": {
+        "X": -31970.824,
+        "Y": 39724.45,
+        "Z": -4303.994
+      },
+      "RelativeRotation": {
+        "Pitch": 68.07536,
+        "Yaw": 7.6947284,
+        "Roll": 7.089013
+      },
+      "RelativeScale3D": {
+        "X": 0.46062917,
+        "Y": 0.46062917,
+        "Z": 0.46062917
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3BD96836450496109E8F80BAA5003976"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M14_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3281796195,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 300.0
+        },
+        {
+          "PackedRelativeBox": 3281796195,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 300.0
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_AR_Blocker_SolidNoFresnel300'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/AR_EffectsMaterials/MAT_AR_Blocker_SolidNoFresnel300.0"
+        }
+      ],
+      "VisibilityId": 4000,
+      "RelativeLocation": {
+        "X": -31849.152,
+        "Y": 39254.36,
+        "Z": -4586.2886
+      },
+      "RelativeRotation": {
+        "Pitch": 73.12482,
+        "Yaw": 449.99994,
+        "Roll": 1125.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BFDE4EE841CE3B15F835BEA10F5450CA"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_AR_EndoEsophagus",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_AR_EndoEsophagus:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_AR_EndoEsophagus:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

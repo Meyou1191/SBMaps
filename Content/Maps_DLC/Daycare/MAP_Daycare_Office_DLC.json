@@ -1,0 +1,247 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Daycare_Office_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Daycare_Office_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.1"
+      },
+      "StreamingTextureGuids": [
+        "6E0A3237-44B263C9-89561DAE-1EC36699",
+        "378D4F7D-4C5040AE-149C538C-7A69783C",
+        "C1A5B84D-401FD1C6-468E96B1-36EEBAEF",
+        "4F7FA7B2-4FFC78CF-5F9FAA93-91F2261F"
+      ],
+      "LevelBuildDataId": "E2BE77E6-45762794-9872A389-3BABD94C",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Daycare_Office_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.6"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Daycare_Office_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.6"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_Daycare_Office_DLC:PersistentLevel.SM_WallB_3M849'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.3"
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Daycare_Office_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "984A2831-4BD0DA08-07B8F1A2-47320A93",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M849",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Daycare_Office_DLC:PersistentLevel.SM_WallB_3M849.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.4"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Daycare_Office_DLC:PersistentLevel.SM_WallB_3M849.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.4"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M849",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_halfM_Top_HalfLength'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_WallB_halfM_Top_HalfLength.2"
+      },
+      "bOverrideLightMapRes": true,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2260367685,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 300.00546
+        },
+        {
+          "PackedRelativeBox": 2260367685,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 300.00546
+        },
+        {
+          "PackedRelativeBox": 2260367685,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 300.00546
+        },
+        {
+          "PackedRelativeBox": 2260367685,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 300.00546
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Plaster_BlueNight'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Plaster_BlueNight.0"
+        }
+      ],
+      "VisibilityId": 4883,
+      "RelativeLocation": {
+        "X": -21376.375,
+        "Y": 40953.156,
+        "Z": 2692.7231
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 90.0,
+        "Roll": -179.99988
+      },
+      "RelativeScale3D": {
+        "X": 0.921413,
+        "Y": 0.921413,
+        "Z": 0.921413
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C6ACC87044DE420B43B2498F259928DD"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Daycare_Office_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Daycare_Office_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Daycare_Office_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

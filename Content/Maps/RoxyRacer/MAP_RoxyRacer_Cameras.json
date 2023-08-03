@@ -1,0 +1,3830 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_2",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.88"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.91"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.123"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.35"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.34"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.33"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.21"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.143"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.95"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.133"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.93"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.65"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.94"
+      },
+      "CameraName": {
+        "CultureInvariantString": "AutoStorage"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.64"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.133"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.95"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.143"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.33"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.34"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.35"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.123"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RoxyRacer_Camera01",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.124"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.38"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.37"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.36"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.22"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.144"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.98"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.134"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.96"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.68"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.97"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "Entrance"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.67"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.134"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.98"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.144"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.22"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.36"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.37"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.38"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.124"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RoxyRacer_Camera02",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.125"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.41"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.40"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.39"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.23"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.145"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.101"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.135"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.99"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.71"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.100"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "RoxyWest"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.70"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.135"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.101"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.145"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.23"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.39"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.40"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.41"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.125"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RoxyRacer_Camera03",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.126"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.44"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.43"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.42"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.24"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.146"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.104"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.136"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.102"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.74"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.103"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "RoxyEast"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.73"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.136"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.104"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.146"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.42"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.43"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.44"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.126"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RoxyRacer_Camera04",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.4"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.127"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.47"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.46"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.45"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.25"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.147"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.107"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.137"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.105"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.77"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.106"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "Office2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.76"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.137"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.107"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.147"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.25"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.45"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.46"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.47"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.127"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RoxyRacer_Camera05",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.5"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.128"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.50"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.49"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.48"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.26"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.148"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.110"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.138"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.108"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.80"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.109"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "OutsideOffice"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.79"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.138"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.110"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.148"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.26"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.48"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.49"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.50"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.128"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RoxyRacer_Camera06",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.6"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.129"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.53"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.52"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.51"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.27"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.149"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.113"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.139"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.111"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.83"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.112"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "BumperCars"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.82"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.139"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.113"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.149"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.27"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.51"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.52"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.53"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.129"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RoxyRacer_Camera07",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.7"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.130"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.56"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.55"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.54"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.28"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.150"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.116"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.140"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.114"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.86"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.115"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "Entrance2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.85"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.140"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.116"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.150"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.28"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.54"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.55"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.56"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.130"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RoxyRacer_Camera12",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.8"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.131"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.59"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.58"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.57"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.29"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.151"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.119"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.141"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.117"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.89"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.118"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "Storage"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.88"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.141"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.119"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.151"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.29"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.57"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.58"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.59"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.131"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "RoxyRacer_Camera13",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.9"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.132"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.62"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.61"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.60"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.30"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.152"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.122"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.142"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.120"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.92"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.121"
+      },
+      "CameraInventoryName": "CamerasOffice_9",
+      "CameraName": {
+        "CultureInvariantString": "RoxyWest2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.91"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.142"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.122"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.152"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.30"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.60"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.61"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.62"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.132"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_RoxyRacer_Cameras",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_RoxyRacer_Cameras:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.31"
+      },
+      "LevelBuildDataId": "D95769D5-4DF12FF2-D83D63A1-B9591D8A",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_RoxyRacer_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.154"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_RoxyRacer_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.154"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.11"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.12"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.13"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.14"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.15"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.16"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.17"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.18"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.19"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.10"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_RoxyRacer_Cameras:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.31"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_2",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.88"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.91"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "9016DAA1-4FCB3654-3A9945A1-DB070DE4",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_2",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_2",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_2",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 10000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 3000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 3000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 3000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.80"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.80"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.80"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.86"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.86"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.86"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 6000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.89"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 15000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.92"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_2",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.64"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_2",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 12257.077,
+        "Y": 43713.754,
+        "Z": 1871.6378
+      },
+      "RelativeRotation": {
+        "Pitch": -20.999758,
+        "Yaw": -149.00002,
+        "Roll": 2.6978158E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_2",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.64"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.67"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 18603.54,
+        "Y": 39614.305,
+        "Z": 3364.3096
+      },
+      "RelativeRotation": {
+        "Pitch": -36.199886,
+        "Yaw": -107.19994,
+        "Roll": -2.1160208E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.67"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.70"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 22856.717,
+        "Y": 44212.19,
+        "Z": 2218.6472
+      },
+      "RelativeRotation": {
+        "Pitch": -23.64679,
+        "Yaw": 9.04852,
+        "Roll": 1.7537848
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.70"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 11896.537,
+        "Y": 47584.504,
+        "Z": 2421.977
+      },
+      "RelativeRotation": {
+        "Pitch": -19.999893,
+        "Yaw": 40.000023,
+        "Roll": 8.6313785E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.76"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 10548.363,
+        "Y": 48363.566,
+        "Z": 1750.4071
+      },
+      "RelativeRotation": {
+        "Pitch": -26.197504,
+        "Yaw": 35.999165,
+        "Roll": 0.00026642438
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.76"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.79"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 13827.3,
+        "Y": 40789.113,
+        "Z": 2483.6992
+      },
+      "RelativeRotation": {
+        "Pitch": -31.199858,
+        "Yaw": -151.20163,
+        "Roll": 7.4860423E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.79"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.82"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 13431.937,
+        "Y": 48939.64,
+        "Z": 1874.2148
+      },
+      "RelativeRotation": {
+        "Pitch": -11.64651,
+        "Yaw": -133.15125,
+        "Roll": 1.7537754
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.82"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.85"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 14929.183,
+        "Y": 38572.984,
+        "Z": 3439.956
+      },
+      "RelativeRotation": {
+        "Pitch": -41.799892,
+        "Yaw": 27.199902,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.85"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.88"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 25142.93,
+        "Y": 38003.105,
+        "Z": 1872.318
+      },
+      "RelativeRotation": {
+        "Pitch": -21.682312,
+        "Yaw": 134.02026,
+        "Roll": 0.00012036023
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.88"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.91"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 24398.54,
+        "Y": 38323.53,
+        "Z": 2967.942
+      },
+      "RelativeRotation": {
+        "Pitch": -33.999786,
+        "Yaw": 167.39995,
+        "Roll": 2.6775697E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.91"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_2",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.10"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.63"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_2",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.10"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.64"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_2",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.10"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.11"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.66"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.11"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.67"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.11"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.12"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.69"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.12"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.70"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.12"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.13"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.72"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.13"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.73"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.13"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.14"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.75"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.14"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.76"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.14"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.15"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.78"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.15"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.79"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.15"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.16"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.81"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.16"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.82"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.16"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.17"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.84"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.17"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.85"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.17"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.18"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.87"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.18"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.88"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.18"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.88"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.19"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.90"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.19"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.91"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13'",
+              "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.19"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.91"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_2",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.88"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.91"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_2",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.99"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.102"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.105"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.108"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.111"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.114"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.117"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.120"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_2",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RoxyRacer_Camera01",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera01.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RoxyRacer_Camera02",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera02.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RoxyRacer_Camera03",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera03.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RoxyRacer_Camera04",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera04.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RoxyRacer_Camera05",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera05.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RoxyRacer_Camera06",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera06.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RoxyRacer_Camera07",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera07.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.85"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RoxyRacer_Camera12",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera12.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.88"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "RoxyRacer_Camera13",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_RoxyRacer_Cameras:PersistentLevel.RoxyRacer_Camera13.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.91"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_RoxyRacer_Cameras",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_RoxyRacer_Cameras:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.20"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_RoxyRacer_Cameras:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/RoxyRacer/MAP_RoxyRacer_Cameras.32"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

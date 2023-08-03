@@ -1,0 +1,5142 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_DaycareBalls",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_DaycareBalls:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.1"
+      },
+      "StreamingTextureGuids": [
+        "20F1D2A5-429C4806-CD959396-1822C17D"
+      ],
+      "LevelBuildDataId": "E944D5CD-4340FF70-450834BA-4421AD1E",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_DaycareBalls:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.156"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_DaycareBalls:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.156"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge_27'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge2'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge3'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge4'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge5'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge6'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge7'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge8'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge9'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge10'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge11_65'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge12_71'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge_8'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge8'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge9'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge10'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge14'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge16'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge17'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge21'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge26'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge28'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge35'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge36'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge38'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge39'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge40'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge41'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge27'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge22'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge2'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge3'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge4'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge5'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge6'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge29_130'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge37'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge19'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge23'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge24'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap_48'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.78"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap2'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.70"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_AMediumReUnwrap_52'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap3_55'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.71"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap4'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.72"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap5_59'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.73"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap6_62'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.74"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap7'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.75"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap8'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.76"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap9'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.77"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap10_68'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_AMediumReUnwrap2_71'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap11_74'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap12'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_AMediumReUnwrap3_78'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap13_81'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap14'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.64"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap15_85'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap16'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.66"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap17'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.67"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap18_97'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.68"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge25'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge49'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap19_103'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.69"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge31'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge20'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge32'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge7'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge42'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge43'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge44'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge33'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge45'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge46'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge47_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge48'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.49"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_DaycareBalls:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "27BB0261-4920FDD5-E81880A9-2D926262",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge11_65",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge11_65.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge11_65.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge12_71",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge12_71.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge12_71.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Circle_ALarge_27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge_27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Circle_ALarge_27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.92"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.93"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.94"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.95"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.96"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.96"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.97"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.97"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.98"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge21.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.98"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.99"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge22.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.99"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.100"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge23.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.100"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.101"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge24.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.101"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge25",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.102"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge25.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.102"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge26.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.103"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge26.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.103"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.104"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge27.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.104"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.105"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge28.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.105"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge29_130",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge29_130.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.106"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge29_130.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.106"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.107"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.107"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge31",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge31.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.108"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge31.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.108"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge32",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge32.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.109"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge32.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.109"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge33",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.110"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge33.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.110"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.111"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge35.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.111"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge36.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.112"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge36.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.112"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.113"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge37.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.113"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.114"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge38.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.114"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.115"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.115"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.116"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.116"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge40",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.117"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge40.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.117"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge41",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.118"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge41.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.118"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge42",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.119"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge42.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.119"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge43",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge43.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.120"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge43.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.120"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.121"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge44.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.121"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge45",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.122"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge45.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.122"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge46",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.123"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge46.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.123"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge47_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge47_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.124"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge47_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.124"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.125"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.125"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge49",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge49.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.126"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge49.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.126"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.127"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.127"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.128"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.128"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.129"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.129"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.130"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.130"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.131"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.131"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ALarge_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge_8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.132"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ALarge_8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.132"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_AMediumReUnwrap2_71",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_AMediumReUnwrap2_71.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.133"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_AMediumReUnwrap2_71.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.133"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_AMediumReUnwrap3_78",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_AMediumReUnwrap3_78.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.134"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_AMediumReUnwrap3_78.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.134"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_AMediumReUnwrap_52",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_AMediumReUnwrap_52.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.135"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_AMediumReUnwrap_52.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.135"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap10_68",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap10_68.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.136"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap10_68.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.136"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap11_74",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap11_74.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.137"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap11_74.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.137"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.138"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.138"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap13_81",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap13_81.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.139"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap13_81.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.139"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.140"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.140"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap15_85",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap15_85.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.141"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap15_85.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.141"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.142"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap16.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.142"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.143"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.143"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap18_97",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap18_97.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.144"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap18_97.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.144"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap19_103",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap19_103.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.145"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap19_103.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.145"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.146"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.146"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap3_55",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap3_55.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.147"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap3_55.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.147"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.148"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.148"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap5_59",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap5_59.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.149"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap5_59.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.149"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap6_62",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap6_62.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.150"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap6_62.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.150"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.151"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.151"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.152"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.152"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.153"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.153"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MOD_Ballpit_Square_ASmallReUnwrap_48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap_48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.154"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_DaycareBalls:PersistentLevel.SM_MOD_Ballpit_Square_ASmallReUnwrap_48.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.154"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16172.548,
+        "Y": 28765.006,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge11_65",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15708.466,
+        "Y": 28824.268,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge12_71",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15911.84,
+        "Y": 28742.555,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16161.28,
+        "Y": 28902.475,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16011.098,
+        "Y": 28855.727,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16309.414,
+        "Y": 28850.52,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16402.816,
+        "Y": 28946.924,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15857.051,
+        "Y": 28869.668,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15727.214,
+        "Y": 28962.21,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15619.703,
+        "Y": 29066.227,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15588.449,
+        "Y": 28913.21,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Circle_ALarge_27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16286.944,
+        "Y": 29009.191,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16133.533,
+        "Y": 28454.193,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.00018310547,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16274.644,
+        "Y": 28734.3,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -13.775402,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15885.666,
+        "Y": 28648.691,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -98.23071,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15624.471,
+        "Y": 28597.08,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.00018310547,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901761,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15230.13,
+        "Y": 29055.803,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 326.0437,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16351.863,
+        "Y": 28262.58,
+        "Z": 1450.954
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.9629621,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15105.624,
+        "Y": 29006.025,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 438.4881,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901792,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15355.456,
+        "Y": 28914.49,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -137.10754,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14863.589,
+        "Y": 28944.047,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 72.300995,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14611.107,
+        "Y": 28893.36,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 257.1884,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14621.527,
+        "Y": 28711.572,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 88.28766,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge25",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14416.766,
+        "Y": 28744.057,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 88.28766,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge26",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14428.987,
+        "Y": 28515.621,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 88.28766,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14591.604,
+        "Y": 28519.43,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 122.40705,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge28",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294836256,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15512.337,
+        "Y": 28773.467,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -128.67868,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge29_130",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901761,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16288.836,
+        "Y": 28982.033,
+        "Z": 1446.0706
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -30.679367,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16154.865,
+        "Y": 28245.771,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -181.30951,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge31",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901761,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14708.926,
+        "Y": 28739.834,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 300.728,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge32",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14981.568,
+        "Y": 28980.764,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 438.4881,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge33",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15602.828,
+        "Y": 28232.232,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 88.482895,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294836224,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15614.186,
+        "Y": 29023.316,
+        "Z": 1449.7869
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -123.29514,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901792,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15812.146,
+        "Y": 28857.219,
+        "Z": 1449.7869
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -147.89908,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292804608,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16048.473,
+        "Y": 28820.574,
+        "Z": 1449.7869
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -175.76035,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901761,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15611.171,
+        "Y": 29292.508,
+        "Z": 1449.7869
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -33.545414,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15791.363,
+        "Y": 29377.74,
+        "Z": 1449.7869
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 343.05377,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15951.141,
+        "Y": 28236.975,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.6512846,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge40",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15982.912,
+        "Y": 29423.57,
+        "Z": 1449.7869
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -14.855462,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge41",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16175.534,
+        "Y": 29406.205,
+        "Z": 1449.7869
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 370.74292,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge42",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901792,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16327.438,
+        "Y": 29316.406,
+        "Z": 1449.7869
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 397.3914,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge43",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14961.608,
+        "Y": 28973.836,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 251.72778,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge44",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15077.575,
+        "Y": 28994.574,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 252.36519,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge45",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15352.621,
+        "Y": 28239.674,
+        "Z": 1449.6079
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.30252,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge46",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16398.695,
+        "Y": 28906.309,
+        "Z": 1446.0706
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -14.551733,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge47_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14731.262,
+        "Y": 28905.994,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 256.09433,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge48",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294836224,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14753.006,
+        "Y": 28732.83,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 105.34081,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge49",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14531.845,
+        "Y": 28744.057,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 88.28766,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15759.5625,
+        "Y": 28232.232,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.00018310547,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294836224,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15480.842,
+        "Y": 28242.168,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 92.57297,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294836224,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15614.674,
+        "Y": 28236.24,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 92.57297,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16394.248,
+        "Y": 28460.363,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99991,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15858.239,
+        "Y": 28430.047,
+        "Z": 1450.9537
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99991,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ALarge_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ALargeReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ALargeReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9933
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16721.508,
+        "Y": 28232.232,
+        "Z": 1444.0806
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_AMediumReUnwrap2_71",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16476.629,
+        "Y": 28759.13,
+        "Z": 1451.3297
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 73.448944,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_AMediumReUnwrap3_78",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16095.063,
+        "Y": 28666.21,
+        "Z": 1454.8448
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 76.85649,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_AMediumReUnwrap_52",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_AMediumReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_AMediumReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901792,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9952
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15515.861,
+        "Y": 28410.021,
+        "Z": 1449.8993
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 2.7088673,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap10_68",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292608000,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16156.251,
+        "Y": 28881.24,
+        "Z": 1450.0011
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -138.53822,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap11_74",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15678.442,
+        "Y": 28444.56,
+        "Z": 1447.3109
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15680.156,
+        "Y": 28301.674,
+        "Z": 1447.3109
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.67874,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap13_81",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292804672,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16497.652,
+        "Y": 28657.516,
+        "Z": 1452.1797
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -12.455353,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16397.62,
+        "Y": 28604.66,
+        "Z": 1452.1797
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 181.12401,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap15_85",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294770752,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16576.785,
+        "Y": 28375.309,
+        "Z": 1456.6722
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 100.82595,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292804609,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16540.582,
+        "Y": 28495.166,
+        "Z": 1456.6722
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 280.14993,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292673537,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16540.582,
+        "Y": 28537.645,
+        "Z": 1456.6722
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 241.32382,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap18_97",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294770752,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14693.535,
+        "Y": 28599.16,
+        "Z": 1455.2897
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 114.2456,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap19_103",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4288610306,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -14492.841,
+        "Y": 28910.229,
+        "Z": 1454.3888
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -54.67923,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4290707489,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15264.502,
+        "Y": 29165.857,
+        "Z": 1447.1791
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -19.808561,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap3_55",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15720.292,
+        "Y": 28788.092,
+        "Z": 1449.9332
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15675.159,
+        "Y": 28893.252,
+        "Z": 1449.9332
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap5_59",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4290707489,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16343.953,
+        "Y": 29236.379,
+        "Z": 1452.4055
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -29.316843,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap6_62",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16392.473,
+        "Y": 28212.35,
+        "Z": 1450.3138
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16276.766,
+        "Y": 28149.605,
+        "Z": 1450.3138
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 181.79958,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16167.095,
+        "Y": 28212.35,
+        "Z": 1450.3138
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -16052.34,
+        "Y": 28149.605,
+        "Z": 1450.3138
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 181.79958,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MOD_Ballpit_Square_ASmallReUnwrap_48",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MOD_Ballpit_Square_ASmallReUnwrap'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_MOD_Ballpit_Square_ASmallReUnwrap.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4290707489,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 857.9269
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -15167.734,
+        "Y": 29116.666,
+        "Z": 1447.1791
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -19.808561,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_DaycareBalls",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_DaycareBalls:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_DaycareBalls:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_DaycareBalls.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

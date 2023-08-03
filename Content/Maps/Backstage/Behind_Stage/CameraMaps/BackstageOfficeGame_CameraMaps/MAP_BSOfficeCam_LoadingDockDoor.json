@@ -1,0 +1,4001 @@
+[
+  {
+    "Type": "BoxComponent",
+    "Name": "Door_Collision",
+    "Outer": "BP_DoorMaster186",
+    "Template": "Door_Collision_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_C'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.7"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_C'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.7"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -81.211914,
+        "Z": 105.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_0",
+    "Outer": "BP_DoorMaster186",
+    "Template": "DoorDirection_Collision_0_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_C'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.7"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_0_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_1",
+    "Outer": "BP_DoorMaster186",
+    "Template": "DoorDirection_Collision_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_C'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.7"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_1_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Double",
+    "Outer": "BP_DoorMaster186",
+    "Template": "PlayerCollision_Double_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_LaserTag",
+    "Outer": "BP_DoorMaster186",
+    "Template": "PlayerCollision_LaserTag_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_SecurityDouble",
+    "Outer": "BP_DoorMaster186",
+    "Template": "PlayerCollision_SecurityDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Single",
+    "Outer": "BP_DoorMaster186",
+    "Template": "PlayerCollision_Single_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BP_DoorMaster_C",
+    "Name": "BP_DoorMaster186",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_DoorMaster_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Doors/BP_DoorMaster.BP_DoorMaster_C'",
+    "Properties": {
+      "DoorDirection_Collision_1": {
+        "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorDirection_Collision_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.2"
+      },
+      "DoorDirection_Collision_0": {
+        "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorDirection_Collision_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.1"
+      },
+      "SecurityNumberDouble1": {
+        "ObjectName": "TextRenderComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityNumberDouble1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.127"
+      },
+      "SecurityNumberDouble": {
+        "ObjectName": "TextRenderComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityNumberDouble'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.126"
+      },
+      "SecurityNumberSingle1": {
+        "ObjectName": "TextRenderComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityNumberSingle1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.129"
+      },
+      "SecurityNumberSingle": {
+        "ObjectName": "TextRenderComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityNumberSingle'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.128"
+      },
+      "Decal1": {
+        "ObjectName": "DecalComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Decal1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.9"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Decal'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.8"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Door'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.10"
+      },
+      "PlayerCollision_SecurityDouble": {
+        "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.PlayerCollision_SecurityDouble'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.5"
+      },
+      "PlayerCollision_Double": {
+        "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.PlayerCollision_Double'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.3"
+      },
+      "PlayerCollision_LaserTag": {
+        "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.PlayerCollision_LaserTag'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.4"
+      },
+      "PlayerCollision_Single": {
+        "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.PlayerCollision_Single'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.6"
+      },
+      "Rotator2": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.18"
+      },
+      "Rotator1": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.17"
+      },
+      "SecurityDoorRotator2": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.21"
+      },
+      "SecurityDoorRotator1": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.20"
+      },
+      "MOD_Star_Plaque": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.MOD_Star_Plaque'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.75"
+      },
+      "MESH": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.16"
+      },
+      "DoorMesh_2": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.74"
+      },
+      "DoorMesh_1": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.73"
+      },
+      "DoorMesh_0": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.72"
+      },
+      "Door_Collision": {
+        "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Door_Collision'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.0"
+      },
+      "Open Door/ Close Door": {
+        "ObjectName": "TimelineComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Open Door/ Close Door'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.130"
+      },
+      "DoorType": "MasterDoorType::NewEnumerator0",
+      "DoorMat": {
+        "ObjectName": "MaterialInstanceDynamic'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.MaterialInstanceDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.13"
+      },
+      "Door_Open": {
+        "ObjectName": "AkAudioEvent'Play_DoorMaster_SingleHinge_Metal_Open'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/PropActors/Doors/Door_Master/Play_DoorMaster_SingleHinge_Metal_Open.1"
+      },
+      "Door_Closed": {
+        "ObjectName": "AkAudioEvent'Play_DoorMaster_SingleHinge_Metal_Closed'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/PropActors/Doors/Door_Master/Play_DoorMaster_SingleHinge_Metal_Closed.1"
+      },
+      "Scene": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Door_Collision'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.0"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.MESH'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.16"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_0'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.72"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityDoorRotator1'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.20"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Rotator1'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.17"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_2'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.74"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityDoorRotator2'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.21"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Rotator2'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.18"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_1'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.73"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.MOD_Star_Plaque'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.75"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityNumberSingle'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.128"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityNumberSingle1'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.129"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityNumberDouble'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.126"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityNumberDouble1'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.127"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.PlayerCollision_Single'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.6"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.PlayerCollision_LaserTag'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.4"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.PlayerCollision_Double'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.3"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.PlayerCollision_SecurityDouble'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.5"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Door'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.10"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Decal'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.8"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Decal1'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.9"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorDirection_Collision_0'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.1"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorDirection_Collision_1'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.2"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Open Door/ Close Door'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.130"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "BP_DoorMaster186",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1",
+    "Outer": "BP_DoorMaster186",
+    "Template": "Decal1_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "BP_DoorMaster186",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "NormalDoorEntryRequirements": {
+        "PawnIgnoresConditions": [
+          "EPlayerPawnType::None"
+        ]
+      },
+      "OnInitialOpen": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_C'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.7"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_4_OnInitialOpen__DelegateSignature"
+          }
+        ]
+      },
+      "OnOpenDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_C'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.7"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_2_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "OnCloseDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_C'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186'",
+              "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.7"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_3_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_BSOfficeCam_LoadingDockDoor",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.14"
+      },
+      "LevelBuildDataId": "010CABBE-42B431DF-528AB78C-6C0412F0",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.132"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.132"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M962'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.68"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M287'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M972'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.69"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M288'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M1058'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_LampCeilingA_225'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_LampCeilingA_244'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column577'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column579'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M347'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.67"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column582'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SM_BeamA_3M13'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SM_BeamA_3M14'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M289'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M1123'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.66"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_OuterCorner1472'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.70"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.ToolBoxBase2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.71"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SMTrashcan5'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SMTrashCanc2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Thrash2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.Can11'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_PizzaBoxes_MOD_PizzaBox_4'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_trash2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_trash9'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_TrashBag3'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_TrashbagA2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Exit_12'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor235'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor236'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor237'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor290'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Ventilation274'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Ventilation275'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Ventilation583'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_RecRed1x8'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M290'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.64"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_Keepclear20'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeFull_2m5'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeFull_2m6'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeFull_4m3'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeWarn_4m17'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Fence_A_39'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor291'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor328'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor335'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column572'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column574'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column578'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column580'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.33"
+      },
+      {
+        "ObjectName": "BP_DoorMaster_C'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Crate_Tarps7'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.35"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.14"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_BSOfficeCam_LoadingDockDoor",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Behind_Stage/MAP_Backstage_LoadingDock_Airlock.MAP_Backstage_LoadingDock_Airlock",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.1015625,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF5A00FF"
+      }
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "BP_DoorMaster186",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ColorAlbedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "60975FE0-45A97483-4237089E-166387B3",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MESH",
+    "Outer": "BP_DoorMaster186",
+    "Template": "MESH_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.19"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator1",
+    "Outer": "BP_DoorMaster186",
+    "Template": "Rotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.20"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator2",
+    "Outer": "BP_DoorMaster186",
+    "Template": "Rotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.21"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "BP_DoorMaster186",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 7614.0,
+        "Y": 44478.0,
+        "Z": 1459.2563
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.196805,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator1",
+    "Outer": "BP_DoorMaster186",
+    "Template": "SecurityDoorRotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.16"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator2",
+    "Outer": "BP_DoorMaster186",
+    "Template": "SecurityDoorRotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.16"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Can11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.Can11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.Can11.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_PizzaBoxes_MOD_PizzaBox_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_PizzaBoxes_MOD_PizzaBox_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_PizzaBoxes_MOD_PizzaBox_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SM_BeamA_3M13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SM_BeamA_3M13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SM_BeamA_3M13.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SM_BeamA_3M14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SM_BeamA_3M14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SM_BeamA_3M14.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SMTrashcan5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SMTrashcan5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SMTrashcan5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_SMTrashCanc2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SMTrashCanc2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.MOD_SMTrashCanc2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Column572",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column572.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column572.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.82"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Column574",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column574.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column574.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.83"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Column577",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column577.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column577.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.84"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Column578",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column578.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column578.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.85"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Column579",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column579.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column579.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.86"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Column580",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column580.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column580.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.87"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Column582",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column582.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Column582.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.88"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Crate_Tarps7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Crate_Tarps7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Crate_Tarps7.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.89"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Exit_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Exit_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Exit_12.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.90"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Fence_A_39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Fence_A_39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Fence_A_39.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.91"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_floor235",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor235.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor235.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.92"
+      },
+      "Tags": [
+        "ignoreALM",
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_floor236",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor236.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor236.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.93"
+      },
+      "Tags": [
+        "ignoreALM",
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_floor237",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor237.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor237.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.94"
+      },
+      "Tags": [
+        "ignoreALM",
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_floor290",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor290.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor290.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.95"
+      },
+      "Tags": [
+        "ignoreALM",
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_floor291",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor291.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.96"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor291.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.96"
+      },
+      "Tags": [
+        "ignoreALM",
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_floor328",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor328.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.97"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor328.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.97"
+      },
+      "Tags": [
+        "ignoreALM",
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_floor335",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor335.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.98"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_floor335.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.98"
+      },
+      "Tags": [
+        "ignoreALM",
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FloorDecal_Keepclear20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_Keepclear20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.99"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_Keepclear20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.99"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FloorDecal_RecRed1x8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_RecRed1x8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.100"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_RecRed1x8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.100"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FloorDecal_StripeFull_2m5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeFull_2m5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.101"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeFull_2m5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.101"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FloorDecal_StripeFull_2m6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeFull_2m6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.102"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeFull_2m6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.102"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FloorDecal_StripeFull_4m3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeFull_4m3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.103"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeFull_4m3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.103"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FloorDecal_StripeWarn_4m17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeWarn_4m17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.104"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_FloorDecal_StripeWarn_4m17.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.104"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_LampCeilingA_225",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_LampCeilingA_225.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.105"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_LampCeilingA_225.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.105"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_LampCeilingA_244",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_LampCeilingA_244.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.106"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_LampCeilingA_244.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.106"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Thrash2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Thrash2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.107"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Thrash2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.107"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_trash2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_trash2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.108"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_trash2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.108"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_trash9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_trash9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.109"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_trash9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.109"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TrashBag3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_TrashBag3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.110"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_TrashBag3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.110"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TrashbagA2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_TrashbagA2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.111"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_TrashbagA2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.111"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Ventilation274",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Ventilation274.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.112"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Ventilation274.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.112"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Ventilation275",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Ventilation275.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.113"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Ventilation275.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.113"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Ventilation583",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Ventilation583.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.114"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_Ventilation583.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.114"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallA_3M287",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M287.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.115"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M287.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.115"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallA_3M288",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M288.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.116"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M288.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.116"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallA_3M289",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M289.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.117"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M289.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.117"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallA_3M290",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M290.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.118"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallA_3M290.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.118"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M1058",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M1058.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.119"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M1058.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.119"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M1123",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M1123.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.120"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M1123.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.120"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M347",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M347.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.121"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M347.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.121"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M962",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M962.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.122"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M962.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.122"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_3M972",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M972.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.123"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_3M972.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.123"
+      },
+      "Tags": [
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_WallB_OuterCorner1472",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_OuterCorner1472.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.124"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.SM_WallB_OuterCorner1472.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.124"
+      },
+      "Tags": [
+        "ignoreALM",
+        "adjustedALM"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ToolBoxBase2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.ToolBoxBase2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.125"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.ToolBoxBase2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.125"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_0",
+    "Outer": "BP_DoorMaster186",
+    "Template": "DoorMesh_0_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHinge_SM_SH_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHinge_SM_SH_00.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.16"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4C525AAA4290FDAC562285840E3A9A67"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_1",
+    "Outer": "BP_DoorMaster186",
+    "Template": "DoorMesh_1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHinge_SM_SH_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHinge_SM_SH_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.MaterialInstanceDynamic_1'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.13"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.18"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5169725F40FDD9101446FE9C467C0D2C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_2",
+    "Outer": "BP_DoorMaster186",
+    "Template": "DoorMesh_2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": null,
+      "LightmapType": "ELightmapType::Default",
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.17"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Star_Plaque",
+    "Outer": "BP_DoorMaster186",
+    "Template": "MOD_Star_Plaque_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.73"
+      },
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bVisible",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bHiddenInGame",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E82066E74B07C0E43A840FAB1DD6CE1A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Can11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Can2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/Can2.2"
+      },
+      "VisibilityId": 2512,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7880.8506,
+        "Y": 44158.152,
+        "Z": 1572.2589
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4DDCA21A406D5577CA29E4863234EBB5"
+      },
+      {
+        "MapBuildDataId": "1D1A2116CE77116C4CD998C3B7B09BD1"
+      },
+      {
+        "MapBuildDataId": "AF9E996F60F02C8A45AECC681F7465E8"
+      },
+      {
+        "MapBuildDataId": "2D2B7A778FFADAAF5B0F9B10481A0E50"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_PizzaBoxes_MOD_PizzaBox_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_PizzaBoxes_Closed'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_PizzaBoxes_Closed.2"
+      },
+      "VisibilityId": 2513,
+      "RelativeLocation": {
+        "X": 7879.2104,
+        "Y": 44108.992,
+        "Z": 1572.259
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 37.667057,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E704794645E2A16B0A7CDF9F3E3600C2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SM_BeamA_3M13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SM_BeamA_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_SM_BeamA_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BeamsA_04'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_BeamsA_04.0"
+        }
+      ],
+      "VisibilityId": 2503,
+      "RelativeLocation": {
+        "X": 7550.0947,
+        "Y": 44488.457,
+        "Z": 1749.1777
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "508B9E55468DAE8A5B86B08FD26789EB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SM_BeamA_3M14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SM_BeamA_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_SM_BeamA_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BeamsA_04'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_BeamsA_04.0"
+        }
+      ],
+      "VisibilityId": 2504,
+      "RelativeLocation": {
+        "X": 7849.629,
+        "Y": 44488.457,
+        "Z": 1759.1777
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99994,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "44F2D2024AC2E573321A80ABF0A16E48"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SMTrashcan5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SMTrashcan'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SMTrashcan.2"
+      },
+      "VisibilityId": 2509,
+      "RelativeLocation": {
+        "X": 7837.5327,
+        "Y": 44290.52,
+        "Z": 1460.2268
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 9.455055,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "90CC188E4654A23E6B7235B3143C3ED6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_SMTrashCanc2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SMTrashCanc'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SMTrashCanc.2"
+      },
+      "VisibilityId": 2510,
+      "RelativeLocation": {
+        "X": 7872.086,
+        "Y": 44236.234,
+        "Z": 1460.2268
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FCDC2C584E470A8B428F47ABDACD8324"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Column572",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Column01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Column01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__StainedConcreteC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__StainedConcreteC.0"
+        }
+      ],
+      "VisibilityId": 2537,
+      "RelativeLocation": {
+        "X": 7896.9297,
+        "Y": 44522.504,
+        "Z": 1450.0034
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "443C828A45BE75CC143ED4A6CE12C584"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Column574",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Column01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Column01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__StainedConcreteC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__StainedConcreteC.0"
+        }
+      ],
+      "VisibilityId": 2538,
+      "RelativeLocation": {
+        "X": 7896.9297,
+        "Y": 44522.504,
+        "Z": 1950.0034
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.201723
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4CFE62824615570E55696BAC1DAC4189"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Column577",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Column01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Column01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__StainedConcreteC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__StainedConcreteC.0"
+        }
+      ],
+      "VisibilityId": 2499,
+      "RelativeLocation": {
+        "X": 7896.9297,
+        "Y": 44418.504,
+        "Z": 1450.0034
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.199817
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EBB680EA4284831B8C1EA8A66E36DE8D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Column578",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Column01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Column01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__StainedConcreteC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__StainedConcreteC.0"
+        }
+      ],
+      "VisibilityId": 2539,
+      "RelativeLocation": {
+        "X": 7502.756,
+        "Y": 44523.55,
+        "Z": 1450.0034
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8B5101D74ACEF7505EBB18B66D84F21C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Column579",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Column01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Column01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__StainedConcreteC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__StainedConcreteC.0"
+        }
+      ],
+      "VisibilityId": 2500,
+      "RelativeLocation": {
+        "X": 7502.756,
+        "Y": 44419.55,
+        "Z": 1450.0034
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.199817
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "89C9787E4F6B53193147248CC5D88ADA"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Column580",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Column01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Column01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__StainedConcreteC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__StainedConcreteC.0"
+        }
+      ],
+      "VisibilityId": 2540,
+      "RelativeLocation": {
+        "X": 7502.756,
+        "Y": 44523.55,
+        "Z": 1950.0034
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.201723
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "813DF3E14ED676C6AD0A08BF1E3C6949"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Column582",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Column01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Column01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__StainedConcreteC'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__StainedConcreteC.0"
+        }
+      ],
+      "VisibilityId": 2502,
+      "RelativeLocation": {
+        "X": 7838.9297,
+        "Y": 44418.504,
+        "Z": 2093.0034
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.9675,
+        "Z": 0.5575
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3A3A95EA420D707F5EEE1792773210D7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Crate_Tarps7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Crate_Tarps5'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Crate_Tarps5.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Tarp4_Fabric1_Inst1'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Tarp4_Fabric1_Inst1.0"
+        }
+      ],
+      "VisibilityId": 2541,
+      "RelativeLocation": {
+        "X": 7258.263,
+        "Y": 44385.14,
+        "Z": 1460.8845
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.41064,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BBD4497941FE332088EABF9D27CC209B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Exit_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Exit_02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Exit_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 2518,
+      "RelativeLocation": {
+        "X": 7700.1147,
+        "Y": 44475.723,
+        "Z": 1723.987
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.00006,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "CABCB8294134C29B0F54A7904922B5A1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Fence_A_39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Fence_A_05'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Fence_A_05.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 2533,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7877.4453,
+        "Y": 44553.402,
+        "Z": 1460.8845
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 94.64873,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.979324,
+        "Y": 0.979324,
+        "Z": 0.979324
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "28A36E61463C812762B138A302B11F1D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_floor235",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_floor02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_floor02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DamageAsphalt'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DamageAsphalt.0"
+        }
+      ],
+      "VisibilityId": 2519,
+      "RelativeLocation": {
+        "X": 8114.265,
+        "Y": 45894.848,
+        "Z": 1460.2476
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7EDD996D40A9D92F787D2C8D34E587AB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_floor236",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_floor02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_floor02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DamageAsphalt'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DamageAsphalt.0"
+        }
+      ],
+      "VisibilityId": 2520,
+      "RelativeLocation": {
+        "X": 7314.265,
+        "Y": 45294.848,
+        "Z": 1460.2476
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2B1D9298401CF01F1A5B3BA95DBBF179"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_floor237",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_floor02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_floor02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DamageAsphalt'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DamageAsphalt.0"
+        }
+      ],
+      "VisibilityId": 2521,
+      "RelativeLocation": {
+        "X": 7914.265,
+        "Y": 45294.848,
+        "Z": 1460.2476
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5E443B584AD063C2512E68BD5646D9B5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_floor290",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_floor02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_floor02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DamageAsphalt'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DamageAsphalt.0"
+        }
+      ],
+      "VisibilityId": 2522,
+      "RelativeLocation": {
+        "X": 8514.266,
+        "Y": 45294.848,
+        "Z": 1460.2476
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9A098DE043CDC0352948F3B35554BCB2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_floor291",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SMFloor_5SixthCut'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/UtilityArch/MOD_SMFloor_5SixthCut.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DamageAsphalt'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DamageAsphalt.0"
+        }
+      ],
+      "VisibilityId": 2534,
+      "RelativeLocation": {
+        "X": 7914.265,
+        "Y": 44694.848,
+        "Z": 1460.2476
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 8E-06,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0243DFEE4B4F08EEE63E189B3F679977"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_floor328",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SMFloor_5SixthCut'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/UtilityArch/MOD_SMFloor_5SixthCut.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DamageAsphalt'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DamageAsphalt.0"
+        }
+      ],
+      "VisibilityId": 2535,
+      "RelativeLocation": {
+        "X": 7314.265,
+        "Y": 44694.848,
+        "Z": 1460.2476
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 8E-06,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9894718649E8D35813A53988B7E1369C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_floor335",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_floor02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_floor02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DamageAsphalt'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DamageAsphalt.0"
+        }
+      ],
+      "VisibilityId": 2536,
+      "RelativeLocation": {
+        "X": 8514.266,
+        "Y": 44694.848,
+        "Z": 1460.2476
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D4F7D8FD492AA0EE758DA28C0D0079CB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FloorDecal_Keepclear20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FloorDecal_Keepclear'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_FloorDecal_Keepclear.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 2528,
+      "RelativeLocation": {
+        "X": 7448.658,
+        "Y": 44783.848,
+        "Z": 1460.7882
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BA55249D46284210762C08A675A4ACDE"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FloorDecal_RecRed1x8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FloorDecal_RecRed1x4'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_FloorDecal_RecRed1x4.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 2526,
+      "RelativeLocation": {
+        "X": 7451.2383,
+        "Y": 44785.863,
+        "Z": 1460.8081
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "70412A6B4194582461E481A57A46422A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FloorDecal_StripeFull_2m5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FloorDecal_StripeFull_2m'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_FloorDecal_StripeFull_2m.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 2529,
+      "RelativeLocation": {
+        "X": 7513.7964,
+        "Y": 44509.566,
+        "Z": 1460.3179
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9FE657954299C10388CE898F2E5521C8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FloorDecal_StripeFull_2m6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FloorDecal_StripeFull_2m'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_FloorDecal_StripeFull_2m.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 2530,
+      "RelativeLocation": {
+        "X": 7712.8984,
+        "Y": 44509.566,
+        "Z": 1460.3179
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D874E66D4DB816A0AC4E3DBF15697666"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FloorDecal_StripeFull_4m3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FloorDecal_StripeFull_4m'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_FloorDecal_StripeFull_4m.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 2531,
+      "RelativeLocation": {
+        "X": 7511.297,
+        "Y": 44571.535,
+        "Z": 1460.8456
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D90F9D264FCEE5F16F0BB28CEF22FB10"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FloorDecal_StripeWarn_4m17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FloorDecal_StripeWarn_4m'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_FloorDecal_StripeWarn_4m.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 2532,
+      "RelativeLocation": {
+        "X": 7511.0225,
+        "Y": 44540.473,
+        "Z": 1460.8634
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0C9250AE48B94E0EF6AE589F675D0347"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_LampCeilingA_225",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_LampCeilingA_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_LampCeilingA_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_LampCeilingA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_LampCeilingA.0"
+        },
+        {
+          "ObjectName": "Material'M_Glow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Glow.0"
+        }
+      ],
+      "VisibilityId": 2497,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7605.0356,
+        "Y": 42971.062,
+        "Z": 2043.052
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "557DA86C42CC33BF1B0FBCA3031FA96B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_LampCeilingA_244",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_LampCeilingA_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_LampCeilingA_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_LampCeilingA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_LampCeilingA.0"
+        },
+        {
+          "ObjectName": "Material'M_Glow'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Glow.0"
+        }
+      ],
+      "VisibilityId": 2498,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7605.0356,
+        "Y": 44179.27,
+        "Z": 2043.0525
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B54532EF4337634C8FA473A9E4C8DA58"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Thrash2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Thrash'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/SM_Thrash.2"
+      },
+      "VisibilityId": 2511,
+      "RelativeLocation": {
+        "X": 7808.0664,
+        "Y": 44217.965,
+        "Z": 1460.2268
+      },
+      "RelativeRotation": {
+        "Pitch": -44.008286,
+        "Yaw": 87.11056,
+        "Roll": 2.008481
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "95F93F4441BBA82F97AA54B5CE7EA574"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_trash2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_trash01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_trash01.2"
+      },
+      "VisibilityId": 2514,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7842.8257,
+        "Y": 44118.57,
+        "Z": 1460.2268
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A8F594BA49578ED16564AEA4AEDB6007"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_trash9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_trash08'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_trash08.2"
+      },
+      "VisibilityId": 2515,
+      "RelativeLocation": {
+        "X": 7869.7676,
+        "Y": 44192.57,
+        "Z": 1460.2268
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -54.302753,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "84F0861C4BF7DBE49372F79F47E47AF9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TrashBag3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrashBag2'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_TrashBag2.2"
+      },
+      "VisibilityId": 2516,
+      "RelativeLocation": {
+        "X": 7506.821,
+        "Y": 44339.766,
+        "Z": 1460.2269
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 13.623324
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E289F2B84DDA8CFC7EC5B5BFCAF413C7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TrashbagA2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrashbagA'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_TrashbagA.2"
+      },
+      "VisibilityId": 2517,
+      "RelativeLocation": {
+        "X": 7458.275,
+        "Y": 44340.7,
+        "Z": 1460.2269
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F5A95D0C4588F3F120316588A3586E65"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Ventilation274",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Ventilation17'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Ventilation17.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 16,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'zIVentilation_BLACK'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/zIVentilation_BLACK.0"
+        }
+      ],
+      "VisibilityId": 2523,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7658.4004,
+        "Y": 45208.97,
+        "Z": 1945.3931
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "506EB2F648A80558E2365E8721F673BC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Ventilation275",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Ventilation21'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Ventilation21.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 16,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'zIVentilation_BLACK'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/zIVentilation_BLACK.0"
+        }
+      ],
+      "VisibilityId": 2524,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7658.3247,
+        "Y": 45058.547,
+        "Z": 1945.0054
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3A95EF744DC1C9A43552D19B833E8EC9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Ventilation583",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Ventilation02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Ventilation02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 16,
+      "VisibilityId": 2525,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7658.6943,
+        "Y": 45053.637,
+        "Z": 1890.6063
+      },
+      "RelativeScale3D": {
+        "X": 0.50993,
+        "Y": 0.50993,
+        "Z": 0.50993
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EE098880414FEB59BF6FB4A45CEFE4B4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallA_3M287",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallA_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallA_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BeamsA_04'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_BeamsA_04.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__ThaiBrickWall'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__ThaiBrickWall.0"
+        }
+      ],
+      "VisibilityId": 2493,
+      "RelativeLocation": {
+        "X": 7907.4424,
+        "Y": 44322.89,
+        "Z": 1459.1777
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99994,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0F188D7844879A50C14E7399B78E2953"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallA_3M288",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallA_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallA_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BeamsA_04'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_BeamsA_04.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__ThaiBrickWall'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__ThaiBrickWall.0"
+        }
+      ],
+      "VisibilityId": 2495,
+      "RelativeLocation": {
+        "X": 7907.4424,
+        "Y": 44022.89,
+        "Z": 1459.1777
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99994,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DD0BB13A491A3B2093940FBAB033F591"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallA_3M289",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallA_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallA_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BeamsA_04'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_BeamsA_04.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__ThaiBrickWall'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__ThaiBrickWall.0"
+        }
+      ],
+      "VisibilityId": 2505,
+      "RelativeLocation": {
+        "X": 7296.344,
+        "Y": 44471.426,
+        "Z": 1459.1777
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00015,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AF4B34874E47F301139733A5478DA20B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallA_3M290",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallA_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallA_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BeamsA_04'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_BeamsA_04.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__ThaiBrickWall'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__ThaiBrickWall.0"
+        }
+      ],
+      "VisibilityId": 2527,
+      "RelativeLocation": {
+        "X": 7297.438,
+        "Y": 44512.9,
+        "Z": 1459.1777
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99998,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0B3C289A43ADCBF831B64EB070B3051B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M1058",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__RoughConcreteWall'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__RoughConcreteWall.0"
+        }
+      ],
+      "VisibilityId": 2496,
+      "RelativeLocation": {
+        "X": 7907.4424,
+        "Y": 44022.89,
+        "Z": 1759.1777
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99994,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BD0F4CFE423F8256344042A4B82A514B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M1123",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__RoughConcreteWall'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__RoughConcreteWall.0"
+        }
+      ],
+      "VisibilityId": 2506,
+      "RelativeLocation": {
+        "X": 7296.344,
+        "Y": 44471.426,
+        "Z": 1759.1777
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00015,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "848D64734E570A5043E49380CB7F7CF6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M347",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_WallB_Doorhole'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/MOD_WallB_Doorhole.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__ThaiBrickWall'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__ThaiBrickWall.0"
+        }
+      ],
+      "VisibilityId": 2501,
+      "RelativeLocation": {
+        "X": 7700.0947,
+        "Y": 44475.0,
+        "Z": 1459.1777
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "792A864843460AF48DF5DA87B1A2282B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M962",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__RoughConcreteWall'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__RoughConcreteWall.0"
+        }
+      ],
+      "VisibilityId": 2492,
+      "RelativeLocation": {
+        "X": 7701.0,
+        "Y": 44474.566,
+        "Z": 1751.2563
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7447E97843D9E8D3976E4E8F6063C525"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_3M972",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT__RoughConcreteWall'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MAT__RoughConcreteWall.0"
+        }
+      ],
+      "VisibilityId": 2494,
+      "RelativeLocation": {
+        "X": 7907.4424,
+        "Y": 44322.89,
+        "Z": 1759.1777
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99994,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C534425943803F21F28A549D6744CE56"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_WallB_OuterCorner1472",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WallB_3M'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DamageAsphalt'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DamageAsphalt.0"
+        }
+      ],
+      "VisibilityId": 2507,
+      "RelativeLocation": {
+        "X": 7937.718,
+        "Y": 44190.215,
+        "Z": 1460.2289
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.01989,
+        "Roll": 0.0201
+      },
+      "RelativeScale3D": {
+        "X": 2.070395,
+        "Y": 2.070395,
+        "Z": 2.070395
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5E8EAC2446A0DEF5DD9E9C84A6990599"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ToolBoxBase2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ToolBoxBase'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/ToolBoxBase.2"
+      },
+      "VisibilityId": 2508,
+      "RelativeLocation": {
+        "X": 7864.0845,
+        "Y": 44118.227,
+        "Z": 1460.2269
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -94.187256,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "74167A5748EA87A02CDDB98647919A1B"
+      }
+    ]
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble",
+    "Outer": "BP_DoorMaster186",
+    "Template": "SecurityNumberDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble1",
+    "Outer": "BP_DoorMaster186",
+    "Template": "SecurityNumberDouble1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle",
+    "Outer": "BP_DoorMaster186",
+    "Template": "SecurityNumberSingle_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle1",
+    "Outer": "BP_DoorMaster186",
+    "Template": "SecurityNumberSingle1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Open Door/ Close Door",
+    "Outer": "BP_DoorMaster186",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_DoorMaster_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Doors/BP_DoorMaster.66"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Move Door",
+            "FloatPropertyName": "Open_Door__Close_Door_Move_Door_EC8CD7C648A27AEAA7307CB9A6CE4381"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 8,
+          "Name": "Open Door/ Close Door__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 8,
+          "Name": "Open Door/ Close Door__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_DoorMaster_C'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.BP_DoorMaster186'",
+          "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.7"
+        },
+        "DirectionPropertyName": "Open_Door__Close_Door__Direction_EC8CD7C648A27AEAA7307CB9A6CE4381"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_BSOfficeCam_LoadingDockDoor",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.11"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_BSOfficeCam_LoadingDockDoor:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.12"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_BSOfficeCam_LoadingDockDoor:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps/MAP_BSOfficeCam_LoadingDockDoor.15"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

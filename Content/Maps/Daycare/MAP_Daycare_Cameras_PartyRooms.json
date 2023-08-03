@@ -1,0 +1,1595 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "CameraPartyRoom1",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "CameraPartyRoom3",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "CameraPartyRoom5",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "CameraPartyRoom7",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "CameraPartyRoom1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.51"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.17"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.16"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.15"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.9"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.59"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.41"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.55"
+      },
+      "InitialPitch": -5.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.39"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.29"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.40"
+      },
+      "CameraInventoryName": "CamerasOffice_Daycare",
+      "CameraName": {
+        "CultureInvariantString": "Room1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.28"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.55"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.41"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.59"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.9"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.17"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.51"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "CameraPartyRoom3",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.52"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.20"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.19"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.18"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.10"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.60"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.44"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.56"
+      },
+      "InitialPitch": -5.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.42"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.32"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.43"
+      },
+      "CameraInventoryName": "CamerasOffice_Daycare",
+      "CameraName": {
+        "CultureInvariantString": "Room2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.31"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.56"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.44"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.60"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.10"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.20"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.52"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "CameraPartyRoom5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.53"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.23"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.22"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.21"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.11"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.61"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.47"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.57"
+      },
+      "InitialPitch": -45.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.45"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.35"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.46"
+      },
+      "CameraInventoryName": "CamerasOffice_Daycare",
+      "CameraName": {
+        "CultureInvariantString": "Room3"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.34"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.57"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.47"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.61"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.11"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.22"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.23"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.53"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "CameraPartyRoom7",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.54"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.26"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.25"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.24"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.12"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.62"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.50"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.58"
+      },
+      "InitialPitch": -5.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.48"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.38"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.49"
+      },
+      "CameraInventoryName": "CamerasOffice_Daycare",
+      "CameraName": {
+        "CultureInvariantString": "Room4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.37"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.58"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.50"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.62"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.12"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.25"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.26"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.54"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Daycare_Cameras_PartyRooms",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.13"
+      },
+      "LevelBuildDataId": "327E030E-44B9170F-9EB2E6AE-D0E017B2",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.64"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.64"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.4"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.5"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.6"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.7"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.13"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "CameraPartyRoom1",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "CameraPartyRoom3",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "CameraPartyRoom5",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "CameraPartyRoom7",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "CB845B19-415E5159-5F9812A8-630D80B6",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "CameraPartyRoom1",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "CameraPartyRoom1",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "CameraPartyRoom1",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.29"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "CameraPartyRoom3",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "CameraPartyRoom3",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "CameraPartyRoom3",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "CameraPartyRoom5",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "CameraPartyRoom5",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "CameraPartyRoom5",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 4000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "CameraPartyRoom7",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 8000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "CameraPartyRoom7",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 8000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "CameraPartyRoom7",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "MaxViewDistanceOverride": 8000.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "CameraPartyRoom1",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.28"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "CameraPartyRoom1",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -12832.935,
+        "Y": 35011.41,
+        "Z": 2413.557
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -35.00006,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "CameraPartyRoom1",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.28"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "CameraPartyRoom3",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.31"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "CameraPartyRoom3",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -12850.319,
+        "Y": 32408.184,
+        "Z": 2505.5505
+      },
+      "RelativeRotation": {
+        "Pitch": -12.799664,
+        "Yaw": -25.192934,
+        "Roll": 1.2E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "CameraPartyRoom3",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.31"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "CameraPartyRoom5",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.34"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "CameraPartyRoom5",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -17807.795,
+        "Y": 35789.24,
+        "Z": 2444.9692
+      },
+      "RelativeRotation": {
+        "Pitch": -22.399755,
+        "Yaw": 34.999935,
+        "Roll": 1.5E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "CameraPartyRoom5",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.34"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "CameraPartyRoom7",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.37"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "CameraPartyRoom7",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -14686.373,
+        "Y": 36617.39,
+        "Z": 2417.5508
+      },
+      "RelativeRotation": {
+        "Pitch": -8.599915,
+        "Yaw": -119.60013,
+        "Roll": 1E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "CameraPartyRoom7",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.37"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "CameraPartyRoom1",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.27"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "CameraPartyRoom1",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1'",
+              "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.4"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.28"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "CameraPartyRoom1",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1'",
+              "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.4"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "CameraPartyRoom3",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.30"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "CameraPartyRoom3",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3'",
+              "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.5"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.31"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "CameraPartyRoom3",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3'",
+              "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.5"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "CameraPartyRoom5",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.33"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "CameraPartyRoom5",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5'",
+              "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.6"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.34"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "CameraPartyRoom5",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5'",
+              "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.6"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "CameraPartyRoom7",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.36"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "CameraPartyRoom7",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7'",
+              "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.7"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.37"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "CameraPartyRoom7",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7'",
+              "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.7"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "CameraPartyRoom1",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "CameraPartyRoom3",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "CameraPartyRoom5",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "CameraPartyRoom7",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "CameraPartyRoom1",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.39"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "CameraPartyRoom3",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "CameraPartyRoom5",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.45"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "CameraPartyRoom7",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.48"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "CameraPartyRoom1",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "CameraPartyRoom3",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom3.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "CameraPartyRoom5",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "CameraPartyRoom7",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.CameraPartyRoom7.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Daycare_Cameras_PartyRooms",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Daycare_Cameras_PartyRooms:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.8"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Daycare_Cameras_PartyRooms:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/Daycare/MAP_Daycare_Cameras_PartyRooms.14"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

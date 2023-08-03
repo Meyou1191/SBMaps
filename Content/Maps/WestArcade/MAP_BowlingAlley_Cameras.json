@@ -1,0 +1,2306 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera15_53",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera16_56",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera17_59",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera18_62",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera2_5",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera_2",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera15_53",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.75"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.23"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.22"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.21"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.13"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.87"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.59"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.81"
+      },
+      "InitialPitch": -5.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.57"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.41"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.58"
+      },
+      "CameraInventoryName": "CamerasOffice_WestArcade",
+      "CameraName": {
+        "CultureInvariantString": "BowlArcade"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.40"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.81"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.59"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.87"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.13"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.22"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.23"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.75"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera16_56",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.76"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.26"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.25"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.24"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.14"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.88"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.62"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.82"
+      },
+      "InitialPitch": -5.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.60"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.44"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.61"
+      },
+      "CameraInventoryName": "CamerasOffice_WestArcade",
+      "CameraName": {
+        "CultureInvariantString": "BowlAlley1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.43"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.82"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.62"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.88"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.14"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.25"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.26"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.76"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera17_59",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.77"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.29"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.28"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.27"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.15"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.89"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.65"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.83"
+      },
+      "InitialPitch": -5.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.63"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.47"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.64"
+      },
+      "CameraInventoryName": "CamerasOffice_WestArcade",
+      "CameraName": {
+        "CultureInvariantString": "FrontHalll"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.46"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.83"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.65"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.89"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.15"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.27"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.28"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.29"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.77"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera18_62",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.78"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.32"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.31"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.30"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.16"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.90"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.68"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.84"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.66"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.50"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.67"
+      },
+      "CameraInventoryName": "CamerasOffice_WestArcade",
+      "CameraName": {
+        "CultureInvariantString": "BowlSnacks"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.49"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.84"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.68"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.90"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.16"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.30"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.31"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.32"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.78"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera2_5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.4"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.79"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.35"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.34"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.33"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.17"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.91"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.71"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.85"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.69"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.53"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.70"
+      },
+      "CameraName": {
+        "CultureInvariantString": "BowlArcade2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.52"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.85"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.71"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.91"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.17"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.33"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.34"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.35"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.79"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.5"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.80"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.38"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.37"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.36"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.18"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.92"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.74"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.86"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.72"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.56"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.73"
+      },
+      "CameraName": {
+        "CultureInvariantString": "BowlEntrance"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.55"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.86"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.74"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.92"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.18"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.36"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.37"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.38"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.80"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_BowlingAlley_Cameras",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_BowlingAlley_Cameras:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.19"
+      },
+      "LevelBuildDataId": "460C1FFC-42BF3FE4-464F719D-1E327AB9",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_BowlingAlley_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.94"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_BowlingAlley_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.94"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.6"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.7"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.8"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.9"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.11"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.10"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_BowlingAlley_Cameras:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.19"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera15_53",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera16_56",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera17_59",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera18_62",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera2_5",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera_2",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "AC4A9C2C-42E372D6-6F0D24B1-9C6D04D3",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera15_53",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera15_53",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera15_53",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera16_56",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera16_56",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera16_56",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera17_59",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera17_59",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera17_59",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.47"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera18_62",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera18_62",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera18_62",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.50"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera2_5",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera2_5",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera2_5",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera_2",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera_2",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera_2",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.56"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera15_53",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.40"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera15_53",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 9248.369,
+        "Y": 35512.22,
+        "Z": 3867.429
+      },
+      "RelativeRotation": {
+        "Pitch": -16.39948,
+        "Yaw": 44.798477,
+        "Roll": 4.4E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera15_53",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.40"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera16_56",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.43"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera16_56",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 14502.609,
+        "Y": 37731.574,
+        "Z": 3620.817
+      },
+      "RelativeRotation": {
+        "Pitch": -17.999727,
+        "Yaw": -37.19989,
+        "Roll": 2.0198459E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera16_56",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.43"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera17_59",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.46"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera17_59",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8300.144,
+        "Y": 33869.336,
+        "Z": 3920.118
+      },
+      "RelativeRotation": {
+        "Pitch": -16.799198,
+        "Yaw": 71.19831,
+        "Roll": 3.7E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera17_59",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.46"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera18_62",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.49"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera18_62",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 17207.145,
+        "Y": 31879.852,
+        "Z": 3583.7183
+      },
+      "RelativeRotation": {
+        "Pitch": -15.399132,
+        "Yaw": -130.79683,
+        "Roll": 9.7E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera18_62",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.49"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera2_5",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.52"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera2_5",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 14354.053,
+        "Y": 34185.383,
+        "Z": 3821.953
+      },
+      "RelativeRotation": {
+        "Pitch": -9.200011,
+        "Yaw": 132.00217,
+        "Roll": 3.2649954E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera2_5",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.52"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera_2",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.55"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera_2",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 12676.665,
+        "Y": 34317.734,
+        "Z": 3788.5332
+      },
+      "RelativeRotation": {
+        "Pitch": -9.999171,
+        "Yaw": -135.59673,
+        "Roll": 9.7531E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera_2",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.55"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera15_53",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.39"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera15_53",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.6"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.40"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera15_53",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.6"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera16_56",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.42"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera16_56",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.7"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.43"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera16_56",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.7"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera17_59",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.45"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera17_59",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.8"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.46"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera17_59",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.8"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera18_62",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.48"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera18_62",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.9"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.49"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera18_62",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.9"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera2_5",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.10"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.51"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera2_5",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.10"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.52"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera2_5",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.10"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera_2",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.11"
+            },
+            "FunctionName": "OnSightChanged"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.54"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera_2",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.11"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.55"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera_2",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2'",
+              "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.11"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera15_53",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera16_56",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera17_59",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera18_62",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera2_5",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera_2",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera15_53",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.57"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera16_56",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.60"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera17_59",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.63"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera18_62",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.66"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera2_5",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.69"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera_2",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.72"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera15_53",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera15_53.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera16_56",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera16_56.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera17_59",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera17_59.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.46"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera18_62",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera18_62.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.49"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera2_5",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera2_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera_2",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_BowlingAlley_Cameras:PersistentLevel.Camera_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_BowlingAlley_Cameras",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_BowlingAlley_Cameras:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.12"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_BowlingAlley_Cameras:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/WestArcade/MAP_BowlingAlley_Cameras.20"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

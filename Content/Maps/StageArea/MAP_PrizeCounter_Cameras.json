@@ -1,0 +1,3359 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera15_23",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera16_26",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera17_29",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera18_32",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera4_2",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera5_5",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera6_8",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "Camera7_11",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "AkListenerComponent",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "AkListenerComponent_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera15_23",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.0"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.111"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.32"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.31"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.30"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.19"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.129"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.86"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.120"
+      },
+      "InitialPitch": -15.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.84"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.59"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.85"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PrizeSE"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.58"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.120"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.86"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.129"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.19"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.30"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.31"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.32"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.111"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera16_26",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.1"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.112"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.35"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.34"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.33"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.20"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.130"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.89"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.121"
+      },
+      "InitialPitch": -20.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.87"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.62"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.88"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PrizeElevator"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.61"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.121"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.89"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.130"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.20"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.33"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.34"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.35"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.112"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera17_29",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.2"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.113"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.38"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.37"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.36"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.21"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.131"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.92"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.122"
+      },
+      "InitialPitch": -15.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.90"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.65"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.91"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PrizeSW"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.64"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.122"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.92"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.131"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.21"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.36"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.37"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.38"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.113"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera18_32",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.3"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.114"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.41"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.40"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.39"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.22"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.132"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.95"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.123"
+      },
+      "InitialPitch": -25.0,
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.93"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.68"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.94"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PrizeNW"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.67"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.123"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.95"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.132"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.22"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.39"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.40"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.41"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.114"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera4_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.4"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.115"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.44"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.43"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.42"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.23"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.133"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.98"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.124"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.96"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.71"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.97"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PrizeNorth"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.70"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.124"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.98"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.133"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.23"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.42"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.43"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.44"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.115"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera5_5",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.5"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.116"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.47"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.46"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.45"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.24"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.134"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.101"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.125"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.99"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.74"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.100"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PrizeBack1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.73"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.125"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.101"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.134"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.24"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.45"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.46"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.47"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.116"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera6_8",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.6"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.117"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.50"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.49"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.48"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.25"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.135"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.104"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.126"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.102"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.77"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.103"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PrizeNE"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.76"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.126"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.104"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.135"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.25"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.48"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.49"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.50"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.117"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "Camera7_11",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.7"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.118"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.53"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.52"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.51"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.26"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.136"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.107"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.127"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.105"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.80"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.106"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PrizeMiddle"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.79"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.127"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.107"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.136"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.26"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.51"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.52"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.53"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.118"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Camera_C",
+    "Name": "CameraPrizeCounter1",
+    "Outer": "PersistentLevel",
+    "Template": "Default__Camera_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/AI/Camera.Camera_C'",
+    "Properties": {
+      "AkListenerComponent": {
+        "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.AkListenerComponent'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.8"
+      },
+      "CameraCheckSphere": {
+        "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.CameraCheckSphere'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.119"
+      },
+      "PS4HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.PS4HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.56"
+      },
+      "LowQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.LowQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.55"
+      },
+      "HighQulaitySceneCapture": {
+        "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.HighQulaitySceneCapture'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.54"
+      },
+      "LevelStreamViewpoint": {
+        "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.LevelStreamViewpoint'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.27"
+      },
+      "DebugText": {
+        "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DebugText'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.137"
+      },
+      "RenderDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.RenderDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.110"
+      },
+      "Camera": {
+        "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.Camera'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.128"
+      },
+      "PlayerDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.108"
+      },
+      "PlayerControlledPivot": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.83"
+      },
+      "EnemyDetector": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.EnemyDetector'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.109"
+      },
+      "CameraName": {
+        "CultureInvariantString": "PrizeBack2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.82"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.Camera'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.128"
+        },
+        {
+          "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.RenderDetector'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.110"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DebugText'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.137"
+        },
+        {
+          "ObjectName": "LevelStreamViewpoint'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.LevelStreamViewpoint'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.27"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.54"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.LowQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.55"
+        },
+        {
+          "ObjectName": "SceneCaptureComponent2D'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.PS4HighQulaitySceneCapture'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.56"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.CameraCheckSphere'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.119"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.AkListenerComponent'",
+          "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_PrizeCounter_Cameras",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_PrizeCounter_Cameras:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.28"
+      },
+      "LevelBuildDataId": "3472EA1B-41611147-AB3C7B9C-E8F2D9EB",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_PrizeCounter_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.139"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_PrizeCounter_Cameras:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.139"
+      },
+      null,
+      {
+        "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.13"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.14"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.15"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.16"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.9"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.17"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.10"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.11"
+      },
+      {
+        "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.12"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_PrizeCounter_Cameras:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.28"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera15_23",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera16_26",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera17_29",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera18_32",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera4_2",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera5_5",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera6_8",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "Camera7_11",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "LevelStreamViewpoint",
+    "Name": "LevelStreamViewpoint",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "LevelStreamViewpoint_GEN_VARIABLE",
+    "Class": "UScriptClass'LevelStreamViewpoint'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "BC63D6CF-40BBFDAE-8A7FADBD-2C1ABCC4",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera15_23",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.59"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera15_23",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.59"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera15_23",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.59"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera16_26",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera16_26",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera16_26",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.62"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera17_29",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera17_29",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera17_29",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.65"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera18_32",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera18_32",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera18_32",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.68"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera4_2",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera4_2",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera4_2",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.71"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera5_5",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera5_5",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera5_5",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.74"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera6_8",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera6_8",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera6_8",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.77"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "Camera7_11",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.80"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "Camera7_11",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.80"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "Camera7_11",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.80"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "HighQulaitySceneCapture",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "LowQulaitySceneCapture",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "LowQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "PS4HighQulaitySceneCapture",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "PS4HighQulaitySceneCapture_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.PlayerControlledPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.83"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera15_23",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.58"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera15_23",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -3486.5974,
+        "Y": 23880.967,
+        "Z": 3633.8267
+      },
+      "RelativeRotation": {
+        "Pitch": 4.004342,
+        "Yaw": -31.402876,
+        "Roll": 0.000307
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera15_23",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.58"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera16_26",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.61"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera16_26",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1660.4559,
+        "Y": 27700.29,
+        "Z": 3469.8655
+      },
+      "RelativeRotation": {
+        "Pitch": 10.200416,
+        "Yaw": -91.999016,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera16_26",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.61"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera17_29",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.64"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera17_29",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 131.6785,
+        "Y": 24052.629,
+        "Z": 3605.841
+      },
+      "RelativeRotation": {
+        "Pitch": 3.600234,
+        "Yaw": -151.1989,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera17_29",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.64"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera18_32",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.67"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera18_32",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -297.1515,
+        "Y": 25842.656,
+        "Z": 3878.5693
+      },
+      "RelativeRotation": {
+        "Pitch": -10.19937,
+        "Yaw": -76.59693,
+        "Roll": -1E-06
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera18_32",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.67"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera4_2",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.70"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera4_2",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1692.1368,
+        "Y": 29248.305,
+        "Z": 3773.122
+      },
+      "RelativeRotation": {
+        "Pitch": -25.000116,
+        "Yaw": -88.20007,
+        "Roll": 0.000178
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera4_2",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.70"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera5_5",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera5_5",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -4444.3354,
+        "Y": 26126.58,
+        "Z": 3623.1914
+      },
+      "RelativeRotation": {
+        "Pitch": -14.799005,
+        "Yaw": 49.99885,
+        "Roll": 7E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera5_5",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.73"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera6_8",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.76"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera6_8",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -3079.4531,
+        "Y": 25900.07,
+        "Z": 3819.3623
+      },
+      "RelativeRotation": {
+        "Pitch": -8.482999,
+        "Yaw": -110.97035,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera6_8",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.76"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "Camera7_11",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.79"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "Camera7_11",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1729.1868,
+        "Y": 23665.39,
+        "Z": 4473.205
+      },
+      "RelativeRotation": {
+        "Pitch": -40.19992,
+        "Yaw": 91.9999,
+        "Roll": 0.000179
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "Camera7_11",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.79"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CameraPivot",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "CameraPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.82"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "DefaultSceneRoot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -4211.852,
+        "Y": 27310.938,
+        "Z": 3644.3955
+      },
+      "RelativeRotation": {
+        "Pitch": -23.799341,
+        "Yaw": 109.79878,
+        "Roll": 6.8E-05
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlayerControlledPivot",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "PlayerControlledPivot",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.82"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera15_23",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.57"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera15_23",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.9"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.58"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera15_23",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.9"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera16_26",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.60"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera16_26",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.10"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.61"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera16_26",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.10"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera17_29",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.63"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera17_29",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.11"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.64"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera17_29",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.11"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera18_32",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.66"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera18_32",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.12"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.67"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera18_32",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.12"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera4_2",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.69"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera4_2",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.13"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.70"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera4_2",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.13"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera5_5",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.72"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera5_5",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.14"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.73"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera5_5",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.14"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera6_8",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.75"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera6_8",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.15"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.76"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera6_8",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.15"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "Camera7_11",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.78"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "Camera7_11",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.16"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.79"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "Camera7_11",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.16"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "CameraVision",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "CameraVision",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": []
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.CameraPivot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.81"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "EnemyDetector",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "EnemyDetector",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.17"
+            },
+            "FunctionName": "OnEnemyDetectorSightChanged"
+          }
+        ]
+      },
+      "SightType": "ESightType::Frustum",
+      "MaxPitch": 0.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.82"
+      }
+    }
+  },
+  {
+    "Type": "SightComponent",
+    "Name": "RenderDetector",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "RenderDetector_GEN_VARIABLE",
+    "Class": "UScriptClass'SightComponent'",
+    "Properties": {
+      "OnSightChanged": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "Camera_C'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1'",
+              "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.17"
+            },
+            "FunctionName": "BndEvt__RenderDetector_K2Node_ComponentBoundEvent_2_OnSightChanged__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera15_23",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera16_26",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera17_29",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera18_32",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera4_2",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera5_5",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera6_8",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "Camera7_11",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CameraCheckSphere",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "CameraCheckSphere_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera15_23",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.84"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera16_26",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.87"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera17_29",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.90"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera18_32",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.93"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera4_2",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.96"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera5_5",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.99"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera6_8",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.102"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "Camera7_11",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.105"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Camera",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "Camera_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SightComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.CameraVision'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.108"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera15_23",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera15_23.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.58"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera16_26",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera16_26.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.61"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera17_29",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera17_29.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.64"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera18_32",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera18_32.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.67"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera4_2",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera4_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.70"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera5_5",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera5_5.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.73"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera6_8",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera6_8.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.76"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "Camera7_11",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.Camera7_11.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.79"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "DebugText",
+    "Outer": "CameraPrizeCounter1",
+    "Template": "DebugText_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_PrizeCounter_Cameras:PersistentLevel.CameraPrizeCounter1.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.82"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_PrizeCounter_Cameras",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_PrizeCounter_Cameras:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.18"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_PrizeCounter_Cameras:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps/StageArea/MAP_PrizeCounter_Cameras.29"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

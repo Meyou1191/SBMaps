@@ -1,0 +1,739 @@
+[
+  {
+    "Type": "DirectionalLight",
+    "Name": "DirectionalLight_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DirectionalLight'",
+    "Properties": {
+      "LightComponent": {
+        "ObjectName": "DirectionalLightComponent'Testing:PersistentLevel.DirectionalLight_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.1"
+      },
+      "RootComponent": {
+        "ObjectName": "DirectionalLightComponent'Testing:PersistentLevel.DirectionalLight_1.LightComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.1"
+      }
+    }
+  },
+  {
+    "Type": "DirectionalLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "DirectionalLight_1",
+    "Class": "UScriptClass'DirectionalLightComponent'",
+    "Properties": {
+      "bUsedAsAtmosphereSunLight": true,
+      "LightGuid": "200C15D7-49A8DECF-64927591-5084BF3C",
+      "RelativeLocation": {
+        "X": -100.0,
+        "Y": 0.0,
+        "Z": 50.0
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture_1",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 3000.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'Testing:PersistentLevel.SphereReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.19"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture_1",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'Testing:PersistentLevel.SphereReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.19"
+      }
+    }
+  },
+  {
+    "Type": "ExponentialHeightFog",
+    "Name": "ExponentialHeightFog_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'ExponentialHeightFog'",
+    "Properties": {
+      "Component": {
+        "ObjectName": "ExponentialHeightFogComponent'Testing:PersistentLevel.ExponentialHeightFog_1.HeightFogComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.5"
+      },
+      "RootComponent": {
+        "ObjectName": "ExponentialHeightFogComponent'Testing:PersistentLevel.ExponentialHeightFog_1.HeightFogComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.5"
+      }
+    }
+  },
+  {
+    "Type": "ExponentialHeightFogComponent",
+    "Name": "HeightFogComponent0",
+    "Outer": "ExponentialHeightFog_1",
+    "Class": "UScriptClass'ExponentialHeightFogComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -20.0,
+        "Y": -40.0,
+        "Z": 50.0
+      }
+    }
+  },
+  {
+    "Type": "GlitchRandomItem",
+    "Name": "GlitchRandomItem_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'GlitchRandomItem'",
+    "Properties": {
+      "ActorReferences": [
+        {
+          "AssetPathName": "/Chowda/Maps/Testing.Testing",
+          "SubPathString": "PersistentLevel.Cube2_5"
+        },
+        {
+          "AssetPathName": "/Chowda/Maps/Testing.Testing",
+          "SubPathString": "PersistentLevel.Cube3"
+        },
+        {
+          "AssetPathName": "/Chowda/Maps/Testing.Testing",
+          "SubPathString": "PersistentLevel.Cube4"
+        },
+        {
+          "AssetPathName": "/Chowda/Maps/Testing.Testing",
+          "SubPathString": "PersistentLevel.Cube5"
+        }
+      ],
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Testing:PersistentLevel.GlitchRandomItem_0.SceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.11"
+      }
+    }
+  },
+  {
+    "Type": "ItemRandomizer_C",
+    "Name": "ItemRandomizer_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__ItemRandomizer_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/ItemRandomizer/ItemRandomizer.ItemRandomizer_C'",
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Testing:PersistentLevel.ItemRandomizer_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.12"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Testing:PersistentLevel.ItemRandomizer_2.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.12"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'Testing:PersistentLevel.ItemRandomizer_2.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Testing",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Testing:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.9"
+      },
+      "LevelBuildDataId": "E132CD0E-4431D529-416A2684-336F3F35",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Testing_BuiltData'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing_BuiltData.3"
+      },
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'Testing:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.32"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'Testing:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.32"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'Testing:PersistentLevel.Cube_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.24"
+      },
+      {
+        "ObjectName": "DirectionalLight'Testing:PersistentLevel.DirectionalLight_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.0"
+      },
+      {
+        "ObjectName": "SkyLight'Testing:PersistentLevel.SkyLight_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.16"
+      },
+      {
+        "ObjectName": "SkyAtmosphere'Testing:PersistentLevel.SkyAtmosphere_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.14"
+      },
+      {
+        "ObjectName": "ExponentialHeightFog'Testing:PersistentLevel.ExponentialHeightFog_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Testing:PersistentLevel.Cube2_5'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.20"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'Testing:PersistentLevel.SphereReflectionCapture_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.18"
+      },
+      null,
+      {
+        "ObjectName": "GlitchRandomItem'Testing:PersistentLevel.GlitchRandomItem_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Testing:PersistentLevel.Cube3'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Testing:PersistentLevel.Cube4'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Testing:PersistentLevel.Cube5'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.23"
+      },
+      {
+        "ObjectName": "SurvivalRandomItem'Testing:PersistentLevel.SurvivalRandomItem_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.30"
+      },
+      {
+        "ObjectName": "ItemRandomizer_C'Testing:PersistentLevel.ItemRandomizer_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.7"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps_DLC/Worlds/MAP_World_BonnieBowl_DLC",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Testing:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.9"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "18A6083A-479718F5-73BB8E8D-C397ED92",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "GlitchRandomItem_0",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 279.14142,
+        "Y": 59.687164,
+        "Z": 150.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "ItemRandomizer_2",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 130.0,
+        "Y": -50.0,
+        "Z": 50.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneRoot",
+    "Outer": "SurvivalRandomItem_0",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 203.32874,
+        "Y": -101.660736,
+        "Z": 150.0
+      }
+    }
+  },
+  {
+    "Type": "SkyAtmosphere",
+    "Name": "SkyAtmosphere_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SkyAtmosphere'",
+    "Properties": {
+      "SkyAtmosphereComponent": {
+        "ObjectName": "SkyAtmosphereComponent'Testing:PersistentLevel.SkyAtmosphere_1.SkyAtmosphereComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.15"
+      },
+      "RootComponent": {
+        "ObjectName": "SkyAtmosphereComponent'Testing:PersistentLevel.SkyAtmosphere_1.SkyAtmosphereComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.15"
+      }
+    }
+  },
+  {
+    "Type": "SkyAtmosphereComponent",
+    "Name": "SkyAtmosphereComponent",
+    "Outer": "SkyAtmosphere_1",
+    "Class": "UScriptClass'SkyAtmosphereComponent'",
+    "Properties": {
+      "bStaticLightingBuiltGUID": "3A6ABAAF-4EBBC9E2-6D1B7492-63171E81",
+      "RelativeLocation": {
+        "X": 30.0,
+        "Y": -40.0,
+        "Z": 50.0
+      }
+    },
+    "bStaticLightingBuiltGUID": "3A6ABAAF-4EBBC9E2-6D1B7492-63171E81"
+  },
+  {
+    "Type": "SkyLight",
+    "Name": "SkyLight_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SkyLight'",
+    "Properties": {
+      "LightComponent": {
+        "ObjectName": "SkyLightComponent'Testing:PersistentLevel.SkyLight_1.SkyLightComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.17"
+      },
+      "RootComponent": {
+        "ObjectName": "SkyLightComponent'Testing:PersistentLevel.SkyLight_1.SkyLightComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.17"
+      }
+    }
+  },
+  {
+    "Type": "SkyLightComponent",
+    "Name": "SkyLightComponent0",
+    "Outer": "SkyLight_1",
+    "Class": "UScriptClass'SkyLightComponent'",
+    "Properties": {
+      "LightGuid": "F1EF1D48-4F90787F-2EF23DB9-98DF4CEC",
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -10.0,
+        "Z": 50.0
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'Testing:PersistentLevel.SphereReflectionCapture_1.DrawRadius1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.3"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'Testing:PersistentLevel.SphereReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.19"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'Testing:PersistentLevel.SphereReflectionCapture_1.NewReflectionComponent'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.19"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture_1",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'Testing:PersistentLevel.SphereReflectionCapture_1.DrawRadius0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.2"
+      },
+      "CaptureOffsetComponent": null,
+      "MaxValueRGBM": 3.59375,
+      "MapBuildDataId": "82DD652D-4B3DE4CB-95F89BB8-561FD62A",
+      "RelativeLocation": {
+        "X": -70.0,
+        "Y": -40.0,
+        "Z": 100.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube2_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube2_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.25"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube2_5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.25"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.26"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube3.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.26"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.27"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.27"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.28"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube5.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.28"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.29"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Testing:PersistentLevel.Cube_2.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.29"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube2_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 1,
+      "RelativeLocation": {
+        "X": 140.0,
+        "Y": 90.0,
+        "Z": 50.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "294201A945F05ED66CFD41B314554BA7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 410.0,
+        "Y": 330.0,
+        "Z": 50.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -60.0,
+        "Y": 290.0,
+        "Z": 50.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -80.0,
+        "Y": 50.0,
+        "Z": 50.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 0,
+      "RelativeScale3D": {
+        "X": 11.5,
+        "Y": 11.5,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B5198999455B4BBA005AF195DBE5A652"
+      }
+    ]
+  },
+  {
+    "Type": "SurvivalRandomItem",
+    "Name": "SurvivalRandomItem_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SurvivalRandomItem'",
+    "Properties": {
+      "PossibleLocations": [
+        {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -100.0
+        }
+      ],
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Testing:PersistentLevel.SurvivalRandomItem_0.SceneRoot'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.13"
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Testing",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Testing:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.8"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Testing:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/Testing.10"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

@@ -1,0 +1,2825 @@
+[
+  {
+    "Type": "BoxComponent",
+    "Name": "Door_Collision",
+    "Outer": "BP_DoorMaster2",
+    "Template": "Door_Collision_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.14"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.14"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "RelativeLocation": {
+        "X": -0.001953125,
+        "Y": -81.21094,
+        "Z": 105.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_0",
+    "Outer": "BP_DoorMaster2",
+    "Template": "DoorDirection_Collision_0_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.14"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_0_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_1",
+    "Outer": "BP_DoorMaster2",
+    "Template": "DoorDirection_Collision_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.14"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_1_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Double",
+    "Outer": "BP_DoorMaster2",
+    "Template": "PlayerCollision_Double_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_LaserTag",
+    "Outer": "BP_DoorMaster2",
+    "Template": "PlayerCollision_LaserTag_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_SecurityDouble",
+    "Outer": "BP_DoorMaster2",
+    "Template": "PlayerCollision_SecurityDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Single",
+    "Outer": "BP_DoorMaster2",
+    "Template": "PlayerCollision_Single_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Door_Collision",
+    "Outer": "BP_DoorMaster4",
+    "Template": "Door_Collision_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.15"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.15"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "RelativeLocation": {
+        "X": -0.001953125,
+        "Y": -81.21094,
+        "Z": 105.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_0",
+    "Outer": "BP_DoorMaster4",
+    "Template": "DoorDirection_Collision_0_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.15"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_0_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_1",
+    "Outer": "BP_DoorMaster4",
+    "Template": "DoorDirection_Collision_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.15"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_1_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Double",
+    "Outer": "BP_DoorMaster4",
+    "Template": "PlayerCollision_Double_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_LaserTag",
+    "Outer": "BP_DoorMaster4",
+    "Template": "PlayerCollision_LaserTag_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_SecurityDouble",
+    "Outer": "BP_DoorMaster4",
+    "Template": "PlayerCollision_SecurityDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Single",
+    "Outer": "BP_DoorMaster4",
+    "Template": "PlayerCollision_Single_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BP_DoorMaster_DLC_C",
+    "Name": "BP_DoorMaster2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_DoorMaster_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/DLCPRE/BP_DoorMaster_DLC.BP_DoorMaster_DLC_C'",
+    "Properties": {
+      "DLC_DoorPairedActor": {
+        "ObjectName": "DLC_DoorPairedActor_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DLC_DoorPairedActor'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.20"
+      },
+      "DoorDirection_Collision_1": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorDirection_Collision_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.2"
+      },
+      "DoorDirection_Collision_0": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorDirection_Collision_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.1"
+      },
+      "SecurityNumberDouble1": {
+        "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityNumberDouble1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.64"
+      },
+      "SecurityNumberDouble": {
+        "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityNumberDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.63"
+      },
+      "SecurityNumberSingle1": {
+        "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityNumberSingle1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.66"
+      },
+      "SecurityNumberSingle": {
+        "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityNumberSingle'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.65"
+      },
+      "Decal1": {
+        "ObjectName": "DecalComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Decal1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.17"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Decal'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.16"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.22"
+      },
+      "PlayerCollision_SecurityDouble": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.PlayerCollision_SecurityDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.5"
+      },
+      "PlayerCollision_Double": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.PlayerCollision_Double'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.3"
+      },
+      "PlayerCollision_LaserTag": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.PlayerCollision_LaserTag'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.4"
+      },
+      "PlayerCollision_Single": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.PlayerCollision_Single'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.6"
+      },
+      "Rotator2": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.35"
+      },
+      "Rotator1": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.34"
+      },
+      "SecurityDoorRotator2": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.38"
+      },
+      "SecurityDoorRotator1": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.37"
+      },
+      "MOD_Star_Plaque": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.MOD_Star_Plaque'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.53"
+      },
+      "MESH": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.33"
+      },
+      "DoorMesh_2": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.52"
+      },
+      "DoorMesh_1": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.51"
+      },
+      "DoorMesh_0": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.50"
+      },
+      "Door_Collision": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Door_Collision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.0"
+      },
+      "Open Door/ Close Door": {
+        "ObjectName": "TimelineComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Open Door/ Close Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.71"
+      },
+      "DoorType": "MasterDoorType::NewEnumerator0",
+      "DoorMat": {
+        "ObjectName": "MaterialInstanceDynamic'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.MaterialInstanceDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.27"
+      },
+      "Door_Open": {
+        "ObjectName": "AkAudioEvent'Play_DoorMaster_SingleHinge_Metal_Open'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/PropActors/Doors/Door_Master/Play_DoorMaster_SingleHinge_Metal_Open.1"
+      },
+      "Door_Closed": {
+        "ObjectName": "AkAudioEvent'Play_DoorMaster_SingleHinge_Metal_Closed'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/PropActors/Doors/Door_Master/Play_DoorMaster_SingleHinge_Metal_Closed.1"
+      },
+      "DoorOpen%": 75.0,
+      "InvertedDoorOpen%": 75.0,
+      "Scene": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Door_Collision'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.0"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.MESH'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.33"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.50"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityDoorRotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.37"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Rotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.34"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.52"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityDoorRotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.38"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Rotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.35"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.51"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.MOD_Star_Plaque'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.53"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityNumberSingle'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.65"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityNumberSingle1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.66"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityNumberDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.63"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityNumberDouble1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.64"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.PlayerCollision_Single'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.6"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.PlayerCollision_LaserTag'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.4"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.PlayerCollision_Double'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.3"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.PlayerCollision_SecurityDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.5"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.22"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Decal'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.16"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Decal1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.17"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorDirection_Collision_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.1"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorDirection_Collision_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.2"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Open Door/ Close Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.71"
+        },
+        {
+          "ObjectName": "DLC_DoorPairedActor_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DLC_DoorPairedActor'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_DoorMaster_DLC_C",
+    "Name": "BP_DoorMaster4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_DoorMaster_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/DLCPRE/BP_DoorMaster_DLC.BP_DoorMaster_DLC_C'",
+    "Properties": {
+      "DLC_DoorPairedActor": {
+        "ObjectName": "DLC_DoorPairedActor_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DLC_DoorPairedActor'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.21"
+      },
+      "DoorDirection_Collision_1": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorDirection_Collision_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.9"
+      },
+      "DoorDirection_Collision_0": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorDirection_Collision_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.8"
+      },
+      "SecurityNumberDouble1": {
+        "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityNumberDouble1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.68"
+      },
+      "SecurityNumberDouble": {
+        "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityNumberDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.67"
+      },
+      "SecurityNumberSingle1": {
+        "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityNumberSingle1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.70"
+      },
+      "SecurityNumberSingle": {
+        "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityNumberSingle'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.69"
+      },
+      "Decal1": {
+        "ObjectName": "DecalComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Decal1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.19"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Decal'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.18"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.23"
+      },
+      "PlayerCollision_SecurityDouble": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.PlayerCollision_SecurityDouble'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.12"
+      },
+      "PlayerCollision_Double": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.PlayerCollision_Double'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.10"
+      },
+      "PlayerCollision_LaserTag": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.PlayerCollision_LaserTag'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.11"
+      },
+      "PlayerCollision_Single": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.PlayerCollision_Single'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.13"
+      },
+      "Rotator2": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.41"
+      },
+      "Rotator1": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.40"
+      },
+      "SecurityDoorRotator2": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.44"
+      },
+      "SecurityDoorRotator1": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.43"
+      },
+      "MOD_Star_Plaque": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.MOD_Star_Plaque'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.57"
+      },
+      "MESH": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.39"
+      },
+      "DoorMesh_2": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.56"
+      },
+      "DoorMesh_1": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.55"
+      },
+      "DoorMesh_0": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.54"
+      },
+      "Door_Collision": {
+        "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Door_Collision'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.7"
+      },
+      "Open Door/ Close Door": {
+        "ObjectName": "TimelineComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Open Door/ Close Door'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.72"
+      },
+      "DoorType": "MasterDoorType::NewEnumerator0",
+      "DoorMat": {
+        "ObjectName": "MaterialInstanceDynamic'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.MaterialInstanceDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.30"
+      },
+      "Door_Open": {
+        "ObjectName": "AkAudioEvent'Play_DoorMaster_SingleHinge_Metal_Open'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/PropActors/Doors/Door_Master/Play_DoorMaster_SingleHinge_Metal_Open.1"
+      },
+      "Door_Closed": {
+        "ObjectName": "AkAudioEvent'Play_DoorMaster_SingleHinge_Metal_Closed'",
+        "ObjectPath": "fnaf9/Content/Audio/Assets/PropActors/Doors/Door_Master/Play_DoorMaster_SingleHinge_Metal_Closed.1"
+      },
+      "DoorOpen%": 75.0,
+      "InvertedDoorOpen%": 75.0,
+      "Scene": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Door_Collision'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.7"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.MESH'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.39"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.54"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityDoorRotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.43"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Rotator1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.40"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.56"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityDoorRotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.44"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Rotator2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.41"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.55"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.MOD_Star_Plaque'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.57"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityNumberSingle'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.69"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityNumberSingle1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.70"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityNumberDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.67"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityNumberDouble1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.68"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.PlayerCollision_Single'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.13"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.PlayerCollision_LaserTag'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.11"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.PlayerCollision_Double'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.10"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.PlayerCollision_SecurityDouble'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.12"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.23"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Decal'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.18"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Decal1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.19"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorDirection_Collision_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.8"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorDirection_Collision_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.9"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Open Door/ Close Door'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.72"
+        },
+        {
+          "ObjectName": "DLC_DoorPairedActor_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DLC_DoorPairedActor'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.21"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "BP_DoorMaster2",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1",
+    "Outer": "BP_DoorMaster2",
+    "Template": "Decal1_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "BP_DoorMaster4",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1",
+    "Outer": "BP_DoorMaster4",
+    "Template": "Decal1_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DLC_DoorPairedActor_C",
+    "Name": "DLC_DoorPairedActor",
+    "Outer": "BP_DoorMaster2",
+    "Template": "DLC_DoorPairedActor_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/DLC_DoorPairedActor.DLC_DoorPairedActor_C'",
+    "Properties": {
+      "PairedActor": {
+        "AssetPathName": "/Game/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.MAP_FazerBlast_Doors_DLC",
+        "SubPathString": "PersistentLevel.BP_DoorMaster4"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DLC_DoorPairedActor_C",
+    "Name": "DLC_DoorPairedActor",
+    "Outer": "BP_DoorMaster4",
+    "Template": "DLC_DoorPairedActor_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/DLC_DoorPairedActor.DLC_DoorPairedActor_C'",
+    "Properties": {
+      "PairedActor": {
+        "AssetPathName": "/Game/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.MAP_FazerBlast_Doors_DLC",
+        "SubPathString": "PersistentLevel.BP_DoorMaster2"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "BP_DoorMaster2",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "OnInitialOpen": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.14"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_4_OnInitialOpen__DelegateSignature"
+          }
+        ]
+      },
+      "OnOpenDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.14"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_2_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "OnCloseDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.14"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_3_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "BP_DoorMaster4",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "OnInitialOpen": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.15"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_4_OnInitialOpen__DelegateSignature"
+          }
+        ]
+      },
+      "OnOpenDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.15"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_2_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "OnCloseDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.15"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_3_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_FazerBlast_Doors_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_FazerBlast_Doors_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.31"
+      },
+      "StreamingTextureGuids": [
+        "D2B37709-423289D7-632D45BA-2BD736D1",
+        "0CD07189-489A35B9-CFA9C3A4-BAA5BF53",
+        "21516FC4-4F1C21C2-CF7BE4A4-F79B0FAE",
+        "3832F605-4C75A59A-1A99128C-02076A9B",
+        "7ED0984B-4B4392F8-01D8918B-EF980B18",
+        "C859C4C2-476B11E0-D45F2589-CF61661C",
+        "B541A07D-4C00D484-E6A88B82-2EBEC47C",
+        "6E0A3237-44B263C9-89561DAE-1EC36699",
+        "A871ABDD-446A4E25-4035EEB2-A3720286",
+        "2A6540D6-40A4DB46-FAFB21B3-953EA07A",
+        "35C2AEF0-4B261D6B-5A7E46BB-AECA957F"
+      ],
+      "LevelBuildDataId": "164AF02B-4BED1CE9-48A1A194-51701648",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_FazerBlast_Doors_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.74"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_FazerBlast_Doors_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.74"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_DoorFrame4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door8'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door9'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door10'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.45"
+      },
+      {
+        "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.14"
+      },
+      {
+        "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.15"
+      },
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_FazerBlast_Doors_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.31"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_DLC'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MI_Door_DLC.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'DefaultTexture'",
+          "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+        },
+        {
+          "ObjectName": "Texture2D'DefaultNormal'",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultNormal.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_OuterColorMask'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_OuterColorMask.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_BaseColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_BaseColor.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "BP_DoorMaster2",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ColorAlbedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_DLC'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MI_Door_DLC.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'DefaultTexture'",
+          "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+        },
+        {
+          "ObjectName": "Texture2D'DefaultNormal'",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultNormal.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_OuterColorMask'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_OuterColorMask.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_BaseColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_BaseColor.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "BP_DoorMaster4",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ColorAlbedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "71BFE989-4BC8DFBA-0DD005A3-B99F70EC",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MESH",
+    "Outer": "BP_DoorMaster2",
+    "Template": "MESH_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator1",
+    "Outer": "BP_DoorMaster2",
+    "Template": "Rotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.37"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator2",
+    "Outer": "BP_DoorMaster2",
+    "Template": "Rotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "BP_DoorMaster2",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -30121.477,
+        "Y": 85852.47,
+        "Z": 566.39954
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.00012969965,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator1",
+    "Outer": "BP_DoorMaster2",
+    "Template": "SecurityDoorRotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator2",
+    "Outer": "BP_DoorMaster2",
+    "Template": "SecurityDoorRotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MESH",
+    "Outer": "BP_DoorMaster4",
+    "Template": "MESH_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Scene'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator1",
+    "Outer": "BP_DoorMaster4",
+    "Template": "Rotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.43"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator2",
+    "Outer": "BP_DoorMaster4",
+    "Template": "Rotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.44"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "BP_DoorMaster4",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -30121.477,
+        "Y": 85852.47,
+        "Z": -4433.6006
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.00012969965,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator1",
+    "Outer": "BP_DoorMaster4",
+    "Template": "SecurityDoorRotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.39"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator2",
+    "Outer": "BP_DoorMaster4",
+    "Template": "SecurityDoorRotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.39"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Lasertag_Door10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.58"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door10.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.58"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Lasertag_Door6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.59"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door6.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.59"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Lasertag_Door8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.60"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door8.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.60"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Lasertag_Door9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.61"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_Door9.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.61"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Lasertag_DoorFrame4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_DoorFrame4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.62"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.MOD_Lasertag_DoorFrame4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.62"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_0",
+    "Outer": "BP_DoorMaster2",
+    "Template": "DoorMesh_0_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHorizontalSlider_SM_SHS_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHorizontalSlider_SM_SHS_00.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DoorA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DoorA.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "41BC6EAE4F140FA1420C1C88B3DCA395"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_1",
+    "Outer": "BP_DoorMaster2",
+    "Template": "DoorMesh_1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHinge_SM_SH_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHinge_SM_SH_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_1.MaterialInstanceDynamic_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.25"
+        },
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_1.MaterialInstanceDynamic_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.26"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EEA270FD43B48E96F9D72FAA3CC71CAA"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_2",
+    "Outer": "BP_DoorMaster2",
+    "Template": "DoorMesh_2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": null,
+      "LightmapType": "ELightmapType::Default",
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Star_Plaque",
+    "Outer": "BP_DoorMaster2",
+    "Template": "MOD_Star_Plaque_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.51"
+      },
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bVisible",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bHiddenInGame",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "28BD330749A473E3E690039DA1120FD7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_0",
+    "Outer": "BP_DoorMaster4",
+    "Template": "DoorMesh_0_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHorizontalSlider_SM_SHS_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHorizontalSlider_SM_SHS_00.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DoorA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DoorA.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.MESH'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.39"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C7A31C9F44ABF2ADE9B383B132C25261"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_1",
+    "Outer": "BP_DoorMaster4",
+    "Template": "DoorMesh_1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHinge_SM_SH_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHinge_SM_SH_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 28,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_1.MaterialInstanceDynamic_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.28"
+        },
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_1.MaterialInstanceDynamic_1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.29"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Rotator2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.41"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "06A392824262934276D85A9F1EC7C1FF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_2",
+    "Outer": "BP_DoorMaster4",
+    "Template": "DoorMesh_2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": null,
+      "LightmapType": "ELightmapType::Default",
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.Rotator1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.40"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Star_Plaque",
+    "Outer": "BP_DoorMaster4",
+    "Template": "MOD_Star_Plaque_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.55"
+      },
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bVisible",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bHiddenInGame",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F8F41AAA46F23BE0F407EEA387200976"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Lasertag_Door10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Lasertag_Door1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Lasertag_Door1.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3663406501,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3663406501,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3663406501,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3663406501,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 907.9844
+        },
+        {
+          "PackedRelativeBox": 3663406501,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3663406501,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3663406501,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3663406501,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 666.801
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Lazerdoor_Grunge_2'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Lazerdoor_Grunge_2.0"
+        }
+      ],
+      "VisibilityId": 135,
+      "RelativeLocation": {
+        "X": -27287.621,
+        "Y": 82248.45,
+        "Z": 563.8259
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.03002
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5622213C4AF8B5BD7F34F896E77B91B3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Lasertag_Door6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Lasertag_Door1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Lasertag_Door1.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3730515365,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730515365,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730515365,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730515365,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 907.9844
+        },
+        {
+          "PackedRelativeBox": 3730515365,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730515365,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730515365,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730515365,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 666.801
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Lazerdoor_Grunge_2'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Lazerdoor_Grunge_2.0"
+        }
+      ],
+      "VisibilityId": 132,
+      "RelativeLocation": {
+        "X": -27692.96,
+        "Y": 81847.44,
+        "Z": -3949.309
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "744275F34E47606BE1B659B789D076F7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Lasertag_Door8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Lasertag_Door1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Lasertag_Door1.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3730514341,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730514341,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730514341,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730514341,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 907.9844
+        },
+        {
+          "PackedRelativeBox": 3730514341,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730514341,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730514341,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730514341,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 666.801
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Lazerdoor_Grunge_2'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Lazerdoor_Grunge_2.0"
+        }
+      ],
+      "VisibilityId": 133,
+      "RelativeLocation": {
+        "X": -27692.96,
+        "Y": 81847.44,
+        "Z": 1058.3265
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BAEB8E0F41FA76D5C81E2EB32B3E1E81"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Lasertag_Door9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Lasertag_Door1'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Lasertag_Door1.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3730448804,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730448804,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730448804,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730448804,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 907.9844
+        },
+        {
+          "PackedRelativeBox": 3730448804,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730448804,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730448804,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 666.801
+        },
+        {
+          "PackedRelativeBox": 3730448804,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 666.801
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Lazerdoor_Grunge_2'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Lazerdoor_Grunge_2.0"
+        }
+      ],
+      "VisibilityId": 134,
+      "RelativeLocation": {
+        "X": -28252.963,
+        "Y": 82248.45,
+        "Z": 563.8259
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0300204
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1996BD164BC6D585E88D2AAFD711030A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Lasertag_DoorFrame4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Lasertag_DoorFrame'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_Lasertag_DoorFrame.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3877378307,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 693.5473
+        },
+        {
+          "PackedRelativeBox": 3877378307,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 693.5473
+        },
+        {
+          "PackedRelativeBox": 3877378307,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 693.5473
+        },
+        {
+          "PackedRelativeBox": 3877378307,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 944.40485
+        },
+        {
+          "PackedRelativeBox": 3877378307,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 693.5473
+        },
+        {
+          "PackedRelativeBox": 3877378307,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 693.5473
+        },
+        {
+          "PackedRelativeBox": 3877378307,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 693.5473
+        },
+        {
+          "PackedRelativeBox": 3877378307,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 693.5473
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_Lazerdoor_Grunge_1'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/Grunges/MAT_Lazerdoor_Grunge_1.0"
+        }
+      ],
+      "VisibilityId": 131,
+      "RelativeLocation": {
+        "X": -27691.984,
+        "Y": 81846.19,
+        "Z": -3949.3481
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2571C8BD466F9017878A31BB184E9038"
+      }
+    ]
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble",
+    "Outer": "BP_DoorMaster2",
+    "Template": "SecurityNumberDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.51"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble1",
+    "Outer": "BP_DoorMaster2",
+    "Template": "SecurityNumberDouble1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.51"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle",
+    "Outer": "BP_DoorMaster2",
+    "Template": "SecurityNumberSingle_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.51"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle1",
+    "Outer": "BP_DoorMaster2",
+    "Template": "SecurityNumberSingle1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.51"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble",
+    "Outer": "BP_DoorMaster4",
+    "Template": "SecurityNumberDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble1",
+    "Outer": "BP_DoorMaster4",
+    "Template": "SecurityNumberDouble1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle",
+    "Outer": "BP_DoorMaster4",
+    "Template": "SecurityNumberSingle_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle1",
+    "Outer": "BP_DoorMaster4",
+    "Template": "SecurityNumberSingle1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Open Door/ Close Door",
+    "Outer": "BP_DoorMaster2",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_DoorMaster_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Doors/BP_DoorMaster.66"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Move Door",
+            "FloatPropertyName": "Open_Door__Close_Door_Move_Door_EC8CD7C648A27AEAA7307CB9A6CE4381"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 15,
+          "Name": "Open Door/ Close Door__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 15,
+          "Name": "Open Door/ Close Door__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster2'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.14"
+        },
+        "DirectionPropertyName": "Open_Door__Close_Door__Direction_EC8CD7C648A27AEAA7307CB9A6CE4381"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Open Door/ Close Door",
+    "Outer": "BP_DoorMaster4",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_DoorMaster_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Doors/BP_DoorMaster.66"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Move Door",
+            "FloatPropertyName": "Open_Door__Close_Door_Move_Door_EC8CD7C648A27AEAA7307CB9A6CE4381"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 16,
+          "Name": "Open Door/ Close Door__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 16,
+          "Name": "Open Door/ Close Door__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_DoorMaster_DLC_C'MAP_FazerBlast_Doors_DLC:PersistentLevel.BP_DoorMaster4'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.15"
+        },
+        "DirectionPropertyName": "Open_Door__Close_Door__Direction_EC8CD7C648A27AEAA7307CB9A6CE4381"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_FazerBlast_Doors_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_FazerBlast_Doors_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.24"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_FazerBlast_Doors_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/FazerBlast/MAP_FazerBlast_Doors_DLC.32"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

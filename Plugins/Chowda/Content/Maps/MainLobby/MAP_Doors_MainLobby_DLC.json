@@ -1,0 +1,2123 @@
+[
+  {
+    "Type": "Actor",
+    "Name": "Actor_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Actor'"
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "A1EFC6D142EA7D55936AD3B2B1D7D670",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0xE294"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Door_Collision",
+    "Outer": "BP_DoorMaster120",
+    "Template": "Door_Collision_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.10"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.10"
+            },
+            "FunctionName": "BndEvt__Door_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "RelativeLocation": {
+        "X": -0.001953125,
+        "Y": -81.21094,
+        "Z": 105.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_0",
+    "Outer": "BP_DoorMaster120",
+    "Template": "DoorDirection_Collision_0_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.10"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_0_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "DoorDirection_Collision_1",
+    "Outer": "BP_DoorMaster120",
+    "Template": "DoorDirection_Collision_1_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.10"
+            },
+            "FunctionName": "BndEvt__BP_DoorMaster_DoorDirection_Collision_1_K2Node_ComponentBoundEvent_6_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Double",
+    "Outer": "BP_DoorMaster120",
+    "Template": "PlayerCollision_Double_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_LaserTag",
+    "Outer": "BP_DoorMaster120",
+    "Template": "PlayerCollision_LaserTag_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_SecurityDouble",
+    "Outer": "BP_DoorMaster120",
+    "Template": "PlayerCollision_SecurityDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerCollision_Single",
+    "Outer": "BP_DoorMaster120",
+    "Template": "PlayerCollision_Single_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CollisionComp",
+    "Outer": "Kill_Collider_Lobby",
+    "Template": "CollisionComp",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 51.468323,
+        "Y": 70.33445,
+        "Z": 60.0
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "FallZone_C'MAP_Doors_MainLobby_DLC:PersistentLevel.Kill_Collider_Lobby'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.16"
+            },
+            "FunctionName": "BndEvt__Fall_CollisionComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -1888.2946,
+        "Y": 23223.887,
+        "Z": 1156.0715
+      },
+      "RelativeScale3D": {
+        "X": 95.0,
+        "Y": 85.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BP_DoorMaster_DLC_C",
+    "Name": "BP_DoorMaster120",
+    "Outer": "PersistentLevel",
+    "Template": "Default__BP_DoorMaster_DLC_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Model_Assets/DLCPRE/BP_DoorMaster_DLC.BP_DoorMaster_DLC_C'",
+    "Properties": {
+      "DLC_DoorPairedActor": {
+        "ObjectName": "DLC_DoorPairedActor_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DLC_DoorPairedActor'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.14"
+      },
+      "DoorDirection_Collision_1": {
+        "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorDirection_Collision_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.4"
+      },
+      "DoorDirection_Collision_0": {
+        "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorDirection_Collision_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.3"
+      },
+      "SecurityNumberDouble1": {
+        "ObjectName": "TextRenderComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityNumberDouble1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.43"
+      },
+      "SecurityNumberDouble": {
+        "ObjectName": "TextRenderComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityNumberDouble'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.42"
+      },
+      "SecurityNumberSingle1": {
+        "ObjectName": "TextRenderComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityNumberSingle1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.45"
+      },
+      "SecurityNumberSingle": {
+        "ObjectName": "TextRenderComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityNumberSingle'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.44"
+      },
+      "Decal1": {
+        "ObjectName": "DecalComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Decal1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.13"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Decal'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.12"
+      },
+      "Door": {
+        "ObjectName": "DoorComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Door'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.15"
+      },
+      "PlayerCollision_SecurityDouble": {
+        "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.PlayerCollision_SecurityDouble'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.7"
+      },
+      "PlayerCollision_Double": {
+        "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.PlayerCollision_Double'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.5"
+      },
+      "PlayerCollision_LaserTag": {
+        "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.PlayerCollision_LaserTag'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.6"
+      },
+      "PlayerCollision_Single": {
+        "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.PlayerCollision_Single'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.8"
+      },
+      "Rotator2": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Rotator2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.32"
+      },
+      "Rotator1": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Rotator1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.31"
+      },
+      "SecurityDoorRotator2": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.35"
+      },
+      "SecurityDoorRotator1": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.34"
+      },
+      "MOD_Star_Plaque": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.MOD_Star_Plaque'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.40"
+      },
+      "MESH": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.MESH'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.30"
+      },
+      "DoorMesh_2": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.39"
+      },
+      "DoorMesh_1": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.38"
+      },
+      "DoorMesh_0": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.37"
+      },
+      "Door_Collision": {
+        "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Door_Collision'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.2"
+      },
+      "Open Door/ Close Door": {
+        "ObjectName": "TimelineComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Open Door/ Close Door'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.46"
+      },
+      "DoorType": "MasterDoorType::NewEnumerator0",
+      "DoorMat": {
+        "ObjectName": "MaterialInstanceDynamic'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.MaterialInstanceDynamic_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.26"
+      },
+      "Scene": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        null,
+        {
+          "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Door_Collision'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.2"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.MESH'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.30"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.37"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityDoorRotator1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.34"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Rotator1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.31"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_2'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.39"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityDoorRotator2'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.35"
+        },
+        {
+          "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Rotator2'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.32"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.38"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.MOD_Star_Plaque'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.40"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityNumberSingle'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.44"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityNumberSingle1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.45"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityNumberDouble'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.42"
+        },
+        {
+          "ObjectName": "TextRenderComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityNumberDouble1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.43"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.PlayerCollision_Single'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.8"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.PlayerCollision_LaserTag'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.6"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.PlayerCollision_Double'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.5"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.PlayerCollision_SecurityDouble'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.7"
+        },
+        {
+          "ObjectName": "DoorComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Door'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.15"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Decal'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.12"
+        },
+        {
+          "ObjectName": "DecalComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Decal1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.13"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorDirection_Collision_0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.3"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorDirection_Collision_1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.4"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Open Door/ Close Door'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.46"
+        },
+        {
+          "ObjectName": "DLC_DoorPairedActor_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DLC_DoorPairedActor'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "LevelStreamingVolume3_2",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'MAP_Doors_MainLobby_DLC:PersistentLevel.LevelStreamingVolume3_2.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.27"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'MAP_Doors_MainLobby_DLC:PersistentLevel.LevelStreamingVolume3_2.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.1"
+      },
+      "RelativeLocation": {
+        "X": 8550.0,
+        "Y": 22570.0,
+        "Z": 3260.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Outer": "BP_DoorMaster120",
+    "Template": "Decal_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1",
+    "Outer": "BP_DoorMaster120",
+    "Template": "Decal1_GEN_VARIABLE",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DLC_DoorPairedActor_C",
+    "Name": "DLC_DoorPairedActor",
+    "Outer": "BP_DoorMaster120",
+    "Template": "DLC_DoorPairedActor_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/DLC_DoorPairedActor.DLC_DoorPairedActor_C'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "DoorComponent",
+    "Name": "Door",
+    "Outer": "BP_DoorMaster120",
+    "Template": "Door_GEN_VARIABLE",
+    "Class": "UScriptClass'DoorComponent'",
+    "Properties": {
+      "NormalDoorEntryRequirements": {
+        "PawnIgnoresConditions": [
+          "EPlayerPawnType::None"
+        ]
+      },
+      "OnInitialOpen": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.10"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_4_OnInitialOpen__DelegateSignature"
+          }
+        ]
+      },
+      "OnOpenDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.10"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_2_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "OnCloseDoor": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_DoorMaster_DLC_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120'",
+              "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.10"
+            },
+            "FunctionName": "BndEvt__Door_K2Node_ComponentBoundEvent_3_OnOpenCloseDoor__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "FallZone_C",
+    "Name": "Kill_Collider_Lobby",
+    "Outer": "PersistentLevel",
+    "Template": "Default__FallZone_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Plugins/Chowda/Content/Blueprints/Catwalks/FallZone.FallZone_C'",
+    "Properties": {
+      "CollisionComponent": {
+        "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.Kill_Collider_Lobby.CollisionComp'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.9"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.Kill_Collider_Lobby.CollisionComp'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.9"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_Doors_MainLobby_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_Doors_MainLobby_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.28"
+      },
+      "StreamingTextureGuids": [
+        "C7F856FC-4B388D9A-2E9E8CAA-F5C6B093",
+        "B3DEA19E-463FA419-9127D9BB-E2D8C7AD",
+        "3832F605-4C75A59A-1A99128C-02076A9B",
+        "7ED0984B-4B4392F8-01D8918B-EF980B18",
+        "9C0BFECB-4D2214B6-C23EB0A9-9931D5DE"
+      ],
+      "LevelBuildDataId": "F03E248E-4AD71962-80C9E6BA-1E0CCFB8",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_Doors_MainLobby_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.48"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_Doors_MainLobby_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.48"
+      },
+      null,
+      {
+        "ObjectName": "LevelStreamingVolume'MAP_Doors_MainLobby_DLC:PersistentLevel.LevelStreamingVolume3_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.23"
+      },
+      {
+        "ObjectName": "Actor'MAP_Doors_MainLobby_DLC:PersistentLevel.Actor_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.0"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_Doors_MainLobby_DLC:PersistentLevel.SM_Column361'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.36"
+      },
+      {
+        "ObjectName": "BP_DoorMaster_DLC_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.10"
+      },
+      null,
+      {
+        "ObjectName": "FallZone_C'MAP_Doors_MainLobby_DLC:PersistentLevel.Kill_Collider_Lobby'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.16"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_Title",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_Doors_MainLobby_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.28"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_12",
+    "Outer": "MAP_Doors_MainLobby_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/Freddy/MAP_Freddy_Back_Lights.MAP_Freddy_Back_Lights",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.50781226,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00BDFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_13",
+    "Outer": "MAP_Doors_MainLobby_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/Roxy/MAP_RoxyGreenroom_Light.MAP_RoxyGreenroom_Light",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.03125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF3100FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_15",
+    "Outer": "MAP_Doors_MainLobby_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Daycare/MAP_Daycare_PlayArea_Lights.MAP_Daycare_PlayArea_Lights",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.15625,
+        "A": 1.0,
+        "Hex": "FF00FF6E"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_Doors_MainLobby_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/Chica/MAP_ChicaRoom_Lighting.MAP_ChicaRoom_Lighting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.5624995,
+        "A": 1.0,
+        "Hex": "FFFF00C6"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_Doors_MainLobby_DLC",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps/Backstage/Rockstar_Row/Monty/MAP_MontyGreenRoom_Lighting.MAP_MontyGreenRoom_Lighting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.3984375,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFA900"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingVolume",
+    "Name": "LevelStreamingVolume3_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelStreamingVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'MAP_Doors_MainLobby_DLC:PersistentLevel.LevelStreamingVolume3_2.Model_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.27"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.LevelStreamingVolume3_2.BrushComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.11"
+      },
+      "bHidden": false,
+      "RootComponent": {
+        "ObjectName": "BrushComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.LevelStreamingVolume3_2.BrushComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.11"
+      }
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_1",
+    "Outer": "DoorMesh_1",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_DLC'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MI_Door_DLC.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'DefaultTexture'",
+          "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
+        },
+        {
+          "ObjectName": "Texture2D'DefaultNormal'",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultNormal.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_OuterColorMask'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_OuterColorMask.0"
+        },
+        {
+          "ObjectName": "Texture2D'TEX_BowlingShoes_BaseColor'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/TEX_BowlingShoes_BaseColor.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "BP_DoorMaster120",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Door_01'",
+        "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Door_01.0"
+      },
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ColorAlbedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.035294,
+            "G": 0.094118,
+            "B": 0.117647,
+            "A": 1.0,
+            "Hex": "FF345660"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_BeamsA_N'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_ORM'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_ORM.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_BeamsA_M'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_BeamsA_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Floor_01_D'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Textures/T_Floor_01_D.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "LevelStreamingVolume3_2",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "32525BE8-43298A93-D82DECBD-5A48C590",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "058E56DF-41FE34E5-02BEAEB2-4D485581",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bStrictlyStatic": true,
+      "bAutoSpawnMissingNavData": true,
+      "bSpawnNavDataInNavBoundsLevel": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MESH",
+    "Outer": "BP_DoorMaster120",
+    "Template": "MESH_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Scene'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.33"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator1",
+    "Outer": "BP_DoorMaster120",
+    "Template": "Rotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityDoorRotator1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.34"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Rotator2",
+    "Outer": "BP_DoorMaster120",
+    "Template": "Rotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.SecurityDoorRotator2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.35"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Outer": "BP_DoorMaster120",
+    "Template": "Scene_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -3117.7568,
+        "Y": 25997.148,
+        "Z": 2101.3843
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -96.13074,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator1",
+    "Outer": "BP_DoorMaster120",
+    "Template": "SecurityDoorRotator1_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.MESH'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecurityDoorRotator2",
+    "Outer": "BP_DoorMaster120",
+    "Template": "SecurityDoorRotator2_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.MESH'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Column361",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.SM_Column361.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.41"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.SM_Column361.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.41"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_0",
+    "Outer": "BP_DoorMaster120",
+    "Template": "DoorMesh_0_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHorizontalSlider_SM_SHS_00'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHorizontalSlider_SM_SHS_00.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 44,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DoorA'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_DoorA.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.MESH'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.30"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "585B78534598CEED688FCEBB044275B9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_1",
+    "Outer": "BP_DoorMaster120",
+    "Template": "DoorMesh_1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_SingleHinge_SM_SH_01'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsProps/MOD_SingleHinge_SM_SH_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 44,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_1.MaterialInstanceDynamic_0'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.24"
+        },
+        {
+          "ObjectName": "MaterialInstanceDynamic'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_1.MaterialInstanceDynamic_1'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.25"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Rotator2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.32"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B4DCC58449DC6C101F5FB7BAC5BE13EF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DoorMesh_2",
+    "Outer": "BP_DoorMaster120",
+    "Template": "DoorMesh_2_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": null,
+      "LightmapType": "ELightmapType::Default",
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.Rotator1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.31"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "StaticMesh",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MOD_Star_Plaque",
+    "Outer": "BP_DoorMaster120",
+    "Template": "MOD_Star_Plaque_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.38"
+      },
+      "bVisible": false,
+      "bHiddenInGame": true,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bVisible",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bHiddenInGame",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B2FA6D444DDEFAA25D723E9124905FE1"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Column361",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Column02'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_Column02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2742771843,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 471.62387
+        },
+        {
+          "PackedRelativeBox": 2742771843,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 471.62387
+        },
+        {
+          "PackedRelativeBox": 2742771843,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 471.62387
+        },
+        {
+          "PackedRelativeBox": 2742771843,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 471.62387
+        },
+        {
+          "PackedRelativeBox": 2742771843,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 471.62387
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Vinyl_SpeckledA_Tint_FreddyTeal'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/MI_Vinyl_SpeckledA_Tint_FreddyTeal.0"
+        }
+      ],
+      "VisibilityId": 0,
+      "RelativeLocation": {
+        "X": -3614.095,
+        "Y": 48911.66,
+        "Z": 1463.7972
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 180.0,
+        "Roll": -40.36841
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.87468475
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "598394EE4C83B1A7E30C2F8A2B595F2F"
+      }
+    ]
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble",
+    "Outer": "BP_DoorMaster120",
+    "Template": "SecurityNumberDouble_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberDouble1",
+    "Outer": "BP_DoorMaster120",
+    "Template": "SecurityNumberDouble1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle",
+    "Outer": "BP_DoorMaster120",
+    "Template": "SecurityNumberSingle_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SecurityNumberSingle1",
+    "Outer": "BP_DoorMaster120",
+    "Template": "SecurityNumberSingle1_GEN_VARIABLE",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120.DoorMesh_1'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.38"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Open Door/ Close Door",
+    "Outer": "BP_DoorMaster120",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 0.25,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'BP_DoorMaster_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Doors/BP_DoorMaster.66"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Move Door",
+            "FloatPropertyName": "Open_Door__Close_Door_Move_Door_EC8CD7C648A27AEAA7307CB9A6CE4381"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 11,
+          "Name": "Open Door/ Close Door__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 11,
+          "Name": "Open Door/ Close Door__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "BP_DoorMaster_DLC_C'MAP_Doors_MainLobby_DLC:PersistentLevel.BP_DoorMaster120'",
+          "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.10"
+        },
+        "DirectionPropertyName": "Open_Door__Close_Door__Direction_EC8CD7C648A27AEAA7307CB9A6CE4381"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_Doors_MainLobby_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_Doors_MainLobby_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.17"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Doors_MainLobby_DLC:LevelStreamingDynamic_15'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.20"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Doors_MainLobby_DLC:LevelStreamingDynamic_13'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.19"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Doors_MainLobby_DLC:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.21"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Doors_MainLobby_DLC:LevelStreamingDynamic_12'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.18"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_Doors_MainLobby_DLC:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.22"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_Doors_MainLobby_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Plugins/Chowda/Content/Maps/MainLobby/MAP_Doors_MainLobby_DLC.29"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

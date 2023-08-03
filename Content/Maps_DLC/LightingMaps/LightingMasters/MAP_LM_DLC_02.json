@@ -1,0 +1,957 @@
+[
+  {
+    "Type": "BookMark",
+    "Name": "BookMark_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'BookMark'",
+    "Properties": {
+      "Location": {
+        "X": -25879.771,
+        "Y": 44560.94,
+        "Z": -3112.3528
+      },
+      "Rotation": {
+        "Pitch": -20.79779,
+        "Yaw": -605.1774,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_LM_DLC_02:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.31"
+      },
+      "LevelBuildDataId": "E242B134-480DDB53-4A0745A7-15C1C584",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_LM_DLC_02:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.34"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_LM_DLC_02:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.34"
+      },
+      null,
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_LM_DLC_02:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.31"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_Daycare_Hideout_DLC.MAP_AR_Daycare_Hideout_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.21874988,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF81FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_Hideout_DLC.MAP_Daycare_Hideout_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.632812,
+        "A": 1.0,
+        "Hex": "FFFF00D1"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_10",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_EndoEsophagus.MAP_AR_EndoEsophagus",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.8984375,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFF4FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_11",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_Cameras_DLC.MAP_Daycare_Cameras_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0859375,
+        "A": 1.0,
+        "Hex": "FF00FF53"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_12",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_Gameplay_DLC.MAP_Daycare_Gameplay_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.37499952,
+        "A": 1.0,
+        "Hex": "FFFF00A5"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_13",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_Gameplay_Part2_DLC.MAP_Daycare_Gameplay_Part2_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.13281226,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF0066FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_14",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_DLC.MAP_Daycare_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.81250024,
+        "A": 1.0,
+        "Hex": "FF00FFE9"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_15",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_Daycare_Arcade_Hallway_DLC.MAP_AR_Daycare_Arcade_Hallway_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.1328125,
+        "A": 1.0,
+        "Hex": "FF00FF66"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_16",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_Office_DLC.MAP_Daycare_Office_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.664063,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFD500FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_17",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_Arcade_Hallway_DLC.MAP_Daycare_Arcade_Hallway_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.98437506,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFFE00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_18",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_PlayArea_DLC.MAP_Daycare_PlayArea_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0625,
+        "A": 1.0,
+        "Hex": "FF00FF46"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_19",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_PlayStructures_DLC.MAP_Daycare_PlayStructures_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.6406255,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFD200FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_2",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_EndoEsophagus.MAP_EndoEsophagus",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0703125,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF4B00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_20",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_Store_DLC.MAP_Daycare_Store_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.8515624,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFEEFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_21",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_Theater_DLC.MAP_Daycare_Theater_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.8984375,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFF4FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_22",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/GatorGolf/MAP_GatorGolf_TransitionHall_AR_DLC.MAP_GatorGolf_TransitionHall_AR_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.34374976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF009FFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_23",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Doors_Daycare_DLC.MAP_Doors_Daycare_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.63281256,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFD100"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_24",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/LightingMaps/NonAR/MAP_N_DLC_02.MAP_N_DLC_02",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.84375006,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFED00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_25",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_Endo_Hallway_DLC.MAP_Daycare_Endo_Hallway_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.15625,
+        "A": 1.0,
+        "Hex": "FF00FF6E"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_26",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_Daycare_Endo_Hallway_DLC.MAP_AR_Daycare_Endo_Hallway_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.72656256,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFDE00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_Daycare_DLC.MAP_AR_Daycare_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.9218755,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFF600FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_31",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/GatorGolf/MAP_GatorGolf_TransitionRoom_AR_DLC.MAP_GatorGolf_TransitionRoom_AR_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.62499976,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00CFFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_32",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/GatorGolf/MAP_GatorGolf_TransitionRoom_DLC.MAP_GatorGolf_TransitionRoom_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.67187476,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00D6FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_Daycare_Office_DLC.MAP_AR_Daycare_Office_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.8437495,
+        "A": 1.0,
+        "Hex": "FFFF00ED"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_5",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_Daycare_AIPaths_DLC.MAP_Daycare_AIPaths_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.015624762,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF0021FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_6",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_Daycare_PlayArea_DLC.MAP_AR_Daycare_PlayArea_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.28125,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF9100"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_7",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_Daycare_PlayStructures_DLC.MAP_AR_Daycare_PlayStructures_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.32031274,
+        "A": 1.0,
+        "Hex": "FF00FF99"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_8",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_Daycare_Store_DLC.MAP_AR_Daycare_Store_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.632812,
+        "A": 1.0,
+        "Hex": "FFFF00D1"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_9",
+    "Outer": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "bInitiallyLoaded": true,
+      "bInitiallyVisible": true,
+      "WorldAsset": {
+        "AssetPathName": "/Game/Maps_DLC/Daycare/MAP_AR_Daycare_Theater_DLC.MAP_AR_Daycare_Theater_DLC",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.48437524,
+        "A": 1.0,
+        "Hex": "FF00FFB9"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "DA076A37-4E2971CF-83D7D1A2-B305A706",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_LM_DLC_02",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_LM_DLC_02:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.1"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_3'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.22"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.25"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_6'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.27"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_7'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.28"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_8'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.29"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_9'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.30"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_23'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.18"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_14'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.8"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_16'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.10"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_18'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.12"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_19'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.13"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_20'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.15"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_21'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.16"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_24'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.19"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.2"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_31'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.23"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_32'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.24"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.3"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_10'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.4"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.14"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_5'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.26"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_11'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.5"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_13'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.7"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_12'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.6"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_15'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.9"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_17'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.11"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_22'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.17"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_25'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.20"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'MAP_LM_DLC_02:LevelStreamingDynamic_26'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.21"
+      }
+    ]
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_LM_DLC_02:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.32"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "BookMark'MAP_LM_DLC_02:PersistentLevel.WorldSettings.BookMark_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/LightingMaps/LightingMasters/MAP_LM_DLC_02.0"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

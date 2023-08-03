@@ -1,0 +1,451 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_MontyCatwalks_Doors_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.1"
+      },
+      "LevelBuildDataId": "3F0B5253-4FDA8C34-20AF8C99-FD3A7E5D",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.12"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.12"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_017_4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_18'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_19'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_20'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.6"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A7C991D9-4E104660-693F3086-CE5642D3",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_Stage_CurvedWall_017_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_017_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.7"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_017_4.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.7"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_Stage_CurvedWall_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.8"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_18.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_Stage_CurvedWall_19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.9"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_19.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MOD_Atrium_Stage_CurvedWall_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.10"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.MOD_Atrium_Stage_CurvedWall_20.StaticMeshComponent0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_Stage_CurvedWall_017_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_Stage_CurvedWall_017'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/AtriumArch/MOD_Atrium_Stage_CurvedWall_017.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4003205443,
+          "TextureLevelIndex": 93,
+          "TexelFactor": 970.59094
+        },
+        {
+          "PackedRelativeBox": 4003205443,
+          "TextureLevelIndex": 94,
+          "TexelFactor": 970.59094
+        },
+        {
+          "PackedRelativeBox": 4003205443,
+          "TextureLevelIndex": 95,
+          "TexelFactor": 970.59094
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MAT_GrungeGatorgolfWallsPanels'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MAT_GrungeGatorgolfWallsPanels.0"
+        }
+      ],
+      "VisibilityId": 10195,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -42184.0,
+        "Y": 47899.0,
+        "Z": 1171.0
+      },
+      "RelativeScale3D": {
+        "X": 0.750159,
+        "Y": 0.125253,
+        "Z": 1.184225
+      },
+      "ComponentVelocity": {
+        "X": 49.171864,
+        "Y": 42.17577,
+        "Z": -3.294799
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5FED79EB4B4E6D535DE0349F516625D6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_Stage_CurvedWall_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_Stage_CurvedWall_017'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/AtriumArch/MOD_Atrium_Stage_CurvedWall_017.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4003205443,
+          "TextureLevelIndex": 93,
+          "TexelFactor": 970.59094
+        },
+        {
+          "PackedRelativeBox": 4003205443,
+          "TextureLevelIndex": 94,
+          "TexelFactor": 970.59094
+        },
+        {
+          "PackedRelativeBox": 4003205443,
+          "TextureLevelIndex": 95,
+          "TexelFactor": 970.59094
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_GrungeGatorgolfWallsPanels_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/MAT_GrungeGatorgolfWallsPanels_Inst.0"
+        }
+      ],
+      "VisibilityId": 10196,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -42441.0,
+        "Y": 47899.0,
+        "Z": 1171.0
+      },
+      "RelativeScale3D": {
+        "X": 0.750159,
+        "Y": 0.125253,
+        "Z": 1.184225
+      },
+      "ComponentVelocity": {
+        "X": 32.91796,
+        "Y": 41.273426,
+        "Z": -3.3336174
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "CD4CACD44C13C802B4B3ADB1D6003715"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_Stage_CurvedWall_19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_Stage_CurvedWall_017'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/AtriumArch/MOD_Atrium_Stage_CurvedWall_017.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4003206467,
+          "TextureLevelIndex": 81,
+          "TexelFactor": 970.59094
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MAT_CatwalksWalls1'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/AR_EffectsMaterials/MAT_CatwalksWalls1.0"
+        }
+      ],
+      "VisibilityId": 10197,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -42184.0,
+        "Y": 47899.0,
+        "Z": -3829.0
+      },
+      "RelativeScale3D": {
+        "X": 0.750159,
+        "Y": 0.125253,
+        "Z": 1.184225
+      },
+      "ComponentVelocity": {
+        "X": 49.171864,
+        "Y": 75.72655,
+        "Z": 57.118637
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "CA2A0A244909D803D52C979425043D54"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MOD_Atrium_Stage_CurvedWall_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MOD_Atrium_Stage_CurvedWall_017'",
+        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/AtriumArch/MOD_Atrium_Stage_CurvedWall_017.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4003206467,
+          "TextureLevelIndex": 81,
+          "TexelFactor": 970.59094
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MAT_CatwalksWalls1_Inst'",
+          "ObjectPath": "fnaf9/Content/ShadingAssets_DLC/Materials/AR_EffectsMaterials/MAT_CatwalksWalls1_Inst.0"
+        }
+      ],
+      "VisibilityId": 10198,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -42441.0,
+        "Y": 47899.0,
+        "Z": -3829.0
+      },
+      "RelativeScale3D": {
+        "X": 0.750159,
+        "Y": 0.125253,
+        "Z": 1.184225
+      },
+      "ComponentVelocity": {
+        "X": 19.171871,
+        "Y": 51.72655,
+        "Z": 57.118637
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "573A6AB440467CFA988940979F284887"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_MontyCatwalks_Doors_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_MontyCatwalks_Doors_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_MontyCatwalks_Doors_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_Doors_DLC.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

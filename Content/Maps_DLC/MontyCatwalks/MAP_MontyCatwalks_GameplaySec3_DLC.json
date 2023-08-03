@@ -1,0 +1,1104 @@
+[
+  {
+    "Type": "AkComponent",
+    "Name": "LeadingEmitter",
+    "Outer": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2",
+    "Template": "LeadingEmitter_GEN_VARIABLE",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.TriggerCollider'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.5"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "ARCollectible_C",
+    "Name": "ARCollectible_4",
+    "Outer": "PersistentLevel",
+    "Template": "Default__ARCollectible_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.ARCollectible_C'",
+    "Properties": {
+      "Niagara": {
+        "ObjectName": "NiagaraComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.Niagara'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.17"
+      },
+      "ARCollectibleLight": {
+        "ObjectName": "PointLightComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.ARCollectibleLight'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.21"
+      },
+      "BoxMesh1": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.BoxMesh1'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.25"
+      },
+      "BoxMesh": {
+        "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.BoxMesh'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.24"
+      },
+      "Timeline_0": {
+        "ObjectName": "TimelineComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.Timeline_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.28"
+      },
+      "Dissolve": {
+        "ObjectName": "TimelineComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.Dissolve'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.27"
+      },
+      "InventoryConditional": {
+        "ObjectName": "InventoryConditionalComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.InventoryConditional'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.13"
+      },
+      "GameTypeCheckDestroy": {
+        "ObjectName": "GameTypeCheckDestroy'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.GameTypeCheckDestroy'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.11"
+      },
+      "CollectionRange": {
+        "ObjectName": "SphereComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.CollectionRange'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.23"
+      },
+      "PlayerInteractHoldComponent": {
+        "ObjectName": "PlayerInteractHoldComponent_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.PlayerInteractHoldComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.18"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.22"
+      },
+      "ItemName": "ARPrize_Plush08",
+      "RootComponent": {
+        "ObjectName": "SceneComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.22"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.DefaultSceneRoot'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.22"
+        },
+        {
+          "ObjectName": "SphereComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.CollectionRange'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.23"
+        },
+        {
+          "ObjectName": "PlayerInteractHoldComponent_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.PlayerInteractHoldComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.18"
+        },
+        {
+          "ObjectName": "GameTypeCheckDestroy'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.GameTypeCheckDestroy'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.11"
+        },
+        {
+          "ObjectName": "InventoryConditionalComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.InventoryConditional'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.13"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.BoxMesh'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.24"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.BoxMesh1'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.25"
+        },
+        {
+          "ObjectName": "PointLightComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.ARCollectibleLight'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.21"
+        },
+        {
+          "ObjectName": "NiagaraComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.Niagara'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.17"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.Dissolve'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.27"
+        },
+        {
+          "ObjectName": "TimelineComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.Timeline_0'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CollisionComp",
+    "Outer": "Kill_Collider_Catwalks2",
+    "Template": "CollisionComp",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 27.87278,
+        "Y": 22.852303,
+        "Z": 60.0
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "FallZone_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.8"
+            },
+            "FunctionName": "BndEvt__Fall_CollisionComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -46893.9,
+        "Y": 47997.85,
+        "Z": 1234.6228
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.000076,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 95.0,
+        "Y": 85.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CollisionComp",
+    "Outer": "Kill_Collider_Catwalks2_AR",
+    "Template": "CollisionComp",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 27.87278,
+        "Y": 22.852303,
+        "Z": 60.0
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "FallZone_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks2_AR'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.9"
+            },
+            "FunctionName": "BndEvt__Fall_CollisionComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -46893.9,
+        "Y": 47997.85,
+        "Z": -3765.3772
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.000076,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 95.0,
+        "Y": 85.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CollisionComp",
+    "Outer": "Kill_Collider_Catwalks3_AR",
+    "Template": "CollisionComp",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 18.622902,
+        "Y": 13.902412,
+        "Z": 60.0
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "FallZone_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks3_AR'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.10"
+            },
+            "FunctionName": "BndEvt__Fall_CollisionComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -43160.805,
+        "Y": 49087.742,
+        "Z": -3951.4634
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -5E-06,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 95.0,
+        "Y": 85.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "TriggerCollider",
+    "Outer": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2",
+    "Template": "TriggerCollider",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -45683.387,
+        "Y": 46980.203,
+        "Z": 1775.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.97749996,
+        "Y": 9.87,
+        "Z": 4.7725
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "TriggerColliderAR",
+    "Outer": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2",
+    "Template": "TriggerColliderAR_GEN_VARIABLE",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Player",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Ballpit",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel4",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel5",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel6",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel7",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel8",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel9",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel10",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel11",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel12",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel13",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel14",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel15",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.TriggerCollider'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.5"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1058.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "CameraOverrideComponent_C",
+    "Name": "CameraOverrideComponent",
+    "Outer": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2",
+    "Template": "CameraOverrideComponent_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Player/CameraOverrideComponent.CameraOverrideComponent_C'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.TriggerCollider'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.5"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "FallZone_C",
+    "Name": "Kill_Collider_Catwalks2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__FallZone_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Plugins/Chowda/Content/Blueprints/Catwalks/FallZone.FallZone_C'",
+    "Properties": {
+      "CollisionComponent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks2.CollisionComp'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.2"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks2.CollisionComp'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.2"
+      }
+    }
+  },
+  {
+    "Type": "FallZone_C",
+    "Name": "Kill_Collider_Catwalks2_AR",
+    "Outer": "PersistentLevel",
+    "Template": "Default__FallZone_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Plugins/Chowda/Content/Blueprints/Catwalks/FallZone.FallZone_C'",
+    "Properties": {
+      "CollisionComponent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks2_AR.CollisionComp'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.3"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks2_AR.CollisionComp'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.3"
+      }
+    }
+  },
+  {
+    "Type": "FallZone_C",
+    "Name": "Kill_Collider_Catwalks3_AR",
+    "Outer": "PersistentLevel",
+    "Template": "Default__FallZone_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Plugins/Chowda/Content/Blueprints/Catwalks/FallZone.FallZone_C'",
+    "Properties": {
+      "CollisionComponent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks3_AR.CollisionComp'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.4"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks3_AR.CollisionComp'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.4"
+      }
+    }
+  },
+  {
+    "Type": "GameTypeCheckDestroy",
+    "Name": "GameTypeCheckDestroy",
+    "Outer": "ARCollectible_4",
+    "Template": "GameTypeCheckDestroy_GEN_VARIABLE",
+    "Class": "UScriptClass'GameTypeCheckDestroy'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "GameTypeCheckDestroy",
+    "Name": "GameTypeCheckDestroy",
+    "Outer": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2",
+    "Template": "GameTypeCheckDestroy_GEN_VARIABLE",
+    "Class": "UScriptClass'GameTypeCheckDestroy'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "InventoryConditionalComponent",
+    "Name": "InventoryConditional",
+    "Outer": "ARCollectible_4",
+    "Template": "InventoryConditional_GEN_VARIABLE",
+    "Class": "UScriptClass'InventoryConditionalComponent'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "MAP_MontyCatwalks_GameplaySec3_DLC",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Model_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.15"
+      },
+      "LevelBuildDataId": "C0C8CB8F-44732748-B959DF87-F380DA02",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.30"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.WorldSettings'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.30"
+      },
+      null,
+      {
+        "ObjectName": "ARCollectible_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.1"
+      },
+      {
+        "ObjectName": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.20"
+      },
+      {
+        "ObjectName": "FallZone_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks2'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.8"
+      },
+      {
+        "ObjectName": "FallZone_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks2_AR'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.9"
+      },
+      {
+        "ObjectName": "FallZone_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Kill_Collider_Catwalks3_AR'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.10"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/Title/MAP_SplashScreen",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.Model_0'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.15"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "8BCA51C1-43E46A47-04A4B489-B6EFDCDB",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara",
+    "Outer": "ARCollectible_4",
+    "Template": "Niagara_GEN_VARIABLE",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PlayerInteractHoldComponent_C",
+    "Name": "PlayerInteractHoldComponent",
+    "Outer": "ARCollectible_4",
+    "Template": "PlayerInteractHoldComponent_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Player/PlayerInteractHoldComponent.PlayerInteractHoldComponent_C'",
+    "Properties": {
+      "OnHoldCompleted": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "ARCollectible_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.1"
+            },
+            "FunctionName": "BndEvt__PlayerInteractHoldComponent_K2Node_ComponentBoundEvent_1_OnHoldCompleted__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PlayerInteractHoldComponent_C",
+    "Name": "PlayerInteractHoldComponent",
+    "Outer": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2",
+    "Template": "PlayerInteractHoldComponent_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/Player/PlayerInteractHoldComponent.PlayerInteractHoldComponent_C'",
+    "Properties": {
+      "OnHoldCompleted": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.20"
+            },
+            "FunctionName": "BndEvt__PlayerInteractHoldComponent_K2Node_ComponentBoundEvent_1_OnHoldCompleted__DelegateSignature"
+          }
+        ]
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_C",
+    "Name": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2",
+    "Outer": "PersistentLevel",
+    "Template": "Default__PlaySequenceTrigger_DLC_DualWorld_Catwalks3_C",
+    "Class": "BlueprintGeneratedClass'fnaf9/Plugins/Chowda/Content/Blueprints/PlaySequenceTriggers/PlaySequenceTrigger_DLC_DualWorld_Catwalks3.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_C'",
+    "Properties": {
+      "TriggerColliderAR": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.TriggerColliderAR'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.6"
+      },
+      "Raise Walkie Talkie?": true,
+      "PlayerInteractHoldComponent": {
+        "ObjectName": "PlayerInteractHoldComponent_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.PlayerInteractHoldComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.19"
+      },
+      "TimeCheckComponent": {
+        "ObjectName": "TimeCheckComponent_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.TimeCheckComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.26"
+      },
+      "LeadingEmitter": {
+        "ObjectName": "AkComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.LeadingEmitter'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.0"
+      },
+      "GameTypeCheckDestroy": {
+        "ObjectName": "GameTypeCheckDestroy'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.GameTypeCheckDestroy'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.12"
+      },
+      "CameraOverrideComponent": {
+        "ObjectName": "CameraOverrideComponent_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.CameraOverrideComponent'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.7"
+      },
+      "TriggerComponent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.TriggerCollider'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.5"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.TriggerCollider'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.5"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "CameraOverrideComponent_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.CameraOverrideComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.7"
+        },
+        {
+          "ObjectName": "GameTypeCheckDestroy'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.GameTypeCheckDestroy'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.12"
+        },
+        {
+          "ObjectName": "AkComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.LeadingEmitter'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.0"
+        },
+        {
+          "ObjectName": "TimeCheckComponent_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.TimeCheckComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.26"
+        },
+        {
+          "ObjectName": "PlayerInteractHoldComponent_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.PlayerInteractHoldComponent'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.19"
+        },
+        {
+          "ObjectName": "BoxComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2.TriggerColliderAR'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "ARCollectibleLight",
+    "Outer": "ARCollectible_4",
+    "Template": "ARCollectibleLight_GEN_VARIABLE",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "ARCollectible_4",
+    "Template": "DefaultSceneRoot_GEN_VARIABLE",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -46339.34,
+        "Y": 49325.605,
+        "Z": -3269.0752
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -15.528137,
+        "Roll": 1E-06
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CollectionRange",
+    "Outer": "ARCollectible_4",
+    "Template": "CollectionRange_GEN_VARIABLE",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "ARCollectible_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.1"
+            },
+            "FunctionName": "BndEvt__ARCollectible_CollectionRange_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "ARCollectible_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4'",
+              "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.1"
+            },
+            "FunctionName": "BndEvt__ARCollectible_CollectionRange_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BoxMesh",
+    "Outer": "ARCollectible_4",
+    "Template": "BoxMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BoxMesh1",
+    "Outer": "ARCollectible_4",
+    "Template": "BoxMesh1_GEN_VARIABLE",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4.DefaultSceneRoot'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.22"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimeCheckComponent_C",
+    "Name": "TimeCheckComponent",
+    "Outer": "PlaySequenceTrigger_DLC_DualWorld_Catwalks3_2",
+    "Template": "TimeCheckComponent_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'fnaf9/Content/Blueprints/System/Time/TimeCheckComponent.TimeCheckComponent_C'",
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Dissolve",
+    "Outer": "ARCollectible_4",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 1.0,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_0'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.15"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "Dissolve_NewTrack_0_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_1'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.16"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Brightness",
+            "FloatPropertyName": "Dissolve_Brightness_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_2'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.17"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Opacity",
+            "FloatPropertyName": "Dissolve_Opacity_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_3'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.18"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Depth",
+            "FloatPropertyName": "Dissolve_Depth_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_5'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.20"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "Lightintensity",
+            "FloatPropertyName": "Dissolve_Lightintensity_055AD7C242F5F4E1216DCABEAB1F0CA0"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 2,
+          "Name": "Dissolve__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 2,
+          "Name": "Dissolve__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "ARCollectible_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.1"
+        },
+        "DirectionPropertyName": "Dissolve__Direction_055AD7C242F5F4E1216DCABEAB1F0CA0"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "TimelineComponent",
+    "Name": "Timeline_0",
+    "Outer": "ARCollectible_4",
+    "Class": "UScriptClass'TimelineComponent'",
+    "Properties": {
+      "TheTimeline": {
+        "LengthMode": "TL_TimelineLength",
+        "Length": 1.0,
+        "InterpFloats": [
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_4'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.19"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "NewTrack_0",
+            "FloatPropertyName": "Timeline_0_NewTrack_0_099BA60045BD38ED27F08FAAB83F7592"
+          },
+          {
+            "FloatCurve": {
+              "ObjectName": "CurveFloat'ARCollectible_C:CurveFloat_7'",
+              "ObjectPath": "fnaf9/Content/Blueprints/Objects/Collectibles/ARCollectible.21"
+            },
+            "InterpFunc": {
+              "Num": 0,
+              "Name": "None"
+            },
+            "TrackName": "LightIntensity",
+            "FloatPropertyName": "Timeline_0_LightIntensity_099BA60045BD38ED27F08FAAB83F7592"
+          }
+        ],
+        "TimelinePostUpdateFunc": {
+          "Num": 2,
+          "Name": "Timeline_0__UpdateFunc"
+        },
+        "TimelineFinishedFunc": {
+          "Num": 2,
+          "Name": "Timeline_0__FinishedFunc"
+        },
+        "PropertySetObject": {
+          "ObjectName": "ARCollectible_C'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.ARCollectible_4'",
+          "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.1"
+        },
+        "DirectionPropertyName": "Timeline_0__Direction_099BA60045BD38ED27F08FAAB83F7592"
+      },
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "MAP_MontyCatwalks_GameplaySec3_DLC",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel'",
+      "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.14"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'MAP_MontyCatwalks_GameplaySec3_DLC:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "fnaf9/Content/Maps_DLC/MontyCatwalks/MAP_MontyCatwalks_GameplaySec3_DLC.16"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]
