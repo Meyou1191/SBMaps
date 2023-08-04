@@ -1,39 +1,27 @@
 [
   {
-    "Type": "StaticMeshComponent",
-    "Name": "StaticMeshComponent0",
+    "Type": "StaticMeshComponent",//
+    "Name": "StaticMeshComponent0",//
     "Outer": "ENV_MOD_FloorTile801",
-    "Class": "UScriptClass'StaticMeshComponent'",
-    "Properties": {
-      "StaticMesh": {
-        "ObjectName": "StaticMesh'SM_WallB_3M'",
-        "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2"
-      },
-      "bOverrideLightMapRes": true,
-      "OverriddenLightMapRes": 32,
-      "OverrideMaterials": [
-        {
-          "ObjectName": "MaterialInstanceConstant'M_Concrete_Wall_400x400_01_3MWalls'",
-          "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Concrete_Wall_400x400_01_3MWalls.0"
-        }
-      ],
-      "VisibilityId": 8027,
-      "RelativeLocation": {
-        "X": -2823.317,
-        "Y": 27986.084,
-        "Z": 1447.9429
-      },
-      "RelativeRotation": {
-        "Pitch": -3.1E-05,
-        "Yaw": 89.99985,
-        "Roll": 4.5E-05
-      }
-    },
-    "LODData": [
-      {
-        "MapBuildDataId": "4FFE767541DA2346BCB0848A608D951F"
-      }
-    ]
+    "Class": "UScriptClass'StaticMeshComponent'",//
+    "Properties":,//
+    "StaticMesh":,//
+    "ObjectName": "StaticMesh'SM_WallB_3M'",//
+    "ObjectPath": "fnaf9/Content/Model_Assets/SetsArch/SM_WallB_3M.2",
+    "bOverrideLightMapRes": true,//
+    "OverriddenLightMapRes": 32,//
+    "OverrideMaterials",
+    "ObjectName": "MaterialInstanceConstant'M_Concrete_Wall_400x400_01_3MWalls'",//
+    "ObjectPath": "fnaf9/Content/ShadingAssets/Materials/M_Concrete_Wall_400x400_01_3MWalls.0",
+    "VisibilityId": 8027,//
+    "RelativeLocation"//
+    "X": -2823.317,
+    "Y": 27986.084,
+    "Z": 1447.9429,
+    "RelativeRotation"//
+    "Pitch": -3.1E-05,
+    "Yaw": 89.99985,
+    "Roll": 4.5E-05
   },
   {
     "Type": "StaticMeshComponent",
